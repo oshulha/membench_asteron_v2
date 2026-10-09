@@ -1,0 +1,7 @@
+{
+  "stage": 7,
+  "status": "accepted",
+  "scene_count": 34,
+  "scene_checks_ref": "generation/scene_checks.json",
+  "all_four_checks_pass": true
+}

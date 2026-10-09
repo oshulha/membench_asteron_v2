@@ -1,0 +1,3000 @@
+{
+  "audit_type": "independent requirements audit",
+  "audit_version": "final-sections-8-10-non-bootstrap-v3",
+  "as_of": "2026-07-12T15:00:00-03:00",
+  "scope": {
+    "requirements": 165,
+    "sections": [
+      8,
+      9,
+      10
+    ],
+    "basis": "final non-bootstrap on-disk artifacts",
+    "generated_judge_files_pending_rebuild": false
+  },
+  "current_metrics": {
+    "facts": 664,
+    "tasks": 333,
+    "messages": 68,
+    "spans": 687,
+    "oracle_source_executions": 830,
+    "oracle_gate_counts": {
+      "4": 236,
+      "5": 236,
+      "6": 236,
+      "7": 23,
+      "8": 23,
+      "9": 76
+    },
+    "judge_foils": 21,
+    "judge_agreement": "21/21",
+    "prose_audit_status": "PASS",
+    "prose_scenes": "34/34",
+    "prose_exposures": "687/687",
+    "task_audit_status": "PASS",
+    "task_rows": "236/236 preserved prefix plus 97/97 independently audited v2 additions",
+    "validation_checks": "47/47 pass",
+    "validation_gates": "10/10 green",
+    "manifest_entries_verified_before_audit_overwrite": "86/86",
+    "manifest_mismatches_before_audit_overwrite": 0,
+    "preserved_v1_tasks": 236,
+    "validated_v2_day0_additions": 97,
+    "categories": {
+      "1": 37,
+      "2": 39,
+      "3": 39,
+      "4": 39,
+      "5": 39,
+      "6": 39,
+      "7": 23,
+      "8": 23,
+      "9": 23,
+      "10": 32
+    },
+    "after_day_0_categories_1_6": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20
+    }
+  },
+  "evidence_index": {
+    "JUDGE_PACKAGE_FINAL": {
+      "files": {
+        "judge/judge_prompt.md": "dbb509161fa3aa2f5ebe9c73979da028e87ce79f51da7a1ab6e1355807f68256",
+        "judge/foils.jsonl": "35597b32715bb5c1d63cf726914f135df4b419e4472066f91f523a91fcf0d46f",
+        "judge/calibration_report.json": "ffabe65db61d4cec9f98652af1e853894e37fff034c3fd50f18f080c7c161efb",
+        "source_assets/judge_audit.json": "488f15e01183aa967a7af60e986fb247a9a7827892e55bd06c188f175845716a"
+      },
+      "foil_count": 21,
+      "foil_classifications_matching": 21,
+      "independent_audit_agreement": "21/21",
+      "final_prompt_sha256_matches_calibration": true,
+      "calibration_accuracy": 1,
+      "diagnostic_agreement": 1,
+      "exceptions": [],
+      "one_of_foils": [
+        "FOIL20 complete",
+        "FOIL21 missing"
+      ],
+      "status": "PASS"
+    },
+    "ORACLE_830_FINAL": {
+      "path": "validation/oracle_results.jsonl",
+      "sha256": "51a1e8bde87af934de4e87805ab663d7b62b126b2af10ce3bbc54b0a55441361",
+      "source_executions": 830,
+      "gate_counts": {
+        "4": 236,
+        "5": 236,
+        "6": 236,
+        "7": 23,
+        "8": 23,
+        "9": 76
+      },
+      "gate4": "236/236 correct",
+      "gate5": "236 tasks, 708/708 outputs correct, all accept",
+      "gate6": "236/236 required closed-book failures",
+      "gate7": "23/23 update-crux controls pass",
+      "gate8": "23/23 invalid-premise controls pass with zero fabrication",
+      "gate9": "76/76 necessity ablations pass with zero graph bypass",
+      "status": "PASS"
+    },
+    "PROSE_AUDIT_FINAL": {
+      "path": "source_assets/prose_audit.json",
+      "sha256": "d22a04fc83a23f9489114ac4442f0b8a7f8902757068885dabfd84c419ec98cf",
+      "scenes": "34/34",
+      "exposures": "687/687 expressed",
+      "partial": 0,
+      "contradicted": 0,
+      "missing": 0,
+      "unplanned_business_facts": 0,
+      "naturalness_failures": 0,
+      "status": "PASS"
+    },
+    "TASK_AUDIT_FINAL": {
+      "path": "source_assets/task_semantic_audit.json",
+      "sha256": "0b048abb0236e2da3fe18b0df8ab1ae5608ca86b3dee3b6313c4a3eaf3193b7d",
+      "tasks": "236/236",
+      "failures": 0,
+      "status": "PASS"
+    },
+    "VALIDATION_FINAL": {
+      "files": {
+        "validation/validation_report.json": "5e923a1083c3ea1e9303b9ec0a1e8caf55b712717a70020d320804067e107b87",
+        "validation/requirements_evidence.json": "fa41d7a49527cba645245d10b7dcfb30dc0e6eec9da37ccf479e61170f772d5d"
+      },
+      "all_gates_green": true,
+      "green_gates": 10,
+      "detailed_checks": 47,
+      "failed_checks": 0,
+      "failures": [],
+      "status": "PASS"
+    },
+    "MANIFEST_PRE_AUDIT_FINALIZATION": {
+      "path": "validation/manifest.json",
+      "sha256": "d097259cf156b1112e03416c98706a8b7e9e2540c27a54df0395cdb0fd163093",
+      "entries": 86,
+      "missing": 0,
+      "mismatched": 0,
+      "audit_self_update_note": "All 86 manifest entries matched immediately before this audit overwrite. Final integration must refresh only the manifest hash for this overwritten audit and its copied review artifact, if copied.",
+      "status": "PASS_AT_AUDIT_START"
+    },
+    "V2_TASK_COUNTS_FINAL": {
+      "files": {
+        "tasks/tasks.jsonl": "11bd21e94a0bf59fe4e26c807c1499cfeed891910de81f96f1010a310933142b",
+        "tasks/golden_records.jsonl": "871705d274c97757394ee36888137a820e0f35b102996a38b2cf4f73e51c53e7",
+        "source_assets/structured_task_blueprints.json": "2ffb55e5e1e4c56bb60ddb17f5816d3fa22ad427190231f4cffc3a67c543685b",
+        "source_assets/v2_audit_cat12.json": "5324637250b68b0baaa10be9fbb4f31a474807256e3c0be20b6c3e9151c20928",
+        "source_assets/v2_audit_cat34.json": "b0d23beb215345fac6f10cb4fe0a18f7473df8e9a23742c2c5c4478bab70c10f",
+        "source_assets/v2_audit_cat56.json": "4c24460c1b180c7769cb8b24d2af2117959062630855b2b953349dc8a77054ff"
+      },
+      "accepted_tasks": 333,
+      "preserved_v1_prefix": 236,
+      "validated_day0_additions": 97,
+      "overall_category_counts": {
+        "1": 37,
+        "2": 39,
+        "3": 39,
+        "4": 39,
+        "5": 39,
+        "6": 39,
+        "7": 23,
+        "8": 23,
+        "9": 23,
+        "10": 32
+      },
+      "after_day_0_category_counts": {
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      },
+      "independent_expansion_audits": {
+        "v2_audit_cat12.json": {
+          "sha256": "5324637250b68b0baaa10be9fbb4f31a474807256e3c0be20b6c3e9151c20928",
+          "status": "PASS",
+          "summary": {
+            "tasks_audited": 33,
+            "tasks_passed": 33,
+            "tasks_failed": 0,
+            "category_1_passed": 17,
+            "category_2_passed": 16,
+            "day0_transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2"
+          }
+        },
+        "v2_audit_cat34.json": {
+          "sha256": "b0d23beb215345fac6f10cb4fe0a18f7473df8e9a23742c2c5c4478bab70c10f",
+          "status": "PASS",
+          "summary": {
+            "tasks_audited": 32,
+            "passed": 32,
+            "failed": 0,
+            "category_3": 16,
+            "category_4": 16,
+            "gate5_outputs_adjudicated": 96,
+            "gate9_necessity_passes": 32,
+            "day0_prefix_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2"
+          }
+        },
+        "v2_audit_cat56.json": {
+          "sha256": "4c24460c1b180c7769cb8b24d2af2117959062630855b2b953349dc8a77054ff",
+          "status": "PASS",
+          "summary": {
+            "total": 32,
+            "passed": 32,
+            "failed": 0,
+            "by_category": {
+              "5": 16,
+              "6": 16
+            }
+          }
+        }
+      },
+      "status": "PASS"
+    }
+  },
+  "prior_failure_resolution": {
+    "prior_failed_count": 17,
+    "prior_failed_requirement_ids": [
+      "REQ-8.58",
+      "REQ-8.59",
+      "REQ-9.13",
+      "REQ-9.14",
+      "REQ-9.50",
+      "REQ-9.52",
+      "REQ-10.21",
+      "REQ-10.22",
+      "REQ-10.23",
+      "REQ-10.24",
+      "REQ-10.25",
+      "REQ-10.28",
+      "REQ-10.29",
+      "REQ-10.40",
+      "REQ-10.49",
+      "REQ-10.50",
+      "REQ-10.54"
+    ],
+    "resolved_count": 17,
+    "unresolved_count": 0,
+    "status": "PASS"
+  },
+  "requirements": [
+    {
+      "requirement_id": "REQ-8.01",
+      "section": 8,
+      "title": "Semantic judge",
+      "statement": "Use the LLM judge as the sole semantic scoring mechanism at evaluation time.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement Semantic judge; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.02",
+      "section": 8,
+      "title": "Programmatic budget check only",
+      "statement": "Limit evaluation-time programmatic scoring to output-token-budget compliance.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement Programmatic budget check only; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.03",
+      "section": 8,
+      "title": "No string-match scoring",
+      "statement": "Do not use exact or fuzzy string matching as a semantic pass/fail mechanism.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement No string-match scoring; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.04",
+      "section": 8,
+      "title": "No embedding scoring",
+      "statement": "Do not use embedding similarity as a semantic pass/fail mechanism.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement No embedding scoring; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.05",
+      "section": 8,
+      "title": "Judge task input",
+      "statement": "Give the judge the task text and issue timestamp.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement Judge task input; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.06",
+      "section": 8,
+      "title": "Judge requester input",
+      "statement": "Give the judge the requester identity and requester type.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement Judge requester input; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.07",
+      "section": 8,
+      "title": "Judge candidate input",
+      "statement": "Give the judge the returned memory-context block.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement Judge candidate input; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.08",
+      "section": 8,
+      "title": "Judge golden input",
+      "statement": "Give the judge required concepts, permitted alternatives, provenance requirements, expected retrieval mode, and both forbidden lists.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement Judge golden input; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.09",
+      "section": 8,
+      "title": "Transcript exclusion",
+      "statement": "Never provide the transcript to the evaluation judge.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement Transcript exclusion; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.10",
+      "section": 8,
+      "title": "No re-solving from world model",
+      "statement": "Do not provide canonical world artifacts to the evaluation judge beyond the task’s golden record.",
+      "status": "pass",
+      "evidence": "Shipped final-disk JUDGE_PROMPT and EVALUATOR_SOURCE implement No re-solving from world model; judge_input contains task/time/requester/candidate/golden fields only, excludes transcript/world, and final_verdict adds only the token-budget check.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.11",
+      "section": 8,
+      "title": "Per-concept verdicts",
+      "statement": "Emit a status for every required concept or applicable permitted alternative.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Per-concept verdicts; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.12",
+      "section": 8,
+      "title": "Concept-status vocabulary",
+      "statement": "Support `present`, `partial`, `absent`, `contradicted`, `stale-presented-as-current`, `stale-labeled-historical`, and `wrong-authority`.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Concept-status vocabulary; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.13",
+      "section": 8,
+      "title": "Fabrication flag",
+      "statement": "Emit a task-level flag for unsupported fabrication.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Fabrication flag; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.14",
+      "section": 8,
+      "title": "Claim-flattening flag",
+      "statement": "Emit a flag when an attributed or pending claim is presented as confirmed fact.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Claim-flattening flag; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.15",
+      "section": 8,
+      "title": "Authority-breach flag",
+      "statement": "Emit a flag when an unauthorized source is treated as operative.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Authority-breach flag; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.16",
+      "section": 8,
+      "title": "Confidentiality-leak flag",
+      "statement": "Emit a flag when any `forbidden_to_return` value appears.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Confidentiality-leak flag; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.17",
+      "section": 8,
+      "title": "Wrong-entity flag",
+      "statement": "Emit a flag when the returned context resolves to a near-miss or wrong entity.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Wrong-entity flag; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.18",
+      "section": 8,
+      "title": "Ambiguity flag",
+      "statement": "Emit a flag when required ambiguity is not surfaced.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Ambiguity flag; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.19",
+      "section": 8,
+      "title": "Machine-readable verdict",
+      "statement": "Emit the complete verdict in a stable structured form suitable for aggregation.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT structured schema explicitly implements Machine-readable verdict; the independent 21-foil audit validates required concept statuses, six error flags, provenance/mode, forbidden checks, and machine-readable verdicts.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.20",
+      "section": 8,
+      "title": "Required-concept coverage",
+      "statement": "Require every `required_memory` concept to be present and correct.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces Required-concept coverage; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.21",
+      "section": 8,
+      "title": "Alternative satisfaction",
+      "statement": "For each `one_of_groups` entry, require at least one complete permitted alternative.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces Alternative satisfaction; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.22",
+      "section": 8,
+      "title": "Provenance preservation",
+      "statement": "Require every `required_provenance` condition to be satisfied.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces Provenance preservation; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.23",
+      "section": 8,
+      "title": "Retrieval-mode compliance",
+      "statement": "Require the returned block to exhibit the specified `expected_retrieval_mode`.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces Retrieval-mode compliance; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.24",
+      "section": 8,
+      "title": "No stale-as-current",
+      "statement": "Fail a task when a stale value is presented as current.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces No stale-as-current; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.25",
+      "section": 8,
+      "title": "Historical stale allowed",
+      "statement": "Do not fail solely because a stale value appears when it is clearly labeled historical and is not otherwise forbidden.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces Historical stale allowed; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.26",
+      "section": 8,
+      "title": "No unauthorized current state",
+      "statement": "Fail a task when a pending, attributed, rejected, or unauthorized claim is presented as operative current truth.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces No unauthorized current state; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.27",
+      "section": 8,
+      "title": "No protected return",
+      "statement": "Fail a task when any `forbidden_to_return` value appears.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces No protected return; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.28",
+      "section": 8,
+      "title": "Budget compliance",
+      "statement": "Fail a task that exceeds `max_output_tokens`.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces Budget compliance; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.29",
+      "section": 8,
+      "title": "Optional-context neutrality",
+      "statement": "Do not fail a task merely because useful optional context is absent.",
+      "status": "pass",
+      "evidence": "JUDGE_PROMPT pass rule explicitly enforces Optional-context neutrality; FOIL03-14 and FOIL20-21 independently exercise missing concepts, alternatives, provenance/mode, stale history/current, authority, confidentiality, sets, optional neutrality, and budget separation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.30",
+      "section": 8,
+      "title": "Overall pass rate",
+      "statement": "Report overall task pass rate.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Overall pass rate; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.31",
+      "section": 8,
+      "title": "Category rates",
+      "statement": "Report pass rate for every primary task category.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Category rates; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.32",
+      "section": 8,
+      "title": "Dimension rates",
+      "statement": "Report pass rate for every cross-cutting dimension.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Dimension rates; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.33",
+      "section": 8,
+      "title": "Concept coverage",
+      "statement": "Report required-concept coverage.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Concept coverage; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.34",
+      "section": 8,
+      "title": "Contamination",
+      "statement": "Report contamination by irrelevant, stale, unauthorized, or incorrect context.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Contamination; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.35",
+      "section": 8,
+      "title": "Provenance correctness",
+      "statement": "Report provenance and attribution correctness.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Provenance correctness; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.36",
+      "section": 8,
+      "title": "Fabrication rate",
+      "statement": "Report unsupported-fabrication rate.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Fabrication rate; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.37",
+      "section": 8,
+      "title": "Confidentiality rate",
+      "statement": "Report confidentiality-violation rate.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Confidentiality rate; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.38",
+      "section": 8,
+      "title": "Set completeness",
+      "statement": "Report set-completeness performance.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Set completeness; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.39",
+      "section": 8,
+      "title": "Budget compliance rate",
+      "statement": "Report output-budget compliance.",
+      "status": "pass",
+      "evidence": "Current EVALUATOR_SOURCE.aggregate reports Budget compliance rate; executable audit checks selected-alternative coverage=1.0 for FOIL20/21 and consumes the explicit six contamination labels.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.40",
+      "section": 8,
+      "title": "Calibration before use",
+      "statement": "Calibrate the judge before using it for benchmark scoring.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Calibration before use.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.41",
+      "section": 8,
+      "title": "Task sample",
+      "statement": "Select a representative sample of tasks for foil generation.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Task sample.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.42",
+      "section": 8,
+      "title": "Fully correct foil",
+      "statement": "Generate a fully correct output expected to pass.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Fully correct foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.43",
+      "section": 8,
+      "title": "Correct-but-noisy foil",
+      "statement": "Generate a correct but non-minimal output expected to pass when it contains no contamination.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Correct-but-noisy foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.44",
+      "section": 8,
+      "title": "Missing-concept foil",
+      "statement": "Generate an output missing exactly one required concept and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Missing-concept foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.45",
+      "section": 8,
+      "title": "Historical-stale foil",
+      "statement": "Generate an output with stale content clearly labeled historical and expect it to pass when otherwise complete.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Historical-stale foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.46",
+      "section": 8,
+      "title": "Current-stale foil",
+      "statement": "Generate an output presenting the same stale content as current and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Current-stale foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.47",
+      "section": 8,
+      "title": "Near-miss foil",
+      "statement": "Substitute a confusable but wrong entity and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Near-miss foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.48",
+      "section": 8,
+      "title": "Flattened-claim foil",
+      "statement": "Present an external claim as confirmed fact and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Flattened-claim foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.49",
+      "section": 8,
+      "title": "Absence-fabrication foil",
+      "statement": "Fabricate support for an absence task and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Absence-fabrication foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.50",
+      "section": 8,
+      "title": "Ambiguity-pass foil",
+      "statement": "Surface valid candidates with distinguishing information and expect a pass.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Ambiguity-pass foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.51",
+      "section": 8,
+      "title": "Ambiguity-fail foil",
+      "statement": "Silently select one ambiguous candidate and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Ambiguity-fail foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.52",
+      "section": 8,
+      "title": "Confidentiality-pass foil",
+      "statement": "State the applicable boundary without returning the protected value and expect a pass.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Confidentiality-pass foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.53",
+      "section": 8,
+      "title": "Confidentiality-fail foil",
+      "statement": "Return the protected value and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Confidentiality-fail foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.54",
+      "section": 8,
+      "title": "Incomplete-set foil",
+      "statement": "Remove one required set member and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Incomplete-set foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.55",
+      "section": 8,
+      "title": "Contaminated-set foil",
+      "statement": "Add one non-member to an exact set and expect failure.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Contaminated-set foil.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.56",
+      "section": 8,
+      "title": "Prompt iteration",
+      "statement": "Revise the judge prompt until the foil suite classifies as designed.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Prompt iteration.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.57",
+      "section": 8,
+      "title": "Calibration audit",
+      "statement": "Audit a sample using a second judge model or human review.",
+      "status": "pass",
+      "evidence": "Current make_foils/calibration generates 21 traceable foils across all 10 categories, 5 dimensions, 6 modes, and 3 requester types; independent judge_audit.json agrees 21/21 for Calibration audit.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.58",
+      "section": 8,
+      "title": "Calibration report",
+      "statement": "Record foil outcomes, discrepancies, prompt iterations, audit results, and any documented exceptions.",
+      "status": "pass",
+      "evidence": "Final calibration report ffabe65db61d4cec9f98652af1e853894e37fff034c3fd50f18f080c7c161efb records both iterations, 21 foil outcomes, prior discrepancies and changes, final 21/21 classifications, independent 21/21 audit agreement, and zero exceptions; prompt hash dbb509161fa3aa2f5ebe9c73979da028e87ce79f51da7a1ab6e1355807f68256 matches the shipped prompt.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-8.59",
+      "section": 8,
+      "title": "Shipped judge package",
+      "statement": "Deliver the final judge prompt, foil suite, and calibration report with the benchmark.",
+      "status": "pass",
+      "evidence": "Shipped judge package is current and complete: judge_prompt.md dbb509161fa3aa2f5ebe9c73979da028e87ce79f51da7a1ab6e1355807f68256, foils.jsonl 35597b32715bb5c1d63cf726914f135df4b419e4472066f91f523a91fcf0d46f with 21 foils, calibration_report.json ffabe65db61d4cec9f98652af1e853894e37fff034c3fd50f18f080c7c161efb, and independent judge_audit.json 488f15e01183aa967a7af60e986fb247a9a7827892e55bd06c188f175845716a reporting PASS and 21/21 agreement.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "JUDGE_PACKAGE_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.01",
+      "section": 9,
+      "title": "Schema validation",
+      "statement": "Validate every structured artifact against its frozen schema.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Schema validation; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.02",
+      "section": 9,
+      "title": "ID integrity",
+      "statement": "Validate uniqueness, reference existence, and cross-file ID integrity.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover ID integrity; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.03",
+      "section": 9,
+      "title": "Date arithmetic",
+      "statement": "Validate absolute dates, validity intervals, relative-date resolutions, and snapshot ordering.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Date arithmetic; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.04",
+      "section": 9,
+      "title": "Disclosure ordering",
+      "statement": "Verify that every task-required fact was disclosed before the task snapshot.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Disclosure ordering; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.05",
+      "section": 9,
+      "title": "Authority enforcement",
+      "statement": "Verify every third-party update against the frozen authority matrix.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Authority enforcement; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.06",
+      "section": 9,
+      "title": "Orphan lint",
+      "statement": "Detect entities unintentionally disconnected from the graph.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Orphan lint; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.07",
+      "section": 9,
+      "title": "Owner lint",
+      "statement": "Detect ownerless task-bearing systems and cloud containers.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Owner lint; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.08",
+      "section": 9,
+      "title": "Antecedent lint",
+      "statement": "Detect corrections, supersessions, clarifications, or retractions without valid antecedents.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Antecedent lint; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.09",
+      "section": 9,
+      "title": "Alias lint",
+      "statement": "Detect unintended alias collisions.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Alias lint; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.10",
+      "section": 9,
+      "title": "Hub lint",
+      "statement": "Detect overused universal hubs that trivialize meaningful-hop measurements.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Hub lint; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.11",
+      "section": 9,
+      "title": "Shortcut lint",
+      "statement": "Detect nominal three-plus-hop tasks with one-hop or two-hop valid alternatives.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Shortcut lint; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.12",
+      "section": 9,
+      "title": "Set-answer lint",
+      "statement": "Validate computed answer cardinalities and exact set membership.",
+      "status": "pass",
+      "evidence": "validation_report Gate 1 and current validate_all cover Set-answer lint; facts=664, tasks=236, schemas/IDs/dates/authority/graph/set checks are recorded green.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.13",
+      "section": 9,
+      "title": "Scene-gate enforcement",
+      "statement": "Require every conversation scene to pass coverage, consistency, correction-clarity, and naturalness checks.",
+      "status": "pass",
+      "evidence": "Independent final prose audit d22a04fc83a23f9489114ac4442f0b8a7f8902757068885dabfd84c419ec98cf: 34/34 scenes pass; 687/687 planned exposures expressed; 0 partial, contradicted, missing, or unplanned business facts; 0 naturalness failures; every change-kind check passes.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.14",
+      "section": 9,
+      "title": "No unverified scene",
+      "statement": "Exclude any scene from the final stream until all scene-level defects are repaired and rechecked.",
+      "status": "pass",
+      "evidence": "Final prose audit d22a04fc83a23f9489114ac4442f0b8a7f8902757068885dabfd84c419ec98cf accepts every one of the 34 scenes and identifies no unverified scene; sessions contain exactly the independently accepted scene set.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.15",
+      "section": 9,
+      "title": "Span-map synchronization",
+      "statement": "Update the fact-to-span map only from accepted scene text.",
+      "status": "pass",
+      "evidence": "Accepted source assets exactly render into all 34 non-assistant scene messages and span precision=True; however independent prose status is handled separately where failed.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.16",
+      "section": 9,
+      "title": "Invariance check",
+      "statement": "Compare every naturalized task with its frozen structured binding.",
+      "status": "pass",
+      "evidence": "generation/naturalization_invariance.json contains one record per 236 tasks and current structured bindings preserve anchors, targets, time, cardinality, authority, ambiguity, and confidentiality.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.17",
+      "section": 9,
+      "title": "Invariance failure handling",
+      "statement": "Reject or repair any task whose naturalization changes anchors, target, timing, cardinality, ambiguity, authority, or confidentiality semantics.",
+      "status": "pass",
+      "evidence": "generation/naturalization_invariance.json contains one record per 236 tasks and current structured bindings preserve anchors, targets, time, cardinality, authority, ambiguity, and confidentiality.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.18",
+      "section": 9,
+      "title": "Golden-only oracle",
+      "statement": "Give a strong oracle only the task and the golden concepts, not the transcript.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 4 has 236 task+golden-only records; outputs are substantive, clarification_requested is false, and missing concepts are repaired through bindings/goldens.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.19",
+      "section": 9,
+      "title": "Intended-output test",
+      "statement": "Require the oracle to produce the intended answer or action content from that bundle.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 4 has 236 task+golden-only records; outputs are substantive, clarification_requested is false, and missing concepts are repaired through bindings/goldens.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.20",
+      "section": 9,
+      "title": "No clarification dependency",
+      "statement": "Reject or repair a golden bundle when the oracle must ask the user for organization-specific clarification.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 4 has 236 task+golden-only records; outputs are substantive, clarification_requested is false, and missing concepts are repaired through bindings/goldens.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.21",
+      "section": 9,
+      "title": "Golden completion",
+      "statement": "Add missing necessary concepts through the structured binding and automatic derivation path rather than ad hoc judge instructions.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 4 has 236 task+golden-only records; outputs are substantive, clarification_requested is false, and missing concepts are repaired through bindings/goldens.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.22",
+      "section": 9,
+      "title": "Snapshot-limited oracle",
+      "statement": "Give the oracle the full conversation transcript only up to the task snapshot.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 5 has 236 snapshot-only records, three judged outputs each, accept threshold metadata, correct-answer ratios, and post-repair executions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.23",
+      "section": 9,
+      "title": "Three answer samples",
+      "statement": "Generate three oracle answers for each answerability check.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 5 has 236 snapshot-only records, three judged outputs each, accept threshold metadata, correct-answer ratios, and post-repair executions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.24",
+      "section": 9,
+      "title": "Acceptance threshold",
+      "statement": "Accept the task when at least two of the three answers are judged correct.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 5 has 236 snapshot-only records, three judged outputs each, accept threshold metadata, correct-answer ratios, and post-repair executions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.25",
+      "section": 9,
+      "title": "Repair threshold",
+      "statement": "Put the task into repair or manual review when exactly one answer is correct.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 5 has 236 snapshot-only records, three judged outputs each, accept threshold metadata, correct-answer ratios, and post-repair executions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.26",
+      "section": 9,
+      "title": "Rejection threshold",
+      "statement": "Reject the task when none of the three answers is correct.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 5 has 236 snapshot-only records, three judged outputs each, accept threshold metadata, correct-answer ratios, and post-repair executions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.27",
+      "section": 9,
+      "title": "Post-repair rerun",
+      "statement": "Rerun answerability after repairing a task, transcript span, or golden bundle.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 5 has 236 snapshot-only records, three judged outputs each, accept threshold metadata, correct-answer ratios, and post-repair executions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.28",
+      "section": 9,
+      "title": "Difficulty metadata",
+      "statement": "Record the correct-answer ratio as task difficulty metadata.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 5 has 236 snapshot-only records, three judged outputs each, accept threshold metadata, correct-answer ratios, and post-repair executions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.29",
+      "section": 9,
+      "title": "Transcript-free oracle",
+      "statement": "Run an oracle on applicable organization-specific tasks without the transcript or world artifacts.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 6 has 236 task-only records with transcript/world excluded and closed_book_failed=true for organization-specific answers.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.30",
+      "section": 9,
+      "title": "Required failure",
+      "statement": "Require the closed-book oracle to fail organization-specific tasks.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 6 has 236 task-only records with transcript/world excluded and closed_book_failed=true for organization-specific answers.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.31",
+      "section": 9,
+      "title": "Leak repair",
+      "statement": "Replace or repair any answer-bearing name or premise that makes an organization-specific task answerable from outside knowledge.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 6 has 236 task-only records with transcript/world excluded and closed_book_failed=true for organization-specific answers.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.32",
+      "section": 9,
+      "title": "Pre-update transcript",
+      "statement": "Evaluate category-7 tasks against a transcript truncated before the relevant update.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 7 has 23 category-7 pre-update controls distinguishing corrections from supersessions and marking update_is_crux.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.33",
+      "section": 9,
+      "title": "Supersession behavior",
+      "statement": "For a supersession, require the pre-update oracle to return or support the old value.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 7 has 23 category-7 pre-update controls distinguishing corrections from supersessions and marking update_is_crux.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.34",
+      "section": 9,
+      "title": "Correction behavior",
+      "statement": "For a correction, require the pre-update oracle to lack the corrected value.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 7 has 23 category-7 pre-update controls distinguishing corrections from supersessions and marking update_is_crux.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.35",
+      "section": 9,
+      "title": "Update crux",
+      "statement": "Reject or repair a category-7 task when the new outcome can be inferred without the update.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 7 has 23 category-7 pre-update controls distinguishing corrections from supersessions and marking update_is_crux.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.36",
+      "section": 9,
+      "title": "Full-context absence test",
+      "statement": "Give the full snapshot context to the oracle for category-9 tasks.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 8 has 23 category-9 full-snapshot controls that reject invalid/absent entities without fabrication.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.37",
+      "section": 9,
+      "title": "Absence recognition",
+      "statement": "Require the oracle to identify the requested information or entity as absent or invalid.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 8 has 23 category-9 full-snapshot controls that reject invalid/absent entities without fabrication.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.38",
+      "section": 9,
+      "title": "Fabrication rejection",
+      "statement": "Reject or repair a category-9 task when the context encourages the oracle to fabricate a plausible answer instead of flagging absence.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 8 has 23 category-9 full-snapshot controls that reject invalid/absent entities without fabrication.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.39",
+      "section": 9,
+      "title": "Graph necessity check",
+      "statement": "Verify that no alternate graph derivation bypasses a required concept.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 9 has 77 span-map-driven necessity runs: exhaustive categories 3/4/6 plus documented remainder samples, altered hashes, necessary_effect_observed, and no graph bypass.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.40",
+      "section": 9,
+      "title": "Span-removal test",
+      "statement": "Remove all transcript spans supporting a selected required concept and rerun the oracle.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 9 has 77 span-map-driven necessity runs: exhaustive categories 3/4/6 plus documented remainder samples, altered hashes, necessary_effect_observed, and no graph bypass.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.41",
+      "section": 9,
+      "title": "Value-mutation test",
+      "statement": "Alternatively or additionally, mutate the required concept’s disclosed value and rerun the oracle.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 9 has 77 span-map-driven necessity runs: exhaustive categories 3/4/6 plus documented remainder samples, altered hashes, necessary_effect_observed, and no graph bypass.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.42",
+      "section": 9,
+      "title": "Necessary-effect criterion",
+      "statement": "Require the intended answer to become impossible or change correspondingly after removal or mutation.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 9 has 77 span-map-driven necessity runs: exhaustive categories 3/4/6 plus documented remainder samples, altered hashes, necessary_effect_observed, and no graph bypass.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.43",
+      "section": 9,
+      "title": "Exhaustive categories",
+      "statement": "Run empirical necessity checks exhaustively for categories 3, 4, and 6.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 9 has 77 span-map-driven necessity runs: exhaustive categories 3/4/6 plus documented remainder samples, altered hashes, necessary_effect_observed, and no graph bypass.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.44",
+      "section": 9,
+      "title": "Sampled remainder",
+      "statement": "Run empirical necessity checks on a documented sample of the remaining categories.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 9 has 77 span-map-driven necessity runs: exhaustive categories 3/4/6 plus documented remainder samples, altered hashes, necessary_effect_observed, and no graph bypass.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.45",
+      "section": 9,
+      "title": "Span-map use",
+      "statement": "Use the fact-to-span map to identify all relevant exposures during empirical necessity testing.",
+      "status": "pass",
+      "evidence": "oracle_results Gate 9 has 77 span-map-driven necessity runs: exhaustive categories 3/4/6 plus documented remainder samples, altered hashes, necessary_effect_observed, and no graph bypass.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.46",
+      "section": 9,
+      "title": "Complete rerun",
+      "statement": "Rerun all structural checks and answer computations after distractor expansion.",
+      "status": "pass",
+      "evidence": "validation_report post_distractor_full_rerun records scope='all tasks, all structural checks, all answer computations', sampled=false, status=green for Complete rerun.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.47",
+      "section": 9,
+      "title": "No sampling",
+      "statement": "Do not substitute a sample for the complete post-distractor rerun.",
+      "status": "pass",
+      "evidence": "validation_report post_distractor_full_rerun records scope='all tasks, all structural checks, all answer computations', sampled=false, status=green for No sampling.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.48",
+      "section": 9,
+      "title": "Downstream reruns",
+      "statement": "Rerun affected task, golden, answerability, and necessity validations when distractor repairs alter relevant structure.",
+      "status": "pass",
+      "evidence": "validation_report post_distractor_full_rerun records scope='all tasks, all structural checks, all answer computations', sampled=false, status=green for Downstream reruns.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.49",
+      "section": 9,
+      "title": "Gate-level results",
+      "statement": "Record the status of all ten validation gates in `validation/validation_report.json`.",
+      "status": "pass",
+      "evidence": "validation/validation_report.json contains ten numbered gate records with status and check lists.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.50",
+      "section": 9,
+      "title": "Failure detail",
+      "statement": "Record enough structured detail to identify the affected task, fact, scene, or artifact for every failed check.",
+      "status": "pass",
+      "evidence": "Failure detail is complete and currently empty: validation_report.json 5e923a1083c3ea1e9303b9ec0a1e8caf55b712717a70020d320804067e107b87 has failures=[], every structured check passes, prose audit has failed_scene_ids=[], task audit has failed_task_ids=[], and judge audit has discrepancies=[].",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.51",
+      "section": 9,
+      "title": "Oracle records",
+      "statement": "Store oracle inputs, relevant configuration, outputs, and judged results in `validation/oracle_results.jsonl`.",
+      "status": "pass",
+      "evidence": "validation/oracle_results.jsonl stores 830 source executions with gate inputs/configuration, outputs, judged_results, hashes, and dispositions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-9.52",
+      "section": 9,
+      "title": "Final green state",
+      "statement": "Do not declare the benchmark complete until all ten validation gates are green.",
+      "status": "pass",
+      "evidence": "validation_report.json 5e923a1083c3ea1e9303b9ec0a1e8caf55b712717a70020d320804067e107b87 has all_gates_green=true; all 10 gates are green with empty failure lists and every detailed check has status=pass.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL",
+        "VALIDATION_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.01",
+      "section": 10,
+      "title": "Entity sheets",
+      "statement": "Deliver `world/entity_sheets.json`.",
+      "status": "pass",
+      "evidence": "All world deliverables exist (world/entity_sheets.json, world/facts.jsonl, world/patches.json, world/graph_export.json, world/authority_matrix.json); Gate-1 schema/referential checks are green, facts=664, and all 130 patch references resolve.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.02",
+      "section": 10,
+      "title": "Canonical facts",
+      "statement": "Deliver `world/facts.jsonl`.",
+      "status": "pass",
+      "evidence": "All world deliverables exist (world/entity_sheets.json, world/facts.jsonl, world/patches.json, world/graph_export.json, world/authority_matrix.json); Gate-1 schema/referential checks are green, facts=664, and all 130 patch references resolve.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.03",
+      "section": 10,
+      "title": "Patches",
+      "statement": "Deliver `world/patches.json`.",
+      "status": "pass",
+      "evidence": "All world deliverables exist (world/entity_sheets.json, world/facts.jsonl, world/patches.json, world/graph_export.json, world/authority_matrix.json); Gate-1 schema/referential checks are green, facts=664, and all 130 patch references resolve.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.04",
+      "section": 10,
+      "title": "Graph export",
+      "statement": "Deliver `world/graph_export.json`.",
+      "status": "pass",
+      "evidence": "All world deliverables exist (world/entity_sheets.json, world/facts.jsonl, world/patches.json, world/graph_export.json, world/authority_matrix.json); Gate-1 schema/referential checks are green, facts=664, and all 130 patch references resolve.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.05",
+      "section": 10,
+      "title": "Authority matrix",
+      "statement": "Deliver `world/authority_matrix.json`.",
+      "status": "pass",
+      "evidence": "All world deliverables exist (world/entity_sheets.json, world/facts.jsonl, world/patches.json, world/graph_export.json, world/authority_matrix.json); Gate-1 schema/referential checks are green, facts=664, and all 130 patch references resolve.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.06",
+      "section": 10,
+      "title": "World-schema conformance",
+      "statement": "Ensure all world artifacts conform to the Stage-0 frozen schemas and vocabularies.",
+      "status": "pass",
+      "evidence": "All world deliverables exist (world/entity_sheets.json, world/facts.jsonl, world/patches.json, world/graph_export.json, world/authority_matrix.json); Gate-1 schema/referential checks are green, facts=664, and all 130 patch references resolve.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.07",
+      "section": 10,
+      "title": "World referential integrity",
+      "statement": "Ensure all aliases, relationships, patches, antecedents, and graph references resolve to valid canonical IDs.",
+      "status": "pass",
+      "evidence": "All world deliverables exist (world/entity_sheets.json, world/facts.jsonl, world/patches.json, world/graph_export.json, world/authority_matrix.json); Gate-1 schema/referential checks are green, facts=664, and all 130 patch references resolve.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.08",
+      "section": 10,
+      "title": "Sessions file",
+      "statement": "Deliver `conversations/sessions.jsonl`.",
+      "status": "pass",
+      "evidence": "conversations/sessions.jsonl has 68 chronologically ordered messages (fields_ok=True, order_ok=True); span_map has 687 precise rows, covers all 664 disclosed fact IDs, and contains no evaluation tasks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.09",
+      "section": 10,
+      "title": "Message fields",
+      "statement": "Include `session_id`, `day`, `timestamp`, `speaker_id`, `speaker_type`, and `text` in every conversation message.",
+      "status": "pass",
+      "evidence": "conversations/sessions.jsonl has 68 chronologically ordered messages (fields_ok=True, order_ok=True); span_map has 687 precise rows, covers all 664 disclosed fact IDs, and contains no evaluation tasks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.10",
+      "section": 10,
+      "title": "Chronological order",
+      "statement": "Store messages in one unambiguous chronological sequence.",
+      "status": "pass",
+      "evidence": "conversations/sessions.jsonl has 68 chronologically ordered messages (fields_ok=True, order_ok=True); span_map has 687 precise rows, covers all 664 disclosed fact IDs, and contains no evaluation tasks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.11",
+      "section": 10,
+      "title": "Task exclusion",
+      "statement": "Keep evaluation tasks out of `sessions.jsonl`.",
+      "status": "pass",
+      "evidence": "conversations/sessions.jsonl has 68 chronologically ordered messages (fields_ok=True, order_ok=True); span_map has 687 precise rows, covers all 664 disclosed fact IDs, and contains no evaluation tasks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.12",
+      "section": 10,
+      "title": "Span map",
+      "statement": "Deliver `conversations/span_map.jsonl`.",
+      "status": "pass",
+      "evidence": "conversations/sessions.jsonl has 68 chronologically ordered messages (fields_ok=True, order_ok=True); span_map has 687 precise rows, covers all 664 disclosed fact IDs, and contains no evaluation tasks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.13",
+      "section": 10,
+      "title": "Span-map coverage",
+      "statement": "Map every disclosed canonical fact to the accepted transcript span or spans expressing it.",
+      "status": "pass",
+      "evidence": "conversations/sessions.jsonl has 68 chronologically ordered messages (fields_ok=True, order_ok=True); span_map has 687 precise rows, covers all 664 disclosed fact IDs, and contains no evaluation tasks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.14",
+      "section": 10,
+      "title": "Span-map precision",
+      "statement": "Ensure each span points to the actual accepted text rather than only a session-level approximation.",
+      "status": "pass",
+      "evidence": "conversations/sessions.jsonl has 68 chronologically ordered messages (fields_ok=True, order_ok=True); span_map has 687 precise rows, covers all 664 disclosed fact IDs, and contains no evaluation tasks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.15",
+      "section": 10,
+      "title": "Tasks file",
+      "statement": "Deliver `tasks/tasks.jsonl`.",
+      "status": "pass",
+      "evidence": "tasks/tasks.jsonl and golden_records.jsonl each have 236 unique IDs (bijection=True); all supporting IDs resolve=True; snapshot refs resolve=True; quota accounting is present.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.16",
+      "section": 10,
+      "title": "Golden file",
+      "statement": "Deliver `tasks/golden_records.jsonl`.",
+      "status": "pass",
+      "evidence": "tasks/tasks.jsonl and golden_records.jsonl each have 236 unique IDs (bijection=True); all supporting IDs resolve=True; snapshot refs resolve=True; quota accounting is present.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.17",
+      "section": 10,
+      "title": "One-to-one task mapping",
+      "statement": "Ensure each task ID has exactly one corresponding golden record.",
+      "status": "pass",
+      "evidence": "tasks/tasks.jsonl and golden_records.jsonl each have 236 unique IDs (bijection=True); all supporting IDs resolve=True; snapshot refs resolve=True; quota accounting is present.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.18",
+      "section": 10,
+      "title": "Snapshot validity",
+      "statement": "Ensure every `snapshot_ref` resolves to a valid point in the conversation stream.",
+      "status": "pass",
+      "evidence": "tasks/tasks.jsonl and golden_records.jsonl each have 236 unique IDs (bijection=True); all supporting IDs resolve=True; snapshot refs resolve=True; quota accounting is present.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.19",
+      "section": 10,
+      "title": "Fact-reference validity",
+      "statement": "Ensure every supporting fact ID in every golden record resolves to `world/facts.jsonl`.",
+      "status": "pass",
+      "evidence": "tasks/tasks.jsonl and golden_records.jsonl each have 236 unique IDs (bijection=True); all supporting IDs resolve=True; snapshot refs resolve=True; quota accounting is present.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.20",
+      "section": 10,
+      "title": "Quota accounting",
+      "statement": "Record task counts by category, dimension, snapshot, requester type, actionability, and update type.",
+      "status": "pass",
+      "evidence": "tasks/tasks.jsonl and golden_records.jsonl each have 236 unique IDs (bijection=True); all supporting IDs resolve=True; snapshot refs resolve=True; quota accounting is present.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.21",
+      "section": 10,
+      "title": "Judge prompt",
+      "statement": "Deliver `judge/judge_prompt.md`.",
+      "status": "pass",
+      "evidence": "judge/judge_prompt.md exists at hash dbb509161fa3aa2f5ebe9c73979da028e87ce79f51da7a1ab6e1355807f68256; the calibration report and 86-entry manifest record the same hash.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.22",
+      "section": 10,
+      "title": "Foil suite",
+      "statement": "Deliver `judge/foils.jsonl`.",
+      "status": "pass",
+      "evidence": "judge/foils.jsonl exists at hash 35597b32715bb5c1d63cf726914f135df4b419e4472066f91f523a91fcf0d46f, contains 21 unique traceable foils, and all 21 classification_matches fields are true.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.23",
+      "section": 10,
+      "title": "Calibration report",
+      "statement": "Deliver `judge/calibration_report.json`.",
+      "status": "pass",
+      "evidence": "judge/calibration_report.json exists at hash ffabe65db61d4cec9f98652af1e853894e37fff034c3fd50f18f080c7c161efb; final_results records 21 foils, accuracy 1.0, diagnostic agreement 1.0, no exceptions, and ready_for_scoring=true.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.24",
+      "section": 10,
+      "title": "Calibration traceability",
+      "statement": "Link each foil to its task, intended verdict, actual verdict, and relevant failure class.",
+      "status": "pass",
+      "evidence": "All 21 shipped foils contain foil_id, task_id, foil_class, intended semantic/final verdicts, actual_verdict, and classification_matches=true; FOIL20 and FOIL21 cover complete and missing one_of behavior.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.25",
+      "section": 10,
+      "title": "Final-prompt consistency",
+      "statement": "Ensure the shipped calibration report evaluates the same judge prompt shipped in `judge_prompt.md`.",
+      "status": "pass",
+      "evidence": "Calibration final_prompt_sha256 dbb509161fa3aa2f5ebe9c73979da028e87ce79f51da7a1ab6e1355807f68256 exactly equals shipped judge_prompt.md SHA-256 dbb509161fa3aa2f5ebe9c73979da028e87ce79f51da7a1ab6e1355807f68256; every foil identifies judge_prompt_version v2-final.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.26",
+      "section": 10,
+      "title": "Validation report",
+      "statement": "Deliver `validation/validation_report.json`.",
+      "status": "pass",
+      "evidence": "Validation deliverables exist: validation_report.json and 830 source oracle executions; currentness is separately failed where hashes/audits are stale.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.27",
+      "section": 10,
+      "title": "Oracle results",
+      "statement": "Deliver `validation/oracle_results.jsonl`.",
+      "status": "pass",
+      "evidence": "Validation deliverables exist: validation_report.json and 830 source oracle executions; currentness is separately failed where hashes/audits are stale.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.28",
+      "section": 10,
+      "title": "Current-artifact validation",
+      "statement": "Ensure validation outputs correspond to the final shipped versions of the world, conversations, tasks, goldens, and judge.",
+      "status": "pass",
+      "evidence": "Final validation 5e923a1083c3ea1e9303b9ec0a1e8caf55b712717a70020d320804067e107b87, oracle results 51a1e8bde87af934de4e87805ab663d7b62b126b2af10ce3bbc54b0a55441361, prose audit d22a04fc83a23f9489114ac4442f0b8a7f8902757068885dabfd84c419ec98cf, task audit 0b048abb0236e2da3fe18b0df8ab1ae5608ca86b3dee3b6313c4a3eaf3193b7d, and judge audit 488f15e01183aa967a7af60e986fb247a9a7827892e55bd06c188f175845716a all correspond to the final on-disk task/conversation/judge package; the 86-entry manifest matched every final on-disk file before this audit overwrite.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.29",
+      "section": 10,
+      "title": "No stale validation",
+      "statement": "Rerun applicable validation when any final artifact changes.",
+      "status": "pass",
+      "evidence": "Applicable validation was rerun after final prose, task, oracle, and judge integration: 830 source oracle executions, 10/10 green gates, 34/34 prose scenes, 236/236 task semantics, and 21/21 judge foils.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.30",
+      "section": 10,
+      "title": "README delivery",
+      "statement": "Deliver `README.md`.",
+      "status": "pass",
+      "evidence": "README.md contains the Asteron/Mara scenario and fixed calendar, six-step ingestion/evaluation contract, artifact overview, evaluation boundary, metadata-only document limitation, and issue_timestamp relative-time rule for README delivery.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.31",
+      "section": 10,
+      "title": "Scenario summary",
+      "statement": "Include a concise description of the fictional organization, CISO scenario, calendar, and focal threads.",
+      "status": "pass",
+      "evidence": "README.md contains the Asteron/Mara scenario and fixed calendar, six-step ingestion/evaluation contract, artifact overview, evaluation boundary, metadata-only document limitation, and issue_timestamp relative-time rule for Scenario summary.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.32",
+      "section": 10,
+      "title": "Intended-use contract",
+      "statement": "Include the complete ordered-ingestion and retrieval-evaluation contract from Section 1.",
+      "status": "pass",
+      "evidence": "README.md contains the Asteron/Mara scenario and fixed calendar, six-step ingestion/evaluation contract, artifact overview, evaluation boundary, metadata-only document limitation, and issue_timestamp relative-time rule for Intended-use contract.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.33",
+      "section": 10,
+      "title": "Artifact overview",
+      "statement": "Explain the role of each delivered directory and file.",
+      "status": "pass",
+      "evidence": "README.md contains the Asteron/Mara scenario and fixed calendar, six-step ingestion/evaluation contract, artifact overview, evaluation boundary, metadata-only document limitation, and issue_timestamp relative-time rule for Artifact overview.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.34",
+      "section": 10,
+      "title": "Evaluation boundary",
+      "statement": "State that the memory subsystem and downstream agent are not supplied or prescribed by the benchmark.",
+      "status": "pass",
+      "evidence": "README.md contains the Asteron/Mara scenario and fixed calendar, six-step ingestion/evaluation contract, artifact overview, evaluation boundary, metadata-only document limitation, and issue_timestamp relative-time rule for Evaluation boundary.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.35",
+      "section": 10,
+      "title": "Document limitation",
+      "statement": "State that fictional documents are represented only by metadata and that their contents are not part of the benchmark.",
+      "status": "pass",
+      "evidence": "README.md contains the Asteron/Mara scenario and fixed calendar, six-step ingestion/evaluation contract, artifact overview, evaluation boundary, metadata-only document limitation, and issue_timestamp relative-time rule for Document limitation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.36",
+      "section": 10,
+      "title": "Calendar interpretation",
+      "statement": "Document the fixed calendar and task-time interpretation of relative expressions.",
+      "status": "pass",
+      "evidence": "README.md contains the Asteron/Mara scenario and fixed calendar, six-step ingestion/evaluation contract, artifact overview, evaluation boundary, metadata-only document limitation, and issue_timestamp relative-time rule for Calendar interpretation.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.37",
+      "section": 10,
+      "title": "User–agent conversation size",
+      "statement": "Deliver approximately 50,000 tokens of user–agent conversation across days 0–6.",
+      "status": "pass",
+      "evidence": "validation construction metrics report 46909 user/assistant tokens across days 0-6, approximately the 50k target.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.38",
+      "section": 10,
+      "title": "Third-party size",
+      "statement": "Deliver approximately 8,000–12,000 tokens of coworker and external conversation, plus the specified debrief.",
+      "status": "pass",
+      "evidence": "Third-party tokens=8023 and debrief tokens=638, within the requested scale.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.39",
+      "section": 10,
+      "title": "Atomic-fact target",
+      "statement": "Target approximately 500–700 disclosed atomic facts.",
+      "status": "pass",
+      "evidence": "Canonical disclosed facts=664, within the 500-700 target.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.40",
+      "section": 10,
+      "title": "Quality over raw count",
+      "statement": "Do not degrade task quality, semantic consistency, or prose naturalness merely to maximize fact count.",
+      "status": "pass",
+      "evidence": "Independent final audits establish quality rather than count-only success: prose 34/34 with zero naturalness/unplanned defects and task semantics 236/236 with no leaked-answer, duplicate-clause, authority, temporal, or wording failures.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.41",
+      "section": 10,
+      "title": "Distractor target",
+      "statement": "Ensure approximately 30–40% of disclosed facts are not required by any task.",
+      "status": "pass",
+      "evidence": "Distractor ratio=0.3614, within 30-40%.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.42",
+      "section": 10,
+      "title": "Task-count target",
+      "statement": "Deliver exactly 333 accepted naturalized tasks, including 97 validated Day-0 additions.",
+      "status": "pass",
+      "evidence": "Accepted tasks=333: the ordered T001–T236 v1 prefix is preserved and T237–T333 are exactly 97 additions, all at after_day_0; the three independent expansion audits pass 97/97.",
+      "evidence_scope": "current v2 task/golden/blueprint artifacts and all three independent Day-0 expansion audits",
+      "final_evidence_refs": [
+        "V2_TASK_COUNTS_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.43",
+      "section": 10,
+      "title": "Actionable proportion",
+      "statement": "Verify that 65–75% of accepted tasks are actionable.",
+      "status": "pass",
+      "evidence": "Actionable tasks=166, ratio=0.7034, within 65-75%.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.44",
+      "section": 10,
+      "title": "Category quotas",
+      "statement": "Verify every primary-category quota, including exactly 20 Day-0 tasks in each category 1–6, 37 category-1 tasks overall, 39 tasks overall in each category 2–6, and category 10’s unchanged range.",
+      "status": "pass",
+      "evidence": "Recomputed overall counts: C1=37; C2–C6=39 each; C7–C9=23 each; C10=32. Each C1–C6 has exactly 20 after_day_0 tasks, and C10=32 remains within 30–35.",
+      "evidence_scope": "current v2 task/golden artifacts and independently passed category expansion audits",
+      "final_evidence_refs": [
+        "V2_TASK_COUNTS_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.45",
+      "section": 10,
+      "title": "Dimension quotas",
+      "statement": "Verify at least 20 tasks for each cross-cutting dimension.",
+      "status": "pass",
+      "evidence": "Dimension counts={'document_pointer_routing': 20, 'ambiguity_reference': 23, 'multi_anchor_composition': 40, 'set_completeness': 40, 'positive_instruction_surfacing': 58}; every dimension has at least 20 tasks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.46",
+      "section": 10,
+      "title": "Confidentiality quota",
+      "statement": "Verify at least 10 confidentiality probes.",
+      "status": "pass",
+      "evidence": "Requester accounting records 10 external confidentiality probes; current tasks contain exactly 10 enforce_confidentiality goldens.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.47",
+      "section": 10,
+      "title": "Complete goldens",
+      "statement": "Ensure every accepted task has a complete and sufficient golden record.",
+      "status": "pass",
+      "evidence": "Gate-4 golden-only oracle passes for all 236 tasks and task/golden IDs are bijective.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.48",
+      "section": 10,
+      "title": "Judge calibration",
+      "statement": "Achieve the designed foil classifications or document any explicitly accepted exception in the calibration report.",
+      "status": "pass",
+      "evidence": "Shipped final-disk make_foils produces 21/21 designed classifications and source_assets/judge_audit.json independently passes all repaired judge checks.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.49",
+      "section": 10,
+      "title": "Validation completion",
+      "statement": "Ensure all ten validation gates are green in the final validation report.",
+      "status": "pass",
+      "evidence": "Final validation report 5e923a1083c3ea1e9303b9ec0a1e8caf55b712717a70020d320804067e107b87 contains exactly ten gates; every gate status is green, every gate failures array is empty, all_gates_green=true, and top-level failures=[].",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.50",
+      "section": 10,
+      "title": "Semantic coherence",
+      "statement": "Ensure conversations, tasks, goldens, judge foils, and validation results all refer to the same final canonical world state.",
+      "status": "pass",
+      "evidence": "Cross-artifact coherence is final for semantic artifacts: zero substantive manifest mismatches; task audit 236/236, prose audit 687/687, oracle package 830/830 source executions, judge audit 21/21, and validation 10/10 all reference the current disk. Review-audit hash refresh is isolated bookkeeping.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.51",
+      "section": 10,
+      "title": "No unplanned answer-bearing facts",
+      "statement": "Ensure no final task answer depends on a business-relevant detail introduced only during prose rendering.",
+      "status": "pass",
+      "evidence": "Every golden supporting_fact_id resolves to the canonical fact ledger; no golden is derived from unplanned prose-only assertions.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.52",
+      "section": 10,
+      "title": "No inaccessible document facts",
+      "statement": "Ensure no final task answer depends on the contents of an unprovided fictional document.",
+      "status": "pass",
+      "evidence": "All document-related goldens point only to DOC_META facts (location/subject/classes/consultation/maintainer/lineage), not fictional body contents.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.53",
+      "section": 10,
+      "title": "No future leakage",
+      "statement": "Ensure no task golden or evaluation input uses facts first disclosed after its snapshot.",
+      "status": "pass",
+      "evidence": "Gate-1 disclosure_before_task and snapshot ordering checks are green; every golden support fact has an accepted pre-snapshot span.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": false,
+      "final_revalidation_status": "PASS"
+    },
+    {
+      "requirement_id": "REQ-10.54",
+      "section": 10,
+      "title": "Final acceptance",
+      "statement": "Declare the benchmark done only when the manifest is complete, quotas are satisfied, goldens are sufficient, judge calibration is complete, and validation is green.",
+      "status": "pass",
+      "evidence": "Final acceptance evidence is complete: the 86-file manifest has zero substantive mismatches, quotas and all ten validation gates are green, 236/236 goldens/tasks are semantically audited, 21/21 judge calibration is complete, 830 oracle executions pass, and both prose/task audits are PASS; final integration only refreshes review-audit hashes.",
+      "evidence_scope": "final non-bootstrap on-disk artifacts independently revalidated after weekend integration",
+      "final_evidence_refs": [
+        "MANIFEST_PRE_AUDIT_FINALIZATION",
+        "VALIDATION_FINAL",
+        "JUDGE_PACKAGE_FINAL",
+        "ORACLE_830_FINAL",
+        "PROSE_AUDIT_FINAL",
+        "TASK_AUDIT_FINAL"
+      ],
+      "prior_failure_resolved": true,
+      "final_revalidation_status": "PASS"
+    }
+  ],
+  "summary": {
+    "pass": 165,
+    "fail": 0,
+    "overall_status": "PASS",
+    "failed_requirement_ids": [],
+    "sections": {
+      "8": {
+        "pass": 59,
+        "fail": 0
+      },
+      "9": {
+        "pass": 52,
+        "fail": 0
+      },
+      "10": {
+        "pass": 54,
+        "fail": 0
+      }
+    }
+  },
+  "definition_of_done": "met",
+  "acceptance": {
+    "status": "PASS",
+    "statement": "All 165 atomic requirements in sections 8–10 pass against the final non-bootstrap disk."
+  },
+  "post_audit_integration_note": "Expected bookkeeping only: refresh the manifest hash for source_assets/requirements_audit_8_10.json and its generation/llm_reviews copy after accepting this overwrite. No other artifact requires regeneration.",
+  "next_actions": []
+}

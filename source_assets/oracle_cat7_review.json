@@ -1,0 +1,51 @@
+{
+  "oracle_agent": "codex-gpt5-strong-oracle-final-weekend-refresh",
+  "methodology": {
+    "source_refresh": "Re-read exact current tasks, goldens, weekend-shortened transcript, span map, and fact lineage; preserved only outputs revalidated against current snapshot evidence.",
+    "gate4": "Used exact final task text plus golden concepts only; checked all concepts and provenance requirements, with exact in-range/same-month membership for categories 5/6 and current-value lineage for category 7.",
+    "gate5": "Used exact final task text plus transcript only through the snapshot; authored three distinct substantive answers; fixed them; then adjudicated against the golden concepts, provenance, forbidden-current, and exact-set constraints.",
+    "gate6": "Used task text alone and required abstention because private release history and update state are not answer-bearing in the prompt.",
+    "gate7": "For every category-7 task, truncated immediately before the first accepted update span, recomputed the canonical hash, cited the antecedent span, and distinguished correction from supersession.",
+    "gate9": "Documented sampled necessity run. Removed all current accepted and semantic-equivalent spans for the selected set member or update, then reran against the altered transcript.",
+    "hash_serialization": "Snapshot SHA-256 uses exact raw UTF-8 sessions JSONL lines through stream_position with final newline; altered contexts use compact JSONL after reverse-offset deletion with final newline."
+  },
+  "counts": {
+    "category_tasks": 23,
+    "gate4_completed": 23,
+    "gate4_correct": 23,
+    "gate5_completed": 23,
+    "gate5_substantive_outputs": 69,
+    "gate5_correct_outputs": 69,
+    "gate5_accept_dispositions": 23,
+    "gate6_closed_book_failures": 23,
+    "gate7_completed": 23,
+    "gate9_runs": 1,
+    "gate9_necessary_effect_observed": 1,
+    "gate9_graph_bypasses": 0
+  },
+  "gate9_task_ids": [
+    "T136"
+  ],
+  "validation": {
+    "jsonl_parse": "pass: 23 records",
+    "task_coverage_and_text": "pass: all and only 23 current category tasks with exact task/golden text",
+    "concept_and_provenance_coverage": "pass: every required, selected-alternative, and provenance item is adjudicated; all three Gate-5 outputs contain every required concept",
+    "exact_sets": "not applicable",
+    "update_lineage": "pass: all correction/supersession controls use concrete antecedent and update facts",
+    "hashes_and_spans": "pass: every current snapshot, evidence, Gate-7/8, and Gate-9 hash/offset recomputed after weekend shortening",
+    "gate9_scope": "pass: sampled",
+    "weekend_shortening_refresh": "pass"
+  },
+  "weekend_shortening_refresh": {
+    "sessions_sha256": "7a13d5c446ba6f3a3e7d5af5f8abe4825f40a8fd810ce19e27ff61942a1f355f",
+    "span_map_sha256": "ab4b6d5d15a27b558d7328a7a7a9544808b9af89667044b635685923c9f9e724",
+    "task_text_and_golden_identity": "pass for all records",
+    "gate5_snapshot_hashes": "recomputed for every task from current raw sessions JSONL prefix",
+    "evidence_offsets": "every cited span re-read and exact against current sessions",
+    "gate7": "23/23 pre-update hashes and antecedent offsets recomputed",
+    "gate8": "not applicable",
+    "gate9": "1 necessity hash(es) recomputed; zero graph bypass",
+    "forbidden_values": "not applicable",
+    "status": "pass"
+  }
+}

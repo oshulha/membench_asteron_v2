@@ -1,0 +1,1986 @@
+{
+  "metadata": {
+    "world_id": "asteron-ciso-2026",
+    "seed": 260601,
+    "calendar_anchor": "2026-06-01",
+    "core_frozen": true,
+    "documents_are_metadata_only": true,
+    "state_view": "final current values; canonical facts preserve communication and patch history"
+  },
+  "user": {
+    "entity_id": "user_mara",
+    "canonical_name": "Mara Voss as user",
+    "aliases": [
+      "the user"
+    ],
+    "attributes": {
+      "person": "person_mara_voss",
+      "timezone": "America/New_York",
+      "working_hours": "08:00–17:30 weekdays",
+      "hard_constraints": "No meetings before 08:30; school run Wednesday 15:00–16:00; protect Friday 16:00 onward",
+      "mobile": "+1-617-555-0148",
+      "drafting_style": "concise, direct, no throat-clearing, bullets for decisions",
+      "briefing_format": "decision first, then risks, owners, dates, and open questions",
+      "scheduling_rules": "25 or 50 minute meetings; include timezone; leave 15 minutes before board or auditor calls",
+      "role": "personal administrative assistant for calendar, drafts, briefings, meeting preparation, and follow-up tracking"
+    },
+    "relationships": []
+  },
+  "organization": {
+    "entity_id": "org_asteron",
+    "canonical_name": "Asteron Collaborative",
+    "aliases": [
+      "Asteron"
+    ],
+    "attributes": {
+      "kind": "fictional_saas_company",
+      "employees": 503,
+      "workstations": 500,
+      "vendor_population_approx": 250,
+      "cloud_resources_approx": 2000,
+      "offices": [
+        "office_boston",
+        "office_denver",
+        "office_dublin"
+      ],
+      "products": [
+        "product_helios",
+        "product_quarry",
+        "product_orbit",
+        "product_lattice",
+        "product_nimbus"
+      ]
+    },
+    "relationships": []
+  },
+  "people": [
+    {
+      "entity_id": "person_mara_voss",
+      "canonical_name": "Mara Voss",
+      "aliases": [
+        "Mara",
+        "the CISO",
+        "MV"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Chief Information Security Officer",
+        "email": "mara.voss@asteron.example",
+        "remit": "all organizational facts; all user-only classes"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_jonah_reed",
+      "canonical_name": "Jonah Reed",
+      "aliases": [
+        "Jonah",
+        "my deputy",
+        "the security architect"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Deputy CISO and Security Architect",
+        "email": "jonah.reed@asteron.example",
+        "remit": "security architecture, identity, cloud security, incidents"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_elena_park",
+      "canonical_name": "Elena Park",
+      "aliases": [
+        "Elena",
+        "the GRC lead"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "GRC Lead",
+        "email": "elena.park@asteron.example",
+        "remit": "audit, compliance, policies, risk evidence"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_michael_chen",
+      "canonical_name": "Michael Chen",
+      "aliases": [
+        "Michael C.",
+        "Mike Chen"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Senior Security Engineer",
+        "email": "michael.chen@asteron.example",
+        "remit": "SIEM, detection, incident operations"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_michael_torres",
+      "canonical_name": "Michael Torres",
+      "aliases": [
+        "Michael T.",
+        "Mike Torres"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Cloud Security Engineer",
+        "email": "michael.torres@asteron.example",
+        "remit": "cloud posture, cloud containers, CSPM"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_priya_nair",
+      "canonical_name": "Priya Nair",
+      "aliases": [
+        "Priya",
+        "the identity engineer"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Security Engineer, Identity",
+        "email": "priya.nair@asteron.example",
+        "remit": "identity migration and access operations"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_theo_march",
+      "canonical_name": "Theo March",
+      "aliases": [
+        "Theo",
+        "the IT director"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "IT Director",
+        "email": "theo.march@asteron.example",
+        "remit": "IT systems, endpoints, devices, service desk"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_nadia_sorel",
+      "canonical_name": "Nadia Sorel",
+      "aliases": [
+        "Nadia",
+        "procurement"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Procurement Lead",
+        "email": "nadia.sorel@asteron.example",
+        "remit": "vendor contracts, renewals, commercial status"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_iris_bell",
+      "canonical_name": "Iris Bell",
+      "aliases": [
+        "Iris",
+        "the CFO"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Chief Financial Officer",
+        "email": "iris.bell@asteron.example",
+        "remit": "budgets, insurance economics, executive finance"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_owen_kade",
+      "canonical_name": "Owen Kade",
+      "aliases": [
+        "Owen",
+        "the CEO"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Chief Executive Officer",
+        "email": "owen.kade@asteron.example",
+        "remit": "executive decisions and company strategy"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_lena_ortiz",
+      "canonical_name": "Lena Ortiz",
+      "aliases": [
+        "Lena",
+        "my EA",
+        "the executive assistant"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "CISO Executive Assistant",
+        "email": "lena.ortiz@asteron.example",
+        "remit": "CISO calendar and administrative logistics"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_samir_quill",
+      "canonical_name": "Samir Quill",
+      "aliases": [
+        "Samir",
+        "the product ops lead"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "Product Operations Lead",
+        "email": "samir.quill@asteron.example",
+        "remit": "product release calendar"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_bea_holt",
+      "canonical_name": "Bea Holt",
+      "aliases": [
+        "Bea",
+        "people ops"
+      ],
+      "attributes": {
+        "kind": "internal",
+        "role": "People Operations Director",
+        "email": "bea.holt@asteron.example",
+        "remit": "HRIS and workforce records"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_ava_lorne",
+      "canonical_name": "Ava Lorne",
+      "aliases": [
+        "Ava",
+        "the auditor"
+      ],
+      "attributes": {
+        "kind": "external",
+        "role": "Lead auditor at Lorne Pike Assurance",
+        "email": "ava.lorne@lornepike.example",
+        "remit": "external audit requests"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_jon_bell",
+      "canonical_name": "Jon Bell",
+      "aliases": [
+        "Jon",
+        "the MSSP analyst"
+      ],
+      "attributes": {
+        "kind": "external",
+        "role": "MSSP analyst at Nightjar Response",
+        "email": "jon.bell@nightjar.example",
+        "remit": "MSSP observations"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_ren_ito",
+      "canonical_name": "Ren Ito",
+      "aliases": [
+        "Ren",
+        "Northstar's AE"
+      ],
+      "attributes": {
+        "kind": "external",
+        "role": "Account Executive at Northstar Identity",
+        "email": "ren.ito@northstarid.example",
+        "remit": "vendor statements"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_carla_mendez",
+      "canonical_name": "Carla Mendez",
+      "aliases": [
+        "Carla",
+        "the Veridian AE"
+      ],
+      "attributes": {
+        "kind": "external",
+        "role": "Account Manager at Veridian Metrics",
+        "email": "carla.mendez@veridian.example",
+        "remit": "vendor statements"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_hugo_wren",
+      "canonical_name": "Hugo Wren",
+      "aliases": [
+        "Hugo",
+        "the broker"
+      ],
+      "attributes": {
+        "kind": "external",
+        "role": "Cyber-insurance broker at Wren Harbor",
+        "email": "hugo.wren@wrenharbor.example",
+        "remit": "insurance market statements"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_mira_saye",
+      "canonical_name": "Mira Saye",
+      "aliases": [
+        "Mira",
+        "outside counsel"
+      ],
+      "attributes": {
+        "kind": "external",
+        "role": "Breach counsel at Saye Rowan",
+        "email": "mira.saye@sayerowan.example",
+        "remit": "legal advice"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "person_silas_ward",
+      "canonical_name": "Silas Ward",
+      "aliases": [
+        "Silas",
+        "the Aegis AM"
+      ],
+      "attributes": {
+        "kind": "external",
+        "role": "Account Manager at AegisTrace",
+        "email": "silas.ward@aegistrace.example",
+        "remit": "vendor statements"
+      },
+      "relationships": []
+    }
+  ],
+  "offices": [
+    {
+      "entity_id": "office_boston",
+      "canonical_name": "Boston Headquarters",
+      "aliases": [
+        "HQ",
+        "Boston"
+      ],
+      "attributes": {
+        "type": "headquarters",
+        "city": "Boston",
+        "timezone": "America/New_York",
+        "workstations": 310
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "office_denver",
+      "canonical_name": "Denver Office",
+      "aliases": [
+        "Denver",
+        "Mountain office"
+      ],
+      "attributes": {
+        "type": "office",
+        "city": "Denver",
+        "timezone": "America/Denver",
+        "workstations": 105
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "office_dublin",
+      "canonical_name": "Dublin Office",
+      "aliases": [
+        "Dublin",
+        "Ireland office"
+      ],
+      "attributes": {
+        "type": "overseas_office",
+        "city": "Dublin",
+        "timezone": "Europe/Dublin",
+        "workstations": 85
+      },
+      "relationships": []
+    }
+  ],
+  "products": [
+    {
+      "entity_id": "product_helios",
+      "canonical_name": "Helios Ledger",
+      "aliases": [
+        "Helios",
+        "HL"
+      ],
+      "attributes": {
+        "kind": "saas_product",
+        "release_history": [
+          {
+            "version": "2.8",
+            "date": "2025-01-16"
+          },
+          {
+            "version": "2.9",
+            "date": "2025-05-08"
+          },
+          {
+            "version": "3.0",
+            "date": "2025-09-18"
+          },
+          {
+            "version": "3.1",
+            "date": "2026-01-22"
+          },
+          {
+            "version": "3.2",
+            "date": "2026-03-12"
+          },
+          {
+            "version": "3.3",
+            "date": "2026-06-04"
+          }
+        ]
+      },
+      "relationships": [
+        {
+          "predicate": "uses_security_system",
+          "object": "system_aegistrace"
+        },
+        {
+          "predicate": "release_owner",
+          "object": "person_samir_quill"
+        }
+      ]
+    },
+    {
+      "entity_id": "product_quarry",
+      "canonical_name": "Quarry Flow",
+      "aliases": [
+        "Quarry",
+        "QF"
+      ],
+      "attributes": {
+        "kind": "saas_product",
+        "release_history": [
+          {
+            "version": "4.4",
+            "date": "2025-02-13"
+          },
+          {
+            "version": "4.5",
+            "date": "2025-06-19"
+          },
+          {
+            "version": "4.6",
+            "date": "2025-10-09"
+          },
+          {
+            "version": "4.7",
+            "date": "2026-02-12"
+          },
+          {
+            "version": "4.8",
+            "date": "2026-05-21"
+          }
+        ]
+      },
+      "relationships": [
+        {
+          "predicate": "uses_security_system",
+          "object": "system_lantern"
+        },
+        {
+          "predicate": "release_owner",
+          "object": "person_samir_quill"
+        }
+      ]
+    },
+    {
+      "entity_id": "product_orbit",
+      "canonical_name": "Orbit Desk",
+      "aliases": [
+        "Orbit",
+        "OD"
+      ],
+      "attributes": {
+        "kind": "saas_product",
+        "release_history": [
+          {
+            "version": "1.9",
+            "date": "2025-01-30"
+          },
+          {
+            "version": "2.0",
+            "date": "2025-04-24"
+          },
+          {
+            "version": "2.1",
+            "date": "2025-08-14"
+          },
+          {
+            "version": "2.2",
+            "date": "2026-01-15"
+          },
+          {
+            "version": "2.3",
+            "date": "2026-03-26"
+          }
+        ]
+      },
+      "relationships": [
+        {
+          "predicate": "uses_security_system",
+          "object": "system_northstar"
+        },
+        {
+          "predicate": "release_owner",
+          "object": "person_priya_nair"
+        }
+      ]
+    },
+    {
+      "entity_id": "product_lattice",
+      "canonical_name": "Lattice Vault",
+      "aliases": [
+        "Lattice",
+        "LV"
+      ],
+      "attributes": {
+        "kind": "saas_product",
+        "release_history": [
+          {
+            "version": "6.0",
+            "date": "2025-03-06"
+          },
+          {
+            "version": "6.1",
+            "date": "2025-07-17"
+          },
+          {
+            "version": "6.2",
+            "date": "2025-11-20"
+          },
+          {
+            "version": "6.3",
+            "date": "2026-02-26"
+          },
+          {
+            "version": "6.4",
+            "date": "2026-06-05"
+          }
+        ]
+      },
+      "relationships": [
+        {
+          "predicate": "uses_security_system",
+          "object": "system_cirrus"
+        },
+        {
+          "predicate": "release_owner",
+          "object": "person_michael_torres"
+        }
+      ]
+    },
+    {
+      "entity_id": "product_nimbus",
+      "canonical_name": "Nimbus Relay",
+      "aliases": [
+        "Nimbus",
+        "NR"
+      ],
+      "attributes": {
+        "kind": "saas_product",
+        "release_history": [
+          {
+            "version": "3.5",
+            "date": "2025-02-27"
+          },
+          {
+            "version": "3.6",
+            "date": "2025-06-05"
+          },
+          {
+            "version": "3.7",
+            "date": "2025-10-30"
+          },
+          {
+            "version": "3.8",
+            "date": "2026-01-29"
+          },
+          {
+            "version": "3.9",
+            "date": "2026-03-12"
+          }
+        ]
+      },
+      "relationships": [
+        {
+          "predicate": "uses_security_system",
+          "object": "system_nightjar"
+        },
+        {
+          "predicate": "release_owner",
+          "object": "person_michael_chen"
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "entity_id": "system_northstar",
+      "canonical_name": "Northstar Identity",
+      "aliases": [
+        "NSI"
+      ],
+      "attributes": {
+        "purpose": "identity provider",
+        "owner": "person_michael_chen",
+        "documentation": "doc_identity_runbook"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_priya_nair"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_identity_runbook"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_aegistrace",
+      "canonical_name": "AegisTrace",
+      "aliases": [
+        "AT"
+      ],
+      "attributes": {
+        "purpose": "endpoint detection and response",
+        "owner": "person_michael_torres",
+        "documentation": "doc_endpoint_standard"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_theo_march"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_endpoint_standard"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_fleetloom",
+      "canonical_name": "FleetLoom",
+      "aliases": [
+        "FLM"
+      ],
+      "attributes": {
+        "purpose": "mobile device management",
+        "owner": "person_priya_nair",
+        "documentation": "doc_endpoint_standard"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_theo_march"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_endpoint_standard"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_lantern",
+      "canonical_name": "Lantern SIEM",
+      "aliases": [
+        "LSIEM"
+      ],
+      "attributes": {
+        "purpose": "security logging and detection",
+        "owner": "person_nadia_sorel",
+        "documentation": "doc_detection_catalog"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_chen"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_detection_catalog"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_trackwell",
+      "canonical_name": "Trackwell",
+      "aliases": [
+        "TW"
+      ],
+      "attributes": {
+        "purpose": "ticketing and service management",
+        "owner": "person_iris_bell",
+        "documentation": "doc_service_catalog"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_theo_march"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_service_catalog"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_veriscope",
+      "canonical_name": "Veriscope TPRM",
+      "aliases": [
+        "VTP"
+      ],
+      "attributes": {
+        "purpose": "third-party risk and vendor register",
+        "owner": "person_owen_kade",
+        "documentation": "doc_vendor_register"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_nadia_sorel"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_vendor_register"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_cirrus",
+      "canonical_name": "Cirrus CSPM",
+      "aliases": [
+        "CCP"
+      ],
+      "attributes": {
+        "purpose": "cloud security posture",
+        "owner": "person_lena_ortiz",
+        "documentation": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_keyper",
+      "canonical_name": "Keyper Vault",
+      "aliases": [
+        "KV"
+      ],
+      "attributes": {
+        "purpose": "credential and secret management",
+        "owner": "person_samir_quill",
+        "documentation": "doc_access_standard"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_jonah_reed"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_access_standard"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_peopleharbor",
+      "canonical_name": "PeopleHarbor",
+      "aliases": [
+        "PHR"
+      ],
+      "attributes": {
+        "purpose": "human resources information",
+        "owner": "person_samir_quill",
+        "documentation": "doc_hris_guide"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_bea_holt"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_hris_guide"
+        }
+      ]
+    },
+    {
+      "entity_id": "system_nightjar",
+      "canonical_name": "Nightjar Portal",
+      "aliases": [
+        "NJP"
+      ],
+      "attributes": {
+        "purpose": "managed security response case exchange",
+        "owner": "person_mara_voss",
+        "documentation": "doc_incident_playbook"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_chen"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_incident_playbook"
+        }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "entity_id": "vendor_northstar",
+      "canonical_name": "Northstar Identity Services",
+      "aliases": [
+        "Northstar vendor",
+        "NS Identity Services"
+      ],
+      "attributes": {
+        "detail_level": "core",
+        "contact": "Ren Ito",
+        "renewal_date": "2026-07-24",
+        "risk_tier": "critical",
+        "owner": "person_elena_park",
+        "documentation": "doc_identity_runbook"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_nadia_sorel"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_identity_runbook"
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor_northshore",
+      "canonical_name": "Northshore Access",
+      "aliases": [
+        "Northshore",
+        "NSA"
+      ],
+      "attributes": {
+        "detail_level": "core",
+        "contact": "Talia Rusk",
+        "renewal_date": "2026-07-28",
+        "risk_tier": "medium",
+        "owner": "person_michael_torres",
+        "documentation": "doc_vendor_register"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_theo_march"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_vendor_register"
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor_veridian",
+      "canonical_name": "Veridian Metrics",
+      "aliases": [
+        "Veridian"
+      ],
+      "attributes": {
+        "detail_level": "core",
+        "contact": "Carla Mendez",
+        "renewal_date": "2026-09-15",
+        "risk_tier": "high",
+        "owner": "person_theo_march",
+        "documentation": "doc_vendor_register"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_nadia_sorel"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_vendor_register"
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor_veridion",
+      "canonical_name": "Veridion Networks",
+      "aliases": [
+        "Veridion"
+      ],
+      "attributes": {
+        "detail_level": "core",
+        "contact": "Eli Marr",
+        "renewal_date": "2026-09-14",
+        "risk_tier": "low",
+        "owner": "person_owen_kade",
+        "documentation": "doc_vendor_register"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_vendor_register"
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor_aegistrace",
+      "canonical_name": "AegisTrace Security",
+      "aliases": [
+        "Aegis vendor"
+      ],
+      "attributes": {
+        "detail_level": "core",
+        "contact": "Silas Ward",
+        "renewal_date": "2026-10-03",
+        "risk_tier": "critical",
+        "owner": "person_samir_quill",
+        "documentation": "doc_endpoint_standard"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_theo_march"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_endpoint_standard"
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor_nightjar",
+      "canonical_name": "Nightjar Response",
+      "aliases": [
+        "Nightjar",
+        "NJR"
+      ],
+      "attributes": {
+        "detail_level": "core",
+        "contact": "Jon Bell",
+        "renewal_date": "2027-01-03",
+        "risk_tier": "critical",
+        "owner": "person_mara_voss",
+        "documentation": "doc_incident_playbook"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_chen"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_incident_playbook"
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor_lornepike",
+      "canonical_name": "Lorne Pike Assurance",
+      "aliases": [
+        "LPA"
+      ],
+      "attributes": {
+        "detail_level": "core",
+        "contact": "Ava Lorne",
+        "renewal_date": "2026-11-15",
+        "risk_tier": "high",
+        "owner": "person_michael_chen",
+        "documentation": "doc_soc2_index"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_elena_park"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_soc2_index"
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor_wrenharbor",
+      "canonical_name": "Wren Harbor",
+      "aliases": [
+        "the broker"
+      ],
+      "attributes": {
+        "detail_level": "core",
+        "contact": "Hugo Wren",
+        "renewal_date": "2027-01-08",
+        "risk_tier": "high",
+        "owner": "person_michael_torres",
+        "documentation": "doc_insurance_pack"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_iris_bell"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_insurance_pack"
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor_thin_01",
+      "canonical_name": "Copperline Travel",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "finance",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_02",
+      "canonical_name": "Morrow Catering",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "people",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_03",
+      "canonical_name": "Pixelstead Design",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "engineering",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_04",
+      "canonical_name": "Verastel Hosting",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "operations",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_05",
+      "canonical_name": "Clearspan Legal",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "finance",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_06",
+      "canonical_name": "Bracken Payroll",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "people",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_07",
+      "canonical_name": "Cinder Post",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "engineering",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_08",
+      "canonical_name": "Alto Learning",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "operations",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_09",
+      "canonical_name": "Fieldglass Labs",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "finance",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_10",
+      "canonical_name": "Mosaic Office",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "people",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_11",
+      "canonical_name": "HarborMint Tax",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "engineering",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    },
+    {
+      "entity_id": "vendor_thin_12",
+      "canonical_name": "Evercrest Benefits",
+      "aliases": [],
+      "attributes": {
+        "detail_level": "thin",
+        "category": "operations",
+        "register_pointer": "doc_vendor_register"
+      },
+      "relationships": []
+    }
+  ],
+  "cloud_containers": [
+    {
+      "entity_id": "cloud_aws_prod",
+      "canonical_name": "AWS Production",
+      "aliases": [
+        "AWS prod"
+      ],
+      "attributes": {
+        "provider": "AWS",
+        "aggregate_resource_count": 675,
+        "owner": "person_nadia_sorel",
+        "resource_detail_pointer": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    },
+    {
+      "entity_id": "cloud_aws_shared",
+      "canonical_name": "AWS Shared Services",
+      "aliases": [
+        "AWS shared"
+      ],
+      "attributes": {
+        "provider": "AWS",
+        "aggregate_resource_count": 285,
+        "owner": "person_owen_kade",
+        "resource_detail_pointer": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_jonah_reed"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    },
+    {
+      "entity_id": "cloud_aws_data",
+      "canonical_name": "AWS Data Platform",
+      "aliases": [
+        "AWS data"
+      ],
+      "attributes": {
+        "provider": "AWS",
+        "aggregate_resource_count": 235,
+        "owner": "person_samir_quill",
+        "resource_detail_pointer": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    },
+    {
+      "entity_id": "cloud_azure_corp",
+      "canonical_name": "Azure Corporate",
+      "aliases": [
+        "Azure corp"
+      ],
+      "attributes": {
+        "provider": "Azure",
+        "aggregate_resource_count": 245,
+        "owner": "person_mara_voss",
+        "resource_detail_pointer": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_theo_march"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    },
+    {
+      "entity_id": "cloud_azure_lab",
+      "canonical_name": "Azure Research Lab",
+      "aliases": [
+        "Azure lab"
+      ],
+      "attributes": {
+        "provider": "Azure",
+        "aggregate_resource_count": 115,
+        "owner": "person_elena_park",
+        "resource_detail_pointer": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    },
+    {
+      "entity_id": "cloud_gcp_analytics",
+      "canonical_name": "GCP Analytics",
+      "aliases": [
+        "GCP analytics"
+      ],
+      "attributes": {
+        "provider": "GCP",
+        "aggregate_resource_count": 225,
+        "owner": "person_priya_nair",
+        "resource_detail_pointer": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    },
+    {
+      "entity_id": "cloud_gcp_ml",
+      "canonical_name": "GCP ML Platform",
+      "aliases": [
+        "GCP ML"
+      ],
+      "attributes": {
+        "provider": "GCP",
+        "aggregate_resource_count": 145,
+        "owner": "person_nadia_sorel",
+        "resource_detail_pointer": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    },
+    {
+      "entity_id": "cloud_gcp_backup",
+      "canonical_name": "GCP Resilience",
+      "aliases": [
+        "GCP backup"
+      ],
+      "attributes": {
+        "provider": "GCP",
+        "aggregate_resource_count": 40,
+        "owner": "person_jonah_reed",
+        "resource_detail_pointer": "doc_cloud_inventory"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_jonah_reed"
+        },
+        {
+          "predicate": "documented_by",
+          "object": "doc_cloud_inventory"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "entity_id": "doc_vendor_register",
+      "canonical_name": "Vendor Register",
+      "aliases": [
+        "VR"
+      ],
+      "attributes": {
+        "location": "veriscope://register",
+        "subject": "vendor inventory, tiers, owners, contacts, renewals",
+        "information_classes": "vendor inventory, tiers, owners, contacts, renewals",
+        "consult_when": "look up any vendor not explicitly discussed",
+        "maintainer": "person_nadia_sorel",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_nadia_sorel"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_cloud_inventory",
+      "canonical_name": "Cloud Estate Inventory",
+      "aliases": [
+        "CEI"
+      ],
+      "attributes": {
+        "location": "cirrus://estate",
+        "subject": "resource inventory, cloud owners, posture",
+        "information_classes": "resource inventory, cloud owners, posture",
+        "consult_when": "look up unenumerated cloud resources",
+        "maintainer": "person_michael_torres",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_michael_torres"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_identity_runbook",
+      "canonical_name": "Identity Migration Runbook v3",
+      "aliases": [
+        "IMR"
+      ],
+      "attributes": {
+        "location": "concord://security/id-migration-v3",
+        "subject": "migration waves, rollback owners, dependencies",
+        "information_classes": "migration waves, rollback owners, dependencies",
+        "consult_when": "prepare identity migration work",
+        "maintainer": "person_priya_nair",
+        "replaces": "doc_identity_runbook_old",
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_priya_nair"
+        },
+        {
+          "predicate": "replaces",
+          "object": "doc_identity_runbook_old"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_identity_runbook_old",
+      "canonical_name": "Identity Migration Runbook v2",
+      "aliases": [
+        "old IMR"
+      ],
+      "attributes": {
+        "location": "concord://security/id-migration-v2",
+        "subject": "superseded migration procedure",
+        "information_classes": "superseded migration procedure",
+        "consult_when": "historical context only",
+        "maintainer": "person_priya_nair",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_priya_nair"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_soc2_index",
+      "canonical_name": "SOC 2 Evidence Index",
+      "aliases": [
+        "evidence index"
+      ],
+      "attributes": {
+        "location": "concord://grc/soc2-2026",
+        "subject": "control evidence locations and owners",
+        "information_classes": "control evidence locations and owners",
+        "consult_when": "route audit evidence requests",
+        "maintainer": "person_elena_park",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_elena_park"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_incident_playbook",
+      "canonical_name": "Incident Coordination Playbook",
+      "aliases": [
+        "ICP"
+      ],
+      "attributes": {
+        "location": "concord://security/incident-coordination",
+        "subject": "incident roles, escalation, communications",
+        "information_classes": "incident roles, escalation, communications",
+        "consult_when": "prepare or coordinate incident response",
+        "maintainer": "person_jonah_reed",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_jonah_reed"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_detection_catalog",
+      "canonical_name": "Detection Catalog",
+      "aliases": [
+        "DCAT"
+      ],
+      "attributes": {
+        "location": "lantern://detections/catalog",
+        "subject": "detection names, data sources, owners",
+        "information_classes": "detection names, data sources, owners",
+        "consult_when": "route detection questions",
+        "maintainer": "person_michael_chen",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_michael_chen"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_endpoint_standard",
+      "canonical_name": "Endpoint Baseline Standard",
+      "aliases": [
+        "EBS"
+      ],
+      "attributes": {
+        "location": "concord://it/endpoint-baseline",
+        "subject": "endpoint and device baseline requirements",
+        "information_classes": "endpoint and device baseline requirements",
+        "consult_when": "prepare endpoint-control work",
+        "maintainer": "person_theo_march",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_theo_march"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_service_catalog",
+      "canonical_name": "Service Ownership Catalog",
+      "aliases": [
+        "SOCAT"
+      ],
+      "attributes": {
+        "location": "trackwell://catalog",
+        "subject": "business-system owners and escalation paths",
+        "information_classes": "business-system owners and escalation paths",
+        "consult_when": "find owners or escalation routes",
+        "maintainer": "person_theo_march",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_theo_march"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_access_standard",
+      "canonical_name": "Privileged Access Standard",
+      "aliases": [
+        "PAS"
+      ],
+      "attributes": {
+        "location": "concord://security/privileged-access",
+        "subject": "credential and privileged-access rules",
+        "information_classes": "credential and privileged-access rules",
+        "consult_when": "prepare access reviews",
+        "maintainer": "person_jonah_reed",
+        "replaces": null,
+        "generation_stage": "kernel"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_jonah_reed"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_hris_guide",
+      "canonical_name": "PeopleHarbor Field Guide",
+      "aliases": [
+        "PHFG"
+      ],
+      "attributes": {
+        "location": "concord://people/peopleharbor-fields",
+        "subject": "HRIS field definitions and data owners",
+        "information_classes": "HRIS field definitions and data owners",
+        "consult_when": "route workforce-record questions",
+        "maintainer": "person_bea_holt",
+        "replaces": null,
+        "generation_stage": "distractor_periphery"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_bea_holt"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_release_calendar",
+      "canonical_name": "Product Release Calendar",
+      "aliases": [
+        "PRC"
+      ],
+      "attributes": {
+        "location": "trackwell://portfolio/releases",
+        "subject": "release versions, dates, owners, gates",
+        "information_classes": "release versions, dates, owners, gates",
+        "consult_when": "prepare release-train work",
+        "maintainer": "person_samir_quill",
+        "replaces": null,
+        "generation_stage": "distractor_periphery"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_samir_quill"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_exec_brief",
+      "canonical_name": "Weekly Risk Brief Template",
+      "aliases": [
+        "WRB"
+      ],
+      "attributes": {
+        "location": "concord://security/weekly-risk-brief",
+        "subject": "executive brief structure and metrics",
+        "information_classes": "executive brief structure and metrics",
+        "consult_when": "prepare Friday executive reporting",
+        "maintainer": "person_elena_park",
+        "replaces": null,
+        "generation_stage": "distractor_periphery"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_elena_park"
+        }
+      ]
+    },
+    {
+      "entity_id": "doc_insurance_pack",
+      "canonical_name": "Cyber Renewal Submission Index",
+      "aliases": [
+        "CRSI"
+      ],
+      "attributes": {
+        "location": "concord://risk/cyber-renewal-2026",
+        "subject": "insurance submission artifacts and owners",
+        "information_classes": "insurance submission artifacts and owners",
+        "consult_when": "prepare insurance-renewal responses",
+        "maintainer": "person_iris_bell",
+        "replaces": null,
+        "generation_stage": "distractor_periphery"
+      },
+      "relationships": [
+        {
+          "predicate": "maintained_by",
+          "object": "person_iris_bell"
+        }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "entity_id": "incident_jan_token",
+      "canonical_name": "January Token Replay",
+      "aliases": [],
+      "attributes": {
+        "date": "2026-01-19",
+        "status": "closed",
+        "severity": "medium",
+        "system": "system_lantern",
+        "owner": "person_michael_chen"
+      },
+      "relationships": [
+        {
+          "predicate": "involved_system",
+          "object": "system_lantern"
+        },
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_chen"
+        }
+      ]
+    },
+    {
+      "entity_id": "incident_feb_bucket",
+      "canonical_name": "February Bucket Exposure",
+      "aliases": [],
+      "attributes": {
+        "date": "2026-02-11",
+        "status": "closed",
+        "severity": "high",
+        "system": "system_cirrus",
+        "owner": "person_michael_torres"
+      },
+      "relationships": [
+        {
+          "predicate": "involved_system",
+          "object": "system_cirrus"
+        },
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        }
+      ]
+    },
+    {
+      "entity_id": "incident_mar_phish",
+      "canonical_name": "March Finance Phish",
+      "aliases": [],
+      "attributes": {
+        "date": "2026-03-23",
+        "status": "closed",
+        "severity": "medium",
+        "system": "system_aegistrace",
+        "owner": "person_jonah_reed"
+      },
+      "relationships": [
+        {
+          "predicate": "involved_system",
+          "object": "system_aegistrace"
+        },
+        {
+          "predicate": "owned_by",
+          "object": "person_jonah_reed"
+        }
+      ]
+    },
+    {
+      "entity_id": "incident_may_session",
+      "canonical_name": "May Session Anomaly",
+      "aliases": [],
+      "attributes": {
+        "date": "2026-05-29",
+        "status": "monitoring",
+        "severity": "high",
+        "system": "system_northstar",
+        "owner": "person_priya_nair"
+      },
+      "relationships": [
+        {
+          "predicate": "involved_system",
+          "object": "system_northstar"
+        },
+        {
+          "predicate": "owned_by",
+          "object": "person_priya_nair"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "entity_id": "project_idp",
+      "canonical_name": "Northstar Identity Migration",
+      "aliases": [],
+      "attributes": {
+        "thread": "identity migration",
+        "owner": "person_priya_nair",
+        "product": "product_orbit",
+        "system": "system_northstar"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_priya_nair"
+        },
+        {
+          "predicate": "affects_product",
+          "object": "product_orbit"
+        },
+        {
+          "predicate": "uses_system",
+          "object": "system_northstar"
+        }
+      ]
+    },
+    {
+      "entity_id": "project_soc2",
+      "canonical_name": "2026 SOC 2 Type II Readiness",
+      "aliases": [],
+      "attributes": {
+        "thread": "audit preparation",
+        "owner": "person_elena_park",
+        "product": "product_helios",
+        "system": "system_trackwell"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_elena_park"
+        },
+        {
+          "predicate": "affects_product",
+          "object": "product_helios"
+        },
+        {
+          "predicate": "uses_system",
+          "object": "system_trackwell"
+        }
+      ]
+    },
+    {
+      "entity_id": "project_veridian",
+      "canonical_name": "Veridian Renewal Review",
+      "aliases": [],
+      "attributes": {
+        "thread": "contested renewal",
+        "owner": "person_nadia_sorel",
+        "product": "product_quarry",
+        "system": "system_veriscope"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_nadia_sorel"
+        },
+        {
+          "predicate": "affects_product",
+          "object": "product_quarry"
+        },
+        {
+          "predicate": "uses_system",
+          "object": "system_veriscope"
+        }
+      ]
+    },
+    {
+      "entity_id": "project_release",
+      "canonical_name": "June Release Train",
+      "aliases": [],
+      "attributes": {
+        "thread": "release train",
+        "owner": "person_samir_quill",
+        "system": "system_trackwell",
+        "products": [
+          "product_helios",
+          "product_quarry",
+          "product_orbit",
+          "product_lattice",
+          "product_nimbus"
+        ]
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_samir_quill"
+        },
+        {
+          "predicate": "affects_product",
+          "object": "product_helios"
+        },
+        {
+          "predicate": "uses_system",
+          "object": "system_trackwell"
+        }
+      ]
+    },
+    {
+      "entity_id": "project_exec",
+      "canonical_name": "Weekly Executive Risk Brief",
+      "aliases": [],
+      "attributes": {
+        "thread": "executive reporting",
+        "owner": "person_elena_park",
+        "product": "product_nimbus",
+        "system": "system_lantern"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_elena_park"
+        },
+        {
+          "predicate": "affects_product",
+          "object": "product_nimbus"
+        },
+        {
+          "predicate": "uses_system",
+          "object": "system_lantern"
+        }
+      ]
+    },
+    {
+      "entity_id": "project_insurance",
+      "canonical_name": "2026 Cyber Insurance Renewal",
+      "aliases": [],
+      "attributes": {
+        "thread": "insurance renewal",
+        "owner": "person_iris_bell",
+        "product": "product_lattice",
+        "system": "system_aegistrace"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_iris_bell"
+        },
+        {
+          "predicate": "affects_product",
+          "object": "product_lattice"
+        },
+        {
+          "predicate": "uses_system",
+          "object": "system_aegistrace"
+        }
+      ]
+    },
+    {
+      "entity_id": "project_incident",
+      "canonical_name": "May Anomaly Follow-up",
+      "aliases": [],
+      "attributes": {
+        "thread": "incident follow-up",
+        "owner": "person_jonah_reed",
+        "product": "product_orbit",
+        "system": "system_northstar"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_jonah_reed"
+        },
+        {
+          "predicate": "affects_product",
+          "object": "product_orbit"
+        },
+        {
+          "predicate": "uses_system",
+          "object": "system_northstar"
+        }
+      ]
+    },
+    {
+      "entity_id": "project_cloud",
+      "canonical_name": "Cloud Ownership Cleanup",
+      "aliases": [],
+      "attributes": {
+        "thread": "cloud governance",
+        "owner": "person_michael_torres",
+        "product": "product_lattice",
+        "system": "system_cirrus"
+      },
+      "relationships": [
+        {
+          "predicate": "owned_by",
+          "object": "person_michael_torres"
+        },
+        {
+          "predicate": "affects_product",
+          "object": "product_lattice"
+        },
+        {
+          "predicate": "uses_system",
+          "object": "system_cirrus"
+        }
+      ]
+    }
+  ]
+}

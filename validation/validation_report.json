@@ -1,0 +1,1590 @@
+{
+  "schema_version": "membench.validation_report.v1",
+  "generated_at": "2026-07-12T12:00:00-03:00",
+  "artifact_version": "2.0.0",
+  "all_gates_green": true,
+  "gates": [
+    {
+      "gate": 1,
+      "status": "green",
+      "checks": [
+        "schema_validation",
+        "id_integrity",
+        "fact_count",
+        "fact_unique",
+        "fact_fields",
+        "fact_vocabularies",
+        "patch_lineage",
+        "calendar_chronology",
+        "final_battery_window",
+        "five_product_release_train",
+        "representation_consistency",
+        "authority_enforcement",
+        "orphan_lint",
+        "owner_lint",
+        "alias_lint",
+        "shortcut_lint",
+        "set_answer_lint",
+        "v2_temporal_semantics",
+        "v2_category_difficulty_sanity",
+        "task_golden_bijection",
+        "snapshot_refs",
+        "disclosure_before_task",
+        "multi_hop_paths",
+        "relative_time_resolution"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 2,
+      "status": "green",
+      "checks": [
+        "scene_gates",
+        "span_integrity",
+        "span_coverage",
+        "llm_scene_assets",
+        "corpus_naturalness",
+        "independent_llm_audits"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 3,
+      "status": "green",
+      "checks": [
+        "task_golden_bijection",
+        "independent_llm_audits",
+        "v2_independent_expansion_audit"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 4,
+      "status": "green",
+      "checks": [
+        "oracle_coverage"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 5,
+      "status": "green",
+      "checks": [
+        "oracle_coverage"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 6,
+      "status": "green",
+      "checks": [
+        "oracle_coverage"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 7,
+      "status": "green",
+      "checks": [
+        "oracle_coverage"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 8,
+      "status": "green",
+      "checks": [
+        "absence_controls",
+        "oracle_coverage"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 9,
+      "status": "green",
+      "checks": [
+        "necessity_coverage"
+      ],
+      "failures": []
+    },
+    {
+      "gate": 10,
+      "status": "green",
+      "checks": [
+        "distractor_ratio",
+        "category_quotas",
+        "v2_day0_expansion",
+        "dimension_quotas",
+        "exact_requirements_audits"
+      ],
+      "failures": []
+    }
+  ],
+  "checks": [
+    {
+      "check": "fact_count",
+      "status": "pass",
+      "evidence": 664
+    },
+    {
+      "check": "fact_unique",
+      "status": "pass",
+      "evidence": 664
+    },
+    {
+      "check": "fact_fields",
+      "status": "pass",
+      "evidence": "all required fields"
+    },
+    {
+      "check": "fact_vocabularies",
+      "status": "pass",
+      "evidence": "frozen enums"
+    },
+    {
+      "check": "schema_validation",
+      "status": "pass",
+      "evidence": "self-contained frozen JSON Schemas and required-field validator"
+    },
+    {
+      "check": "document_metadata_only",
+      "status": "pass",
+      "evidence": "all document facts DOC_META"
+    },
+    {
+      "check": "no_document_bodies",
+      "status": "pass",
+      "evidence": "metadata predicates only"
+    },
+    {
+      "check": "patch_counts",
+      "status": "pass",
+      "evidence": {
+        "correction_supersession": 40,
+        "add": 80
+      }
+    },
+    {
+      "check": "patch_lineage",
+      "status": "pass",
+      "evidence": "all typed antecedents resolve"
+    },
+    {
+      "check": "id_integrity",
+      "status": "pass",
+      "evidence": {
+        "facts": 664,
+        "messages": 68,
+        "nodes": 94
+      }
+    },
+    {
+      "check": "authority_enforcement",
+      "status": "pass",
+      "evidence": {
+        "user:authoritative": 591,
+        "user:retracted": 23,
+        "coworker:authoritative": 19,
+        "coworker:pending_confirmation": 1,
+        "coworker:attributed_claim": 1,
+        "external:attributed_claim": 29
+      }
+    },
+    {
+      "check": "calendar_chronology",
+      "status": "pass",
+      "evidence": "monotonic stream"
+    },
+    {
+      "check": "final_battery_window",
+      "status": "pass",
+      "evidence": {
+        "debrief_end": "2026-06-09T15:17:00-04:00",
+        "min_issue": "2026-06-09T17:00:00-04:00",
+        "max_issue": "2026-06-10T09:00:00-04:00"
+      }
+    },
+    {
+      "check": "five_product_release_train",
+      "status": "pass",
+      "evidence": [
+        "product_helios",
+        "product_quarry",
+        "product_orbit",
+        "product_lattice",
+        "product_nimbus"
+      ]
+    },
+    {
+      "check": "representation_consistency",
+      "status": "pass",
+      "evidence": "entity-sheet current values match canonical fact/patch resolution"
+    },
+    {
+      "check": "trusted_message_metadata",
+      "status": "pass",
+      "evidence": 68
+    },
+    {
+      "check": "span_integrity",
+      "status": "pass",
+      "evidence": 687
+    },
+    {
+      "check": "span_coverage",
+      "status": "pass",
+      "evidence": 664
+    },
+    {
+      "check": "scene_gates",
+      "status": "pass",
+      "evidence": 34
+    },
+    {
+      "check": "llm_scene_assets",
+      "status": "pass",
+      "evidence": {
+        "frozen_assets": 34,
+        "scenes": 34
+      }
+    },
+    {
+      "check": "corpus_naturalness",
+      "status": "pass",
+      "evidence": {
+        "sentences": 2444,
+        "repeated_instances": 0,
+        "repeated_types": 0
+      }
+    },
+    {
+      "check": "task_count",
+      "status": "pass",
+      "evidence": {
+        "actual": 333,
+        "v1_preserved": 236,
+        "v2_day0_additions": 97
+      }
+    },
+    {
+      "check": "category_quotas",
+      "status": "pass",
+      "evidence": {
+        "actual": {
+          "1": 37,
+          "2": 39,
+          "3": 39,
+          "4": 39,
+          "5": 39,
+          "6": 39,
+          "7": 23,
+          "8": 23,
+          "9": 23,
+          "10": 32
+        },
+        "expected": {
+          "1": 37,
+          "2": 39,
+          "3": 39,
+          "4": 39,
+          "5": 39,
+          "6": 39,
+          "7": 23,
+          "8": 23,
+          "9": 23,
+          "10": 32
+        }
+      }
+    },
+    {
+      "check": "v2_day0_expansion",
+      "status": "pass",
+      "evidence": {
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "check": "actionable_ratio",
+      "status": "pass",
+      "evidence": {
+        "count": 234,
+        "ratio": 0.7027027027027027
+      }
+    },
+    {
+      "check": "dimension_quotas",
+      "status": "pass",
+      "evidence": {
+        "document_pointer_routing": 22,
+        "ambiguity_reference": 39,
+        "multi_anchor_composition": 40,
+        "set_completeness": 72,
+        "positive_instruction_surfacing": 58
+      }
+    },
+    {
+      "check": "confidentiality_quota",
+      "status": "pass",
+      "evidence": "at least ten"
+    },
+    {
+      "check": "task_golden_bijection",
+      "status": "pass",
+      "evidence": 333
+    },
+    {
+      "check": "snapshot_refs",
+      "status": "pass",
+      "evidence": [
+        "after_day_0",
+        "after_day_1",
+        "after_day_2",
+        "after_day_3",
+        "after_day_4",
+        "after_day_5",
+        "after_day_6",
+        "after_debrief",
+        "after_third_party"
+      ]
+    },
+    {
+      "check": "disclosure_before_task",
+      "status": "pass",
+      "evidence": "all supports disclosed"
+    },
+    {
+      "check": "multi_hop_paths",
+      "status": "pass",
+      "evidence": "verified path metadata"
+    },
+    {
+      "check": "no_universal_hubs",
+      "status": "pass",
+      "evidence": "excluded hub absent"
+    },
+    {
+      "check": "orphan_lint",
+      "status": "pass",
+      "evidence": {
+        "intentional_exclusions": 12
+      }
+    },
+    {
+      "check": "owner_lint",
+      "status": "pass",
+      "evidence": {
+        "system_northstar": [
+          "F0483"
+        ],
+        "system_aegistrace": [
+          "F0484"
+        ],
+        "system_fleetloom": [
+          "F0485"
+        ],
+        "system_lantern": [
+          "F0486"
+        ],
+        "system_trackwell": [
+          "F0487"
+        ],
+        "system_veriscope": [
+          "F0488"
+        ],
+        "system_cirrus": [
+          "F0489"
+        ],
+        "system_keyper": [
+          "F0490"
+        ],
+        "system_peopleharbor": [
+          "F0491"
+        ],
+        "system_nightjar": [
+          "F0492"
+        ]
+      }
+    },
+    {
+      "check": "alias_lint",
+      "status": "pass",
+      "evidence": {
+        "intentional_collisions": {
+          "the broker": [
+            "person_hugo_wren",
+            "vendor_wrenharbor"
+          ]
+        }
+      }
+    },
+    {
+      "check": "shortcut_lint",
+      "status": "pass",
+      "evidence": "no shorter path"
+    },
+    {
+      "check": "relative_time_resolution",
+      "status": "pass",
+      "evidence": "all category-8 anchors within resolved interval"
+    },
+    {
+      "check": "set_answer_lint",
+      "status": "pass",
+      "evidence": {
+        "category5": 39,
+        "category6": 39,
+        "computed_from": "frozen temporal answer fact IDs with v1 path fallback"
+      }
+    },
+    {
+      "check": "v2_temporal_semantics",
+      "status": "pass",
+      "evidence": [
+        {
+          "task_id": "T302",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T303",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T304",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T305",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T306",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T307",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T308",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T309",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T310",
+          "status": "pass",
+          "note": "bounded temporal extremum"
+        },
+        {
+          "task_id": "T311",
+          "status": "pass",
+          "note": "bounded temporal extremum"
+        },
+        {
+          "task_id": "T312",
+          "status": "pass",
+          "note": "bounded temporal extremum"
+        },
+        {
+          "task_id": "T313",
+          "status": "pass",
+          "note": "bounded temporal extremum"
+        },
+        {
+          "task_id": "T314",
+          "status": "pass",
+          "note": "adjacent release"
+        },
+        {
+          "task_id": "T315",
+          "status": "pass",
+          "note": "adjacent release"
+        },
+        {
+          "task_id": "T316",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T317",
+          "status": "pass",
+          "note": "complete bounded interval filter"
+        },
+        {
+          "task_id": "T318",
+          "status": "pass",
+          "note": "relationship resolution followed by temporal selection"
+        },
+        {
+          "task_id": "T319",
+          "status": "pass",
+          "note": "relationship resolution followed by temporal selection"
+        },
+        {
+          "task_id": "T320",
+          "status": "pass",
+          "note": "relationship resolution followed by temporal selection"
+        },
+        {
+          "task_id": "T321",
+          "status": "pass",
+          "note": "relationship resolution followed by temporal selection"
+        },
+        {
+          "task_id": "T322",
+          "status": "pass",
+          "note": "relationship resolution followed by temporal selection"
+        },
+        {
+          "task_id": "T323",
+          "status": "pass",
+          "note": "relationship resolution followed by temporal selection"
+        },
+        {
+          "task_id": "T324",
+          "status": "pass",
+          "note": "relationship resolution followed by temporal selection"
+        },
+        {
+          "task_id": "T325",
+          "status": "pass",
+          "note": "relationship resolution followed by temporal selection"
+        },
+        {
+          "task_id": "T326",
+          "status": "pass",
+          "note": "temporal entity selection followed by two-edge traversal"
+        },
+        {
+          "task_id": "T327",
+          "status": "pass",
+          "note": "temporal entity selection followed by two-edge traversal"
+        },
+        {
+          "task_id": "T328",
+          "status": "pass",
+          "note": "temporal entity selection followed by two-edge traversal"
+        },
+        {
+          "task_id": "T329",
+          "status": "pass",
+          "note": "temporal entity selection followed by two-edge traversal"
+        },
+        {
+          "task_id": "T330",
+          "status": "pass",
+          "note": "bounded extremum followed by traversal"
+        },
+        {
+          "task_id": "T331",
+          "status": "pass",
+          "note": "bounded extremum followed by traversal"
+        },
+        {
+          "task_id": "T332",
+          "status": "pass",
+          "note": "bounded extremum followed by traversal"
+        },
+        {
+          "task_id": "T333",
+          "status": "pass",
+          "note": "role-based project resolution, traversal, then month filter"
+        }
+      ]
+    },
+    {
+      "check": "v2_category_difficulty_sanity",
+      "status": "pass",
+      "evidence": [
+        {
+          "task_id": "T237",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T238",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T239",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T240",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T241",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T242",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T243",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T244",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T245",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T246",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T247",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T248",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T249",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T250",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T251",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T252",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T253",
+          "category": 1,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T254",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T255",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T256",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T257",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T258",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T259",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T260",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T261",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T262",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T263",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T264",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T265",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T266",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T267",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T268",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T269",
+          "category": 2,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T270",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T271",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T272",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T273",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T274",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T275",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T276",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T277",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T278",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T279",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T280",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T281",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T282",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T283",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T284",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T285",
+          "category": 3,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T286",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T287",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T288",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T289",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T290",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T291",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T292",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T293",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T294",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T295",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T296",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T297",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T298",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T299",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T300",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T301",
+          "category": 4,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 3,
+          "temporal_kind": null
+        },
+        {
+          "task_id": "T302",
+          "category": 5,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "interval_filter"
+        },
+        {
+          "task_id": "T303",
+          "category": 5,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "interval_filter"
+        },
+        {
+          "task_id": "T304",
+          "category": 5,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "interval_filter"
+        },
+        {
+          "task_id": "T305",
+          "category": 5,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "interval_filter"
+        },
+        {
+          "task_id": "T306",
+          "category": 5,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "interval_filter"
+        },
+        {
+          "task_id": "T307",
+          "category": 5,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "interval_filter"
+        },
+        {
+          "task_id": "T308",
+          "category": 5,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "interval_filter"
+        },
+        {
+          "task_id": "T309",
+          "category": 5,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "interval_filter"
+        },
+        {
+          "task_id": "T310",
+          "category": 5,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "extremum"
+        },
+        {
+          "task_id": "T311",
+          "category": 5,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "extremum"
+        },
+        {
+          "task_id": "T312",
+          "category": 5,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "extremum"
+        },
+        {
+          "task_id": "T313",
+          "category": 5,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "extremum"
+        },
+        {
+          "task_id": "T314",
+          "category": 5,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "adjacent_release"
+        },
+        {
+          "task_id": "T315",
+          "category": 5,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "adjacent_release"
+        },
+        {
+          "task_id": "T316",
+          "category": 5,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "incident_interval_filter"
+        },
+        {
+          "task_id": "T317",
+          "category": 5,
+          "status": "pass",
+          "support_count": 1,
+          "meaningful_hop_count": 1,
+          "temporal_kind": "incident_interval_filter"
+        },
+        {
+          "task_id": "T318",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "relation_then_interval"
+        },
+        {
+          "task_id": "T319",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "relation_then_interval"
+        },
+        {
+          "task_id": "T320",
+          "category": 6,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "relation_then_interval"
+        },
+        {
+          "task_id": "T321",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "relation_then_interval"
+        },
+        {
+          "task_id": "T322",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "relation_then_interval"
+        },
+        {
+          "task_id": "T323",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "relation_then_interval"
+        },
+        {
+          "task_id": "T324",
+          "category": 6,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "relation_then_extremum"
+        },
+        {
+          "task_id": "T325",
+          "category": 6,
+          "status": "pass",
+          "support_count": 2,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "relation_then_extremum"
+        },
+        {
+          "task_id": "T326",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "temporal_entity_then_traversal"
+        },
+        {
+          "task_id": "T327",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "temporal_entity_then_traversal"
+        },
+        {
+          "task_id": "T328",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "temporal_entity_then_traversal"
+        },
+        {
+          "task_id": "T329",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "temporal_entity_then_traversal"
+        },
+        {
+          "task_id": "T330",
+          "category": 6,
+          "status": "pass",
+          "support_count": 5,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "temporal_extremum_then_traversal"
+        },
+        {
+          "task_id": "T331",
+          "category": 6,
+          "status": "pass",
+          "support_count": 5,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "temporal_extremum_then_traversal"
+        },
+        {
+          "task_id": "T332",
+          "category": 6,
+          "status": "pass",
+          "support_count": 6,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "temporal_extremum_then_traversal"
+        },
+        {
+          "task_id": "T333",
+          "category": 6,
+          "status": "pass",
+          "support_count": 3,
+          "meaningful_hop_count": 2,
+          "temporal_kind": "temporal_role_resolution_then_traversal"
+        }
+      ]
+    },
+    {
+      "check": "absence_controls",
+      "status": "pass",
+      "evidence": "all absence concepts explicit"
+    },
+    {
+      "check": "conflict_and_resolution",
+      "status": "pass",
+      "evidence": "all three authority paths"
+    },
+    {
+      "check": "distractor_ratio",
+      "status": "pass",
+      "evidence": {
+        "used": 419,
+        "unused": 245,
+        "ratio": 0.3689759036144578
+      }
+    },
+    {
+      "check": "conversation_volume",
+      "status": "pass",
+      "evidence": {
+        "user_agent_tokens_by_day": {
+          "0": 26839,
+          "1": 3586,
+          "2": 3546,
+          "3": 3357,
+          "4": 3462,
+          "5": 3071,
+          "6": 3064
+        },
+        "third_party_tokens": 8023,
+        "debrief_tokens": 638,
+        "total_user_agent_tokens": 46925
+      }
+    },
+    {
+      "check": "third_party_volume",
+      "status": "pass",
+      "evidence": 8023
+    },
+    {
+      "check": "oracle_coverage",
+      "status": "pass",
+      "evidence": {
+        "bootstrap_only": false,
+        "source_executions": true,
+        "gate_counts": {
+          "4": 333,
+          "5": 333,
+          "6": 333,
+          "9": 127,
+          "7": 23,
+          "8": 23
+        },
+        "three_samples_per_task": true
+      }
+    },
+    {
+      "check": "necessity_coverage",
+      "status": "pass",
+      "evidence": {
+        "bootstrap_only": false,
+        "exhaustive": 117,
+        "expected_exhaustive": 117,
+        "sampled_remaining_categories": [
+          1,
+          2,
+          5,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "check": "foil_calibration",
+      "status": "pass",
+      "evidence": 21
+    },
+    {
+      "check": "independent_llm_audits",
+      "status": "pass",
+      "evidence": {
+        "bootstrap_only": false,
+        "prose": "pass",
+        "tasks": "pass",
+        "judge": "PASS"
+      }
+    },
+    {
+      "check": "v2_independent_expansion_audit",
+      "status": "pass",
+      "evidence": {
+        "bootstrap_only": false,
+        "status": "pass",
+        "passed": 97
+      }
+    },
+    {
+      "check": "exact_requirements_audits",
+      "status": "pass",
+      "evidence": {
+        "bootstrap_only": false,
+        "requirements_audit_1_4.json": {
+          "rows": 162,
+          "failed": 0
+        },
+        "requirements_audit_5_7.json": {
+          "rows": 236,
+          "failed": 0
+        },
+        "requirements_audit_8_10.json": {
+          "rows": 165,
+          "failed": 0
+        }
+      }
+    }
+  ],
+  "failures": [],
+  "quota_accounting": {
+    "tasks": 333,
+    "categories": {
+      "1": 37,
+      "2": 39,
+      "3": 39,
+      "4": 39,
+      "5": 39,
+      "6": 39,
+      "7": 23,
+      "8": 23,
+      "9": 23,
+      "10": 32
+    },
+    "dimensions": {
+      "document_pointer_routing": 22,
+      "ambiguity_reference": 39,
+      "multi_anchor_composition": 40,
+      "set_completeness": 72,
+      "positive_instruction_surfacing": 58
+    },
+    "snapshots": {
+      "after_day_0": 120,
+      "after_day_1": 23,
+      "after_day_2": 22,
+      "after_day_3": 22,
+      "after_day_4": 22,
+      "after_day_5": 22,
+      "after_day_6": 74,
+      "after_debrief": 17,
+      "after_third_party": 11
+    },
+    "requester_types": {
+      "user": 322,
+      "external": 10,
+      "coworker": 1
+    },
+    "actionable": {
+      "count": 234,
+      "ratio": 0.7027027027027027
+    },
+    "update_types": {
+      "none": 297,
+      "correct": 19,
+      "supersede": 13,
+      "add": 4
+    }
+  },
+  "construction_metrics": {
+    "facts": 664,
+    "load_bearing_facts": 419,
+    "distractor_ratio": 0.3689759036144578,
+    "user_agent_tokens_by_day": {
+      "0": 26839,
+      "1": 3586,
+      "2": 3546,
+      "3": 3357,
+      "4": 3462,
+      "5": 3071,
+      "6": 3064
+    },
+    "third_party_tokens": 8023,
+    "debrief_tokens": 638,
+    "total_user_agent_tokens": 46925
+  },
+  "post_distractor_full_rerun": {
+    "scope": "all tasks, all structural checks, all answer computations",
+    "sampled": false,
+    "status": "green"
+  },
+  "llm_review_refs": [
+    "generation/llm_reviews/semantic_audit.json",
+    "generation/llm_reviews/v2_expansion_audit.json",
+    "generation/llm_reviews/prose_audit.json",
+    "generation/llm_reviews/judge_audit.json"
+  ]
+}

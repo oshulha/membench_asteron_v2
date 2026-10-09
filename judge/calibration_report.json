@@ -1,0 +1,126 @@
+{
+  "schema_version": "membench.calibration_report.v1",
+  "final_prompt_version": "v2-final",
+  "final_prompt_sha256": "dbb509161fa3aa2f5ebe9c73979da028e87ce79f51da7a1ab6e1355807f68256",
+  "tokenizer": {
+    "name": "cl100k-compatible-counting-contract",
+    "budget_check": "programmatic only"
+  },
+  "judge_configuration": {
+    "role": "strong semantic judge",
+    "temperature": 0
+  },
+  "sample_task_ids": [
+    "T001",
+    "T002",
+    "T021",
+    "T044",
+    "T067",
+    "T090",
+    "T113",
+    "T136",
+    "T159",
+    "T182",
+    "T183",
+    "T205",
+    "T222",
+    "T229",
+    "T230",
+    "T236"
+  ],
+  "coverage": {
+    "categories": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dimensions": [
+      "set_completeness",
+      "multi_anchor_composition",
+      "document_pointer_routing",
+      "positive_instruction_surfacing",
+      "ambiguity_reference"
+    ],
+    "retrieval_modes": [
+      "answer",
+      "enforce_confidentiality",
+      "flag_absence",
+      "preserve_attribution",
+      "route_to_document",
+      "surface_ambiguity"
+    ],
+    "requester_types": [
+      "user",
+      "coworker",
+      "external"
+    ],
+    "foil_classes": [
+      "fully_correct",
+      "correct_but_noisy",
+      "missing_one_concept",
+      "historical_stale",
+      "current_stale",
+      "near_miss_entity",
+      "flattened_claim",
+      "absence_fabrication",
+      "ambiguity_surfaced",
+      "ambiguity_silent_pick",
+      "confidentiality_boundary",
+      "confidentiality_leak",
+      "set_minus_one",
+      "set_plus_nonmember",
+      "within_budget_control",
+      "over_budget",
+      "category6_correct",
+      "category8_correct",
+      "coworker_requester_correct",
+      "one_of_complete",
+      "one_of_missing"
+    ]
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "prompt_version": "v1",
+      "foil_count": 21,
+      "correct_count": 14,
+      "discrepancies": [
+        "historical/current stale distinction needed tightening",
+        "budget must remain outside semantic verdict"
+      ],
+      "changes": [
+        "made temporal status explicit",
+        "separated semantic_pass from final_pass"
+      ]
+    },
+    {
+      "iteration": 2,
+      "prompt_version": "v2-final",
+      "foil_count": 21,
+      "correct_count": 21,
+      "discrepancies": [],
+      "changes": []
+    }
+  ],
+  "final_results": {
+    "foil_count": 21,
+    "classification_accuracy": 1.0,
+    "diagnostic_agreement": 1.0,
+    "exceptions": []
+  },
+  "audit": {
+    "method": "independent Codex subagent plus primary review",
+    "sample_size": 21,
+    "agreement": 1.0,
+    "disagreements": [],
+    "resolutions": []
+  },
+  "ready_for_scoring": true
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "task_id",
+    "snapshot_ref",
+    "issue_timestamp",
+    "requester_id",
+    "requester_type",
+    "task_text",
+    "primary_category",
+    "dimension_labels",
+    "answer_cardinality",
+    "max_output_tokens",
+    "required_memory",
+    "one_of_groups",
+    "required_provenance",
+    "forbidden_as_current",
+    "forbidden_to_return",
+    "expected_retrieval_mode",
+    "useful_but_optional"
+  ],
+  "properties": {
+    "expected_retrieval_mode": {
+      "enum": [
+        "answer",
+        "enforce_confidentiality",
+        "flag_absence",
+        "preserve_attribution",
+        "route_to_document",
+        "surface_ambiguity"
+      ]
+    }
+  }
+}

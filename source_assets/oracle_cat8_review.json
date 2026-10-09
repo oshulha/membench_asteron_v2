@@ -1,0 +1,62 @@
+{
+  "artifact": "source_assets/oracle_cat8.jsonl",
+  "oracle_agent": "codex-gpt5-strong-oracle-final-weekend-refresh",
+  "scope": {
+    "category": 8,
+    "task_range": "T159-T181",
+    "task_count": 23,
+    "gate9_sample": "T181"
+  },
+  "methodology": {
+    "gate4": "Task plus golden only; checked every required concept and the frozen issue-time relation.",
+    "gate5": "Task plus current transcript prefix only; extracted exact accepted spans, generated three distinct sourced outputs, then adjudicated against the golden.",
+    "temporal_semantics": "Q1 filters release dates. Last Tuesday and earlier this month filter communication time where the task says communicated; dates contained inside returned values are not mistaken for disclosure dates.",
+    "gate6": "Task-only run computes the public interval and fails closed on private facts.",
+    "gate9": "T181 removes every F0523 disclosure span so the June 8 follow-up value necessarily disappears while June 2 arithmetic remains.",
+    "source_refresh": "Re-read exact current tasks, goldens, weekend-shortened transcript, span map, and fact lineage; preserved only outputs revalidated against current snapshot evidence.",
+    "hash_serialization": "Snapshot SHA-256 uses exact raw UTF-8 sessions JSONL lines through stream_position with final newline; altered contexts use compact JSONL after reverse-offset deletion with final newline."
+  },
+  "results": {
+    "gate4_correct": 23,
+    "gate5_task_runs": 23,
+    "gate5_outputs": 69,
+    "gate5_correct_outputs": 69,
+    "gate6_required_failures": 23,
+    "gate9_samples": 1,
+    "gate9_pass": 1
+  },
+  "repairs": [
+    "Refreshed all task text and concepts, including T179 grammar and T181 communication-time selection.",
+    "Recomputed every current snapshot/evidence/altered-context hash."
+  ],
+  "validation": {
+    "jsonl_parse": "pass",
+    "category_membership": "all and only 23 current category-8 tasks",
+    "unique_task_ids": "pass",
+    "task_text_identity": "exact match to current tasks.jsonl",
+    "golden_task_identity": "exact match to current golden_records.jsonl",
+    "gate4": "23/23 correct",
+    "gate5": "69/69 correct transcript-only outputs; three distinct outputs per task",
+    "gate6": "23/23 required closed-book failures",
+    "gate8": "not applicable",
+    "gate9": "one passing exhaustive span-removal sample; no graph bypass",
+    "snapshot_hashes": "recomputed from current raw sessions JSONL prefix",
+    "evidence_spans": "all message:character spans exact against current sessions and eligible at snapshot",
+    "forbidden_to_return": "zero forbidden-value occurrences in oracle artifact",
+    "task_coverage_and_text": "pass: all and only 23 current category tasks with exact task/golden text",
+    "hashes_and_spans": "pass: every current snapshot, evidence, Gate-7/8, and Gate-9 hash/offset recomputed after weekend shortening",
+    "weekend_shortening_refresh": "pass"
+  },
+  "weekend_shortening_refresh": {
+    "sessions_sha256": "7a13d5c446ba6f3a3e7d5af5f8abe4825f40a8fd810ce19e27ff61942a1f355f",
+    "span_map_sha256": "ab4b6d5d15a27b558d7328a7a7a9544808b9af89667044b635685923c9f9e724",
+    "task_text_and_golden_identity": "pass for all records",
+    "gate5_snapshot_hashes": "recomputed for every task from current raw sessions JSONL prefix",
+    "evidence_offsets": "every cited span re-read and exact against current sessions",
+    "gate7": "not applicable",
+    "gate8": "not applicable",
+    "gate9": "1 necessity hash(es) recomputed; zero graph bypass",
+    "forbidden_values": "not applicable",
+    "status": "pass"
+  }
+}

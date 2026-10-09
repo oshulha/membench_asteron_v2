@@ -1,0 +1,239 @@
+{
+  "scope": [
+    "scene_assets_a.json",
+    "scene_assets_tp_a.json"
+  ],
+  "repairs": [
+    {
+      "scene": "SC-D0-01",
+      "issue_removed": "Onboarding read as a schema lecture: user/person layers, routing metadata, retrieval rules, and repeated warnings about undisclosed content.",
+      "span_level_strategy": "Recast the opening as Mara's rushed board-week handoff; embedded identity, schedule, writing, scale, and three document-route facts in calendar and briefing situations; replaced every tagged name span with a conversational but independently legible proposition."
+    },
+    {
+      "scene": "SC-D0-02",
+      "issue_removed": "Incident attributes and people were presented as record bundles followed by abstract identity-resolution instructions.",
+      "span_level_strategy": "Used Mara's practical concern about the two Michaels, incident-table preparation, and maintainer-versus-owner confusion; made the incident and person-name spans explicit without canonical-name cadence."
+    },
+    {
+      "scene": "SC-D0-03",
+      "issue_removed": "People, incidents, system, project, and product facts were followed by repeated ontology-boundary commentary.",
+      "span_level_strategy": "Framed the facts through preparation for the March/May incident calls; separated Michael C., Michael T., Priya, the live incident, migration, system, and Orbit follow-up using ordinary agenda consequences."
+    },
+    {
+      "scene": "SC-D0-04",
+      "issue_removed": "A regular person/project list was narrated as entity and predicate discipline.",
+      "span_level_strategy": "Organized the speech around Helios's simultaneous audit and release pressure, Veridian's contested renewal, and the different reasons Priya, Theo, Nadia, Iris, Elena, and Samir enter meetings."
+    },
+    {
+      "scene": "SC-D0-05",
+      "issue_removed": "CEO, assistant, People, release, insurance, incident-follow-up, and cloud facts sounded like an organizational database recital.",
+      "span_level_strategy": "Used product-centered meeting-pack examples for Orbit, Lattice, and Nimbus; expressed substantive owner versus logistics support through concrete drafting and routing consequences."
+    },
+    {
+      "scene": "SC-D1-01",
+      "issue_removed": "Corrections, aliases, checkpoints, and notes were explained with snapshot and memory-system terminology.",
+      "span_level_strategy": "Turned the scene into Mara reconciling two working pages; contrasted bad original inputs with ordinary action items and showed how a correction sheet, current view, and Friday brief would differ."
+    },
+    {
+      "scene": "SC-D1-02",
+      "issue_removed": "Repeated evidence and decision-note facts triggered generic lectures about storing field-specific state.",
+      "span_level_strategy": "Built a weekly action page around June 8 follow-ups, repaired cloud counts, Wren's distinct dates, review queues, freshness checks, and outward-communication holds."
+    },
+    {
+      "scene": "SC-D2-01",
+      "issue_removed": "True transitions, retraction, clarification, and current actions were presented as temporal-predicate instructions.",
+      "span_level_strategy": "Used a real handoff page with changed accountability, changed dates, withdrawn information, and open actions; contrasted genuine new owners with the previous day's erroneous-owner repairs."
+    },
+    {
+      "scene": "SC-D2-02",
+      "issue_removed": "Parallel owner handoffs and repeated notes were discussed as abstract shared-state and retrieval hazards.",
+      "span_level_strategy": "Made the scene a terse weekly-brief preparation exercise centered on Wren, AWS, GCP, Veridion spelling, review-ready packages, freshness work, commitment holds, and owner follow-up."
+    },
+    {
+      "scene": "SC-TP-1",
+      "issue_removed": "Priya sounded like Mara and repeatedly instructed the listener how a memory system should classify project, system, product, and document facts.",
+      "span_level_strategy": "Rewrote in short technical status blocks: wave movement, completed sign-in tests, Dublin dependency, rollback walk, runbook, checkpoint, Orbit review, and cleanup; kept technical detail first throughout."
+    },
+    {
+      "scene": "SC-TP-2",
+      "issue_removed": "Commercial handoff used long didactic cautions about temporal state and source boundaries.",
+      "span_level_strategy": "Rewrote as Nadia's pragmatic calendar reconciliation: one true date supersession, circulation action, capacity agenda item, owner check, retention term, and contact-source instruction."
+    }
+  ],
+  "validation_intent": {
+    "tag_policy": "Every planned fact tag must occur exactly once in its assigned scene.",
+    "semantic_policy": "Tagged clauses retain subject, predicate meaning, object value, qualifier, and change semantics.",
+    "surface_policy": "Mara is busy, associative, and first-person; Priya is terse and technical; Nadia is terse and commercial.",
+    "length_policy": "D0 and update scenes remain in the requested word bands; third-party scenes remain near their original lengths."
+  },
+  "prose_audit_repairs": [
+    {
+      "scene": "SC-D0-01",
+      "prose_audit_issue": "Unplanned aliases Friday pack, the PeopleHarbor fields, and renewal index.",
+      "audit_message_span": "M0001:4375-4478",
+      "source_asset_sha256_before": "3cfd64ef290f8965dbf5365666f52813149c3b09c71dd5e40dc7ecf4e4ad383c",
+      "source_asset_sha256_after": "7c8c62fc2ee01b47afc5dab26f0688c6b19fb487dc0126641b230fbde1f5edf0",
+      "word_count_before": 1350,
+      "word_count_after": 1346,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "span_level_repairs": [
+        {
+          "removed": "My normal shorthand will be much less formal than this. I may say “Friday pack,” “the PeopleHarbor fields,” or “renewal index” while also asking for a meeting.",
+          "replacement": "My normal requests will be less orderly than this. A meeting question may arrive beside a document question; handle each without repeating the whole handoff."
+        },
+        {
+          "removed": "Later uses of cyber-renewal index / renewal index",
+          "replacement": "Full canonical title Cyber Renewal Submission Index; nearby sentence tightened to retain the word band"
+        }
+      ]
+    },
+    {
+      "scene": "SC-D0-02",
+      "prose_audit_issue": "Michael C. and Michael T. were used before their planned alias disclosures in SC-D0-03.",
+      "audit_message_span": "M0003:3577-3622 plus all canonical-scan occurrences in the same scene",
+      "source_asset_sha256_before": "241ba72c7baaa0c5660cfa0048a72a5c1b59c92a6820b2bd9c46ebb0b9ca23f4",
+      "source_asset_sha256_after": "a74c9e65886164a84d4835649b12f2d306b3912267016069c9cea0d70da0cdfe",
+      "word_count_before": 1298,
+      "word_count_after": 1296,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "span_level_repairs": [
+        {
+          "removed": "use “Michael C.” or “Michael T.” in the draft",
+          "replacement": "use the full surnames in the draft"
+        },
+        {
+          "removed": "Michael C., and Lantern SIEM",
+          "replacement": "Michael Chen, and Lantern SIEM"
+        },
+        {
+          "removed": "Michael T., and Cirrus CSPM",
+          "replacement": "Michael Torres, and Cirrus CSPM"
+        },
+        {
+          "removed": "In February, Michael T. owns",
+          "replacement": "In February, Michael Torres owns"
+        },
+        {
+          "removed": "In January, Michael C. owns",
+          "replacement": "In January, Michael Chen owns"
+        }
+      ]
+    },
+    {
+      "scene": "SC-D0-03",
+      "prose_audit_issue": "Unplanned recurring participation pattern for Elena.",
+      "audit_message_span": "M0005:199-260",
+      "source_asset_sha256_before": "3a6572a747c2f6a08b002fba7c98e4462a8922a9c5a1a033a4b2bb0f2299321a",
+      "source_asset_sha256_after": "5548ffe39b4ca006e9a19fad4166db1cb216f857e4c45d8e323cf74a41cdc9f4",
+      "word_count_before": 1306,
+      "word_count_after": 1310,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "span_level_repairs": [
+        {
+          "removed": "She is often in the room when a security issue needs evidence, but that does not retroactively make her the incident owner.",
+          "replacement": "If a security issue needs evidence, her disclosed remit may explain why someone asks for her input; it still does not make her the incident owner."
+        }
+      ]
+    },
+    {
+      "scene": "SC-D0-04",
+      "prose_audit_issue": "Unplanned recurring participation expectation for Theo.",
+      "audit_message_span": "M0007:874-1003",
+      "source_asset_sha256_before": "1463223d8016bc0e79f45be483a777c2e128e52af16022769b33477377d8787a",
+      "source_asset_sha256_after": "e33a5c7136940f3503e3c8442420dfb401abcd9aa704388cf07e31efeb925573",
+      "word_count_before": 1327,
+      "word_count_after": 1331,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "span_level_repairs": [
+        {
+          "removed": "Theo is usually the person I expect to appear when a supposedly simple security action turns into a device or help-desk question.",
+          "replacement": "If a security action turns into a device or help-desk question, Theo’s disclosed remit may make him relevant; that alone does not assign him the work."
+        }
+      ]
+    }
+  ],
+  "prose_audit_repair_validation": {
+    "audit_verdict_modified": false,
+    "scenes_modified": [
+      "SC-D0-01",
+      "SC-D0-02",
+      "SC-D0-03",
+      "SC-D0-04"
+    ],
+    "other_scenes_modified": false,
+    "status": "pass: JSON parsed; planned tag multisets and marker order matched scene packets; word bands held; no duplicate sentences of eight or more words; banned-language scan passed; cited unplanned assertions were absent; after-hashes recomputed"
+  },
+  "prose_audit_second_round_repairs": [
+    {
+      "scene": "SC-D0-01",
+      "source_asset_sha256_before": "7c8c62fc2ee01b47afc5dab26f0688c6b19fb487dc0126641b230fbde1f5edf0",
+      "source_asset_sha256_after": "862747d6803c50f7ff9bea34aed253f18fd1346da94dc4272999835a7dafd073",
+      "word_count_before": 1429,
+      "word_count_after": 1497,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Replaced the account and two document-route doubled predicates; split document inventory blocks with associative note-reading transitions."
+    },
+    {
+      "scene": "SC-D0-02",
+      "source_asset_sha256_before": "a74c9e65886164a84d4835649b12f2d306b3912267016069c9cea0d70da0cdfe",
+      "source_asset_sha256_after": "8fdf2225a7424cff94cdd18a2469d1153273432aedcf64de0e2b02f84642c3f3",
+      "word_count_before": 1370,
+      "word_count_after": 1415,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Removed the release-calendar shorthand and Jonah participation assertion; rewrote release, January incident, Jonah, and Elena runs with varied paragraph shapes. Canonicalized two remaining prose references to the full Product Release Calendar and Cyber Renewal Submission Index titles."
+    },
+    {
+      "scene": "SC-D0-03",
+      "source_asset_sha256_before": "5548ffe39b4ca006e9a19fad4166db1cb216f857e4c45d8e323cf74a41cdc9f4",
+      "source_asset_sha256_after": "2a6fc1bdd370d1af71e77663c7c16a433644e22daf680d1bb6859fd217b6672a",
+      "word_count_before": 1392,
+      "word_count_after": 1467,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Removed the recurring detection-routing assertion; rewrote March/May incidents, both Michael entries, migration, and Priya transitions."
+    },
+    {
+      "scene": "SC-D0-04",
+      "source_asset_sha256_before": "e33a5c7136940f3503e3c8442420dfb401abcd9aa704388cf07e31efeb925573",
+      "source_asset_sha256_after": "9a8bdc455ee3e3872e7bb230cc04b4b2012e6f88f30c43705c707a66cc6e6cf5",
+      "word_count_before": 1417,
+      "word_count_after": 1516,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Rewrote assurance, IT, procurement, Nadia, release, finance, and weekly-reporting inventories as page-jumping onboarding prose."
+    },
+    {
+      "scene": "SC-D0-05",
+      "source_asset_sha256_before": "874584cc2ae40f5ec762bf84437cbc37cc7bd3d263a8ae377436b721cde78403",
+      "source_asset_sha256_after": "33328e392b8561779c3cc7655c79c84d177c35e2affd2ba4428d4d80e7b56406",
+      "word_count_before": 1427,
+      "word_count_after": 1496,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Removed the Lena collision expectation; rewrote Owen, insurance, Lena, incident follow-up, Samir, cloud, and Bea inventories."
+    }
+  ],
+  "prose_audit_second_round_validation": {
+    "audit_file_modified": false,
+    "scenes_modified": [
+      "SC-D0-01",
+      "SC-D0-02",
+      "SC-D0-03",
+      "SC-D0-04",
+      "SC-D0-05"
+    ],
+    "other_scenes_modified": false,
+    "status": "pass: tagged fact bodies and order are byte-identical; every tag occurs once; D0 word bands held; four audited unplanned assertions absent; targeted inventory runs redistributed"
+  }
+}

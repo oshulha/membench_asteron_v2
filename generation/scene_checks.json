@@ -1,0 +1,1443 @@
+[
+  {
+    "scene_id": "SC-D0-01",
+    "scene_sha256": "5517f0cf015a9623269af9aac5363761dcca67283a936e6ee6338a5299cccd94",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1886,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-02",
+    "scene_sha256": "7c3d4db6aaf2950add36cd89fd94c7496ee950109c19a7f325065df29b2e0dd1",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1788,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-03",
+    "scene_sha256": "e706f96cb05bd0f5586b37684f0fc7228de6b7cd57aea998eae3e17d7058b69f",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1847,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-04",
+    "scene_sha256": "80ef2c9b53ac132e89c6343b9f7215dd29e77ef85f29fd3c64c9a5aa7a61c464",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1907,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-05",
+    "scene_sha256": "9609d4fab3fabecfbbf97edd8f915ce372e855a8e32300babd27acd3c7abaadd",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1891,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-06",
+    "scene_sha256": "0cbfcdc5d792193f75d78899f9760645f14458f8594cbb3e5ebdca698196d99d",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1731,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-07",
+    "scene_sha256": "c3bc2315dec744679003afcc55ed3d4deb84fe4e200adb57870673868adf7786",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1704,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-08",
+    "scene_sha256": "ecca33bc5d2534108566b31bd3983ed8c690d352ee4ab5d475ce70c7c8dd947f",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1696,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-09",
+    "scene_sha256": "568d559b009def7858733d8af5e848e5b2d8b0d882396a4d4c5b162df3fe7a3c",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1672,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-10",
+    "scene_sha256": "c823bd5d83c17a5e3e7ef2177d81f7b965856cd1e6754b2e841c085c8c9db323",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1747,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-11",
+    "scene_sha256": "9d8bd61c61750c9e28e64245e7b7da084863e0e3facec0034a7454108bfc9623",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1766,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-12",
+    "scene_sha256": "13ff39d16c82fb398e5ffe8a47a180df8191f9f64f45139c17d2773bf3c3796e",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1796,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-13",
+    "scene_sha256": "a3e92b6e8df77c684c854494430fc9120fcaac10d1012c2ca193190d6c592738",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1788,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-14",
+    "scene_sha256": "466e69baa953440c797883148fcd32c5cabdd2f802a6e3ba032c18eddcd535f1",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1759,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D0-15",
+    "scene_sha256": "4daeae9b5cce364da26260c3028786811e919e533e75c0a749e7e378ff90323d",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1795,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D1-01",
+    "scene_sha256": "214acd5ab8e2328a056c451a0bb2d3b0611d1cf68ead3e72612cf2fdc5a04960",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0483": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0489": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0501": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0495": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1780,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D1-02",
+    "scene_sha256": "ba80cad2cff2280e0c13ca03bedfc67afb27d114319f5c0f4636db41e4830712",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0519": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0513": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0507": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1799,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D2-01",
+    "scene_sha256": "554ee9ec8b4abd58e31eee11c4758342ba341462cf46534c529d21d67ba296ac",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0502": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0496": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0490": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0484": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1786,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D2-02",
+    "scene_sha256": "197d712fa0eebedd2421dfd0f43281f89792e1f0bebf52563aa3e60bea582347",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0514": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0520": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0508": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1750,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D3-01",
+    "scene_sha256": "3f65a3e979433b2fdfc711cddb01c314953dd9f7705c26830c6e831c233df3f2",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0497": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0485": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0503": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0491": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1667,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D3-02",
+    "scene_sha256": "9cb67ed3eae9234e122804d71071312e4d3a71f966db6b814457ad33d51f5928",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0521": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0515": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0509": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1676,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D4-01",
+    "scene_sha256": "972fcc21f53a2ddf7fb649d32ea769fe0e84896bc0d7df6b1bf02037da8ed93b",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0486": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0504": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0498": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0492": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1671,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D4-02",
+    "scene_sha256": "7c498a63fb334dd127f6ba029aa4625a2b3db2ec31e4043701f0d2f231cf3ea2",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0522": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0516": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0510": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1778,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D5-01",
+    "scene_sha256": "6c989b70d12b4356ad163c208f606403f3f91aff385a580982038bafa99fa0af",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0493": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0499": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0505": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0487": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1530,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D5-02",
+    "scene_sha256": "17e40558f9e358d66cc76b9ccfa29d7a03c3ac81bd53c0c7bd90c4a0e70b5cfd",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0511": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0517": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1528,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D6-01",
+    "scene_sha256": "45ef3497cac87d407955563e0a7863230943d8b4e120ffdba9700d0a63a6bf79",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0518": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0494": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0512": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0500": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0506": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          },
+          "F0488": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1528,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-D6-02",
+    "scene_sha256": "721be9570a413476dd6d24a589fe8589a6cc40a7b339492fa1a689b7463129f1",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1522,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-TP-1",
+    "scene_sha256": "fbe80c89e22d9c0cb197c0c917eef535887c7d805d29ab2705a7ea33dd4a8297",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1314,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-TP-2",
+    "scene_sha256": "0a4cff1e4cc844fc0c17f02efc44b76cc590e9eccdbf42815a2d04da2d64be1d",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {
+          "F0614": {
+            "antecedent_named": true,
+            "new_value_named": true,
+            "kind_clear": true
+          }
+        }
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1298,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-TP-3",
+    "scene_sha256": "a915b9c5727627ecb02bb39356c69434b25cc3a088a7f1a42b2c992b1111b9f4",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1351,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-TP-4",
+    "scene_sha256": "c734cf35d5667a926406860a5d8a5efaf867987fb0724ea0a3aeb3f95ceea558",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1355,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-TP-5",
+    "scene_sha256": "d2c006a45b949662e4815c85cddcf92f2ae7e0523f53e13e7351e2cd6b164919",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1327,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-TP-6",
+    "scene_sha256": "bc4614c3b4bbf045a0640402f39e7205c657f35d8efb55638c639ebcabbac65f",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 1338,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  },
+  {
+    "scene_id": "SC-DEBRIEF",
+    "scene_sha256": "ae587d47d1a208c45c10b88d7f2edf16d8591f72b85056289e86ca9d2bd9fa1e",
+    "checks": {
+      "coverage": {
+        "status": "pass",
+        "missing": [],
+        "unplanned": []
+      },
+      "consistency": {
+        "status": "pass",
+        "span_errors": [],
+        "unknown_business_tokens": []
+      },
+      "correction_clarity": {
+        "status": "pass",
+        "events": {}
+      },
+      "naturalness": {
+        "status": "pass",
+        "approx_tokens": 635,
+        "duplicate_sentences": [],
+        "forbidden_benchmark_labels": [],
+        "critic": "deterministic guards plus frozen LLM review"
+      }
+    },
+    "accepted": true,
+    "repair_history": [
+      {
+        "repair": "targeted replacement of rejected fallback scene with frozen LLM-authored tagged segments",
+        "scope": "scene surface only",
+        "semantic_core_changed": false,
+        "revalidation": "all four gates rerun"
+      }
+    ]
+  }
+]

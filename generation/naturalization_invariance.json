@@ -1,0 +1,4331 @@
+[
+  {
+    "task_id": "T001",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T002",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T003",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T004",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T005",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T006",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T007",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T008",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T009",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T010",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T011",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T012",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T013",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T014",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T015",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T016",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T017",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T018",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T019",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T020",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T021",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T022",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T023",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T024",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T025",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T026",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T027",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T028",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T029",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T030",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T031",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T032",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T033",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T034",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T035",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T036",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T037",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T038",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T039",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T040",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T041",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T042",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T043",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T044",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T045",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T046",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T047",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T048",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T049",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T050",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T051",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T052",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T053",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T054",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T055",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T056",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T057",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T058",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T059",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T060",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T061",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T062",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T063",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T064",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T065",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T066",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T067",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T068",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T069",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T070",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T071",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T072",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T073",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T074",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T075",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T076",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T077",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T078",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T079",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T080",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T081",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T082",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T083",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T084",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T085",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T086",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T087",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T088",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T089",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T090",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T091",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T092",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T093",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T094",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T095",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T096",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T097",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T098",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T099",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T100",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T101",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T102",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T103",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T104",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T105",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T106",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T107",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T108",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T109",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T110",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T111",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T112",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T113",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T114",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T115",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T116",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T117",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T118",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T119",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T120",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T121",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T122",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T123",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T124",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T125",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T126",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T127",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T128",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T129",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T130",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T131",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T132",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T133",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T134",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T135",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T136",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T137",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T138",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T139",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T140",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T141",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T142",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T143",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T144",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T145",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T146",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T147",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T148",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T149",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T150",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T151",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T152",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T153",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T154",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T155",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T156",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T157",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T158",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T159",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T160",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T161",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T162",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T163",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T164",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T165",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T166",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T167",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T168",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T169",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T170",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T171",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T172",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T173",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T174",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T175",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T176",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T177",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T178",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T179",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T180",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T181",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T182",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T183",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T184",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T185",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T186",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T187",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T188",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T189",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T190",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T191",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T192",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T193",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T194",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T195",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T196",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T197",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T198",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T199",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T200",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T201",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T202",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T203",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T204",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T205",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T206",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T207",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T208",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T209",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T210",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T211",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T212",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T213",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T214",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T215",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T216",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T217",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T218",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T219",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T220",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T221",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T222",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T223",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T224",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T225",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T226",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T227",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T228",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T229",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T230",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T231",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T232",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T233",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T234",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T235",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T236",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T237",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T238",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T239",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T240",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T241",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T242",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T243",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T244",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T245",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T246",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T247",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T248",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T249",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T250",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T251",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T252",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T253",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T254",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T255",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T256",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T257",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T258",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T259",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T260",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T261",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T262",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T263",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T264",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T265",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T266",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T267",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T268",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T269",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T270",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T271",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T272",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T273",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T274",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T275",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T276",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T277",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T278",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T279",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T280",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T281",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T282",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T283",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T284",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T285",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T286",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T287",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T288",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T289",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T290",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T291",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T292",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T293",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T294",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T295",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T296",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T297",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T298",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T299",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T300",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T301",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T302",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T303",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T304",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T305",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T306",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T307",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T308",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T309",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T310",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T311",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T312",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T313",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T314",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T315",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T316",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T317",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T318",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T319",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T320",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T321",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T322",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T323",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T324",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T325",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T326",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T327",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T328",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T329",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T330",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T331",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T332",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  },
+  {
+    "task_id": "T333",
+    "status": "pass",
+    "checks": {
+      "anchors": true,
+      "target": true,
+      "temporal": true,
+      "cardinality": true,
+      "ambiguity": true,
+      "authority_confidentiality": true,
+      "support": true
+    }
+  }
+]

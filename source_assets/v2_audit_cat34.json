@@ -1,0 +1,1736 @@
+{
+  "audit_agent": "codex-gpt5-v2-category3-4-independent-auditor",
+  "audit_scope": "Implemented v2 Day-0 additions T270-T301",
+  "methodology": {
+    "transcript_answerability": "Required fact IDs were mapped to accepted spans in sessions M0001-M0030; each cited character slice was checked against serialized message text.",
+    "golden_validation": "Required-memory concept support was compared exactly with the frozen structured binding and connected graph path.",
+    "difficulty": "A directed Day-0 graph excluded canonical-name, alias, administrative-label, and organization-hub bookkeeping edges; breadth-first search had to return the bound path as the unique shortest route.",
+    "gate9": "The first meaningful edge and semantic-equivalent spans were ablated; the altered prefix was canonically hashed and graph reachability rerun."
+  },
+  "overall_status": "pass",
+  "summary": {
+    "tasks_audited": 32,
+    "passed": 32,
+    "failed": 0,
+    "category_3": 16,
+    "category_4": 16,
+    "gate5_outputs_adjudicated": 96,
+    "gate9_necessity_passes": 32,
+    "day0_prefix_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2"
+  },
+  "defects": [],
+  "tasks": [
+    {
+      "task_id": "T270",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Starting from January Token Replay, trace its involved system to the document attached to that system.",
+      "meaningful_path_fact_ids": [
+        "F0411",
+        "F0191"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0411",
+        "F0191"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "doc_detection_catalog",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0411",
+        "C_F0191"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0411",
+          "span_ids": [
+            "M0003:F0411:1782-1818"
+          ]
+        },
+        {
+          "fact_id": "F0191",
+          "span_ids": [
+            "M0017:F0191:993-1036"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T271",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Starting from February Bucket Exposure, trace its involved system to the document attached to that system.",
+      "meaningful_path_fact_ids": [
+        "F0417",
+        "F0203"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0417",
+        "F0203"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "doc_cloud_inventory",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0417",
+        "C_F0203"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0417",
+          "span_ids": [
+            "M0003:F0417:2809-2844"
+          ]
+        },
+        {
+          "fact_id": "F0203",
+          "span_ids": [
+            "M0017:F0203:2129-2177"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T272",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Starting from March Finance Phish, trace its involved system to the document attached to that system.",
+      "meaningful_path_fact_ids": [
+        "F0423",
+        "F0183"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0423",
+        "F0183"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "doc_endpoint_standard",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0423",
+        "C_F0183"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0423",
+          "span_ids": [
+            "M0005:F0423:606-640"
+          ]
+        },
+        {
+          "fact_id": "F0183",
+          "span_ids": [
+            "M0017:F0183:158-210"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T273",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Starting from May Session Anomaly, trace its involved system to the document attached to that system.",
+      "meaningful_path_fact_ids": [
+        "F0429",
+        "F0179"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0429",
+        "F0179"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "doc_identity_runbook",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0429",
+        "C_F0179"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0429",
+          "span_ids": [
+            "M0005:F0429:1700-1742"
+          ]
+        },
+        {
+          "fact_id": "F0179",
+          "span_ids": [
+            "M0015:F0179:3321-3372"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T274",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Starting from Northstar Identity Services, trace its referenced document and identify that document's maintainer.",
+      "meaningful_path_fact_ids": [
+        "F0222",
+        "F0336"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0222",
+        "F0336"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "person_priya_nair",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0222",
+        "C_F0336"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0222",
+          "span_ids": [
+            "M0019:F0222:729-780"
+          ]
+        },
+        {
+          "fact_id": "F0336",
+          "span_ids": [
+            "M0025:F0336:2296-2347"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T275",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Starting from Northshore Access, trace its referenced document and identify that document's maintainer.",
+      "meaningful_path_fact_ids": [
+        "F0229",
+        "F0322"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0229",
+        "F0322"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "person_nadia_sorel",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0229",
+        "C_F0322"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0229",
+          "span_ids": [
+            "M0019:F0229:1270-1311"
+          ]
+        },
+        {
+          "fact_id": "F0322",
+          "span_ids": [
+            "M0025:F0322:969-1007"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T276",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Starting from Veridion Networks, trace its referenced document and identify that document's maintainer.",
+      "meaningful_path_fact_ids": [
+        "F0243",
+        "F0322"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0243",
+        "F0322"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "person_nadia_sorel",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0243",
+        "C_F0322"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0243",
+          "span_ids": [
+            "M0019:F0243:2208-2232"
+          ]
+        },
+        {
+          "fact_id": "F0322",
+          "span_ids": [
+            "M0025:F0322:969-1007"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T277",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Starting from Nightjar Response, trace its referenced document and identify that document's maintainer.",
+      "meaningful_path_fact_ids": [
+        "F0257",
+        "F0357"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0257",
+        "F0357"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "person_jonah_reed",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0257",
+        "C_F0357"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0257",
+          "span_ids": [
+            "M0021:F0257:1088-1160"
+          ]
+        },
+        {
+          "fact_id": "F0357",
+          "span_ids": [
+            "M0027:F0357:2943-2995"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T278",
+      "category": 3,
+      "status": "pass",
+      "task_text": "For Helios Ledger, identify its release owner and give me that person's email.",
+      "meaningful_path_fact_ids": [
+        "F0139",
+        "F0076"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0139",
+        "F0076"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "samir.quill@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0139",
+        "C_F0076"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0139",
+          "span_ids": [
+            "M0013:F0139:2487-2520"
+          ]
+        },
+        {
+          "fact_id": "F0076",
+          "span_ids": [
+            "M0009:F0076:2187-2228"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T279",
+      "category": 3,
+      "status": "pass",
+      "task_text": "For Orbit Desk, identify its release owner and give me that person's email.",
+      "meaningful_path_fact_ids": [
+        "F0157",
+        "F0046"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0157",
+        "F0046"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "priya.nair@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0157",
+        "C_F0046"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0157",
+          "span_ids": [
+            "M0015:F0157:1006-1038"
+          ]
+        },
+        {
+          "fact_id": "F0046",
+          "span_ids": [
+            "M0007:F0046:71-111"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T280",
+      "category": 3,
+      "status": "pass",
+      "task_text": "For Lattice Vault, identify its release owner and give me that person's email.",
+      "meaningful_path_fact_ids": [
+        "F0166",
+        "F0041"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0166",
+        "F0041"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "michael.torres@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0166",
+        "C_F0041"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0166",
+          "span_ids": [
+            "M0015:F0166:1909-1945"
+          ]
+        },
+        {
+          "fact_id": "F0041",
+          "span_ids": [
+            "M0005:F0041:2097-2141"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T281",
+      "category": 3,
+      "status": "pass",
+      "task_text": "What is Nimbus Relay's release owner's email?",
+      "meaningful_path_fact_ids": [
+        "F0175",
+        "F0036"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0175",
+        "F0036"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "michael.chen@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0175",
+        "C_F0036"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0175",
+          "span_ids": [
+            "M0015:F0175:2749-2783"
+          ]
+        },
+        {
+          "fact_id": "F0036",
+          "span_ids": [
+            "M0005:F0036:1215-1257"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T282",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Who owns Northstar Identity Migration, and what is that owner's remit?",
+      "meaningful_path_fact_ids": [
+        "F0432",
+        "F0047"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0432",
+        "F0047"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "identity migration and access operations",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0432",
+        "C_F0047"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0432",
+          "span_ids": [
+            "M0005:F0432:2493-2538"
+          ]
+        },
+        {
+          "fact_id": "F0047",
+          "span_ids": [
+            "M0007:F0047:112-170"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T283",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Who owns 2026 SOC 2 Type II Readiness, and what is that owner's email?",
+      "meaningful_path_fact_ids": [
+        "F0436",
+        "F0031"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0436",
+        "F0031"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "elena.park@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0436",
+        "C_F0031"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0436",
+          "span_ids": [
+            "M0007:F0436:476-521"
+          ]
+        },
+        {
+          "fact_id": "F0031",
+          "span_ids": [
+            "M0005:F0031:98-138"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T284",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Who owns Veridian Renewal Review, and what is that owner's remit?",
+      "meaningful_path_fact_ids": [
+        "F0440",
+        "F0057"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0440",
+        "F0057"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "vendor contracts, renewals, commercial status",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0440",
+        "C_F0057"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0440",
+          "span_ids": [
+            "M0007:F0440:1311-1352"
+          ]
+        },
+        {
+          "fact_id": "F0057",
+          "span_ids": [
+            "M0007:F0057:1795-1862"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T285",
+      "category": 3,
+      "status": "pass",
+      "task_text": "Who owns Weekly Executive Risk Brief, and what role does that owner hold?",
+      "meaningful_path_fact_ids": [
+        "F0448",
+        "F0030"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0448",
+        "F0030"
+      ],
+      "computed_shortest_hop_count": 2,
+      "terminal_answer": "GRC Lead",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0448",
+        "C_F0030"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0448",
+          "span_ids": [
+            "M0007:F0448:3209-3253"
+          ]
+        },
+        {
+          "fact_id": "F0030",
+          "span_ids": [
+            "M0005:F0030:70-97"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 2 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T286",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from January Token Replay, trace the involved system to its documentation, then give me that document's location.",
+      "meaningful_path_fact_ids": [
+        "F0411",
+        "F0191",
+        "F0359"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0411",
+        "F0191",
+        "F0359"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "lantern://detections/catalog",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0411",
+        "C_F0191",
+        "C_F0359"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0411",
+          "span_ids": [
+            "M0003:F0411:1782-1818"
+          ]
+        },
+        {
+          "fact_id": "F0191",
+          "span_ids": [
+            "M0017:F0191:993-1036"
+          ]
+        },
+        {
+          "fact_id": "F0359",
+          "span_ids": [
+            "M0027:F0359:3166-3227"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T287",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from February Bucket Exposure, trace the involved system to its documentation, then give me that document's location.",
+      "meaningful_path_fact_ids": [
+        "F0417",
+        "F0203",
+        "F0325"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0417",
+        "F0203",
+        "F0325"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "cirrus://estate",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0417",
+        "C_F0203",
+        "C_F0325"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0417",
+          "span_ids": [
+            "M0003:F0417:2809-2844"
+          ]
+        },
+        {
+          "fact_id": "F0203",
+          "span_ids": [
+            "M0017:F0203:2129-2177"
+          ]
+        },
+        {
+          "fact_id": "F0325",
+          "span_ids": [
+            "M0025:F0325:1268-1321"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T288",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from March Finance Phish, trace the involved system to its documentation, then give me that document's location.",
+      "meaningful_path_fact_ids": [
+        "F0423",
+        "F0183",
+        "F0365"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0423",
+        "F0183",
+        "F0365"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "concord://it/endpoint-baseline",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0423",
+        "C_F0183",
+        "C_F0365"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0423",
+          "span_ids": [
+            "M0005:F0423:606-640"
+          ]
+        },
+        {
+          "fact_id": "F0183",
+          "span_ids": [
+            "M0017:F0183:158-210"
+          ]
+        },
+        {
+          "fact_id": "F0365",
+          "span_ids": [
+            "M0029:F0365:347-419"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T289",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from May Session Anomaly, trace the involved system to its documentation, then give me that document's location.",
+      "meaningful_path_fact_ids": [
+        "F0429",
+        "F0179",
+        "F0332"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0429",
+        "F0179",
+        "F0332"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "concord://security/id-migration-v3",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0429",
+        "C_F0179",
+        "C_F0332"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0429",
+          "span_ids": [
+            "M0005:F0429:1700-1742"
+          ]
+        },
+        {
+          "fact_id": "F0179",
+          "span_ids": [
+            "M0015:F0179:3321-3372"
+          ]
+        },
+        {
+          "fact_id": "F0332",
+          "span_ids": [
+            "M0025:F0332:1904-1983"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T290",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from Northstar Identity Services, trace its referenced document to its maintainer and give me the maintainer's email.",
+      "meaningful_path_fact_ids": [
+        "F0222",
+        "F0336",
+        "F0046"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0222",
+        "F0336",
+        "F0046"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "priya.nair@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0222",
+        "C_F0336",
+        "C_F0046"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0222",
+          "span_ids": [
+            "M0019:F0222:729-780"
+          ]
+        },
+        {
+          "fact_id": "F0336",
+          "span_ids": [
+            "M0025:F0336:2296-2347"
+          ]
+        },
+        {
+          "fact_id": "F0046",
+          "span_ids": [
+            "M0007:F0046:71-111"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T291",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from Northshore Access, trace its referenced document to its maintainer and give me the maintainer's email.",
+      "meaningful_path_fact_ids": [
+        "F0229",
+        "F0322",
+        "F0056"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0229",
+        "F0322",
+        "F0056"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "nadia.sorel@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0229",
+        "C_F0322",
+        "C_F0056"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0229",
+          "span_ids": [
+            "M0019:F0229:1270-1311"
+          ]
+        },
+        {
+          "fact_id": "F0322",
+          "span_ids": [
+            "M0025:F0322:969-1007"
+          ]
+        },
+        {
+          "fact_id": "F0056",
+          "span_ids": [
+            "M0007:F0056:1753-1794"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T292",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from Veridion Networks, trace its referenced document to its maintainer and give me the maintainer's remit.",
+      "meaningful_path_fact_ids": [
+        "F0243",
+        "F0322",
+        "F0057"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0243",
+        "F0322",
+        "F0057"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "vendor contracts, renewals, commercial status",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0243",
+        "C_F0322",
+        "C_F0057"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0243",
+          "span_ids": [
+            "M0019:F0243:2208-2232"
+          ]
+        },
+        {
+          "fact_id": "F0322",
+          "span_ids": [
+            "M0025:F0322:969-1007"
+          ]
+        },
+        {
+          "fact_id": "F0057",
+          "span_ids": [
+            "M0007:F0057:1795-1862"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T293",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from Nightjar Response, trace its referenced document to its maintainer and give me the maintainer's email.",
+      "meaningful_path_fact_ids": [
+        "F0257",
+        "F0357",
+        "F0026"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0257",
+        "F0357",
+        "F0026"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "jonah.reed@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0257",
+        "C_F0357",
+        "C_F0026"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0257",
+          "span_ids": [
+            "M0021:F0257:1088-1160"
+          ]
+        },
+        {
+          "fact_id": "F0357",
+          "span_ids": [
+            "M0027:F0357:2943-2995"
+          ]
+        },
+        {
+          "fact_id": "F0026",
+          "span_ids": [
+            "M0003:F0026:2409-2449"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T294",
+      "category": 4,
+      "status": "pass",
+      "task_text": "For Helios Ledger, trace its security system to that system's documentation and give me the document's location.",
+      "meaningful_path_fact_ids": [
+        "F0138",
+        "F0183",
+        "F0365"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0138",
+        "F0183",
+        "F0365"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "concord://it/endpoint-baseline",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0138",
+        "C_F0183",
+        "C_F0365"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0138",
+          "span_ids": [
+            "M0013:F0138:2405-2458"
+          ]
+        },
+        {
+          "fact_id": "F0183",
+          "span_ids": [
+            "M0017:F0183:158-210"
+          ]
+        },
+        {
+          "fact_id": "F0365",
+          "span_ids": [
+            "M0029:F0365:347-419"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T295",
+      "category": 4,
+      "status": "pass",
+      "task_text": "For Quarry Flow, trace its security system to that system's documentation and give me the document's location.",
+      "meaningful_path_fact_ids": [
+        "F0147",
+        "F0191",
+        "F0359"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0147",
+        "F0191",
+        "F0359"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "lantern://detections/catalog",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0147",
+        "C_F0191",
+        "C_F0359"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0147",
+          "span_ids": [
+            "M0013:F0147:3439-3492"
+          ]
+        },
+        {
+          "fact_id": "F0191",
+          "span_ids": [
+            "M0017:F0191:993-1036"
+          ]
+        },
+        {
+          "fact_id": "F0359",
+          "span_ids": [
+            "M0027:F0359:3166-3227"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T296",
+      "category": 4,
+      "status": "pass",
+      "task_text": "For Orbit Desk, trace its security system to that system's documentation and give me the document's location.",
+      "meaningful_path_fact_ids": [
+        "F0156",
+        "F0179",
+        "F0332"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0156",
+        "F0179",
+        "F0332"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "concord://security/id-migration-v3",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0156",
+        "C_F0179",
+        "C_F0332"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0156",
+          "span_ids": [
+            "M0015:F0156:919-977"
+          ]
+        },
+        {
+          "fact_id": "F0179",
+          "span_ids": [
+            "M0015:F0179:3321-3372"
+          ]
+        },
+        {
+          "fact_id": "F0332",
+          "span_ids": [
+            "M0025:F0332:1904-1983"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T297",
+      "category": 4,
+      "status": "pass",
+      "task_text": "What is the location of the security-system document linked from Lattice Vault?",
+      "meaningful_path_fact_ids": [
+        "F0165",
+        "F0203",
+        "F0325"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0165",
+        "F0203",
+        "F0325"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "cirrus://estate",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0165",
+        "C_F0203",
+        "C_F0325"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0165",
+          "span_ids": [
+            "M0015:F0165:1842-1896"
+          ]
+        },
+        {
+          "fact_id": "F0203",
+          "span_ids": [
+            "M0017:F0203:2129-2177"
+          ]
+        },
+        {
+          "fact_id": "F0325",
+          "span_ids": [
+            "M0025:F0325:1268-1321"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T298",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from 2026 SOC 2 Type II Readiness, identify its affected product, that product's release owner, and the release owner's email.",
+      "meaningful_path_fact_ids": [
+        "F0437",
+        "F0139",
+        "F0076"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0437",
+        "F0139",
+        "F0076"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "samir.quill@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0437",
+        "C_F0139",
+        "C_F0076"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0437",
+          "span_ids": [
+            "M0007:F0437:522-547"
+          ]
+        },
+        {
+          "fact_id": "F0139",
+          "span_ids": [
+            "M0013:F0139:2487-2520"
+          ]
+        },
+        {
+          "fact_id": "F0076",
+          "span_ids": [
+            "M0009:F0076:2187-2228"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T299",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from Veridian Renewal Review, identify its affected product, that product's release owner, and the release owner's remit.",
+      "meaningful_path_fact_ids": [
+        "F0441",
+        "F0148",
+        "F0077"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0441",
+        "F0148",
+        "F0077"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "product release calendar",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0441",
+        "C_F0148",
+        "C_F0077"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0441",
+          "span_ids": [
+            "M0007:F0441:1353-1376"
+          ]
+        },
+        {
+          "fact_id": "F0148",
+          "span_ids": [
+            "M0013:F0148:3514-3562"
+          ]
+        },
+        {
+          "fact_id": "F0077",
+          "span_ids": [
+            "M0009:F0077:2229-2275"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T300",
+      "category": 4,
+      "status": "pass",
+      "task_text": "Starting from Weekly Executive Risk Brief, identify its affected product, that product's release owner, and the release owner's email.",
+      "meaningful_path_fact_ids": [
+        "F0449",
+        "F0175",
+        "F0036"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0449",
+        "F0175",
+        "F0036"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "michael.chen@asteron.example",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0449",
+        "C_F0175",
+        "C_F0036"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0449",
+          "span_ids": [
+            "M0009:F0449:14-63"
+          ]
+        },
+        {
+          "fact_id": "F0175",
+          "span_ids": [
+            "M0015:F0175:2749-2783"
+          ]
+        },
+        {
+          "fact_id": "F0036",
+          "span_ids": [
+            "M0005:F0036:1215-1257"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    },
+    {
+      "task_id": "T301",
+      "category": 4,
+      "status": "pass",
+      "task_text": "What is the remit of the release owner for the product affected by 2026 Cyber Insurance Renewal?",
+      "meaningful_path_fact_ids": [
+        "F0453",
+        "F0166",
+        "F0042"
+      ],
+      "computed_shortest_path_fact_ids": [
+        "F0453",
+        "F0166",
+        "F0042"
+      ],
+      "computed_shortest_hop_count": 3,
+      "terminal_answer": "cloud posture, cloud containers, CSPM",
+      "answer_cardinality": 1,
+      "golden_concept_ids": [
+        "C_F0453",
+        "C_F0166",
+        "C_F0042"
+      ],
+      "day0_evidence": [
+        {
+          "fact_id": "F0453",
+          "span_ids": [
+            "M0009:F0453:891-916"
+          ]
+        },
+        {
+          "fact_id": "F0166",
+          "span_ids": [
+            "M0015:F0166:1909-1945"
+          ]
+        },
+        {
+          "fact_id": "F0042",
+          "span_ids": [
+            "M0005:F0042:2142-2196"
+          ]
+        }
+      ],
+      "checks": {
+        "snapshot_is_after_day_0": true,
+        "all_required_facts_have_accepted_day0_spans": true,
+        "no_hidden_later_fact_required": true,
+        "golden_matches_binding_and_is_complete": true,
+        "path_is_connected": true,
+        "category_hop_count_exact": true,
+        "shortest_path_equals_bound_path": true,
+        "no_bookkeeping_or_universal_hub": true,
+        "single_terminal_answer_cardinality": true,
+        "wording_is_natural_and_bounded": true
+      },
+      "difficulty_sanity": "The task names the starting entity and relation sequence but not the intermediate value(s); the unique shortest meaningful route is exactly 3 hops, with no shorter same-answer route.",
+      "defects": []
+    }
+  ]
+}

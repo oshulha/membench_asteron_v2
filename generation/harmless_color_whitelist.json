@@ -1,0 +1,141 @@
+{
+  "frozen_categories": [
+    "presentation texture",
+    "nonbinding hypothetical example",
+    "working-page or calendar-note framing",
+    "rhetorical transition",
+    "emotion or pacing that does not establish a stable business proposition"
+  ],
+  "by_scene": {
+    "SC-D0-01": [
+      "breathless-pass framing",
+      "board-week and adjacent school-calendar texture"
+    ],
+    "SC-D0-02": [
+      "half-missing-attachments example",
+      "pencil-on-calendar presentation detail"
+    ],
+    "SC-D0-03": [
+      "evidence-request examples",
+      "speaker's thread-picking transitions"
+    ],
+    "SC-D0-04": [
+      "full-profile ordering",
+      "working-page transitions"
+    ],
+    "SC-D0-05": [
+      "collision-versus-preference meeting example",
+      "product-relationship caveat"
+    ],
+    "SC-D0-06": [
+      "half-finished calendar-note framing",
+      "odd-hour screenshot illustration"
+    ],
+    "SC-D0-07": [
+      "losing-the-thread framing",
+      "several Aegis notes illustration"
+    ],
+    "SC-D0-08": [
+      "three open histories framing",
+      "release-channel interruption texture"
+    ],
+    "SC-D0-09": [
+      "preparation-page transition",
+      "missing-or-late-device illustration"
+    ],
+    "SC-D0-10": [
+      "loose-end transition",
+      "supplier-page transition"
+    ],
+    "SC-D0-11": [
+      "ten-minutes-before-call framing",
+      "handwriting texture"
+    ],
+    "SC-D0-12": [
+      "vendor-scrap and page-switch framing",
+      "page-only caveat"
+    ],
+    "SC-D0-13": [
+      "missing line in the margin",
+      "estimate-versus-aggregate caveat"
+    ],
+    "SC-D0-14": [
+      "finish-before-next-links transition",
+      "narrower/broader rhetorical contrast"
+    ],
+    "SC-D0-15": [
+      "written-route contrast",
+      "continuation framing"
+    ],
+    "SC-D1-01": [
+      "two-working-pages framing",
+      "non-presentation ordering"
+    ],
+    "SC-D1-02": [
+      "second reconciliation-page framing",
+      "mixture-of-notes transition"
+    ],
+    "SC-D2-01": [
+      "past-versus-current explanation",
+      "page-order transition"
+    ],
+    "SC-D2-02": [
+      "second-page framing",
+      "valid-handoff reminder"
+    ],
+    "SC-D3-01": [
+      "just-out-of-review framing",
+      "nonsensible page order"
+    ],
+    "SC-D3-02": [
+      "three neat differences observation",
+      "clarifying emphasis"
+    ],
+    "SC-D4-01": [
+      "today-versus-yesterday contrast",
+      "historical reconstruction explanation"
+    ],
+    "SC-D4-02": [
+      "rest-of-page framing",
+      "same-rule reminder"
+    ],
+    "SC-D5-01": [
+      "Friday pile-up framing",
+      "dictation-order texture"
+    ],
+    "SC-D5-02": [
+      "second-page framing",
+      "same-kind-of-follow-up comparison"
+    ],
+    "SC-D6-01": [
+      "Saturday-update framing",
+      "page-arrival order"
+    ],
+    "SC-D6-02": [
+      "day-to-day-language framing",
+      "nothing-new reminder"
+    ],
+    "SC-TP-1": [
+      "colleague message framing"
+    ],
+    "SC-TP-2": [
+      "colleague working-context framing"
+    ],
+    "SC-TP-3": [
+      "vendor-side message framing"
+    ],
+    "SC-TP-4": [
+      "follow-up message framing"
+    ],
+    "SC-TP-5": [
+      "document-status message framing"
+    ],
+    "SC-TP-6": [
+      "narrow-question message framing"
+    ],
+    "SC-DEBRIEF": [
+      "two-quick-resolutions framing",
+      "no-long-recap preference for this exchange"
+    ]
+  }
+}

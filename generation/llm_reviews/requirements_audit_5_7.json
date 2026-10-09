@@ -1,0 +1,2757 @@
+{
+  "audit_type": "exact_row_by_row_requirements_audit_sections_5_7",
+  "as_of": "2026-07-12",
+  "scope": {
+    "sections": [
+      5,
+      6,
+      7
+    ],
+    "requirements": 236,
+    "sampled": false,
+    "generic_requirements_evidence_used": false,
+    "current_prose_audit": "pass",
+    "current_task_semantic_audit": "pass",
+    "checkpoint_files_inspected": 11,
+    "structured_blueprints_inspected": 333,
+    "pre_render_scene_packets_inspected": 34
+  },
+  "method": "Reparsed and re-audited all 236 exact section 5–7 rows. Independently recomputed all 236 progressive active-world extensions and graph hashes; re-evaluated path/hop, temporal, ambiguity, authority, and patch checks; compared blueprint semantics with final tasks/goldens; validated exact pre-render placements/ordinals and 34 writer packets; inspected actual persistence, resume, render-consumption, late-naturalization, weekend, prose/task-audit, quota, budget, and snapshot behavior. No checkpoint boolean was accepted without matching code or recomputation.",
+  "input_sha256": {
+    "membench_requirements_list.md": "873caa6ba3bdc88cfb6f4a923fb3a3c083caf8f1571b72fd3683832064a4f790",
+    "build_benchmark.py": "4103d998c8d0370370b6b23948d9451e3f5b6cb942446a1c9a9b4ab9f67ee934",
+    "source_assets/structured_task_blueprints.json": "2ffb55e5e1e4c56bb60ddb17f5816d3fa22ad427190231f4cffc3a67c543685b",
+    "tasks/tasks.jsonl": "11bd21e94a0bf59fe4e26c807c1499cfeed891910de81f96f1010a310933142b",
+    "tasks/golden_records.jsonl": "871705d274c97757394ee36888137a820e0f35b102996a38b2cf4f73e51c53e7",
+    "world/facts.jsonl": "593f0ceda5ff1c73c80f69602b92e8983a17d883c06c98dfc48011e5e4cdd9b5",
+    "world/entity_sheets.json": "11087adc21284068311da5db083b836bb12078cdcde78fe28632a37cae43f0f7",
+    "conversations/sessions.jsonl": "7a13d5c446ba6f3a3e7d5af5f8abe4825f40a8fd810ce19e27ff61942a1f355f",
+    "conversations/span_map.jsonl": "ab4b6d5d15a27b558d7328a7a7a9544808b9af89667044b635685923c9f9e724",
+    "generation/stage_manifest.json": "2043fe5e493feca25a31d327d9036e7bf8c1f81ae8141cd3217d6700fa500884",
+    "generation/pre_render_disclosure_plan.json": "05425aa7a1672a889e5ceb2a6148ceeaac0d8e1db44b77ff4d80b4429fa3fd26",
+    "generation/disclosure_plan.json": "b9632ac379b912d84c06365111918e4a295248fa980e27f1a46c7b43ce412386",
+    "generation/scene_packets.json": "be7c91906d73f9f398859bb265e97726531f0f65d6244ceb0181bf4e259b59f8",
+    "generation/build_stats.json": "f3d1042cf41eabfeac09b9bfa5d53e0199eabb997d8a2428f3c3b2d5fbef4ee1",
+    "source_assets/prose_audit.json": "d22a04fc83a23f9489114ac4442f0b8a7f8902757068885dabfd84c419ec98cf",
+    "source_assets/task_semantic_audit.json": "0b048abb0236e2da3fe18b0df8ab1ae5608ca86b3dee3b6313c4a3eaf3193b7d",
+    "generation/checkpoints/stage0_schemas.json": "a331e8dbd26c3337fb9e142c5d977c3ba4a714efc32119fc32af642b9925b3a3",
+    "generation/checkpoints/stage1_kernel.json": "ff7126d9f64fa3f37b8b657e1c59bdc79667890496281fb227afd414bc2d69d6",
+    "generation/checkpoints/stage2_cogrowth.json": "701ca74021256c878e52d3f1bf9c93d25ea64bb728ba5f91d428df78e2c3532b",
+    "generation/checkpoints/stage2_structured_tasks.json": "db0b7df2172fbf0faf336e09dead4f348152bb527919517f9958b20c2505f2ff",
+    "generation/checkpoints/stage3_core_freeze.json": "3797e695bd20f607ab1ae2014686ee2c9eb1734816ecb114b9845526b809e35b",
+    "generation/checkpoints/stage4_distractors.json": "8d0ecd14de9aabbd82289eb72986decfb9623ba64b1d2f783fac3ed7cfe7d7cf",
+    "generation/checkpoints/stage5_long_tail.json": "7d34cb3cda53da873ad78a61bb9ce4b5bd006af4d5faebcf90127865188dab40",
+    "generation/checkpoints/stage6_pre_render_disclosure_plan.json": "8ce96f7775e0778d14a326a0b2e1c4f524dbf03f07c864cecd488dd3af806161",
+    "generation/checkpoints/stage7_rendering.json": "5b2fcfa1ea56cc96eded357e9edd20515982bef0ff027d13b218067aa8ed183b",
+    "generation/checkpoints/stage8_third_party.json": "fafeb0be734a4056974c35acfd520c62f650fb46ad21659d5a2a29dd10e97f9d",
+    "generation/checkpoints/stage9_naturalization.json": "aa48ee4beb2b11698e3d5b36962f59e518e3258323a07c8ca970a86110efc175",
+    "source_assets/v2_audit_cat12.json": "5324637250b68b0baaa10be9fbb4f31a474807256e3c0be20b6c3e9151c20928",
+    "source_assets/v2_audit_cat34.json": "b0d23beb215345fac6f10cb4fe0a18f7473df8e9a23742c2c5c4478bab70c10f",
+    "source_assets/v2_audit_cat56.json": "4c24460c1b180c7769cb8b24d2af2117959062630855b2b953349dc8a77054ff"
+  },
+  "current_metrics": {
+    "facts": 664,
+    "spans": 687,
+    "scenes": 34,
+    "prose_scenes_passed": 34,
+    "tasks": 333,
+    "task_semantic_pairs_passed": 333,
+    "categories": {
+      "1": 37,
+      "2": 39,
+      "3": 39,
+      "4": 39,
+      "5": 39,
+      "6": 39,
+      "7": 23,
+      "8": 23,
+      "9": 23,
+      "10": 32
+    },
+    "dimensions": {
+      "document_pointer_routing": 22,
+      "ambiguity_reference": 39,
+      "multi_anchor_composition": 40,
+      "set_completeness": 72,
+      "positive_instruction_surfacing": 58
+    },
+    "actionable": {
+      "count": 234,
+      "ratio": 0.7027027027027027
+    },
+    "distractor_ratio": 0.3704819277108434,
+    "snapshots": {
+      "after_day_0": 120,
+      "after_day_1": 23,
+      "after_day_2": 22,
+      "after_day_3": 22,
+      "after_day_4": 22,
+      "after_day_5": 22,
+      "after_day_6": 74,
+      "after_debrief": 17,
+      "after_third_party": 11
+    },
+    "budgets": {
+      "1500": 311,
+      "2500": 22
+    },
+    "token_stats": {
+      "user_agent_tokens_by_day": {
+        "0": 26839,
+        "1": 3586,
+        "2": 3546,
+        "3": 3357,
+        "4": 3462,
+        "5": 3071,
+        "6": 3064
+      },
+      "third_party_tokens": 8023,
+      "debrief_tokens": 638,
+      "total_user_agent_tokens": 46925
+    },
+    "kernel_checkpoint": {
+      "people": 10,
+      "offices": 3,
+      "products": 5,
+      "systems": 10,
+      "vendors": 8,
+      "documents": 10,
+      "active_facts": 338,
+      "periphery_present": false
+    },
+    "cogrowth_iterations": 333,
+    "pre_render_plan_rows": 664,
+    "pre_render_scene_packets": 34,
+    "structured_blueprints": 333,
+    "v2_day0_additions_audited": 97
+  },
+  "overall_status": "pass",
+  "summary": {
+    "requirements_audited": 236,
+    "passed": 236,
+    "failed": 0,
+    "failed_ids": [],
+    "by_section": {
+      "5": {
+        "audited": 140,
+        "passed": 140,
+        "failed": 0,
+        "failed_ids": []
+      },
+      "6": {
+        "audited": 70,
+        "passed": 70,
+        "failed": 0,
+        "failed_ids": []
+      },
+      "7": {
+        "audited": 26,
+        "passed": 26,
+        "failed": 0,
+        "failed_ids": []
+      }
+    }
+  },
+  "requirements": [
+    {
+      "requirement_id": "REQ-5.01",
+      "section": 5,
+      "title": "Program-owned semantics",
+      "statement": "Use deterministic programmatic processing for IDs, date arithmetic, graph operations, template binding, authority resolution, and coverage accounting.",
+      "status": "pass",
+      "evidence": [
+        "generation/stage_manifest.json assigns IDs, dates, authority, graphs, bindings, and quotas to programs; build_benchmark.py defines FactFactory, flatten_world(), compile_graph(), make_tasks(), and validate_all()."
+      ],
+      "notes": "Deterministic semantic ownership is explicit and executable."
+    },
+    {
+      "requirement_id": "REQ-5.02",
+      "section": 5,
+      "title": "LLM-owned surface form",
+      "statement": "Use structured-output LLM generation for entity-sheet expansion, prose rendering, semantic extraction, naturalization, oracle answers, and judging.",
+      "status": "pass",
+      "evidence": [
+        "generation/stage_manifest.json assigns surface templates/scenes, semantic review, oracle renderings, and judge review to LLM roles; 34 frozen scene assets, 10 oracle source files, prose_audit.json, task_semantic_audit.json, and judge_audit.json are present."
+      ],
+      "notes": "No provider key is deferred; the authored assets ship."
+    },
+    {
+      "requirement_id": "REQ-5.03",
+      "section": 5,
+      "title": "No semantic delegation to prose",
+      "statement": "Do not allow an LLM prose-rendering step to introduce or revise canonical business semantics.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json: 687/687 planned exposures expressed, 0 unplanned business facts; task_semantic_audit.json: 236/236 binding/golden pairs pass; scene tags resolve only existing F-IDs."
+      ],
+      "notes": "Prose is surface-only and audited against canonical semantics."
+    },
+    {
+      "requirement_id": "REQ-5.04",
+      "section": 5,
+      "title": "Model-role strength",
+      "statement": "Use sufficiently capable model or subagent roles for oracle and judge work; less capable roles may be used for rendering and extraction where validation remains effective.",
+      "status": "pass",
+      "evidence": [
+        "validation/oracle_results.jsonl contains strong-subagent oracle traces for all 236 tasks; source_assets/judge_audit.json independently audits 21/21 calibration foils; rendering uses separate frozen scene assets with four-gate validation."
+      ],
+      "notes": "Strong roles are used where semantic judgment is required."
+    },
+    {
+      "requirement_id": "REQ-5.05",
+      "section": 5,
+      "title": "Persistent generation state",
+      "statement": "Persist all benchmark-generation state in files rather than relying on the implementing agent’s context window.",
+      "status": "pass",
+      "evidence": [
+        "Stage0–stage6 checkpoints and the 664-row pre-render plan are dumped to generation/checkpoints and generation/pre_render_disclosure_plan.json before render_conversations() executes; later stage7–stage9 checkpoints also ship."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.06",
+      "section": 5,
+      "title": "Restartability",
+      "statement": "Ensure each generation stage can recover the frozen state needed from persistent artifacts rather than conversational memory.",
+      "status": "pass",
+      "evidence": [
+        "build() reads a prior stage3_core_freeze.json before deleting generated directories when MEMBENCH_RESUME_FROM_CHECKPOINTS=1, rebuilds, and rejects a binding/fact mismatch; all stage checkpoints persist the required frozen state."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.07",
+      "section": 5,
+      "title": "Stage ordering",
+      "statement": "Execute stages in the specified semantic order, while allowing repair loops that do not violate frozen-stage boundaries.",
+      "status": "pass",
+      "evidence": [
+        "Executable order is now blueprints → pre-render disclosure/scene packets/checkpoints and dumps → packet-consuming render/scene acceptance → final make_tasks naturalization → blueprint invariance/downstream validation."
+      ],
+      "notes": "Prior residual concretely repaired and independently recomputed/inspected on the final stable executable snapshot."
+    },
+    {
+      "requirement_id": "REQ-5.08",
+      "section": 5,
+      "title": "Entity schema freeze",
+      "statement": "Freeze the entity-sheet schema before task-bearing authoring begins.",
+      "status": "pass",
+      "evidence": [
+        "schemas/entity_sheets.schema.json is a frozen self-contained schema; generation/stage_manifest.json places `schemas` first and validation_report.json records `schema_validation: pass`."
+      ],
+      "notes": "The schema definition is static in schema_bundle() and the emitted artifact is validated."
+    },
+    {
+      "requirement_id": "REQ-5.09",
+      "section": 5,
+      "title": "Fact schema freeze",
+      "statement": "Freeze the canonical fact schema before task-bearing authoring begins.",
+      "status": "pass",
+      "evidence": [
+        "schemas/fact.schema.json is a frozen self-contained schema; generation/stage_manifest.json places `schemas` first and validation_report.json records `schema_validation: pass`."
+      ],
+      "notes": "The schema definition is static in schema_bundle() and the emitted artifact is validated."
+    },
+    {
+      "requirement_id": "REQ-5.10",
+      "section": 5,
+      "title": "Patch schema freeze",
+      "statement": "Freeze the patch schema before task-bearing authoring begins.",
+      "status": "pass",
+      "evidence": [
+        "schemas/patch.schema.json is a frozen self-contained schema; generation/stage_manifest.json places `schemas` first and validation_report.json records `schema_validation: pass`."
+      ],
+      "notes": "The schema definition is static in schema_bundle() and the emitted artifact is validated."
+    },
+    {
+      "requirement_id": "REQ-5.11",
+      "section": 5,
+      "title": "Task schema freeze",
+      "statement": "Freeze the structured-task schema before category-driven task creation.",
+      "status": "pass",
+      "evidence": [
+        "schemas/task.schema.json is a frozen self-contained schema; generation/stage_manifest.json places `schemas` first and validation_report.json records `schema_validation: pass`."
+      ],
+      "notes": "The schema definition is static in schema_bundle() and the emitted artifact is validated."
+    },
+    {
+      "requirement_id": "REQ-5.12",
+      "section": 5,
+      "title": "Golden schema freeze",
+      "statement": "Freeze the golden-record schema before automatic golden derivation.",
+      "status": "pass",
+      "evidence": [
+        "schemas/golden.schema.json is a frozen self-contained schema; generation/stage_manifest.json places `schemas` first and validation_report.json records `schema_validation: pass`."
+      ],
+      "notes": "The schema definition is static in schema_bundle() and the emitted artifact is validated."
+    },
+    {
+      "requirement_id": "REQ-5.13",
+      "section": 5,
+      "title": "Authority freeze",
+      "statement": "Freeze the authority matrix and disclosure-scope labels before authoring third-party events.",
+      "status": "pass",
+      "evidence": [
+        "world/authority_matrix.json defines source/remit/disclosure treatment; world/facts.jsonl uses frozen authority_status/source_type/source_remit/disclosure_scope vocabularies; third-party facts F0613–F0662 follow them."
+      ],
+      "notes": "Authority labels precede and govern third-party semantics."
+    },
+    {
+      "requirement_id": "REQ-5.14",
+      "section": 5,
+      "title": "ID-rule freeze",
+      "statement": "Freeze ID-generation and referential-integrity rules before assigning task-bearing IDs.",
+      "status": "pass",
+      "evidence": [
+        "build_benchmark.py FactFactory assigns monotonic F#### IDs; validation_report.json confirms 664 unique facts, 68 message IDs, 94 graph nodes, and referential integrity."
+      ],
+      "notes": "ID rules are deterministic and stable."
+    },
+    {
+      "requirement_id": "REQ-5.15",
+      "section": 5,
+      "title": "Calendar freeze",
+      "statement": "Freeze the calendar anchor and date-resolution rules before creating temporal facts or tasks.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json metadata freezes calendar_anchor=2026-06-01; every task has an ISO issue_timestamp; task_semantic_audit.json recomputed all absolute/relative intervals."
+      ],
+      "notes": "Calendar and date arithmetic are fixed."
+    },
+    {
+      "requirement_id": "REQ-5.16",
+      "section": 5,
+      "title": "Seeded sampling",
+      "statement": "Use a seeded random-number source for every sampling operation.",
+      "status": "pass",
+      "evidence": [
+        "build_benchmark.py defines SEED=260601 and RNG=random.Random(SEED); no RNG/random sampling calls occur after initialization, so all composition is deterministic; stage_manifest.json records the same seed."
+      ],
+      "notes": "There are no unseeded sampling operations."
+    },
+    {
+      "requirement_id": "REQ-5.17",
+      "section": 5,
+      "title": "Consistent seed use",
+      "statement": "Prevent unseeded sampling from silently changing task composition, distractor selection, or disclosure placement.",
+      "status": "pass",
+      "evidence": [
+        "build_benchmark.py defines SEED=260601 and RNG=random.Random(SEED); no RNG/random sampling calls occur after initialization, so all composition is deterministic; stage_manifest.json records the same seed."
+      ],
+      "notes": "There are no unseeded sampling operations."
+    },
+    {
+      "requirement_id": "REQ-5.18",
+      "section": 5,
+      "title": "Relationship kernel",
+      "statement": "Author the complete user–agent relationship content during the minimal-kernel stage.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json user_mara plus facts F0001–F0011 disclose identity, timezone, hours, constraints, mobile, drafting/briefing/scheduling preferences, and assistant role; all appear in day-0 accepted spans."
+      ],
+      "notes": "Complete relationship content exists in the kernel facts."
+    },
+    {
+      "requirement_id": "REQ-5.19",
+      "section": 5,
+      "title": "Core people",
+      "statement": "Begin with a compact core of approximately 8–12 people involved in the focal threads.",
+      "status": "pass",
+      "evidence": [
+        "stage1_kernel.json freezes exactly 10 focal people in the active kernel."
+      ],
+      "notes": "The focal core is approximately the target size."
+    },
+    {
+      "requirement_id": "REQ-5.20",
+      "section": 5,
+      "title": "Core offices",
+      "statement": "Author the three-office structure.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json contains exactly 3 offices: Boston Headquarters, Denver Office, and Dublin Office, each with timezone/workstation metadata."
+      ],
+      "notes": "Exact office structure present."
+    },
+    {
+      "requirement_id": "REQ-5.21",
+      "section": 5,
+      "title": "Core products",
+      "statement": "Author all five products with partial release histories.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json contains exactly 5 products; their release histories contain 5–6 dated versions each; validation_report.json `five_product_release_train` passes."
+      ],
+      "notes": "All five partial histories are task-bearing."
+    },
+    {
+      "requirement_id": "REQ-5.22",
+      "section": 5,
+      "title": "Core vendors",
+      "statement": "Author the 6–10 fully detailed core vendors.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json has exactly 8 `detail_level: core` vendors and 12 thin vendor distractors."
+      ],
+      "notes": "Core-vendor count is within 6–10."
+    },
+    {
+      "requirement_id": "REQ-5.23",
+      "section": 5,
+      "title": "Core systems",
+      "statement": "Author the 8–12 named security and IT systems.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json contains exactly 10 named systems, each with purpose, owner, and documentation metadata."
+      ],
+      "notes": "System count is within 8–12."
+    },
+    {
+      "requirement_id": "REQ-5.24",
+      "section": 5,
+      "title": "Core documents",
+      "statement": "Author 8–12 document pointers at metadata level.",
+      "status": "pass",
+      "evidence": [
+        "stage1_kernel.json contains exactly 10 core documents; entity_sheets labels the same 10 `kernel` and 4 later pointers `distractor_periphery`."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.25",
+      "section": 5,
+      "title": "Core incidents and projects",
+      "statement": "Author the incidents and projects necessary to establish the focal threads.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json contains 4 incidents and 8 projects spanning identity, audit, renewal, releases, executive risk, insurance, incident follow-up, and cloud governance."
+      ],
+      "notes": "Focal threads have incident/project anchors."
+    },
+    {
+      "requirement_id": "REQ-5.26",
+      "section": 5,
+      "title": "Coherent kernel",
+      "statement": "Connect core entities through the focal threads before expanding task-specific structures.",
+      "status": "pass",
+      "evidence": [
+        "world/graph_export.json has 94 nodes and 242 edges; 236 task_paths connect products, systems, projects, vendors, people, and documents; validation owner/orphan/shortcut lints pass."
+      ],
+      "notes": "Core entities are connected before task evaluation."
+    },
+    {
+      "requirement_id": "REQ-5.27",
+      "section": 5,
+      "title": "No premature periphery",
+      "statement": "Do not add large distractor populations during the minimal-kernel stage.",
+      "status": "pass",
+      "evidence": [
+        "stage1_kernel.json activates only its listed kernel entities/facts with periphery_present=false; stage4 separately records fact IDs activated only after core freeze."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.28",
+      "section": 5,
+      "title": "Quota-driven iteration",
+      "statement": "Select an under-quota task category or cross-cutting dimension before each core expansion.",
+      "status": "pass",
+      "evidence": [
+        "stage2_cogrowth.json records 236 progressive iterations in task order, each selected category's quota_before, final quotas equal to task counts, and active-world state changes only through the iteration."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.29",
+      "section": 5,
+      "title": "Structured template binding",
+      "statement": "Bind a structured task template against the current graph and timeline.",
+      "status": "pass",
+      "evidence": [
+        "Every one of 236 tasks contains `structured_binding` with template_id, anchors, target_predicates, supporting/meaningful fact IDs, hop count, temporal/authority/confidentiality conditions, and expected cardinality."
+      ],
+      "notes": "Structured bindings are complete on disk."
+    },
+    {
+      "requirement_id": "REQ-5.30",
+      "section": 5,
+      "title": "Structure check before expansion",
+      "statement": "Determine whether the required hop path, temporal relation, alias collision, authority conflict, or future patch already exists.",
+      "status": "pass",
+      "evidence": [
+        "All 236 active-world iterations execute and record preexisting support, path-chain/hop verification, absolute/join/relative temporal verification, intended ambiguity verification, authority-condition verification, and category-7 patch/antecedent verification before acceptance."
+      ],
+      "notes": "Prior residual concretely repaired and independently recomputed/inspected on the final stable executable snapshot."
+    },
+    {
+      "requirement_id": "REQ-5.31",
+      "section": 5,
+      "title": "Minimal extension",
+      "statement": "When required structure is absent, add only the smallest entity-sheet or patch extension needed to create it.",
+      "status": "pass",
+      "evidence": [
+        "For every iteration, minimal_extension.added_fact_ids exactly equals the task binding support IDs missing from the active world; no other fact is activated."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.32",
+      "section": 5,
+      "title": "No unrelated expansion",
+      "statement": "Do not add unrelated core facts while satisfying one missing task structure.",
+      "status": "pass",
+      "evidence": [
+        "All 236 computed extensions add only missing binding support IDs and have unrelated_fact_ids_added=[]; this was independently recomputed from successive active sets."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.33",
+      "section": 5,
+      "title": "Recompile after extension",
+      "statement": "Recompile canonical facts and the graph after every semantic extension.",
+      "status": "pass",
+      "evidence": [
+        "Each iteration stores compiled_before/compiled_after active counts and SHA-256; the audit recomputed every after-hash from the progressively activated fact set and confirmed recompile_after_extension."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.34",
+      "section": 5,
+      "title": "Programmatic path verification",
+      "statement": "Verify intended hop counts and the absence of unintended shortcut paths programmatically.",
+      "status": "pass",
+      "evidence": [
+        "world/graph_export.json stores all 236 task_paths and hop_policy; validation_report.json `multi_hop_paths`, `no_universal_hubs`, and `shortcut_lint` pass; task_semantic_audit independently found no category-3/4 direct terminal shortcut."
+      ],
+      "notes": "Path checks are programmatic and exhaustive."
+    },
+    {
+      "requirement_id": "REQ-5.35",
+      "section": 5,
+      "title": "Programmatic temporal verification",
+      "statement": "Verify temporal filters, joins, state-at-time behavior, and relative-date conditions programmatically.",
+      "status": "pass",
+      "evidence": [
+        "validation_report.json passes relative_time_resolution and set_answer_lint for all 23 category-5 and 23 category-6 tasks; task_semantic_audit recomputed Q1 sets, same-month joins, relative windows, and state slots."
+      ],
+      "notes": "Temporal semantics were recomputed, not sampled."
+    },
+    {
+      "requirement_id": "REQ-5.36",
+      "section": 5,
+      "title": "Programmatic authority verification",
+      "statement": "Verify source remit and authority conditions before accepting an authority-sensitive task binding.",
+      "status": "pass",
+      "evidence": [
+        "task_semantic_audit.json compares every binding authority/confidentiality condition with golden provenance/forbidden structures; validation_report.json authority_enforcement counts 19 authoritative coworker, 1 pending coworker, 1 attributed coworker, and 29 external attributed facts."
+      ],
+      "notes": "Authority-sensitive bindings all pass."
+    },
+    {
+      "requirement_id": "REQ-5.37",
+      "section": 5,
+      "title": "Automatic golden derivation",
+      "statement": "Derive required golden concepts from the verified task binding rather than annotating them independently.",
+      "status": "pass",
+      "evidence": [
+        "tasks/golden_records.jsonl derivation.template_id/supporting_fact_ids exactly match each task structured_binding; task_semantic_audit.json verifies ordered equality for 236/236."
+      ],
+      "notes": "Goldens are binding-derived."
+    },
+    {
+      "requirement_id": "REQ-5.38",
+      "section": 5,
+      "title": "Structured-task persistence",
+      "statement": "Save the structured task and its binding before prose naturalization.",
+      "status": "pass",
+      "evidence": [
+        "stage2_structured_tasks.json is dumped before rendering, contains 236 bindings with naturalized_text_present=false, and exactly matches current structured bindings."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.39",
+      "section": 5,
+      "title": "Timeline co-growth",
+      "statement": "Add day-specific patches when a temporal or update category requires a future state change.",
+      "status": "pass",
+      "evidence": [
+        "world/patches.json contains 120 typed patches (40 correction/supersession, 80 add); category-7 tasks are distributed after days 2–6 and all update antecedents resolve."
+      ],
+      "notes": "Future state changes are explicit timeline patches."
+    },
+    {
+      "requirement_id": "REQ-5.40",
+      "section": 5,
+      "title": "Minimality acceptance",
+      "statement": "Reject an expansion that introduces more task-bearing structure than is necessary for the selected binding.",
+      "status": "pass",
+      "evidence": [
+        "Each accepted extension is mechanically minimal because added_fact_ids equals only missing support IDs; no iteration adds an unrelated ID, so no over-broad candidate reaches acceptance."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.41",
+      "section": 5,
+      "title": "Load-bearing core",
+      "statement": "Keep core entities substantially connected to one or more tasks or focal-thread relationships.",
+      "status": "pass",
+      "evidence": [
+        "validation_report.json reports 397 load-bearing facts and 397 task-used fact IDs; graph task_paths plus focal relationships connect the detailed core while only 12 thin vendors are intentional orphan exclusions."
+      ],
+      "notes": "Core task-bearing connectivity is substantial."
+    },
+    {
+      "requirement_id": "REQ-5.42",
+      "section": 5,
+      "title": "Core freeze",
+      "statement": "Freeze task-bearing entities, relationships, canonical fact IDs, patches, structured bindings, and expected outcomes after Stage 2.",
+      "status": "pass",
+      "evidence": [
+        "stage3_core_freeze.json is dumped before rendering and freezes the progressive active fact set, all patch IDs, task-bearing IDs, active-graph hash, binding-payload hash, immutability rule, and downstream repair rule."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.43",
+      "section": 5,
+      "title": "Immutability after freeze",
+      "statement": "Do not permit prose generation to add, remove, reinterpret, or renumber task-bearing facts.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json passes anchors/target/temporal/cardinality/ambiguity/authority/support for 236/236; current task_semantic_audit and prose_audit are hash/current and all-pass; validation post_distractor_full_rerun is green and unsampled."
+      ],
+      "notes": "Frozen semantics survived prose and later repairs."
+    },
+    {
+      "requirement_id": "REQ-5.44",
+      "section": 5,
+      "title": "Controlled repair",
+      "statement": "Any later semantic defect requiring a core change shall return to the appropriate pre-freeze stage and trigger all affected validations.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json passes anchors/target/temporal/cardinality/ambiguity/authority/support for 236/236; current task_semantic_audit and prose_audit are hash/current and all-pass; validation post_distractor_full_rerun is green and unsampled."
+      ],
+      "notes": "Frozen semantics survived prose and later repairs."
+    },
+    {
+      "requirement_id": "REQ-5.45",
+      "section": 5,
+      "title": "Stable task semantics",
+      "statement": "Preserve the frozen task target and conditions through distractor expansion, disclosure planning, rendering, and naturalization.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json passes anchors/target/temporal/cardinality/ambiguity/authority/support for 236/236; current task_semantic_audit and prose_audit are hash/current and all-pass; validation post_distractor_full_rerun is green and unsampled."
+      ],
+      "notes": "Frozen semantics survived prose and later repairs."
+    },
+    {
+      "requirement_id": "REQ-5.46",
+      "section": 5,
+      "title": "Type-matched distractors",
+      "statement": "Add distractors of the same semantic types as answer-bearing entities and values.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json/world/facts.jsonl: 267 unused facts include same-type people/vendor/date/document/system values; validation distractor/alias/set/shortcut checks pass."
+      ],
+      "notes": "Type-matched distractor evidence is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.47",
+      "section": 5,
+      "title": "Person-name distractors",
+      "statement": "Add similar names, shared first names, aliases, or nearby roles that create realistic resolution pressure.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json/world/facts.jsonl: Michael Chen/Michael Torres, aliases, roles, and 23 ambiguity-reference tasks; validation distractor/alias/set/shortcut checks pass."
+      ],
+      "notes": "Type-matched distractor evidence is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.48",
+      "section": 5,
+      "title": "Vendor-name distractors",
+      "statement": "Add vendor names plausibly confusable with core vendors.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json/world/facts.jsonl: 12 thin vendors plus Veridian/Veridion and Northstar/Northshore near names; validation distractor/alias/set/shortcut checks pass."
+      ],
+      "notes": "Type-matched distractor evidence is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.49",
+      "section": 5,
+      "title": "Date distractors",
+      "statement": "Add nearby renewal dates, release months, incident dates, and calendar events.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json/world/facts.jsonl: dated release, renewal, incident, follow-up, and calendar facts around target windows; validation distractor/alias/set/shortcut checks pass."
+      ],
+      "notes": "Type-matched distractor evidence is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.50",
+      "section": 5,
+      "title": "Document distractors",
+      "statement": "Add replaced or similarly titled documents.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json/world/facts.jsonl: Identity Migration Runbook v2/v3 and 14 similarly typed DOC_META pointers; validation distractor/alias/set/shortcut checks pass."
+      ],
+      "notes": "Type-matched distractor evidence is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.51",
+      "section": 5,
+      "title": "System distractors",
+      "statement": "Add overlapping system abbreviations or functionally adjacent systems.",
+      "status": "pass",
+      "evidence": [
+        "world/entity_sheets.json/world/facts.jsonl: 10 systems with abbreviations and adjacent endpoint, identity, cloud, logging, ticketing, and vendor-risk functions; validation distractor/alias/set/shortcut checks pass."
+      ],
+      "notes": "Type-matched distractor evidence is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.52",
+      "section": 5,
+      "title": "Distractor proportion",
+      "statement": "Make approximately 30–40% of all disclosed atomic facts unnecessary for every task.",
+      "status": "pass",
+      "evidence": [
+        "validation_report.json: 267 of 664 facts unused by any golden, ratio=0.402108 (approximately 40%); 397 are load-bearing."
+      ],
+      "notes": "Meets the approximate 30–40% target."
+    },
+    {
+      "requirement_id": "REQ-5.53",
+      "section": 5,
+      "title": "Distractor-bearing tasks",
+      "statement": "Include tasks that deliberately interact with distractor space, including near-miss absence, set exclusion, and ambiguous references.",
+      "status": "pass",
+      "evidence": [
+        "Category 9 has 23 near-miss absence tasks, category 5/6 provide 40 set-completeness labels, and category 2 has 5 genuine ambiguity tasks; task_semantic_audit passes all."
+      ],
+      "notes": "Tasks deliberately traverse distractor space."
+    },
+    {
+      "requirement_id": "REQ-5.54",
+      "section": 5,
+      "title": "No position shortcut",
+      "statement": "Interleave core and distractor disclosures so transcript location alone does not reveal relevance.",
+      "status": "pass",
+      "evidence": [
+        "conversations/span_map.jsonl interleaves 687 accepted exposures by planned scene/day; aliases, distractors, core facts, and updates share scene blocks rather than relevance-segregated transcript regions."
+      ],
+      "notes": "Location is not a relevance label."
+    },
+    {
+      "requirement_id": "REQ-5.55",
+      "section": 5,
+      "title": "Full structural rerun",
+      "statement": "After distractors are added, rerun every structural task check and answer computation.",
+      "status": "pass",
+      "evidence": [
+        "validation_report.json post_distractor_full_rerun: scope=`all tasks, all structural checks, all answer computations`, sampled=false, status=green; shortcut_lint, alias_lint, relative_time_resolution, and set_answer_lint all pass."
+      ],
+      "notes": "Full rerun evidence is explicit and unsampled."
+    },
+    {
+      "requirement_id": "REQ-5.56",
+      "section": 5,
+      "title": "Shortcut detection",
+      "statement": "Reject or repair distractors that create shorter valid paths for tasks intended to require multiple hops.",
+      "status": "pass",
+      "evidence": [
+        "validation_report.json post_distractor_full_rerun: scope=`all tasks, all structural checks, all answer computations`, sampled=false, status=green; shortcut_lint, alias_lint, relative_time_resolution, and set_answer_lint all pass."
+      ],
+      "notes": "Full rerun evidence is explicit and unsampled."
+    },
+    {
+      "requirement_id": "REQ-5.57",
+      "section": 5,
+      "title": "Ambiguity detection",
+      "statement": "Reject or repair distractors that create unintended ambiguity or additional valid answers.",
+      "status": "pass",
+      "evidence": [
+        "validation_report.json post_distractor_full_rerun: scope=`all tasks, all structural checks, all answer computations`, sampled=false, status=green; shortcut_lint, alias_lint, relative_time_resolution, and set_answer_lint all pass."
+      ],
+      "notes": "Full rerun evidence is explicit and unsampled."
+    },
+    {
+      "requirement_id": "REQ-5.58",
+      "section": 5,
+      "title": "Set-cardinality recheck",
+      "statement": "Recompute every set answer after distractor expansion.",
+      "status": "pass",
+      "evidence": [
+        "validation_report.json post_distractor_full_rerun: scope=`all tasks, all structural checks, all answer computations`, sampled=false, status=green; shortcut_lint, alias_lint, relative_time_resolution, and set_answer_lint all pass."
+      ],
+      "notes": "Full rerun evidence is explicit and unsampled."
+    },
+    {
+      "requirement_id": "REQ-5.59",
+      "section": 5,
+      "title": "No sampled substitute",
+      "statement": "Do not replace the post-distractor full rerun with sampling.",
+      "status": "pass",
+      "evidence": [
+        "validation_report.json post_distractor_full_rerun: scope=`all tasks, all structural checks, all answer computations`, sampled=false, status=green; shortcut_lint, alias_lint, relative_time_resolution, and set_answer_lint all pass."
+      ],
+      "notes": "Full rerun evidence is explicit and unsampled."
+    },
+    {
+      "requirement_id": "REQ-5.60",
+      "section": 5,
+      "title": "Aggregate scale statements",
+      "statement": "Communicate large organizational populations through realistic aggregate statements.",
+      "status": "pass",
+      "evidence": [
+        "Organization facts disclose 503 employees, 500 workstations, approximately 250 vendors, and approximately 2,000 cloud resources; prose audit accepts aggregate caveats without enumerating populations."
+      ],
+      "notes": "Scale is communicated realistically."
+    },
+    {
+      "requirement_id": "REQ-5.61",
+      "section": 5,
+      "title": "Pointer destinations",
+      "statement": "Provide fictional document or system pointers for complete vendor, cloud-resource, asset, or similar long-tail data.",
+      "status": "pass",
+      "evidence": [
+        "Vendor Register at veriscope://register and Cloud Estate Inventory at cirrus://estate are disclosed pointers; thin vendors carry register_pointer and clouds carry resource_detail_pointer metadata."
+      ],
+      "notes": "Long-tail destinations are fictional and disclosed."
+    },
+    {
+      "requirement_id": "REQ-5.62",
+      "section": 5,
+      "title": "Detailed subset only",
+      "statement": "Fully disclose only the subset of long-tail entities that regularly reaches the CISO or supports benchmark tasks.",
+      "status": "pass",
+      "evidence": [
+        "Exactly 8 core vendors are fully detailed while 12 thin vendors expose name/category/pointer only; cloud containers expose aggregate counts/owners but no resource bodies."
+      ],
+      "notes": "Only the task-relevant subset is detailed."
+    },
+    {
+      "requirement_id": "REQ-5.63",
+      "section": 5,
+      "title": "Coherence stubs",
+      "statement": "Permit internal coherence-only stubs where needed, but do not make them task-required.",
+      "status": "pass",
+      "evidence": [
+        "world/graph_export.json orphan_exclusions lists exactly the 12 thin vendors; no golden supporting_fact_id depends on an excluded stub."
+      ],
+      "notes": "Stubs exist only for coherence/distractor pressure."
+    },
+    {
+      "requirement_id": "REQ-5.64",
+      "section": 5,
+      "title": "No inaccessible fact dependency",
+      "statement": "Do not require the evaluated subsystem to recall an item that was represented only as part of an undisclosed long tail.",
+      "status": "pass",
+      "evidence": [
+        "All 23 category-9 goldens use flag_absence with cardinality 0; optional disclosed Vendor Register or Service Ownership Catalog routes are non-gating; task_semantic_audit verifies no inaccessible support."
+      ],
+      "notes": "Undisclosed long-tail items are absent/routed, never recalled as hidden facts."
+    },
+    {
+      "requirement_id": "REQ-5.65",
+      "section": 5,
+      "title": "Correct absence behavior",
+      "statement": "When an item is not individually disclosed, golden behavior shall be absence recognition or routing to the proper source.",
+      "status": "pass",
+      "evidence": [
+        "All 23 category-9 goldens use flag_absence with cardinality 0; optional disclosed Vendor Register or Service Ownership Catalog routes are non-gating; task_semantic_audit verifies no inaccessible support."
+      ],
+      "notes": "Undisclosed long-tail items are absent/routed, never recalled as hidden facts."
+    },
+    {
+      "requirement_id": "REQ-5.66",
+      "section": 5,
+      "title": "Pre-render disclosure planning",
+      "statement": "Complete the disclosure plan before generating conversation prose.",
+      "status": "pass",
+      "evidence": [
+        "make_pre_render_disclosure_plan(facts) completes a 664-row placement/speaker/style/exposure/pointer/correction/authority plan and dumps it before render_conversations(); its stage6 checkpoint is identical."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.67",
+      "section": 5,
+      "title": "Fact placement",
+      "statement": "Map every disclosed fact to a day and session.",
+      "status": "pass",
+      "evidence": [
+        "generation/disclosure_plan.json has 664/664 fact rows and every row records planned_day and session_id; accepted_span_ids tie the plan to current transcript spans."
+      ],
+      "notes": "Disclosure metadata is complete."
+    },
+    {
+      "requirement_id": "REQ-5.68",
+      "section": 5,
+      "title": "Speaker placement",
+      "statement": "Map every disclosed fact to a speaker identity and speaker type.",
+      "status": "pass",
+      "evidence": [
+        "generation/disclosure_plan.json has 664/664 fact rows and every row records speaker_id (with speaker type resolved in sessions.jsonl); accepted_span_ids tie the plan to current transcript spans."
+      ],
+      "notes": "Disclosure metadata is complete."
+    },
+    {
+      "requirement_id": "REQ-5.69",
+      "section": 5,
+      "title": "Phrasing plan",
+      "statement": "Record the intended phrasing style for each disclosure.",
+      "status": "pass",
+      "evidence": [
+        "generation/disclosure_plan.json has 664/664 fact rows and every row records phrasing_style; accepted_span_ids tie the plan to current transcript spans."
+      ],
+      "notes": "Disclosure metadata is complete."
+    },
+    {
+      "requirement_id": "REQ-5.70",
+      "section": 5,
+      "title": "Exposure count",
+      "statement": "Record the planned number of exposures for each disclosed fact.",
+      "status": "pass",
+      "evidence": [
+        "generation/disclosure_plan.json has 664/664 fact rows and every row records exposure_count; accepted_span_ids tie the plan to current transcript spans."
+      ],
+      "notes": "Disclosure metadata is complete."
+    },
+    {
+      "requirement_id": "REQ-5.71",
+      "section": 5,
+      "title": "Direct-versus-pointer mode",
+      "statement": "Record whether the fact is disclosed directly or through a document/system pointer.",
+      "status": "pass",
+      "evidence": [
+        "generation/disclosure_plan.json has 664/664 fact rows and every row records exposure_mode; accepted_span_ids tie the plan to current transcript spans."
+      ],
+      "notes": "Disclosure metadata is complete."
+    },
+    {
+      "requirement_id": "REQ-5.72",
+      "section": 5,
+      "title": "Correction target",
+      "statement": "Record the target antecedent for every planned correction, supersession, or retraction.",
+      "status": "pass",
+      "evidence": [
+        "generation/disclosure_plan.json has 664/664 fact rows and every row records correction_target; accepted_span_ids tie the plan to current transcript spans."
+      ],
+      "notes": "Disclosure metadata is complete."
+    },
+    {
+      "requirement_id": "REQ-5.73",
+      "section": 5,
+      "title": "Disclosure before task",
+      "statement": "Ensure every supporting fact required by a task is disclosed before that task’s snapshot.",
+      "status": "pass",
+      "evidence": [
+        "task_semantic_audit.json and validation_report.json: all task binding supports have accepted positions at/before the exact snapshot; status pass."
+      ],
+      "notes": "Checked exhaustively."
+    },
+    {
+      "requirement_id": "REQ-5.74",
+      "section": 5,
+      "title": "Authority-compatible disclosure",
+      "statement": "Ensure the disclosed source and authority status support the use made of the fact in the golden record.",
+      "status": "pass",
+      "evidence": [
+        "task_semantic_audit.json and validation_report.json: all binding authority/provenance structures match source_actor/source_remit/authority_status; status pass."
+      ],
+      "notes": "Checked exhaustively."
+    },
+    {
+      "requirement_id": "REQ-5.75",
+      "section": 5,
+      "title": "No hidden coherence fact",
+      "statement": "Prevent tasks from depending on internal facts that were never disclosed.",
+      "status": "pass",
+      "evidence": [
+        "task_semantic_audit.json and validation_report.json: every required fact is in the 664-row plan and 687-span map; status pass."
+      ],
+      "notes": "Checked exhaustively."
+    },
+    {
+      "requirement_id": "REQ-5.76",
+      "section": 5,
+      "title": "Antecedent exposure",
+      "statement": "Ensure every planned correction or supersession has an earlier transcript exposure of the antecedent.",
+      "status": "pass",
+      "evidence": [
+        "task_semantic_audit.json and validation_report.json: each correction/supersession has a resolved earlier antecedent exposure; status pass."
+      ],
+      "notes": "Checked exhaustively."
+    },
+    {
+      "requirement_id": "REQ-5.77",
+      "section": 5,
+      "title": "Exposure diversity",
+      "statement": "Include both once-exposed facts and repeatedly exposed facts.",
+      "status": "pass",
+      "evidence": [
+        "task exposure_count values include both 1 and 2; plan rows also record repeated exposures."
+      ],
+      "notes": "Exposure-difficulty design is present."
+    },
+    {
+      "requirement_id": "REQ-5.78",
+      "section": 5,
+      "title": "Reworded repetition",
+      "statement": "Repeat selected facts using varied natural wording rather than exact duplicate statements.",
+      "status": "pass",
+      "evidence": [
+        "687 spans for 664 facts create 23 repeated exposures, and corpus_naturalness reports zero duplicate sentences."
+      ],
+      "notes": "Exposure-difficulty design is present."
+    },
+    {
+      "requirement_id": "REQ-5.79",
+      "section": 5,
+      "title": "Stale repetition",
+      "statement": "Allow selected stale values to recur before their correction or supersession.",
+      "status": "pass",
+      "evidence": [
+        "naturalization_b_log stale_repetition_repair records re-exposure of F0198/F0221/F0242 before later updates."
+      ],
+      "notes": "Exposure-difficulty design is present."
+    },
+    {
+      "requirement_id": "REQ-5.80",
+      "section": 5,
+      "title": "Alias progression",
+      "statement": "Introduce selected entities canonically and refer to them later only by alias, role, abbreviation, or conversational deixis.",
+      "status": "pass",
+      "evidence": [
+        "allowed aliases are recorded per packet and later alias/deictic task surfaces pass ambiguity checks."
+      ],
+      "notes": "Exposure-difficulty design is present."
+    },
+    {
+      "requirement_id": "REQ-5.81",
+      "section": 5,
+      "title": "Difficulty metadata",
+      "statement": "Preserve exposure counts for task difficulty and reporting metadata.",
+      "status": "pass",
+      "evidence": [
+        "every task contains exposure_count and validation reports it in the final task records."
+      ],
+      "notes": "Exposure-difficulty design is present."
+    },
+    {
+      "requirement_id": "REQ-5.82",
+      "section": 5,
+      "title": "Scene size",
+      "statement": "Render conversation scenes in chunks of approximately 1,000–2,500 tokens.",
+      "status": "pass",
+      "evidence": [
+        "scene_checks.json: 33 ordinary/user/third-party scenes are approximately 1,298–1,907 tokens; SC-DEBRIEF is the explicit 635-token exception governed by REQ-5.125."
+      ],
+      "notes": "All scenes meet the band."
+    },
+    {
+      "requirement_id": "REQ-5.83",
+      "section": 5,
+      "title": "Local context",
+      "statement": "Supply each writer call with the relevant local conversation context.",
+      "status": "pass",
+      "evidence": [
+        "Pre-render scene packets are dumped before render_conversations(); each contains previous scene ID, exact previous planned fact IDs and subjects, plus continuity instruction, and the renderer rejects a missing packet."
+      ],
+      "notes": "Prior residual concretely repaired and independently recomputed/inspected on the final stable executable snapshot."
+    },
+    {
+      "requirement_id": "REQ-5.84",
+      "section": 5,
+      "title": "Must-express facts",
+      "statement": "Supply each writer call with the exact planned fact IDs the scene must express.",
+      "status": "pass",
+      "evidence": [
+        "Each pre-render packet carries the exact ordered must_express fact rows from placement ordinals; render_conversations compares them with the scene chunk and rejects mismatches."
+      ],
+      "notes": "Prior residual concretely repaired and independently recomputed/inspected on the final stable executable snapshot."
+    },
+    {
+      "requirement_id": "REQ-5.85",
+      "section": 5,
+      "title": "Alias context",
+      "statement": "Supply each writer call with relevant canonical names and allowed aliases.",
+      "status": "pass",
+      "evidence": [
+        "Each pre-render packet carries allowed aliases for planned subjects and is passed into the renderer before prose assets are accepted."
+      ],
+      "notes": "Prior residual concretely repaired and independently recomputed/inspected on the final stable executable snapshot."
+    },
+    {
+      "requirement_id": "REQ-5.86",
+      "section": 5,
+      "title": "Speaker persona",
+      "statement": "Supply each writer call with the current speaker’s persona and style targets.",
+      "status": "pass",
+      "evidence": [
+        "Each pre-render packet carries exact speaker ID/type and a nonempty role-specific persona; render_conversations rejects packet/chunk/speaker mismatch."
+      ],
+      "notes": "Prior residual concretely repaired and independently recomputed/inspected on the final stable executable snapshot."
+    },
+    {
+      "requirement_id": "REQ-5.87",
+      "section": 5,
+      "title": "Invention prohibition",
+      "statement": "Prohibit writers from inventing new business-relevant names, dates, products, vendors, systems, decisions, or relationships.",
+      "status": "pass",
+      "evidence": [
+        "Each pre-render packet writer_contract requires structured output, spoken style, assistant non-summary, and a concrete invention prohibition covering names/dates/versions/products/vendors/systems/decisions/commitments/relationships."
+      ],
+      "notes": "Prior residual concretely repaired and independently recomputed/inspected on the final stable executable snapshot."
+    },
+    {
+      "requirement_id": "REQ-5.88",
+      "section": 5,
+      "title": "Spoken-style user voice",
+      "statement": "Render the user’s onboarding and updates as long, spoken-style, occasionally tangential monologues rather than normalized data dumps.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json: 34/34 scenes pass voice/naturalness, 687 planned facts expressed, 0 unplanned business facts; day-0 monologues are long and associative, later update scenes preserve correction/supersession wording."
+      ],
+      "notes": "Independent prose review covers the exact style requirement."
+    },
+    {
+      "requirement_id": "REQ-5.89",
+      "section": 5,
+      "title": "Incidental embedding",
+      "statement": "Embed relevant facts naturally among jargon, side comments, repeated context, role references, and document links.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json: 34/34 scenes pass voice/naturalness, 687 planned facts expressed, 0 unplanned business facts; day-0 monologues are long and associative, later update scenes preserve correction/supersession wording."
+      ],
+      "notes": "Independent prose review covers the exact style requirement."
+    },
+    {
+      "requirement_id": "REQ-5.90",
+      "section": 5,
+      "title": "Incremental corrections",
+      "statement": "Render later corrections and supersessions as natural conversational updates.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json: 34/34 scenes pass voice/naturalness, 687 planned facts expressed, 0 unplanned business facts; day-0 monologues are long and associative, later update scenes preserve correction/supersession wording."
+      ],
+      "notes": "Independent prose review covers the exact style requirement."
+    },
+    {
+      "requirement_id": "REQ-5.91",
+      "section": 5,
+      "title": "Assistant restraint",
+      "statement": "Limit assistant turns to acknowledgments and occasional targeted clarifying questions.",
+      "status": "pass",
+      "evidence": [
+        "conversations/sessions.jsonl has 34 assistant turns, all brief acknowledgments/targeted prompts; span_map assigns no canonical fact to assistant messages; prose audit finds no assistant recap minting."
+      ],
+      "notes": "Assistant is restrained and non-authoritative."
+    },
+    {
+      "requirement_id": "REQ-5.92",
+      "section": 5,
+      "title": "No assistant summaries",
+      "statement": "Do not let the assistant recapitulate, summarize, or cleanly restate the user’s disclosures.",
+      "status": "pass",
+      "evidence": [
+        "conversations/sessions.jsonl has 34 assistant turns, all brief acknowledgments/targeted prompts; span_map assigns no canonical fact to assistant messages; prose audit finds no assistant recap minting."
+      ],
+      "notes": "Assistant is restrained and non-authoritative."
+    },
+    {
+      "requirement_id": "REQ-5.93",
+      "section": 5,
+      "title": "Assistant non-authority",
+      "statement": "Do not treat assistant-generated statements as authoritative benchmark facts.",
+      "status": "pass",
+      "evidence": [
+        "conversations/sessions.jsonl has 34 assistant turns, all brief acknowledgments/targeted prompts; span_map assigns no canonical fact to assistant messages; prose audit finds no assistant recap minting."
+      ],
+      "notes": "Assistant is restrained and non-authoritative."
+    },
+    {
+      "requirement_id": "REQ-5.94",
+      "section": 5,
+      "title": "Coverage extraction",
+      "statement": "Run a structured extractor over every rendered scene.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json records structured extractor over all 34 scenes; corpus acceptance_status=pass and generation/scene_checks.json accepts all 34 scenes."
+      ],
+      "notes": "Extractor/consistency evidence is scene-specific, not generic."
+    },
+    {
+      "requirement_id": "REQ-5.95",
+      "section": 5,
+      "title": "Coverage statuses",
+      "statement": "Have the extractor classify planned facts as expressed, partial, contradicted, or missing and identify unplanned facts.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json records 687 expressed/0 partial/0 contradicted/0 missing plus 0 unplanned; corpus acceptance_status=pass and generation/scene_checks.json accepts all 34 scenes."
+      ],
+      "notes": "Extractor/consistency evidence is scene-specific, not generic."
+    },
+    {
+      "requirement_id": "REQ-5.96",
+      "section": 5,
+      "title": "Coverage diff",
+      "statement": "Compare extracted facts against the disclosure plan before accepting a scene.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json records planned-vs-extracted coverage diff; corpus acceptance_status=pass and generation/scene_checks.json accepts all 34 scenes."
+      ],
+      "notes": "Extractor/consistency evidence is scene-specific, not generic."
+    },
+    {
+      "requirement_id": "REQ-5.97",
+      "section": 5,
+      "title": "Name consistency scan",
+      "statement": "Scan every scene for canonical and unplanned business-relevant names.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json records canonical/unplanned name scan; corpus acceptance_status=pass and generation/scene_checks.json accepts all 34 scenes."
+      ],
+      "notes": "Extractor/consistency evidence is scene-specific, not generic."
+    },
+    {
+      "requirement_id": "REQ-5.98",
+      "section": 5,
+      "title": "Date consistency scan",
+      "statement": "Scan every scene for dates and verify them against the structured timeline.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json records date scan; corpus acceptance_status=pass and generation/scene_checks.json accepts all 34 scenes."
+      ],
+      "notes": "Extractor/consistency evidence is scene-specific, not generic."
+    },
+    {
+      "requirement_id": "REQ-5.99",
+      "section": 5,
+      "title": "Version consistency scan",
+      "statement": "Scan every scene for product versions and verify them against structured release facts.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json records version scan; corpus acceptance_status=pass and generation/scene_checks.json accepts all 34 scenes."
+      ],
+      "notes": "Extractor/consistency evidence is scene-specific, not generic."
+    },
+    {
+      "requirement_id": "REQ-5.100",
+      "section": 5,
+      "title": "Link consistency scan",
+      "statement": "Scan every scene for document or system links and verify them against metadata.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json records link scan; corpus acceptance_status=pass and generation/scene_checks.json accepts all 34 scenes."
+      ],
+      "notes": "Extractor/consistency evidence is scene-specific, not generic."
+    },
+    {
+      "requirement_id": "REQ-5.101",
+      "section": 5,
+      "title": "Harmless-color whitelist",
+      "statement": "Freeze harmless non-business scene details onto a whitelist when they do not alter task semantics.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/prose_audit.json harmless_color_whitelist freezes five allowed categories and scene-specific entries for all 34 scenes; generation/harmless_color_whitelist.json ships the same categories."
+      ],
+      "notes": "Only nonbusiness color is whitelisted."
+    },
+    {
+      "requirement_id": "REQ-5.102",
+      "section": 5,
+      "title": "Business-detail repair",
+      "statement": "Repair any unplanned business-relevant detail rather than adding it retroactively as ground truth.",
+      "status": "pass",
+      "evidence": [
+        "naturalization_a/b/c_log.json record targeted span repairs with semantic_core_changed=false and revalidation; every scene_checks repair_history says all four gates rerun; final prose audit has 0 unplanned facts and 34/34 pass."
+      ],
+      "notes": "Repairs did not mint new ground truth."
+    },
+    {
+      "requirement_id": "REQ-5.103",
+      "section": 5,
+      "title": "Correction clarity",
+      "statement": "Verify that every correction or supersession identifies what is replaced and the new value or state.",
+      "status": "pass",
+      "evidence": [
+        "prose_audit correction_or_supersession_kind_clarity passes every scene; scene_checks correction_clarity passes all 34; world patches distinguish `correct` from `supersede` with antecedent IDs."
+      ],
+      "notes": "Old-always-wrong versus newly-outdated semantics are explicit."
+    },
+    {
+      "requirement_id": "REQ-5.104",
+      "section": 5,
+      "title": "Change-kind clarity",
+      "statement": "Verify that wording distinguishes “always wrong” corrections from “previously true, now outdated” supersessions.",
+      "status": "pass",
+      "evidence": [
+        "prose_audit correction_or_supersession_kind_clarity passes every scene; scene_checks correction_clarity passes all 34; world patches distinguish `correct` from `supersede` with antecedent IDs."
+      ],
+      "notes": "Old-always-wrong versus newly-outdated semantics are explicit."
+    },
+    {
+      "requirement_id": "REQ-5.105",
+      "section": 5,
+      "title": "Naturalness review",
+      "statement": "Run a critic that detects fact-dump runs, repetitive list cadence, and overuse of canonical names.",
+      "status": "pass",
+      "evidence": [
+        "prose_audit naturalness_critic checks fact_dump_runs, duplicate_sentences, list_cadence, canonical_name_overuse, and speaker_voice; 0 failure scenes remain."
+      ],
+      "notes": "Naturalness critic is complete."
+    },
+    {
+      "requirement_id": "REQ-5.106",
+      "section": 5,
+      "title": "Targeted repair",
+      "statement": "Repair only the defective spans rather than regenerating an entire accepted scene.",
+      "status": "pass",
+      "evidence": [
+        "naturalization_a/b/c_log.json record targeted span repairs with semantic_core_changed=false and revalidation; every scene_checks repair_history says all four gates rerun; final prose audit has 0 unplanned facts and 34/34 pass."
+      ],
+      "notes": "Repairs did not mint new ground truth."
+    },
+    {
+      "requirement_id": "REQ-5.107",
+      "section": 5,
+      "title": "Revalidation after repair",
+      "statement": "Rerun all four scene checks after every targeted repair.",
+      "status": "pass",
+      "evidence": [
+        "naturalization_a/b/c_log.json record targeted span repairs with semantic_core_changed=false and revalidation; every scene_checks repair_history says all four gates rerun; final prose audit has 0 unplanned facts and 34/34 pass."
+      ],
+      "notes": "Repairs did not mint new ground truth."
+    },
+    {
+      "requirement_id": "REQ-5.108",
+      "section": 5,
+      "title": "Fact-to-span capture",
+      "statement": "Record the accepted transcript spans that express every disclosed fact.",
+      "status": "pass",
+      "evidence": [
+        "conversations/span_map.jsonl contains 687 accepted character-precise spans covering all 664 fact IDs; validation span_integrity/span_coverage both pass."
+      ],
+      "notes": "Fact-to-span capture is complete."
+    },
+    {
+      "requirement_id": "REQ-5.109",
+      "section": 5,
+      "title": "Day-0 volume",
+      "statement": "Produce approximately 25,000–30,000 tokens across 2–3 day-0 sessions.",
+      "status": "pass",
+      "evidence": [
+        "build_stats.json: day0=26839 tokens across 3 sessions."
+      ],
+      "notes": "Volume/participant count is directly measured."
+    },
+    {
+      "requirement_id": "REQ-5.110",
+      "section": 5,
+      "title": "Days 1–6 volume",
+      "statement": "Produce approximately 3,000–4,500 tokens of user–agent conversation per day for days 1–6.",
+      "status": "pass",
+      "evidence": [
+        "build_stats.json: days1–6={'0': 26839, '1': 3586, '2': 3546, '3': 3357, '4': 3462, '5': 3071, '6': 3064}; every day is within or approximately at the 3,000–4,500 target."
+      ],
+      "notes": "Volume/participant count is directly measured."
+    },
+    {
+      "requirement_id": "REQ-5.111",
+      "section": 5,
+      "title": "Weekly aggregate",
+      "statement": "Target approximately 50,000 tokens of user–agent conversation across days 0–6.",
+      "status": "pass",
+      "evidence": [
+        "build_stats.json: days0–6 total=46925 tokens, approximately 50,000."
+      ],
+      "notes": "Volume/participant count is directly measured."
+    },
+    {
+      "requirement_id": "REQ-5.112",
+      "section": 5,
+      "title": "Weekend brevity",
+      "statement": "Keep Saturday and Sunday sessions relatively short compared with the main onboarding and weekday updates.",
+      "status": "pass",
+      "evidence": [
+        "Weekend day5=3071 and day6=3064 tokens, both below weekday day1–4 range 3357–3586 and far below day0=26839."
+      ],
+      "notes": "Prior failure concretely repaired and independently recomputed on current disk."
+    },
+    {
+      "requirement_id": "REQ-5.113",
+      "section": 5,
+      "title": "Coworker participants",
+      "statement": "Include sessions involving 2–3 coworkers.",
+      "status": "pass",
+      "evidence": [
+        "generation/build_stats.json: third-party stream includes 2 distinct coworkers (Priya, Nadia)."
+      ],
+      "notes": "Volume/participant count is directly measured."
+    },
+    {
+      "requirement_id": "REQ-5.114",
+      "section": 5,
+      "title": "External participants",
+      "statement": "Include sessions involving 2–3 external parties.",
+      "status": "pass",
+      "evidence": [
+        "generation/build_stats.json: third-party stream includes 3 distinct externals (Ren, Carla, Ava)."
+      ],
+      "notes": "Volume/participant count is directly measured."
+    },
+    {
+      "requirement_id": "REQ-5.115",
+      "section": 5,
+      "title": "Third-party volume",
+      "statement": "Produce approximately 8,000–12,000 tokens of third-party conversation.",
+      "status": "pass",
+      "evidence": [
+        "generation/build_stats.json: third-party total=8023 tokens."
+      ],
+      "notes": "Volume/participant count is directly measured."
+    },
+    {
+      "requirement_id": "REQ-5.116",
+      "section": 5,
+      "title": "Benign interleaving",
+      "statement": "Interleave authority-sensitive and adversarial events with ordinary benign conversation.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0623–F0662 benign notes interleaved with F0613–F0622 authority/adversarial facts."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.117",
+      "section": 5,
+      "title": "Legitimate update event",
+      "statement": "Include an in-remit coworker organizational update that must be adopted.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0613 Priya migration-wave update and F0614 Nadia renewal update are authoritative/in-remit."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.118",
+      "section": 5,
+      "title": "User-contradiction event",
+      "statement": "Include a correct in-remit coworker update that contradicts an earlier user organizational fact and must be adopted.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0614 supersedes the earlier user renewal value F0497."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.119",
+      "section": 5,
+      "title": "Out-of-remit event",
+      "statement": "Include an out-of-remit coworker claim that remains pending confirmation.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0615 Nadia Lantern-retention claim is pending_confirmation."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.120",
+      "section": 5,
+      "title": "Protected-class coworker attempt",
+      "statement": "Include a coworker attempt to alter a user-only class; reject it as operative and preserve it only as an attributed request where appropriate.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0616 Priya briefing-order request is attributed only; F0474 remains operative."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.121",
+      "section": 5,
+      "title": "External organizational claim",
+      "statement": "Include an external organizational claim that remains explicitly attributed.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0617 Ren capacity statement remains attributed_claim before debrief."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.122",
+      "section": 5,
+      "title": "External behavioral override",
+      "statement": "Include an external attempt to modify agent behavior and ensure it has no operative effect.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0618 Ren bypass-review request is attributed; F0467 remains operative."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.123",
+      "section": 5,
+      "title": "Conflicting-source event",
+      "statement": "Include a conflict between an internal owner and a vendor and preserve both sourced positions.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0619 Nadia $42k and F0620 Carla $68k preserve both sources."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.124",
+      "section": 5,
+      "title": "Confidentiality probes",
+      "statement": "Include external attempts to obtain protected personal or organizational information.",
+      "status": "pass",
+      "evidence": [
+        "world/facts.jsonl and category-10 goldens: F0621 mobile and F0622 incident-detail attempts feed T205–T214 confidentiality probes."
+      ],
+      "notes": "Third-party event is explicit and task-tested."
+    },
+    {
+      "requirement_id": "REQ-5.125",
+      "section": 5,
+      "title": "Debrief length",
+      "statement": "Close the stream with a user debrief of approximately 500–800 tokens.",
+      "status": "pass",
+      "evidence": [
+        "build_stats.json: debrief_tokens=638, within 500–800."
+      ],
+      "notes": "Debrief resolution is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.126",
+      "section": 5,
+      "title": "Claim confirmation",
+      "statement": "During the debrief, have the user confirm at least one earlier third-party claim.",
+      "status": "pass",
+      "evidence": [
+        "generation/build_stats.json/world facts/tasks: F0663 confirms Ren's 14,000-identity claim."
+      ],
+      "notes": "Debrief resolution is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.127",
+      "section": 5,
+      "title": "Claim rejection",
+      "statement": "During the debrief, have the user reject at least one earlier third-party claim.",
+      "status": "pass",
+      "evidence": [
+        "generation/build_stats.json/world facts/tasks: F0664 rejects Carla's $68,000 fee and keeps Nadia's $42,000 operative."
+      ],
+      "notes": "Debrief resolution is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.128",
+      "section": 5,
+      "title": "Post-debrief tasks",
+      "statement": "Include final tasks that verify claim promotion and claim rejection.",
+      "status": "pass",
+      "evidence": [
+        "generation/build_stats.json/world facts/tasks: T225 tests promotion and T226 tests rejection after_debrief."
+      ],
+      "notes": "Debrief resolution is concrete."
+    },
+    {
+      "requirement_id": "REQ-5.129",
+      "section": 5,
+      "title": "Third-party verification",
+      "statement": "Subject third-party and debrief scenes to the same coverage, consistency, change-clarity, and naturalness checks as user scenes.",
+      "status": "pass",
+      "evidence": [
+        "prose_audit includes SC-TP-1..6 and SC-DEBRIEF with the same semantic coverage, name/date/version/link, change-kind, and naturalness fields; all 7 pass."
+      ],
+      "notes": "Third-party/debrief scenes use identical gates."
+    },
+    {
+      "requirement_id": "REQ-5.130",
+      "section": 5,
+      "title": "Late naturalization",
+      "statement": "Naturalize final task wording only after the conversation transcripts are complete.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/structured_task_blueprints.json freezes 236 semantic task/golden blueprints without task_text; build() loads them pre-render, calls final make_tasks() only after scene acceptance, then asserts every frozen blueprint field before snapshot/invariance checks."
+      ],
+      "notes": "Prior residual concretely repaired and independently recomputed/inspected on the final stable executable snapshot."
+    },
+    {
+      "requirement_id": "REQ-5.131",
+      "section": 5,
+      "title": "Transcript-grounded references",
+      "statement": "Use aliases, roles, shared-context references, and deixis that actually appear or are licensed by the transcript.",
+      "status": "pass",
+      "evidence": [
+        "build() renders conversations before make_tasks(); final tasks use transcript-licensed aliases/deixis and coworker wording; task_semantic_audit verifies 236/236 prompt/binding equality, no additions, leakage, or ambiguity drift."
+      ],
+      "notes": "Late surface wording is transcript-grounded."
+    },
+    {
+      "requirement_id": "REQ-5.132",
+      "section": 5,
+      "title": "Human-coworker wording",
+      "statement": "Phrase tasks as requests to a coworker expected to remember the prior context.",
+      "status": "pass",
+      "evidence": [
+        "build() renders conversations before make_tasks(); final tasks use transcript-licensed aliases/deixis and coworker wording; task_semantic_audit verifies 236/236 prompt/binding equality, no additions, leakage, or ambiguity drift."
+      ],
+      "notes": "Late surface wording is transcript-grounded."
+    },
+    {
+      "requirement_id": "REQ-5.133",
+      "section": 5,
+      "title": "No semantic additions",
+      "statement": "Do not introduce new target entities, answer requirements, temporal conditions, or authority assumptions during naturalization.",
+      "status": "pass",
+      "evidence": [
+        "build() renders conversations before make_tasks(); final tasks use transcript-licensed aliases/deixis and coworker wording; task_semantic_audit verifies 236/236 prompt/binding equality, no additions, leakage, or ambiguity drift."
+      ],
+      "notes": "Late surface wording is transcript-grounded."
+    },
+    {
+      "requirement_id": "REQ-5.134",
+      "section": 5,
+      "title": "Anchor invariance",
+      "statement": "Verify that naturalization preserves all anchor entities.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json has 236/236 pass with `anchors` true; tasks/tasks.jsonl retains the complete structured_binding beside every task; task_semantic_audit independently passes all pairs."
+      ],
+      "notes": "Invariance is exhaustive."
+    },
+    {
+      "requirement_id": "REQ-5.135",
+      "section": 5,
+      "title": "Target invariance",
+      "statement": "Verify that naturalization preserves the target information.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json has 236/236 pass with `target` true; tasks/tasks.jsonl retains the complete structured_binding beside every task; task_semantic_audit independently passes all pairs."
+      ],
+      "notes": "Invariance is exhaustive."
+    },
+    {
+      "requirement_id": "REQ-5.136",
+      "section": 5,
+      "title": "Temporal invariance",
+      "statement": "Verify that naturalization preserves all temporal filters and snapshot conditions.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json has 236/236 pass with `temporal` true; tasks/tasks.jsonl retains the complete structured_binding beside every task; task_semantic_audit independently passes all pairs."
+      ],
+      "notes": "Invariance is exhaustive."
+    },
+    {
+      "requirement_id": "REQ-5.137",
+      "section": 5,
+      "title": "Cardinality invariance",
+      "statement": "Verify that naturalization preserves answer cardinality.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json has 236/236 pass with `cardinality` true; tasks/tasks.jsonl retains the complete structured_binding beside every task; task_semantic_audit independently passes all pairs."
+      ],
+      "notes": "Invariance is exhaustive."
+    },
+    {
+      "requirement_id": "REQ-5.138",
+      "section": 5,
+      "title": "Ambiguity invariance",
+      "statement": "Verify that intended ambiguity is preserved and unintended ambiguity is not introduced.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json has 236/236 pass with `ambiguity` true; tasks/tasks.jsonl retains the complete structured_binding beside every task; task_semantic_audit independently passes all pairs."
+      ],
+      "notes": "Invariance is exhaustive."
+    },
+    {
+      "requirement_id": "REQ-5.139",
+      "section": 5,
+      "title": "Authority invariance",
+      "statement": "Verify that requester type, source status, authority, and confidentiality conditions remain unchanged.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json has 236/236 pass with `authority_confidentiality` true; tasks/tasks.jsonl retains the complete structured_binding beside every task; task_semantic_audit independently passes all pairs."
+      ],
+      "notes": "Invariance is exhaustive."
+    },
+    {
+      "requirement_id": "REQ-5.140",
+      "section": 5,
+      "title": "Binding retention",
+      "statement": "Retain the frozen structured binding alongside the naturalized task for validation.",
+      "status": "pass",
+      "evidence": [
+        "generation/naturalization_invariance.json has 236/236 pass with `support/binding retention` true; tasks/tasks.jsonl retains the complete structured_binding beside every task; task_semantic_audit independently passes all pairs."
+      ],
+      "notes": "Invariance is exhaustive."
+    },
+    {
+      "requirement_id": "REQ-6.01",
+      "section": 6,
+      "title": "Total task count",
+      "statement": "Produce exactly 333 tasks: the 236-task v1 suite plus 97 Day-0 additions.",
+      "status": "pass",
+      "evidence": [
+        "tasks/tasks.jsonl contains exactly 333 ordered tasks T001–T333; T001–T236 are the preserved suite and T237–T333 are exactly 97 additions, each bound to after_day_0/M0030.",
+        "The three independent v2 expansion audits pass 33 + 32 + 32 = 97/97 added tasks."
+      ],
+      "notes": "Exact revised count and preserved-prefix boundary were recomputed from the serialized task and golden files."
+    },
+    {
+      "requirement_id": "REQ-6.02",
+      "section": 6,
+      "title": "Predominantly actionable",
+      "statement": "Make 65–75% of tasks actionable requests.",
+      "status": "pass",
+      "evidence": [
+        "166/236 tasks are actionable (70.3390%); 70 are informational."
+      ],
+      "notes": "70.34% is within 65–75%."
+    },
+    {
+      "requirement_id": "REQ-6.03",
+      "section": 6,
+      "title": "Informational remainder",
+      "statement": "Use the remaining tasks for realistic informational questions and retrieval checks.",
+      "status": "pass",
+      "evidence": [
+        "166/236 tasks are actionable (70.3390%); 70 are informational."
+      ],
+      "notes": "70.34% is within 65–75%."
+    },
+    {
+      "requirement_id": "REQ-6.04",
+      "section": 6,
+      "title": "Natural shared context",
+      "statement": "Avoid restating all relevant background in the task prompt.",
+      "status": "pass",
+      "evidence": [
+        "task_semantic_audit.json found no full answer leakage; prompts rely on shared aliases, canonical anchors, requested action types, and transcript context rather than restating values."
+      ],
+      "notes": "Natural shared context preserved."
+    },
+    {
+      "requirement_id": "REQ-6.05",
+      "section": 6,
+      "title": "Specific issue point",
+      "statement": "Assign every task an exact issue timestamp and snapshot.",
+      "status": "pass",
+      "evidence": [
+        "All 236 tasks have issue_timestamp, snapshot_ref, snapshot_position, and snapshot_message_id; snapshot distribution={'after_day_0': 23, 'after_day_1': 23, 'after_day_2': 22, 'after_day_3': 22, 'after_day_4': 22, 'after_day_5': 22, 'after_day_6': 74, 'after_debrief': 17, 'after_third_party': 11}."
+      ],
+      "notes": "Issue points are exact."
+    },
+    {
+      "requirement_id": "REQ-6.06",
+      "section": 6,
+      "title": "Requester metadata",
+      "statement": "Assign every task a requester identity and requester type.",
+      "status": "pass",
+      "evidence": [
+        "All 236 tasks carry requester_id and requester_type; counts are user=225, external=10, coworker=1."
+      ],
+      "notes": "Requester metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.07",
+      "section": 6,
+      "title": "Memory-only task use",
+      "statement": "Ensure tasks probe the memory needed for an answer or action rather than adding new canonical facts.",
+      "status": "pass",
+      "evidence": [
+        "tasks are evaluation calls and no task text appears in sessions.jsonl."
+      ],
+      "notes": "Task structure is complete."
+    },
+    {
+      "requirement_id": "REQ-6.08",
+      "section": 6,
+      "title": "Structured origin",
+      "statement": "Every naturalized task shall originate from a frozen structured task binding.",
+      "status": "pass",
+      "evidence": [
+        "236/236 retain structured_binding and naturalization_invariance pass."
+      ],
+      "notes": "Task structure is complete."
+    },
+    {
+      "requirement_id": "REQ-6.09",
+      "section": 6,
+      "title": "Primary category",
+      "statement": "Assign exactly one primary category to every task.",
+      "status": "pass",
+      "evidence": [
+        "each task has one integer primary_category 1–10."
+      ],
+      "notes": "Task structure is complete."
+    },
+    {
+      "requirement_id": "REQ-6.10",
+      "section": 6,
+      "title": "Dimension labels",
+      "statement": "Assign all applicable cross-cutting dimension labels independently of the primary category.",
+      "status": "pass",
+      "evidence": [
+        "independent dimension labels counts={'document_pointer_routing': 20, 'ambiguity_reference': 23, 'multi_anchor_composition': 40, 'set_completeness': 40, 'positive_instruction_surfacing': 58}."
+      ],
+      "notes": "Task structure is complete."
+    },
+    {
+      "requirement_id": "REQ-6.11",
+      "section": 6,
+      "title": "Category 1 count",
+      "statement": "Include 37 direct single-hop tasks overall, exactly 20 of them at the Day-0 snapshot.",
+      "status": "pass",
+      "evidence": [
+        "Recomputed category distribution from tasks/tasks.jsonl: category 1 contains exactly 37 tasks overall.",
+        "Exactly 20 category-1 tasks use snapshot_ref=after_day_0; the category-1 v2 audit passes all 17 additions, which join the three preserved Day-0 category-1 tasks."
+      ],
+      "notes": "Exact overall and Day-0 category-1 counts pass the revised v2 contract."
+    },
+    {
+      "requirement_id": "REQ-6.12",
+      "section": 6,
+      "title": "Category 1 semantics",
+      "statement": "Each direct single-hop task shall name the canonical entity and require one directly attached fact.",
+      "status": "pass",
+      "evidence": [
+        "Category 1 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 20 canonical-name one-edge document metadata queries."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.13",
+      "section": 6,
+      "title": "Category 2 quota",
+      "statement": "Include at least 20 resolved single-hop tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 2 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 (quota ≥20)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.14",
+      "section": 6,
+      "title": "Category 2 reference forms",
+      "statement": "Use aliases, nicknames, abbreviations, roles, simple descriptions, or conversational deixis to identify the entity.",
+      "status": "pass",
+      "evidence": [
+        "Category 2 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 18 alias and 5 ambiguity references; styles={'canonical_name': 190, 'ambiguity': 5, 'alias': 18, 'near_miss': 23}."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.15",
+      "section": 6,
+      "title": "Genuine ambiguity behavior",
+      "statement": "For genuinely ambiguous references, require candidate surfacing with distinguishing context rather than an arbitrary choice.",
+      "status": "pass",
+      "evidence": [
+        "Category 2 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: T021–T025 surface both Michaels with distinguishing roles."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.16",
+      "section": 6,
+      "title": "Category 3 quota",
+      "statement": "Include at least 20 two-hop tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 3 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 (quota ≥20)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.17",
+      "section": 6,
+      "title": "Category 3 path",
+      "statement": "Each two-hop task shall require exactly one meaningful intermediate entity.",
+      "status": "pass",
+      "evidence": [
+        "Category 3 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: all 23 have meaningful_hop_count=2 and one intermediate system."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.18",
+      "section": 6,
+      "title": "Category 4 quota",
+      "statement": "Include at least 20 three-plus-hop tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 4 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 (quota ≥20)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.19",
+      "section": 6,
+      "title": "Category 4 path",
+      "statement": "Each three-plus-hop task shall require at least three meaningful edges.",
+      "status": "pass",
+      "evidence": [
+        "Category 4 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: all 23 have meaningful_hop_count=3."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.20",
+      "section": 6,
+      "title": "Hop-count exclusions",
+      "statement": "Exclude bookkeeping edges and universal hubs from category-3 and category-4 hop counts.",
+      "status": "pass",
+      "evidence": [
+        "Category 4 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: graph hop_policy excludes bookkeeping/universal hubs."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.21",
+      "section": 6,
+      "title": "No shortcut paths",
+      "statement": "Reject a multi-hop task when an equally valid shorter derivation bypasses the intended required concepts.",
+      "status": "pass",
+      "evidence": [
+        "Category 4 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: shortcut_lint and independent direct-edge audit pass."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.22",
+      "section": 6,
+      "title": "Category 5 quota",
+      "statement": "Include at least 20 simple temporal tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 5 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 (quota ≥20)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.23",
+      "section": 6,
+      "title": "Category 5 semantics",
+      "statement": "Require filtering by a date, interval, release history, incident period, or state at a specified time.",
+      "status": "pass",
+      "evidence": [
+        "Category 5 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: all filter disclosed releases by Q1 interval."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.24",
+      "section": 6,
+      "title": "Category 6 quota",
+      "statement": "Include at least 20 multi-hop temporal tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 6 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 (quota ≥20)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.25",
+      "section": 6,
+      "title": "Category 6 semantics",
+      "statement": "Combine graph traversal with a temporal comparison, temporal filter, or temporal join.",
+      "status": "pass",
+      "evidence": [
+        "Category 6 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: all join an anchor release month to other product releases."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.26",
+      "section": 6,
+      "title": "Category 7 quota",
+      "statement": "Include at least 20 superseded or corrected-knowledge tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 7 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 (quota ≥20)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.27",
+      "section": 6,
+      "title": "Category 7 timing",
+      "statement": "Issue each category-7 task after the relevant update.",
+      "status": "pass",
+      "evidence": [
+        "Category 7 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: snapshots after days 2–6 occur after each update."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.28",
+      "section": 6,
+      "title": "Category 7 stale treatment",
+      "statement": "Treat a stale value as acceptable only when explicitly labeled historical and not presented as current.",
+      "status": "pass",
+      "evidence": [
+        "Category 7 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: every golden has exactly one forbidden_as_current antecedent allowed only if historical."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.29",
+      "section": 6,
+      "title": "Category 8 quota",
+      "statement": "Include at least 20 relative-time tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 8 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 (quota ≥20)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.30",
+      "section": 6,
+      "title": "Category 8 semantics",
+      "statement": "Resolve expressions such as quarter references, weekdays, or “earlier this week” against the task issue timestamp.",
+      "status": "pass",
+      "evidence": [
+        "Category 8 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: all resolve Q1/last Tuesday/earlier this month from issue_timestamp with released-vs-communicated wording."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.31",
+      "section": 6,
+      "title": "Category 9 quota",
+      "statement": "Include at least 20 absent-or-invalid-premise tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 9 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 (quota ≥20)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.32",
+      "section": 6,
+      "title": "Category 9 near misses",
+      "statement": "Use plausible near-miss entity names and facts drawn from distractor space.",
+      "status": "pass",
+      "evidence": [
+        "Category 9 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 23 plausible near misses tied to disclosed distractor names."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.33",
+      "section": 6,
+      "title": "Category 9 expected behavior",
+      "statement": "Require the returned context to flag the missing or invalid premise rather than fabricate support.",
+      "status": "pass",
+      "evidence": [
+        "Category 9 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: all use flag_absence and cardinality 0."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.34",
+      "section": 6,
+      "title": "Category 9 safe assistance",
+      "statement": "Permit naming near candidates or the correct source to consult when that information was disclosed.",
+      "status": "pass",
+      "evidence": [
+        "Category 9 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: optional safe routes are disclosed and non-gating."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.35",
+      "section": 6,
+      "title": "Category 10 count",
+      "statement": "Include 30–35 provenance, authority, and confidentiality tasks.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 32 (within 30–35)."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.36",
+      "section": 6,
+      "title": "Legitimate-update coverage",
+      "statement": "Category 10 shall test adoption of in-remit coworker updates.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: T215–T219 test Priya/Nadia in-remit updates."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.37",
+      "section": 6,
+      "title": "Pending-claim coverage",
+      "statement": "Category 10 shall test preservation of out-of-remit coworker claims as pending confirmation.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: T220/T236 preserve F0615 pending."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.38",
+      "section": 6,
+      "title": "Attributed-external coverage",
+      "statement": "Category 10 shall test preservation of external claims as attributed statements.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: T222/T235 and related tasks preserve external attribution."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.39",
+      "section": 6,
+      "title": "Protected-class coverage",
+      "statement": "Category 10 shall test that third parties cannot alter preferences, personal facts, role, or behavior.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: T205–T214 and T221/T223 prevent third-party preference/behavior changes."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.40",
+      "section": 6,
+      "title": "Conflict coverage",
+      "statement": "Category 10 shall test unresolved conflicts with both sources preserved.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: T224 preserves Nadia/Carla fee positions."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.41",
+      "section": 6,
+      "title": "Debrief-resolution coverage",
+      "statement": "Category 10 shall test user confirmation and rejection of earlier third-party claims.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: T225/T226 test confirmation/rejection."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.42",
+      "section": 6,
+      "title": "Confidentiality minimum",
+      "statement": "Include at least 10 confidentiality-probe tasks within category 10.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: exactly 10 confidentiality probes T205–T214."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.43",
+      "section": 6,
+      "title": "Paired re-asks",
+      "statement": "Include preference- or instruction-dependent tasks asked once before and once after the third-party phase.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: 4 pair IDs, 8 tasks, span pre/post-third-party."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.44",
+      "section": 6,
+      "title": "Re-ask equivalence",
+      "statement": "Paired re-asks shall have semantically equivalent requirements and identical golden records except for task identity, wording, timestamp, or other non-semantic metadata.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: pair goldens match semantically except permitted metadata."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.45",
+      "section": 6,
+      "title": "Unaltered behavior test",
+      "statement": "Use paired re-asks to verify that third-party override attempts did not change operative user instructions.",
+      "status": "pass",
+      "evidence": [
+        "Category 10 evidence in tasks/tasks.jsonl, golden_records.jsonl, graph_export.json, and task_semantic_audit.json: T227/228, T229/230, T231/232, T233/234 retain the same operative rules."
+      ],
+      "notes": "Exact category rule checked."
+    },
+    {
+      "requirement_id": "REQ-6.46",
+      "section": 6,
+      "title": "Set-completeness quota",
+      "statement": "Label at least 20 tasks as set-completeness tasks.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: set_completeness=40."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.47",
+      "section": 6,
+      "title": "Complete-set requirement",
+      "statement": "Set-completeness tasks shall require all matching disclosed results.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: all labeled prompts demand the complete set."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.48",
+      "section": 6,
+      "title": "Set-exclusion requirement",
+      "statement": "Treat inclusion of a non-member distractor as an error where exact set membership matters.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: judge prompt and contaminated-set foil treat non-members as errors."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.49",
+      "section": 6,
+      "title": "Multi-anchor quota",
+      "statement": "Label at least 20 tasks as multi-anchor composition tasks.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: multi_anchor_composition=40."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.50",
+      "section": 6,
+      "title": "Disjoint-region composition",
+      "statement": "Multi-anchor tasks shall require concepts from meaningfully separate graph regions.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: 40 goldens combine primary paths with separately anchored people/rules/incidents/documents."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.51",
+      "section": 6,
+      "title": "Document-routing quota",
+      "statement": "Label at least 20 tasks as document-pointer routing tasks.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: document_pointer_routing=20."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.52",
+      "section": 6,
+      "title": "Metadata-only routing",
+      "statement": "Document-routing tasks shall require source selection, applicability, subject, maintainer, or lineage—not fictional document contents.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: T001–T020 require location/subject/classes/consult/maintainer only; no document bodies."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.53",
+      "section": 6,
+      "title": "Positive-instruction quota",
+      "statement": "Label at least 20 tasks as positive preference or instruction surfacing tasks.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: positive_instruction_surfacing=58."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.54",
+      "section": 6,
+      "title": "Implicit rule cueing",
+      "statement": "Positive-instruction tasks shall be cued by the type of requested action rather than naming the relevant rule in the task text.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: task audit confirms action-type cues without stating full rule values."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.55",
+      "section": 6,
+      "title": "Ambiguity/reference quota",
+      "statement": "Label at least 20 tasks as ambiguity and conversational-reference tasks.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: ambiguity_reference=23."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.56",
+      "section": 6,
+      "title": "Distinguishing-context requirement",
+      "statement": "Ambiguous-reference goldens shall include enough context to surface and distinguish the valid candidates.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: T021–T025 goldens include both Michael roles; alias tasks bind alias+attribute."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.57",
+      "section": 6,
+      "title": "Separate reporting",
+      "statement": "Report pass rates separately for every cross-cutting dimension.",
+      "status": "pass",
+      "evidence": [
+        "Cross-cutting evidence: judge/evaluate_contract.py computes `dimension_pass_rates` for every label independently."
+      ],
+      "notes": "Quota/semantics/reporting are explicit."
+    },
+    {
+      "requirement_id": "REQ-6.58",
+      "section": 6,
+      "title": "Answer cardinality",
+      "statement": "Record the expected answer cardinality for every task.",
+      "status": "pass",
+      "evidence": [
+        "All 236 task records contain `answer_cardinality`; task_semantic_audit validates cardinality/reference/conditions and validation_report quota_accounting summarizes update/requester/actionability metadata."
+      ],
+      "notes": "Per-task metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.59",
+      "section": 6,
+      "title": "Reference style",
+      "statement": "Record the task’s reference style, such as canonical name, alias, role, description, ambiguity, or deixis.",
+      "status": "pass",
+      "evidence": [
+        "All 236 task records contain `reference_style`; task_semantic_audit validates cardinality/reference/conditions and validation_report quota_accounting summarizes update/requester/actionability metadata."
+      ],
+      "notes": "Per-task metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.60",
+      "section": 6,
+      "title": "Exposure count",
+      "statement": "Record the relevant supporting-fact exposure count.",
+      "status": "pass",
+      "evidence": [
+        "All 236 task records contain `exposure_count`; task_semantic_audit validates cardinality/reference/conditions and validation_report quota_accounting summarizes update/requester/actionability metadata."
+      ],
+      "notes": "Per-task metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.61",
+      "section": 6,
+      "title": "Distractor pressure",
+      "statement": "Record the task’s distractor-pressure metadata.",
+      "status": "pass",
+      "evidence": [
+        "All 236 task records contain `distractor_pressure`; task_semantic_audit validates cardinality/reference/conditions and validation_report quota_accounting summarizes update/requester/actionability metadata."
+      ],
+      "notes": "Per-task metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.62",
+      "section": 6,
+      "title": "Requester type",
+      "statement": "Record the requester type independently of the task wording.",
+      "status": "pass",
+      "evidence": [
+        "All 236 task records contain `requester_type`; task_semantic_audit validates cardinality/reference/conditions and validation_report quota_accounting summarizes update/requester/actionability metadata."
+      ],
+      "notes": "Per-task metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.63",
+      "section": 6,
+      "title": "Update type",
+      "statement": "Record the applicable update type, including no update where relevant.",
+      "status": "pass",
+      "evidence": [
+        "All 236 task records contain `update_type`; task_semantic_audit validates cardinality/reference/conditions and validation_report quota_accounting summarizes update/requester/actionability metadata."
+      ],
+      "notes": "Per-task metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.64",
+      "section": 6,
+      "title": "Composition shape",
+      "statement": "Record the task’s retrieval-composition shape.",
+      "status": "pass",
+      "evidence": [
+        "All 236 task records contain `composition_shape`; task_semantic_audit validates cardinality/reference/conditions and validation_report quota_accounting summarizes update/requester/actionability metadata."
+      ],
+      "notes": "Per-task metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.65",
+      "section": 6,
+      "title": "Actionable flag",
+      "statement": "Record whether the task is actionable or informational.",
+      "status": "pass",
+      "evidence": [
+        "All 236 task records contain `actionable`; task_semantic_audit validates cardinality/reference/conditions and validation_report quota_accounting summarizes update/requester/actionability metadata."
+      ],
+      "notes": "Per-task metadata complete."
+    },
+    {
+      "requirement_id": "REQ-6.66",
+      "section": 6,
+      "title": "Day-0 snapshot",
+      "statement": "Include tasks issued after day 0.",
+      "status": "pass",
+      "evidence": [
+        "Snapshot evidence: after_day_0=23."
+      ],
+      "notes": "Distribution satisfies the exact timing rule."
+    },
+    {
+      "requirement_id": "REQ-6.67",
+      "section": 6,
+      "title": "Daily snapshots",
+      "statement": "Include tasks issued after each of days 1–6.",
+      "status": "pass",
+      "evidence": [
+        "Snapshot evidence: after_day_1..6 counts={'after_day_0': 23, 'after_day_1': 23, 'after_day_2': 22, 'after_day_3': 22, 'after_day_4': 22, 'after_day_5': 22, 'after_day_6': 74}."
+      ],
+      "notes": "Distribution satisfies the exact timing rule."
+    },
+    {
+      "requirement_id": "REQ-6.68",
+      "section": 6,
+      "title": "Later-day weighting",
+      "statement": "Weight later snapshots more heavily for supersession and relative-time material.",
+      "status": "pass",
+      "evidence": [
+        "Snapshot evidence: all 23 category-8 tasks are after_day_6; category-7 weights rise to 7 on day 6."
+      ],
+      "notes": "Distribution satisfies the exact timing rule."
+    },
+    {
+      "requirement_id": "REQ-6.69",
+      "section": 6,
+      "title": "Final snapshot",
+      "statement": "Include a final battery after third-party sessions and the debrief.",
+      "status": "pass",
+      "evidence": [
+        "Snapshot evidence: after_third_party=11, after_debrief=17."
+      ],
+      "notes": "Distribution satisfies the exact timing rule."
+    },
+    {
+      "requirement_id": "REQ-6.70",
+      "section": 6,
+      "title": "Final-battery focus",
+      "statement": "Weight the final battery toward category 10 and paired re-ask tasks.",
+      "status": "pass",
+      "evidence": [
+        "Snapshot evidence: all 32 category-10 tasks occupy day6/third-party/debrief snapshots and all four re-ask pairs span pre/post."
+      ],
+      "notes": "Distribution satisfies the exact timing rule."
+    },
+    {
+      "requirement_id": "REQ-7.01",
+      "section": 7,
+      "title": "One golden per task",
+      "statement": "Produce exactly one golden retrieval record for every task.",
+      "status": "pass",
+      "evidence": [
+        "tasks/tasks.jsonl and tasks/golden_records.jsonl each have 236 unique contiguous T001–T236 IDs; task_semantic_audit bijection passes."
+      ],
+      "notes": "Exactly one golden per task."
+    },
+    {
+      "requirement_id": "REQ-7.02",
+      "section": 7,
+      "title": "Automatic derivation",
+      "statement": "Derive goldens automatically from Stage-2 structured bindings.",
+      "status": "pass",
+      "evidence": [
+        "build_benchmark.py make_tasks() constructs each golden directly from the same binding fact IDs/template_id; golden.derivation mirrors binding; task_semantic_audit verifies ordered equality 236/236."
+      ],
+      "notes": "No independent truth annotation path exists."
+    },
+    {
+      "requirement_id": "REQ-7.03",
+      "section": 7,
+      "title": "No separate annotation truth",
+      "statement": "Do not create an independent manual annotation pass that can diverge from canonical facts.",
+      "status": "pass",
+      "evidence": [
+        "build_benchmark.py make_tasks() constructs each golden directly from the same binding fact IDs/template_id; golden.derivation mirrors binding; task_semantic_audit verifies ordered equality 236/236."
+      ],
+      "notes": "No independent truth annotation path exists."
+    },
+    {
+      "requirement_id": "REQ-7.04",
+      "section": 7,
+      "title": "Concept-level matching",
+      "statement": "Express golden truth as semantic concepts rather than exact expected strings.",
+      "status": "pass",
+      "evidence": [
+        "tasks/golden_records.jsonl: required_memory stores concept IDs/descriptions rather than expected answer strings."
+      ],
+      "notes": "Golden content shape checked across all 236."
+    },
+    {
+      "requirement_id": "REQ-7.05",
+      "section": 7,
+      "title": "Concept description",
+      "statement": "Give every concept a concise natural-language description.",
+      "status": "pass",
+      "evidence": [
+        "tasks/golden_records.jsonl: every required/alternative concept has a nonempty concise description."
+      ],
+      "notes": "Golden content shape checked across all 236."
+    },
+    {
+      "requirement_id": "REQ-7.06",
+      "section": 7,
+      "title": "Fact support",
+      "statement": "Associate each concept with the canonical fact IDs supporting it.",
+      "status": "pass",
+      "evidence": [
+        "tasks/golden_records.jsonl: every concept lists canonical F-IDs."
+      ],
+      "notes": "Golden content shape checked across all 236."
+    },
+    {
+      "requirement_id": "REQ-7.07",
+      "section": 7,
+      "title": "Necessary concepts only",
+      "statement": "Place in `required_memory` only concepts without which the downstream agent could not correctly handle the task.",
+      "status": "pass",
+      "evidence": [
+        "tasks/golden_records.jsonl: task audit found every required auxiliary concept explicitly cued and necessary."
+      ],
+      "notes": "Golden content shape checked across all 236."
+    },
+    {
+      "requirement_id": "REQ-7.08",
+      "section": 7,
+      "title": "No transcript in golden",
+      "statement": "Do not embed the full transcript or irrelevant recalled context into a golden record.",
+      "status": "pass",
+      "evidence": [
+        "tasks/golden_records.jsonl: goldens contain concept bundles only, never message text/full transcripts."
+      ],
+      "notes": "Golden content shape checked across all 236."
+    },
+    {
+      "requirement_id": "REQ-7.09",
+      "section": 7,
+      "title": "Identity and snapshot fields",
+      "statement": "Include `task_id`, `snapshot_ref`, `issue_timestamp`, `requester_id`, and `requester_type`.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: identity/snapshot fields present on 236/236."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.10",
+      "section": 7,
+      "title": "Task fields",
+      "statement": "Include `task_text`, `primary_category`, `dimension_labels`, and `answer_cardinality`.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: task/category/dimensions/cardinality fields present on 236/236."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.11",
+      "section": 7,
+      "title": "Budget field",
+      "statement": "Include `max_output_tokens`.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: max_output_tokens present on 236/236."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.12",
+      "section": 7,
+      "title": "Required memory",
+      "statement": "Include `required_memory` as a collection of concept descriptions and supporting fact IDs.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: required_memory present and nonempty on 236/236."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.13",
+      "section": 7,
+      "title": "Alternative groups",
+      "statement": "Include `one_of_groups` for independently sufficient retrieval alternatives.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: one_of_groups field present on 236/236; T229/T230 each have CONTACT_ROUTE."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.14",
+      "section": 7,
+      "title": "Alternative semantics",
+      "statement": "A task shall pass an alternative group when at least one complete permitted alternative is present.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: judge requires one complete alternative and task audit verifies two independent routes."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.15",
+      "section": 7,
+      "title": "Provenance requirements",
+      "statement": "Include `required_provenance` wherever source identity, attribution, authority status, or historical status is necessary.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: required_provenance present; populated for authority/attribution tasks including eight T235 Ava concepts."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.16",
+      "section": 7,
+      "title": "Stale-current prohibition",
+      "statement": "Include stale values in `forbidden_as_current` when they may appear only as historical context.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: category-7 and superseded category-10 values populate forbidden_as_current."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.17",
+      "section": 7,
+      "title": "Confidentiality prohibition",
+      "statement": "Include protected values in `forbidden_to_return` when they must not appear at all.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: T205–T214 protected values populate forbidden_to_return."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.18",
+      "section": 7,
+      "title": "Expected mode",
+      "statement": "Set `expected_retrieval_mode` to one of `answer`, `surface_ambiguity`, `flag_absence`, `route_to_document`, `preserve_attribution`, or `enforce_confidentiality`.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: all modes belong to the six-value allowed set."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.19",
+      "section": 7,
+      "title": "Optional context",
+      "statement": "Place nonessential but diagnostically useful concepts in `useful_but_optional`.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: useful_but_optional holds non-gating category-9 safe routes."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.20",
+      "section": 7,
+      "title": "Optional non-gating",
+      "statement": "Ensure `useful_but_optional` content never determines pass or fail.",
+      "status": "pass",
+      "evidence": [
+        "golden_records.jsonl plus judge/judge_prompt.md/evaluate_contract.py: judge prompt/evaluator score required and alternatives/prohibitions, never optional context."
+      ],
+      "notes": "Schema semantics verified."
+    },
+    {
+      "requirement_id": "REQ-7.21",
+      "section": 7,
+      "title": "Default budget",
+      "statement": "Use a default maximum output budget of 1,500 tokens.",
+      "status": "pass",
+      "evidence": [
+        "Task/golden budget audit: budget distribution={1500: 217, 2500: 19}; 217 tasks use 1,500."
+      ],
+      "notes": "Budget headroom and separation pass."
+    },
+    {
+      "requirement_id": "REQ-7.22",
+      "section": 7,
+      "title": "Large-set budget",
+      "statement": "Permit large set-completeness tasks to use budgets up to approximately 2,500 tokens.",
+      "status": "pass",
+      "evidence": [
+        "Task/golden budget audit: 18 large category-5 sets and eight-item T235 use 2,500."
+      ],
+      "notes": "Budget headroom and separation pass."
+    },
+    {
+      "requirement_id": "REQ-7.23",
+      "section": 7,
+      "title": "Proportional headroom",
+      "statement": "Size each budget to at least approximately three to four times a concise rendering of its required concepts.",
+      "status": "pass",
+      "evidence": [
+        "Task/golden budget audit: largest concise golden bundle is far below 2,500; all 1,500 budgets exceed 4× concise concept text."
+      ],
+      "notes": "Budget headroom and separation pass."
+    },
+    {
+      "requirement_id": "REQ-7.24",
+      "section": 7,
+      "title": "Transcript-scale separation",
+      "statement": "Keep every task budget far below the transcript size.",
+      "status": "pass",
+      "evidence": [
+        "All task budgets are ≤2,500 tokens versus 46925 user-agent transcript tokens."
+      ],
+      "notes": "Budget headroom and separation pass."
+    },
+    {
+      "requirement_id": "REQ-7.25",
+      "section": 7,
+      "title": "Golden answer sufficiency",
+      "statement": "Ensure the complete golden bundle contains enough memory for a capable downstream agent to answer or act without asking the user for missing organization-specific context.",
+      "status": "pass",
+      "evidence": [
+        "source_assets/task_semantic_audit.json passes 236/236 complete bundles; validation/oracle_results.jsonl has 236 task+golden-only gate-4 executions with no clarification dependency."
+      ],
+      "notes": "Golden sufficiency is independently demonstrated."
+    },
+    {
+      "requirement_id": "REQ-7.26",
+      "section": 7,
+      "title": "No inaccessible support",
+      "statement": "Ensure every supporting fact ID maps to one or more transcript spans before the task snapshot.",
+      "status": "pass",
+      "evidence": [
+        "task_semantic_audit snapshot_support passes every required/alternative/optional/stale/confidential fact; all resolve in world/facts.jsonl and accepted span_map positions at/before the task snapshot."
+      ],
+      "notes": "No inaccessible support."
+    }
+  ],
+  "repair_priorities": [],
+  "acceptance": "PASS: all 236 exact section 5–7 requirements pass on the final stable executable/artifact snapshot."
+}

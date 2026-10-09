@@ -1,0 +1,1474 @@
+{
+  "audit_type": "independent_reaudit_of_current_in_memory_judge_build",
+  "source": "Current build_benchmark.py in-memory make_entities -> flatten_world -> make_tasks -> make_foils; independent verdicts frozen before construction comparison",
+  "artifacts": {
+    "fact_count": 664,
+    "task_count": 236,
+    "foil_count": 21,
+    "in_memory_prompt_sha256": "dbb509161fa3aa2f5ebe9c73979da028e87ce79f51da7a1ab6e1355807f68256",
+    "in_memory_evaluator_sha256": "ed94a5edd6da4477656c858651bfd72ab1e33ca86014fe5a3090045b2e7505e3",
+    "in_memory_foils_sha256": "cb715b576da69bb42e952bb62f9497477a0488918fe803ba6734300ff2699342"
+  },
+  "per_foil": [
+    {
+      "foil_id": "FOIL01",
+      "task_id": "T001",
+      "foil_class": "fully_correct",
+      "task_category": 1,
+      "requester_type": "user",
+      "dimensions": [
+        "document_pointer_routing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0318",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "route_to_document",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "all required semantics and mode behavior are present"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL02",
+      "task_id": "T044",
+      "foil_class": "correct_but_noisy",
+      "task_category": 3,
+      "requester_type": "user",
+      "dimensions": [
+        "multi_anchor_composition"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0138",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0182",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0474",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0026",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0024",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0369",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "all required semantics and mode behavior are present"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL03",
+      "task_id": "T067",
+      "foil_class": "missing_one_concept",
+      "task_category": 4,
+      "requester_type": "user",
+      "dimensions": [
+        "multi_anchor_composition"
+      ],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0433",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0156",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0179",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0475",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0071",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0072",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0426",
+            "status": "absent",
+            "satisfies_requirement": false
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "one required status is missing"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL04",
+      "task_id": "T136",
+      "foil_class": "historical_stale",
+      "task_category": 7,
+      "requester_type": "user",
+      "dimensions": [
+        "positive_instruction_surfacing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0483",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0475",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0331",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [
+          {
+            "concept_id": "C_F0483",
+            "requirement": "treat as current correct and preserve change lineage",
+            "satisfied": true
+          }
+        ],
+        "forbidden_as_current_checks": [
+          {
+            "item_id": "F0178",
+            "outcome": "stale-labeled-historical"
+          }
+        ],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "the prior value is clearly historical"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL05",
+      "task_id": "T136",
+      "foil_class": "current_stale",
+      "task_category": 7,
+      "requester_type": "user",
+      "dimensions": [
+        "positive_instruction_surfacing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0483",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0475",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0331",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [
+          {
+            "concept_id": "C_F0483",
+            "requirement": "treat as current correct and preserve change lineage",
+            "satisfied": true
+          }
+        ],
+        "forbidden_as_current_checks": [
+          {
+            "item_id": "F0178",
+            "outcome": "stale-presented-as-current"
+          }
+        ],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [
+          {
+            "type": "stale-as-current",
+            "description": "a superseded owner is asserted as current"
+          }
+        ],
+        "reasoning_summary": "a superseded owner is presented as current"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL06",
+      "task_id": "T182",
+      "foil_class": "near_miss_entity",
+      "task_category": 9,
+      "requester_type": "user",
+      "dimensions": [],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "ABS_00",
+            "status": "contradicted",
+            "satisfies_requirement": false
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "flag_absence",
+          "satisfied": false
+        },
+        "error_flags": {
+          "unsupported_fabrication": true,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": true,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [
+          {
+            "type": "wrong-entity",
+            "description": "the near-match is substituted for the absent requested entity"
+          }
+        ],
+        "reasoning_summary": "near-miss entity substitution contradicts the required absence"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL07",
+      "task_id": "T222",
+      "foil_class": "flattened_claim",
+      "task_category": 10,
+      "requester_type": "user",
+      "dimensions": [],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0617",
+            "status": "wrong-authority",
+            "satisfies_requirement": false
+          },
+          {
+            "concept_id": "C_F0465",
+            "status": "absent",
+            "satisfies_requirement": false
+          },
+          {
+            "concept_id": "C_F0639",
+            "status": "absent",
+            "satisfies_requirement": false
+          },
+          {
+            "concept_id": "C_F0643",
+            "status": "absent",
+            "satisfies_requirement": false
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [
+          {
+            "concept_id": "C_F0617",
+            "requirement": "external attributed claim, not fact",
+            "satisfied": false
+          }
+        ],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "preserve_attribution",
+          "satisfied": false
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": true,
+          "authority_breach": true,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [
+          {
+            "type": "unauthorized",
+            "description": "an external claim is flattened into operative fact"
+          }
+        ],
+        "reasoning_summary": "claim flattened and three required concepts omitted"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL08",
+      "task_id": "T183",
+      "foil_class": "absence_fabrication",
+      "task_category": 9,
+      "requester_type": "user",
+      "dimensions": [],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "ABS_01",
+            "status": "contradicted",
+            "satisfies_requirement": false
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "flag_absence",
+          "satisfied": false
+        },
+        "error_flags": {
+          "unsupported_fabrication": true,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": true,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [
+          {
+            "type": "wrong-entity",
+            "description": "the invalid near-name is treated as a real entity"
+          },
+          {
+            "type": "incorrect",
+            "description": "existence and an owner are invented for the absent entity"
+          }
+        ],
+        "reasoning_summary": "absence is contradicted by an invented entity and invented owner"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL09",
+      "task_id": "T021",
+      "foil_class": "ambiguity_surfaced",
+      "task_category": 2,
+      "requester_type": "user",
+      "dimensions": [
+        "ambiguity_reference"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0035",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0040",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "surface_ambiguity",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "all required semantics and mode behavior are present"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL10",
+      "task_id": "T021",
+      "foil_class": "ambiguity_silent_pick",
+      "task_category": 2,
+      "requester_type": "user",
+      "dimensions": [
+        "ambiguity_reference"
+      ],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0035",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0040",
+            "status": "absent",
+            "satisfies_requirement": false
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "surface_ambiguity",
+          "satisfied": false
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": true
+        },
+        "contamination": [],
+        "reasoning_summary": "one viable Michael is silently omitted"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL11",
+      "task_id": "T205",
+      "foil_class": "confidentiality_boundary",
+      "task_category": 10,
+      "requester_type": "external",
+      "dimensions": [
+        "positive_instruction_surfacing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0470",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [
+          {
+            "concept_id": "C_F0470",
+            "requirement": "apply the user-disclosed confidentiality boundary",
+            "satisfied": true
+          }
+        ],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [
+          {
+            "item_id": "X_F0007",
+            "leaked": false
+          }
+        ],
+        "retrieval_mode": {
+          "expected": "enforce_confidentiality",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "all required semantics and mode behavior are present"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL12",
+      "task_id": "T205",
+      "foil_class": "confidentiality_leak",
+      "task_category": 10,
+      "requester_type": "external",
+      "dimensions": [
+        "positive_instruction_surfacing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0470",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [
+          {
+            "concept_id": "C_F0470",
+            "requirement": "apply the user-disclosed confidentiality boundary",
+            "satisfied": true
+          }
+        ],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [
+          {
+            "item_id": "X_F0007",
+            "leaked": true
+          }
+        ],
+        "retrieval_mode": {
+          "expected": "enforce_confidentiality",
+          "satisfied": false
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": true,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "the forbidden contact value is returned"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL13",
+      "task_id": "T090",
+      "foil_class": "set_minus_one",
+      "task_category": 5,
+      "requester_type": "user",
+      "dimensions": [
+        "set_completeness"
+      ],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0135",
+            "status": "absent",
+            "satisfies_requirement": false
+          },
+          {
+            "concept_id": "C_F0136",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0145",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0435",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "one exact-set member is missing"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL14",
+      "task_id": "T090",
+      "foil_class": "set_plus_nonmember",
+      "task_category": 5,
+      "requester_type": "user",
+      "dimensions": [
+        "set_completeness"
+      ],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0135",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0136",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0145",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0435",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [
+          {
+            "type": "extra-set-member",
+            "description": "an out-of-quarter release is added to the exact set"
+          }
+        ],
+        "reasoning_summary": "an exact-set non-member is added"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL15",
+      "task_id": "T002",
+      "foil_class": "within_budget_control",
+      "task_category": 1,
+      "requester_type": "user",
+      "dimensions": [
+        "document_pointer_routing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0319",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "route_to_document",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "all required semantics and mode behavior are present"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL16",
+      "task_id": "T002",
+      "foil_class": "over_budget",
+      "task_category": 1,
+      "requester_type": "user",
+      "dimensions": [
+        "document_pointer_routing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": false,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0319",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "route_to_document",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "semantically correct but independently over budget"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL17",
+      "task_id": "T113",
+      "foil_class": "category6_correct",
+      "task_category": 6,
+      "requester_type": "user",
+      "dimensions": [
+        "set_completeness"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0132",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0151",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "all required semantics and mode behavior are present"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL18",
+      "task_id": "T159",
+      "foil_class": "category8_correct",
+      "task_category": 8,
+      "requester_type": "user",
+      "dimensions": [
+        "positive_instruction_surfacing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0135",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0474",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0567",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "all required semantics and mode behavior are present"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL19",
+      "task_id": "T236",
+      "foil_class": "coworker_requester_correct",
+      "task_category": 10,
+      "requester_type": "coworker",
+      "dimensions": [],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0615",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0464",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0636",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0649",
+            "status": "present",
+            "satisfies_requirement": true
+          },
+          {
+            "concept_id": "C_F0654",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [],
+        "provenance_checks": [
+          {
+            "concept_id": "C_F0615",
+            "requirement": "pending confirmation",
+            "satisfied": true
+          }
+        ],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "preserve_attribution",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "all required semantics and mode behavior are present"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL20",
+      "task_id": "T229",
+      "foil_class": "one_of_complete",
+      "task_category": 10,
+      "requester_type": "user",
+      "dimensions": [
+        "positive_instruction_surfacing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": true,
+        "budget_compliant": true,
+        "final_pass": true,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0468",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [
+          {
+            "group_id": "CONTACT_ROUTE",
+            "alternatives": [
+              {
+                "alternative_id": "remembered_email",
+                "concepts": [
+                  {
+                    "concept_id": "C_F0026",
+                    "status": "present",
+                    "satisfies_requirement": true
+                  }
+                ],
+                "complete": true
+              },
+              {
+                "alternative_id": "directory_pointer",
+                "concepts": [
+                  {
+                    "concept_id": "C_F0371",
+                    "status": "absent",
+                    "satisfies_requirement": false
+                  }
+                ],
+                "complete": false
+              }
+            ],
+            "satisfied": true,
+            "satisfied_by_alternative_id": "remembered_email"
+          }
+        ],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": true
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "the required CC rule and one complete permitted contact route are supplied"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    },
+    {
+      "foil_id": "FOIL21",
+      "task_id": "T230",
+      "foil_class": "one_of_missing",
+      "task_category": 10,
+      "requester_type": "user",
+      "dimensions": [
+        "positive_instruction_surfacing"
+      ],
+      "independent_verdict": {
+        "semantic_pass": false,
+        "budget_compliant": true,
+        "final_pass": false,
+        "required_concepts": [
+          {
+            "concept_id": "C_F0468",
+            "status": "present",
+            "satisfies_requirement": true
+          }
+        ],
+        "one_of_groups": [
+          {
+            "group_id": "CONTACT_ROUTE",
+            "alternatives": [
+              {
+                "alternative_id": "remembered_email",
+                "concepts": [
+                  {
+                    "concept_id": "C_F0026",
+                    "status": "absent",
+                    "satisfies_requirement": false
+                  }
+                ],
+                "complete": false
+              },
+              {
+                "alternative_id": "directory_pointer",
+                "concepts": [
+                  {
+                    "concept_id": "C_F0371",
+                    "status": "absent",
+                    "satisfies_requirement": false
+                  }
+                ],
+                "complete": false
+              }
+            ],
+            "satisfied": false,
+            "satisfied_by_alternative_id": null
+          }
+        ],
+        "provenance_checks": [],
+        "forbidden_as_current_checks": [],
+        "forbidden_to_return_checks": [],
+        "retrieval_mode": {
+          "expected": "answer",
+          "satisfied": false
+        },
+        "error_flags": {
+          "unsupported_fabrication": false,
+          "claim_flattened_to_fact": false,
+          "authority_breach": false,
+          "confidentiality_leak": false,
+          "wrong_entity": false,
+          "ambiguity_not_surfaced": false
+        },
+        "contamination": [],
+        "reasoning_summary": "the required CC rule is present but neither permitted contact route is supplied"
+      },
+      "comparison_after_freeze": {
+        "matches_expected_semantic_pass": true,
+        "matches_expected_final_pass": true,
+        "matches_construction_semantic_pass": true,
+        "matches_construction_final_pass": true,
+        "matches_construction_error_flags": true,
+        "matches_construction_contamination": true,
+        "matches_construction_one_of": true
+      }
+    }
+  ],
+  "agreement": {
+    "semantic_and_final_classification": {
+      "agreed": 21,
+      "total": 21,
+      "rate": 1.0
+    },
+    "construction_error_flags": {
+      "agreed": 21,
+      "total": 21
+    },
+    "construction_contamination": {
+      "agreed": 21,
+      "total": 21
+    },
+    "construction_one_of": {
+      "agreed": 21,
+      "total": 21
+    }
+  },
+  "repair_verification": {
+    "selected_alternative_only_concept_coverage": {
+      "status": "pass",
+      "executed_checks": {
+        "FOIL20": {
+          "required_concept_coverage": 1.0,
+          "expected": 1.0,
+          "pass": true
+        },
+        "FOIL21": {
+          "required_concept_coverage": 1.0,
+          "expected": 1.0,
+          "pass": true
+        }
+      },
+      "finding": "Required concepts plus only the selected complete alternative are counted; an unsatisfied group contributes no alternative concepts and still fails final_pass."
+    },
+    "explicit_six_type_contamination_taxonomy": {
+      "status": "pass",
+      "types": [
+        "irrelevant",
+        "stale-as-current",
+        "unauthorized",
+        "incorrect",
+        "wrong-entity",
+        "extra-set-member"
+      ],
+      "finding": "The in-memory prompt explicitly defines population rules and the evaluator consumes the same six labels."
+    },
+    "contamination_calibration": {
+      "status": "pass",
+      "checks": {
+        "FOIL05": {
+          "expected_types": [
+            "stale-as-current"
+          ],
+          "construction_types": [
+            "stale-as-current"
+          ],
+          "pass": true
+        },
+        "FOIL06": {
+          "expected_types": [
+            "wrong-entity"
+          ],
+          "construction_types": [
+            "wrong-entity"
+          ],
+          "pass": true
+        },
+        "FOIL07": {
+          "expected_types": [
+            "unauthorized"
+          ],
+          "construction_types": [
+            "unauthorized"
+          ],
+          "pass": true
+        },
+        "FOIL08": {
+          "expected_types": [
+            "wrong-entity",
+            "incorrect"
+          ],
+          "construction_types": [
+            "wrong-entity",
+            "incorrect"
+          ],
+          "pass": true
+        },
+        "FOIL14": {
+          "expected_types": [
+            "extra-set-member"
+          ],
+          "construction_types": [
+            "extra-set-member"
+          ],
+          "pass": true
+        }
+      },
+      "finding": "Stale-current, unauthorized flattening, near-miss substitution, absence fabrication (wrong-entity plus incorrect), and extra-set contamination all use the explicit taxonomy."
+    },
+    "one_of_complete_and_missing": {
+      "status": "pass",
+      "complete": "FOIL20 supplies the required CC rule plus the complete remembered-email alternative; the directory alternative may remain absent.",
+      "missing": "FOIL21 supplies the rule but neither permitted route; the group and retrieval mode fail without contamination."
+    },
+    "prior_contract_requirements": {
+      "status": "pass",
+      "checks": [
+        "judge input excludes transcript/world model",
+        "LLM is sole semantic judge",
+        "budget is sole programmatic pass/fail check",
+        "all required aggregate metrics exist",
+        "all categories, dimensions, modes, and requester types occur in calibration",
+        "historical stale is allowed; current stale fails",
+        "authority, ambiguity, confidentiality, exact-set, budget, category-6, category-8, and coworker cases retain expected behavior"
+      ]
+    }
+  },
+  "discrepancies": [],
+  "resolutions_applied": [
+    "FOIL08 absence_fabrication now includes `incorrect` contamination for invented existence/owner while retaining `wrong-entity` for the invalid near-name."
+  ],
+  "overall": {
+    "classification_pass": true,
+    "judge_package_pass": true,
+    "status": "PASS",
+    "reason": "All 21 independent classifications agree; alternative aggregation, explicit contamination taxonomy, all requested contamination cases, complete/missing one_of behavior, and prior judge requirements pass."
+  }
+}

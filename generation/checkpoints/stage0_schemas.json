@@ -1,0 +1,16 @@
+{
+  "stage": 0,
+  "status": "frozen",
+  "seed": 260601,
+  "schemas": [
+    "conversation_message.schema.json",
+    "entity_sheets.schema.json",
+    "fact.schema.json",
+    "golden.schema.json",
+    "patch.schema.json",
+    "task.schema.json"
+  ],
+  "authority_matrix_frozen": true,
+  "id_rules": "stable F/T/P/M prefixes with zero-padded monotonic integers",
+  "calendar_anchor": "2026-06-01"
+}

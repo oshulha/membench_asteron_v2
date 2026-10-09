@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "task_id",
+    "task_text",
+    "issue_timestamp",
+    "snapshot_ref",
+    "requester_id",
+    "requester_type",
+    "max_output_tokens",
+    "primary_category",
+    "dimension_labels",
+    "answer_cardinality",
+    "reference_style",
+    "exposure_count",
+    "distractor_pressure",
+    "update_type",
+    "composition_shape",
+    "actionable",
+    "structured_binding"
+  ]
+}

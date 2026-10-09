@@ -1,0 +1,6257 @@
+{
+  "graph_version": "post-distractor-final",
+  "analysis_only": true,
+  "nodes": [
+    {
+      "id": "cloud_aws_data",
+      "label": "AWS Data Platform",
+      "kind": "cloud"
+    },
+    {
+      "id": "cloud_aws_prod",
+      "label": "AWS Production",
+      "kind": "cloud"
+    },
+    {
+      "id": "cloud_aws_shared",
+      "label": "AWS Shared Services",
+      "kind": "cloud"
+    },
+    {
+      "id": "cloud_azure_corp",
+      "label": "Azure Corporate",
+      "kind": "cloud"
+    },
+    {
+      "id": "cloud_azure_lab",
+      "label": "Azure Research Lab",
+      "kind": "cloud"
+    },
+    {
+      "id": "cloud_gcp_analytics",
+      "label": "GCP Analytics",
+      "kind": "cloud"
+    },
+    {
+      "id": "cloud_gcp_backup",
+      "label": "GCP Resilience",
+      "kind": "cloud"
+    },
+    {
+      "id": "cloud_gcp_ml",
+      "label": "GCP ML Platform",
+      "kind": "cloud"
+    },
+    {
+      "id": "doc_access_standard",
+      "label": "Privileged Access Standard",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_cloud_inventory",
+      "label": "Cloud Estate Inventory",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_detection_catalog",
+      "label": "Detection Catalog",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_endpoint_standard",
+      "label": "Endpoint Baseline Standard",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_exec_brief",
+      "label": "Weekly Risk Brief Template",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_hris_guide",
+      "label": "PeopleHarbor Field Guide",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_identity_runbook",
+      "label": "Identity Migration Runbook v3",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_identity_runbook_old",
+      "label": "Identity Migration Runbook v2",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_incident_playbook",
+      "label": "Incident Coordination Playbook",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_insurance_pack",
+      "label": "Cyber Renewal Submission Index",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_release_calendar",
+      "label": "Product Release Calendar",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_service_catalog",
+      "label": "Service Ownership Catalog",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_soc2_index",
+      "label": "SOC 2 Evidence Index",
+      "kind": "doc"
+    },
+    {
+      "id": "doc_vendor_register",
+      "label": "Vendor Register",
+      "kind": "doc"
+    },
+    {
+      "id": "incident_feb_bucket",
+      "label": "February Bucket Exposure",
+      "kind": "incident"
+    },
+    {
+      "id": "incident_jan_token",
+      "label": "January Token Replay",
+      "kind": "incident"
+    },
+    {
+      "id": "incident_mar_phish",
+      "label": "March Finance Phish",
+      "kind": "incident"
+    },
+    {
+      "id": "incident_may_session",
+      "label": "May Session Anomaly",
+      "kind": "incident"
+    },
+    {
+      "id": "office_boston",
+      "label": "Boston Headquarters",
+      "kind": "office"
+    },
+    {
+      "id": "office_denver",
+      "label": "Denver Office",
+      "kind": "office"
+    },
+    {
+      "id": "office_dublin",
+      "label": "Dublin Office",
+      "kind": "office"
+    },
+    {
+      "id": "org_asteron",
+      "label": "Asteron Collaborative",
+      "kind": "org"
+    },
+    {
+      "id": "person_ava_lorne",
+      "label": "Ava Lorne",
+      "kind": "person"
+    },
+    {
+      "id": "person_bea_holt",
+      "label": "Bea Holt",
+      "kind": "person"
+    },
+    {
+      "id": "person_carla_mendez",
+      "label": "Carla Mendez",
+      "kind": "person"
+    },
+    {
+      "id": "person_elena_park",
+      "label": "Elena Park",
+      "kind": "person"
+    },
+    {
+      "id": "person_hugo_wren",
+      "label": "Hugo Wren",
+      "kind": "person"
+    },
+    {
+      "id": "person_iris_bell",
+      "label": "Iris Bell",
+      "kind": "person"
+    },
+    {
+      "id": "person_jon_bell",
+      "label": "Jon Bell",
+      "kind": "person"
+    },
+    {
+      "id": "person_jonah_reed",
+      "label": "Jonah Reed",
+      "kind": "person"
+    },
+    {
+      "id": "person_lena_ortiz",
+      "label": "Lena Ortiz",
+      "kind": "person"
+    },
+    {
+      "id": "person_mara_voss",
+      "label": "Mara Voss",
+      "kind": "person"
+    },
+    {
+      "id": "person_michael_chen",
+      "label": "Michael Chen",
+      "kind": "person"
+    },
+    {
+      "id": "person_michael_torres",
+      "label": "Michael Torres",
+      "kind": "person"
+    },
+    {
+      "id": "person_mira_saye",
+      "label": "Mira Saye",
+      "kind": "person"
+    },
+    {
+      "id": "person_nadia_sorel",
+      "label": "Nadia Sorel",
+      "kind": "person"
+    },
+    {
+      "id": "person_owen_kade",
+      "label": "Owen Kade",
+      "kind": "person"
+    },
+    {
+      "id": "person_priya_nair",
+      "label": "Priya Nair",
+      "kind": "person"
+    },
+    {
+      "id": "person_ren_ito",
+      "label": "Ren Ito",
+      "kind": "person"
+    },
+    {
+      "id": "person_samir_quill",
+      "label": "Samir Quill",
+      "kind": "person"
+    },
+    {
+      "id": "person_silas_ward",
+      "label": "Silas Ward",
+      "kind": "person"
+    },
+    {
+      "id": "person_theo_march",
+      "label": "Theo March",
+      "kind": "person"
+    },
+    {
+      "id": "product_helios",
+      "label": "Helios Ledger",
+      "kind": "product"
+    },
+    {
+      "id": "product_lattice",
+      "label": "Lattice Vault",
+      "kind": "product"
+    },
+    {
+      "id": "product_nimbus",
+      "label": "Nimbus Relay",
+      "kind": "product"
+    },
+    {
+      "id": "product_orbit",
+      "label": "Orbit Desk",
+      "kind": "product"
+    },
+    {
+      "id": "product_quarry",
+      "label": "Quarry Flow",
+      "kind": "product"
+    },
+    {
+      "id": "project_cloud",
+      "label": "Cloud Ownership Cleanup",
+      "kind": "project"
+    },
+    {
+      "id": "project_exec",
+      "label": "Weekly Executive Risk Brief",
+      "kind": "project"
+    },
+    {
+      "id": "project_idp",
+      "label": "Northstar Identity Migration",
+      "kind": "project"
+    },
+    {
+      "id": "project_incident",
+      "label": "May Anomaly Follow-up",
+      "kind": "project"
+    },
+    {
+      "id": "project_insurance",
+      "label": "2026 Cyber Insurance Renewal",
+      "kind": "project"
+    },
+    {
+      "id": "project_release",
+      "label": "June Release Train",
+      "kind": "project"
+    },
+    {
+      "id": "project_soc2",
+      "label": "2026 SOC 2 Type II Readiness",
+      "kind": "project"
+    },
+    {
+      "id": "project_veridian",
+      "label": "Veridian Renewal Review",
+      "kind": "project"
+    },
+    {
+      "id": "system_aegistrace",
+      "label": "AegisTrace",
+      "kind": "system"
+    },
+    {
+      "id": "system_cirrus",
+      "label": "Cirrus CSPM",
+      "kind": "system"
+    },
+    {
+      "id": "system_fleetloom",
+      "label": "FleetLoom",
+      "kind": "system"
+    },
+    {
+      "id": "system_keyper",
+      "label": "Keyper Vault",
+      "kind": "system"
+    },
+    {
+      "id": "system_lantern",
+      "label": "Lantern SIEM",
+      "kind": "system"
+    },
+    {
+      "id": "system_nightjar",
+      "label": "Nightjar Portal",
+      "kind": "system"
+    },
+    {
+      "id": "system_northstar",
+      "label": "Northstar Identity",
+      "kind": "system"
+    },
+    {
+      "id": "system_peopleharbor",
+      "label": "PeopleHarbor",
+      "kind": "system"
+    },
+    {
+      "id": "system_trackwell",
+      "label": "Trackwell",
+      "kind": "system"
+    },
+    {
+      "id": "system_veriscope",
+      "label": "Veriscope TPRM",
+      "kind": "system"
+    },
+    {
+      "id": "user_mara",
+      "label": "Mara Voss as user",
+      "kind": "user"
+    },
+    {
+      "id": "vendor_aegistrace",
+      "label": "AegisTrace Security",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_lornepike",
+      "label": "Lorne Pike Assurance",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_nightjar",
+      "label": "Nightjar Response",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_northshore",
+      "label": "Northshore Access",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_northstar",
+      "label": "Northstar Identity Services",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_01",
+      "label": "Copperline Travel",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_02",
+      "label": "Morrow Catering",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_03",
+      "label": "Pixelstead Design",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_04",
+      "label": "Verastel Hosting",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_05",
+      "label": "Clearspan Legal",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_06",
+      "label": "Bracken Payroll",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_07",
+      "label": "Cinder Post",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_08",
+      "label": "Alto Learning",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_09",
+      "label": "Fieldglass Labs",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_10",
+      "label": "Mosaic Office",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_11",
+      "label": "HarborMint Tax",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_thin_12",
+      "label": "Evercrest Benefits",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_veridian",
+      "label": "Veridian Metrics",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_veridion",
+      "label": "Veridion Networks",
+      "kind": "vendor"
+    },
+    {
+      "id": "vendor_wrenharbor",
+      "label": "Wren Harbor",
+      "kind": "vendor"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "F0003",
+      "source": "user_mara",
+      "predicate": "person",
+      "target": "person_mara_voss",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0138",
+      "source": "product_helios",
+      "predicate": "uses_security_system",
+      "target": "system_aegistrace",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:55:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0139",
+      "source": "product_helios",
+      "predicate": "release_owner",
+      "target": "person_samir_quill",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:55:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0147",
+      "source": "product_quarry",
+      "predicate": "uses_security_system",
+      "target": "system_lantern",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:02:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0148",
+      "source": "product_quarry",
+      "predicate": "release_owner",
+      "target": "person_samir_quill",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:02:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0156",
+      "source": "product_orbit",
+      "predicate": "uses_security_system",
+      "target": "system_northstar",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:09:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0157",
+      "source": "product_orbit",
+      "predicate": "release_owner",
+      "target": "person_priya_nair",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:09:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0165",
+      "source": "product_lattice",
+      "predicate": "uses_security_system",
+      "target": "system_cirrus",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:16:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0166",
+      "source": "product_lattice",
+      "predicate": "release_owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:16:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0174",
+      "source": "product_nimbus",
+      "predicate": "uses_security_system",
+      "target": "system_nightjar",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:23:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0175",
+      "source": "product_nimbus",
+      "predicate": "release_owner",
+      "target": "person_michael_chen",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:23:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0178",
+      "source": "system_northstar",
+      "predicate": "owner",
+      "target": "person_priya_nair",
+      "meaningful": true,
+      "authority_status": "retracted",
+      "valid_from": "2026-06-01T12:30:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0179",
+      "source": "system_northstar",
+      "predicate": "documentation",
+      "target": "doc_identity_runbook",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:30:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0182",
+      "source": "system_aegistrace",
+      "predicate": "owner",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:37:00-04:00",
+      "valid_until": "2026-06-03T10:17:00-04:00"
+    },
+    {
+      "edge_id": "F0183",
+      "source": "system_aegistrace",
+      "predicate": "documentation",
+      "target": "doc_endpoint_standard",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:37:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0186",
+      "source": "system_fleetloom",
+      "predicate": "owner",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "retracted",
+      "valid_from": "2026-06-01T12:44:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0187",
+      "source": "system_fleetloom",
+      "predicate": "documentation",
+      "target": "doc_endpoint_standard",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:44:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0190",
+      "source": "system_lantern",
+      "predicate": "owner",
+      "target": "person_michael_chen",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:51:00-04:00",
+      "valid_until": "2026-06-05T10:31:00-04:00"
+    },
+    {
+      "edge_id": "F0191",
+      "source": "system_lantern",
+      "predicate": "documentation",
+      "target": "doc_detection_catalog",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:51:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0194",
+      "source": "system_trackwell",
+      "predicate": "owner",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "retracted",
+      "valid_from": "2026-06-01T12:58:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0195",
+      "source": "system_trackwell",
+      "predicate": "documentation",
+      "target": "doc_service_catalog",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:58:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0198",
+      "source": "system_veriscope",
+      "predicate": "owner",
+      "target": "person_nadia_sorel",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:05:00-04:00",
+      "valid_until": "2026-06-07T10:45:00-04:00"
+    },
+    {
+      "edge_id": "F0199",
+      "source": "system_veriscope",
+      "predicate": "documentation",
+      "target": "doc_vendor_register",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:05:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0202",
+      "source": "system_cirrus",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "retracted",
+      "valid_from": "2026-06-01T13:12:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0203",
+      "source": "system_cirrus",
+      "predicate": "documentation",
+      "target": "doc_cloud_inventory",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:12:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0206",
+      "source": "system_keyper",
+      "predicate": "owner",
+      "target": "person_jonah_reed",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:19:00-04:00",
+      "valid_until": "2026-06-03T10:59:00-04:00"
+    },
+    {
+      "edge_id": "F0207",
+      "source": "system_keyper",
+      "predicate": "documentation",
+      "target": "doc_access_standard",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:19:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0210",
+      "source": "system_peopleharbor",
+      "predicate": "owner",
+      "target": "person_bea_holt",
+      "meaningful": true,
+      "authority_status": "retracted",
+      "valid_from": "2026-06-01T13:26:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0211",
+      "source": "system_peopleharbor",
+      "predicate": "documentation",
+      "target": "doc_hris_guide",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:26:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0214",
+      "source": "system_nightjar",
+      "predicate": "owner",
+      "target": "person_michael_chen",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:33:00-04:00",
+      "valid_until": "2026-06-05T11:13:00-04:00"
+    },
+    {
+      "edge_id": "F0215",
+      "source": "system_nightjar",
+      "predicate": "documentation",
+      "target": "doc_incident_playbook",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:33:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0221",
+      "source": "vendor_northstar",
+      "predicate": "owner",
+      "target": "person_nadia_sorel",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:40:00-04:00",
+      "valid_until": "2026-06-07T11:27:00-04:00"
+    },
+    {
+      "edge_id": "F0222",
+      "source": "vendor_northstar",
+      "predicate": "documentation",
+      "target": "doc_identity_runbook",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:40:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0228",
+      "source": "vendor_northshore",
+      "predicate": "owner",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:47:00-04:00",
+      "valid_until": "2026-06-03T11:41:00-04:00"
+    },
+    {
+      "edge_id": "F0229",
+      "source": "vendor_northshore",
+      "predicate": "documentation",
+      "target": "doc_vendor_register",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:47:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0235",
+      "source": "vendor_veridian",
+      "predicate": "owner",
+      "target": "person_nadia_sorel",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:54:00-04:00",
+      "valid_until": "2026-06-05T11:55:00-04:00"
+    },
+    {
+      "edge_id": "F0236",
+      "source": "vendor_veridian",
+      "predicate": "documentation",
+      "target": "doc_vendor_register",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:54:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0242",
+      "source": "vendor_veridion",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:01:00-04:00",
+      "valid_until": "2026-06-07T12:09:00-04:00"
+    },
+    {
+      "edge_id": "F0243",
+      "source": "vendor_veridion",
+      "predicate": "documentation",
+      "target": "doc_vendor_register",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:01:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0249",
+      "source": "vendor_aegistrace",
+      "predicate": "owner",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:08:00-04:00",
+      "valid_until": "2026-06-03T12:23:00-04:00"
+    },
+    {
+      "edge_id": "F0250",
+      "source": "vendor_aegistrace",
+      "predicate": "documentation",
+      "target": "doc_endpoint_standard",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:08:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0256",
+      "source": "vendor_nightjar",
+      "predicate": "owner",
+      "target": "person_michael_chen",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:15:00-04:00",
+      "valid_until": "2026-06-05T12:37:00-04:00"
+    },
+    {
+      "edge_id": "F0257",
+      "source": "vendor_nightjar",
+      "predicate": "documentation",
+      "target": "doc_incident_playbook",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:15:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0263",
+      "source": "vendor_lornepike",
+      "predicate": "owner",
+      "target": "person_elena_park",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:22:00-04:00",
+      "valid_until": "2026-06-07T12:51:00-04:00"
+    },
+    {
+      "edge_id": "F0264",
+      "source": "vendor_lornepike",
+      "predicate": "documentation",
+      "target": "doc_soc2_index",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:22:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0270",
+      "source": "vendor_wrenharbor",
+      "predicate": "owner",
+      "target": "person_iris_bell",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:29:00-04:00",
+      "valid_until": "2026-06-03T13:05:00-04:00"
+    },
+    {
+      "edge_id": "F0271",
+      "source": "vendor_wrenharbor",
+      "predicate": "documentation",
+      "target": "doc_insurance_pack",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:29:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0287",
+      "source": "cloud_aws_prod",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:00:00-04:00",
+      "valid_until": "2026-06-05T13:19:00-04:00"
+    },
+    {
+      "edge_id": "F0291",
+      "source": "cloud_aws_shared",
+      "predicate": "owner",
+      "target": "person_jonah_reed",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:07:00-04:00",
+      "valid_until": "2026-06-07T13:33:00-04:00"
+    },
+    {
+      "edge_id": "F0295",
+      "source": "cloud_aws_data",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:14:00-04:00",
+      "valid_until": "2026-06-03T13:47:00-04:00"
+    },
+    {
+      "edge_id": "F0299",
+      "source": "cloud_azure_corp",
+      "predicate": "owner",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:21:00-04:00",
+      "valid_until": "2026-06-05T14:01:00-04:00"
+    },
+    {
+      "edge_id": "F0303",
+      "source": "cloud_azure_lab",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:28:00-04:00",
+      "valid_until": "2026-06-07T14:15:00-04:00"
+    },
+    {
+      "edge_id": "F0307",
+      "source": "cloud_gcp_analytics",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:35:00-04:00",
+      "valid_until": "2026-06-03T14:29:00-04:00"
+    },
+    {
+      "edge_id": "F0311",
+      "source": "cloud_gcp_ml",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:42:00-04:00",
+      "valid_until": "2026-06-05T14:43:00-04:00"
+    },
+    {
+      "edge_id": "F0315",
+      "source": "cloud_gcp_backup",
+      "predicate": "owner",
+      "target": "person_jonah_reed",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:49:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0322",
+      "source": "doc_vendor_register",
+      "predicate": "maintainer",
+      "target": "person_nadia_sorel",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:56:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0329",
+      "source": "doc_cloud_inventory",
+      "predicate": "maintainer",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:03:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0336",
+      "source": "doc_identity_runbook",
+      "predicate": "maintainer",
+      "target": "person_priya_nair",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:10:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0337",
+      "source": "doc_identity_runbook",
+      "predicate": "replaces",
+      "target": "doc_identity_runbook_old",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:10:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0344",
+      "source": "doc_identity_runbook_old",
+      "predicate": "maintainer",
+      "target": "person_priya_nair",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:17:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0351",
+      "source": "doc_soc2_index",
+      "predicate": "maintainer",
+      "target": "person_elena_park",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:24:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0357",
+      "source": "doc_incident_playbook",
+      "predicate": "maintainer",
+      "target": "person_jonah_reed",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:31:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0363",
+      "source": "doc_detection_catalog",
+      "predicate": "maintainer",
+      "target": "person_michael_chen",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:38:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0369",
+      "source": "doc_endpoint_standard",
+      "predicate": "maintainer",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:45:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0375",
+      "source": "doc_service_catalog",
+      "predicate": "maintainer",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:52:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0381",
+      "source": "doc_access_standard",
+      "predicate": "maintainer",
+      "target": "person_jonah_reed",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:59:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0387",
+      "source": "doc_hris_guide",
+      "predicate": "maintainer",
+      "target": "person_bea_holt",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:06:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0393",
+      "source": "doc_release_calendar",
+      "predicate": "maintainer",
+      "target": "person_samir_quill",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:13:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0399",
+      "source": "doc_exec_brief",
+      "predicate": "maintainer",
+      "target": "person_elena_park",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0405",
+      "source": "doc_insurance_pack",
+      "predicate": "maintainer",
+      "target": "person_iris_bell",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0410",
+      "source": "incident_jan_token",
+      "predicate": "owner",
+      "target": "person_michael_chen",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:14:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0411",
+      "source": "incident_jan_token",
+      "predicate": "involved_system",
+      "target": "system_lantern",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:14:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0416",
+      "source": "incident_feb_bucket",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:21:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0417",
+      "source": "incident_feb_bucket",
+      "predicate": "involved_system",
+      "target": "system_cirrus",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:21:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0422",
+      "source": "incident_mar_phish",
+      "predicate": "owner",
+      "target": "person_jonah_reed",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:28:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0423",
+      "source": "incident_mar_phish",
+      "predicate": "involved_system",
+      "target": "system_aegistrace",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:28:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0428",
+      "source": "incident_may_session",
+      "predicate": "owner",
+      "target": "person_priya_nair",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:35:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0429",
+      "source": "incident_may_session",
+      "predicate": "involved_system",
+      "target": "system_northstar",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:35:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0432",
+      "source": "project_idp",
+      "predicate": "owner",
+      "target": "person_priya_nair",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:42:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0433",
+      "source": "project_idp",
+      "predicate": "affects_product",
+      "target": "product_orbit",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:42:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0436",
+      "source": "project_soc2",
+      "predicate": "owner",
+      "target": "person_elena_park",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:49:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0437",
+      "source": "project_soc2",
+      "predicate": "affects_product",
+      "target": "product_helios",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:49:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0440",
+      "source": "project_veridian",
+      "predicate": "owner",
+      "target": "person_nadia_sorel",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:56:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0441",
+      "source": "project_veridian",
+      "predicate": "affects_product",
+      "target": "product_quarry",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:56:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0444",
+      "source": "project_release",
+      "predicate": "owner",
+      "target": "person_samir_quill",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:03:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0445",
+      "source": "project_release",
+      "predicate": "affects_product",
+      "target": "product_helios",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:03:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0448",
+      "source": "project_exec",
+      "predicate": "owner",
+      "target": "person_elena_park",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:10:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0449",
+      "source": "project_exec",
+      "predicate": "affects_product",
+      "target": "product_nimbus",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:10:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0452",
+      "source": "project_insurance",
+      "predicate": "owner",
+      "target": "person_iris_bell",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:17:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0453",
+      "source": "project_insurance",
+      "predicate": "affects_product",
+      "target": "product_lattice",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:17:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0456",
+      "source": "project_incident",
+      "predicate": "owner",
+      "target": "person_jonah_reed",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:24:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0457",
+      "source": "project_incident",
+      "predicate": "affects_product",
+      "target": "product_orbit",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:24:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0460",
+      "source": "project_cloud",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:31:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0461",
+      "source": "project_cloud",
+      "predicate": "affects_product",
+      "target": "product_lattice",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:31:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0483",
+      "source": "system_northstar",
+      "predicate": "owner",
+      "target": "person_michael_chen",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:30:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0484",
+      "source": "system_aegistrace",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-03T10:17:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0485",
+      "source": "system_fleetloom",
+      "predicate": "owner",
+      "target": "person_priya_nair",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:44:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0486",
+      "source": "system_lantern",
+      "predicate": "owner",
+      "target": "person_nadia_sorel",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-05T10:31:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0487",
+      "source": "system_trackwell",
+      "predicate": "owner",
+      "target": "person_iris_bell",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:58:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0488",
+      "source": "system_veriscope",
+      "predicate": "owner",
+      "target": "person_owen_kade",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-07T10:45:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0489",
+      "source": "system_cirrus",
+      "predicate": "owner",
+      "target": "person_lena_ortiz",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:12:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0490",
+      "source": "system_keyper",
+      "predicate": "owner",
+      "target": "person_samir_quill",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-03T10:59:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0491",
+      "source": "system_peopleharbor",
+      "predicate": "owner",
+      "target": "person_samir_quill",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:26:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0492",
+      "source": "system_nightjar",
+      "predicate": "owner",
+      "target": "person_mara_voss",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-05T11:13:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0494",
+      "source": "vendor_northstar",
+      "predicate": "owner",
+      "target": "person_elena_park",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-07T11:27:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0496",
+      "source": "vendor_northshore",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-03T11:41:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0498",
+      "source": "vendor_veridian",
+      "predicate": "owner",
+      "target": "person_theo_march",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-05T11:55:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0500",
+      "source": "vendor_veridion",
+      "predicate": "owner",
+      "target": "person_owen_kade",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-07T12:09:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0502",
+      "source": "vendor_aegistrace",
+      "predicate": "owner",
+      "target": "person_samir_quill",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-03T12:23:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0504",
+      "source": "vendor_nightjar",
+      "predicate": "owner",
+      "target": "person_mara_voss",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-05T12:37:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0506",
+      "source": "vendor_lornepike",
+      "predicate": "owner",
+      "target": "person_michael_chen",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-07T12:51:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0508",
+      "source": "vendor_wrenharbor",
+      "predicate": "owner",
+      "target": "person_michael_torres",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-03T13:05:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0510",
+      "source": "cloud_aws_prod",
+      "predicate": "owner",
+      "target": "person_nadia_sorel",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-05T13:19:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0512",
+      "source": "cloud_aws_shared",
+      "predicate": "owner",
+      "target": "person_owen_kade",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-07T13:33:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0514",
+      "source": "cloud_aws_data",
+      "predicate": "owner",
+      "target": "person_samir_quill",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-03T13:47:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0516",
+      "source": "cloud_azure_corp",
+      "predicate": "owner",
+      "target": "person_mara_voss",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-05T14:01:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0518",
+      "source": "cloud_azure_lab",
+      "predicate": "owner",
+      "target": "person_elena_park",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-07T14:15:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0520",
+      "source": "cloud_gcp_analytics",
+      "predicate": "owner",
+      "target": "person_priya_nair",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-03T14:29:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "F0522",
+      "source": "cloud_gcp_ml",
+      "predicate": "owner",
+      "target": "person_nadia_sorel",
+      "meaningful": true,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-05T14:43:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0001",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "user_mara",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0002",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "org_asteron",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0003",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_jonah_reed",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:21:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0004",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_elena_park",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:28:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0005",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_michael_chen",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:35:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0006",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_michael_torres",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:42:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0007",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_priya_nair",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:49:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0008",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_theo_march",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:56:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0009",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_nadia_sorel",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:03:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0010",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_iris_bell",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:10:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0011",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_owen_kade",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:17:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0012",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_lena_ortiz",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:24:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0013",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_samir_quill",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:31:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0014",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_bea_holt",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:38:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0015",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_ava_lorne",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:45:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0016",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_jon_bell",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:52:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0017",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_ren_ito",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:59:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0018",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_carla_mendez",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:06:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0019",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_hugo_wren",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:13:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0020",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_mira_saye",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:20:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0021",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "person_silas_ward",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:27:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0022",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "office_boston",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:34:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0023",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "office_denver",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:41:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0024",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "office_dublin",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:48:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0025",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "product_helios",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T11:55:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0026",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "product_quarry",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:02:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0027",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "product_orbit",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:09:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0028",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "product_lattice",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:16:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0029",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "product_nimbus",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:23:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0030",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_northstar",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:30:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0031",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_aegistrace",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:37:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0032",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_fleetloom",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:44:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0033",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_lantern",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:51:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0034",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_trackwell",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T12:58:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0035",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_veriscope",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:05:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0036",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_cirrus",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:12:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0037",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_keyper",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:19:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0038",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_peopleharbor",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:26:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0039",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "system_nightjar",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:33:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0040",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_northstar",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:40:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0041",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_northshore",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:47:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0042",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_veridian",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T13:54:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0043",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_veridion",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:01:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0044",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_aegistrace",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:08:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0045",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_nightjar",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:15:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0046",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_lornepike",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:22:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0047",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_wrenharbor",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:29:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0048",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_01",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:36:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0049",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_02",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:43:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0050",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_03",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:50:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0051",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_04",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T14:57:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0052",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_05",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T15:04:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0053",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_06",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T15:11:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0054",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_07",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T15:18:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0055",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_08",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T15:25:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0056",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_09",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T15:32:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0057",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_10",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T15:39:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0058",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_11",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T15:46:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0059",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "vendor_thin_12",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T15:53:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0060",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "cloud_aws_prod",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0061",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "cloud_aws_shared",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0062",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "cloud_aws_data",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:14:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0063",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "cloud_azure_corp",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:21:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0064",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "cloud_azure_lab",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:28:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0065",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "cloud_gcp_analytics",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:35:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0066",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "cloud_gcp_ml",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:42:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0067",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "cloud_gcp_backup",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:49:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0068",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_vendor_register",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T16:56:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0069",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_cloud_inventory",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:03:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0070",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_identity_runbook",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:10:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0071",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_identity_runbook_old",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:17:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0072",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_soc2_index",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:24:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0073",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_incident_playbook",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:31:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0074",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_detection_catalog",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:38:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0075",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_endpoint_standard",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:45:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0076",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_service_catalog",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:52:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0077",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_access_standard",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T17:59:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0078",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_hris_guide",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:06:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0079",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_release_calendar",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:13:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0080",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_exec_brief",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0081",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "doc_insurance_pack",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0082",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "incident_jan_token",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:14:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0083",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "incident_feb_bucket",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:21:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0084",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "incident_mar_phish",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:28:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0085",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "incident_may_session",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:35:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0086",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "project_idp",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:42:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0087",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "project_soc2",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:49:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0088",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "project_veridian",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T09:56:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0089",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "project_release",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:03:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0090",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "project_exec",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:10:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0091",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "project_insurance",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:17:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0092",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "project_incident",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:24:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0093",
+      "source": "person_mara_voss",
+      "predicate": "communicated_about",
+      "target": "project_cloud",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T10:31:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0094",
+      "source": "person_priya_nair",
+      "predicate": "communicated_about",
+      "target": "project_idp",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-08T09:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0095",
+      "source": "person_nadia_sorel",
+      "predicate": "communicated_about",
+      "target": "vendor_veridian",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-08T09:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0096",
+      "source": "person_nadia_sorel",
+      "predicate": "communicated_about",
+      "target": "system_lantern",
+      "meaningful": false,
+      "authority_status": "pending_confirmation",
+      "valid_from": "2026-06-08T09:14:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0097",
+      "source": "person_ren_ito",
+      "predicate": "communicated_about",
+      "target": "vendor_northstar",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-08T09:28:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0098",
+      "source": "person_carla_mendez",
+      "predicate": "communicated_about",
+      "target": "vendor_veridian",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-09T09:49:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0099",
+      "source": "person_carla_mendez",
+      "predicate": "communicated_about",
+      "target": "user_mara",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-09T09:56:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0100",
+      "source": "person_ava_lorne",
+      "predicate": "communicated_about",
+      "target": "incident_may_session",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-09T10:03:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0101",
+      "source": "person_priya_nair",
+      "predicate": "communicated_about",
+      "target": "system_northstar",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-08T11:14:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0102",
+      "source": "person_priya_nair",
+      "predicate": "communicated_about",
+      "target": "doc_identity_runbook",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-08T12:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0103",
+      "source": "person_priya_nair",
+      "predicate": "communicated_about",
+      "target": "product_orbit",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-08T12:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0104",
+      "source": "person_nadia_sorel",
+      "predicate": "communicated_about",
+      "target": "vendor_northstar",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-08T11:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0105",
+      "source": "person_nadia_sorel",
+      "predicate": "communicated_about",
+      "target": "vendor_aegistrace",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-08T11:14:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0106",
+      "source": "person_nadia_sorel",
+      "predicate": "communicated_about",
+      "target": "doc_vendor_register",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-08T11:21:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0107",
+      "source": "person_nadia_sorel",
+      "predicate": "communicated_about",
+      "target": "project_veridian",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-09T12:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0108",
+      "source": "person_nadia_sorel",
+      "predicate": "communicated_about",
+      "target": "project_insurance",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-09T12:14:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0109",
+      "source": "person_nadia_sorel",
+      "predicate": "communicated_about",
+      "target": "vendor_northshore",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-09T12:21:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0110",
+      "source": "person_ren_ito",
+      "predicate": "communicated_about",
+      "target": "project_idp",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-08T11:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0111",
+      "source": "person_ren_ito",
+      "predicate": "communicated_about",
+      "target": "system_northstar",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-08T11:21:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0112",
+      "source": "person_carla_mendez",
+      "predicate": "communicated_about",
+      "target": "project_veridian",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-09T11:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0113",
+      "source": "person_ava_lorne",
+      "predicate": "communicated_about",
+      "target": "project_soc2",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-09T11:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0114",
+      "source": "person_ava_lorne",
+      "predicate": "communicated_about",
+      "target": "doc_soc2_index",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-09T11:07:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "CTX-0115",
+      "source": "person_ava_lorne",
+      "predicate": "communicated_about",
+      "target": "person_elena_park",
+      "meaningful": false,
+      "authority_status": "attributed_claim",
+      "valid_from": "2026-06-09T12:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "MEM-office_boston",
+      "source": "org_asteron",
+      "predicate": "has_office",
+      "target": "office_boston",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T00:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "MEM-office_denver",
+      "source": "org_asteron",
+      "predicate": "has_office",
+      "target": "office_denver",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T00:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "MEM-office_dublin",
+      "source": "org_asteron",
+      "predicate": "has_office",
+      "target": "office_dublin",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T00:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "MEM-product_helios",
+      "source": "org_asteron",
+      "predicate": "has_product",
+      "target": "product_helios",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T00:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "MEM-product_quarry",
+      "source": "org_asteron",
+      "predicate": "has_product",
+      "target": "product_quarry",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T00:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "MEM-product_orbit",
+      "source": "org_asteron",
+      "predicate": "has_product",
+      "target": "product_orbit",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T00:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "MEM-product_lattice",
+      "source": "org_asteron",
+      "predicate": "has_product",
+      "target": "product_lattice",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T00:00:00-04:00",
+      "valid_until": null
+    },
+    {
+      "edge_id": "MEM-product_nimbus",
+      "source": "org_asteron",
+      "predicate": "has_product",
+      "target": "product_nimbus",
+      "meaningful": false,
+      "authority_status": "authoritative",
+      "valid_from": "2026-06-01T00:00:00-04:00",
+      "valid_until": null
+    }
+  ],
+  "hop_policy": {
+    "excluded_predicates": [
+      "canonical_name",
+      "alias",
+      "communicated_about",
+      "has_office",
+      "has_product"
+    ],
+    "excluded_hubs": [
+      "org_asteron"
+    ]
+  },
+  "task_paths": [
+    {
+      "task_id": "T001",
+      "fact_ids": [
+        "F0318"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T002",
+      "fact_ids": [
+        "F0319"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T003",
+      "fact_ids": [
+        "F0320"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T004",
+      "fact_ids": [
+        "F0321"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T005",
+      "fact_ids": [
+        "F0322"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T006",
+      "fact_ids": [
+        "F0325"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T007",
+      "fact_ids": [
+        "F0326"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T008",
+      "fact_ids": [
+        "F0327"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T009",
+      "fact_ids": [
+        "F0328"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T010",
+      "fact_ids": [
+        "F0329"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T011",
+      "fact_ids": [
+        "F0332"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T012",
+      "fact_ids": [
+        "F0333"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T013",
+      "fact_ids": [
+        "F0334"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T014",
+      "fact_ids": [
+        "F0335"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T015",
+      "fact_ids": [
+        "F0336"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T016",
+      "fact_ids": [
+        "F0340"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T017",
+      "fact_ids": [
+        "F0341"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T018",
+      "fact_ids": [
+        "F0342"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T019",
+      "fact_ids": [
+        "F0343"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T020",
+      "fact_ids": [
+        "F0344"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T021",
+      "fact_ids": [
+        "F0035",
+        "F0040"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T022",
+      "fact_ids": [
+        "F0035",
+        "F0040"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T023",
+      "fact_ids": [
+        "F0035",
+        "F0040"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T024",
+      "fact_ids": [
+        "F0035",
+        "F0040"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T025",
+      "fact_ids": [
+        "F0035",
+        "F0040"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T026",
+      "fact_ids": [
+        "F0029",
+        "F0030"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T027",
+      "fact_ids": [
+        "F0029",
+        "F0031"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T028",
+      "fact_ids": [
+        "F0034",
+        "F0035"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T029",
+      "fact_ids": [
+        "F0034",
+        "F0036"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T030",
+      "fact_ids": [
+        "F0039",
+        "F0040"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T031",
+      "fact_ids": [
+        "F0039",
+        "F0041"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T032",
+      "fact_ids": [
+        "F0044",
+        "F0045"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T033",
+      "fact_ids": [
+        "F0044",
+        "F0046"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T034",
+      "fact_ids": [
+        "F0049",
+        "F0050"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T035",
+      "fact_ids": [
+        "F0049",
+        "F0051"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T036",
+      "fact_ids": [
+        "F0054",
+        "F0055"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T037",
+      "fact_ids": [
+        "F0054",
+        "F0056"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T038",
+      "fact_ids": [
+        "F0059",
+        "F0060"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T039",
+      "fact_ids": [
+        "F0059",
+        "F0061"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T040",
+      "fact_ids": [
+        "F0064",
+        "F0065"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T041",
+      "fact_ids": [
+        "F0064",
+        "F0066"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T042",
+      "fact_ids": [
+        "F0069",
+        "F0070"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T043",
+      "fact_ids": [
+        "F0069",
+        "F0071"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T044",
+      "fact_ids": [
+        "F0138",
+        "F0182"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T045",
+      "fact_ids": [
+        "F0138",
+        "F0183"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T046",
+      "fact_ids": [
+        "F0147",
+        "F0190"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T047",
+      "fact_ids": [
+        "F0147",
+        "F0191"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T048",
+      "fact_ids": [
+        "F0156",
+        "F0179"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T049",
+      "fact_ids": [
+        "F0165",
+        "F0203"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T050",
+      "fact_ids": [
+        "F0174",
+        "F0215"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T051",
+      "fact_ids": [
+        "F0138",
+        "F0182"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T052",
+      "fact_ids": [
+        "F0138",
+        "F0183"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T053",
+      "fact_ids": [
+        "F0147",
+        "F0190"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T054",
+      "fact_ids": [
+        "F0147",
+        "F0191"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T055",
+      "fact_ids": [
+        "F0156",
+        "F0179"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T056",
+      "fact_ids": [
+        "F0165",
+        "F0203"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T057",
+      "fact_ids": [
+        "F0174",
+        "F0215"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T058",
+      "fact_ids": [
+        "F0138",
+        "F0182"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T059",
+      "fact_ids": [
+        "F0138",
+        "F0183"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T060",
+      "fact_ids": [
+        "F0147",
+        "F0190"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T061",
+      "fact_ids": [
+        "F0147",
+        "F0191"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T062",
+      "fact_ids": [
+        "F0156",
+        "F0179"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T063",
+      "fact_ids": [
+        "F0165",
+        "F0203"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T064",
+      "fact_ids": [
+        "F0174",
+        "F0215"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T065",
+      "fact_ids": [
+        "F0138",
+        "F0182"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T066",
+      "fact_ids": [
+        "F0138",
+        "F0183"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T067",
+      "fact_ids": [
+        "F0433",
+        "F0156",
+        "F0179"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T068",
+      "fact_ids": [
+        "F0437",
+        "F0138",
+        "F0182"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T069",
+      "fact_ids": [
+        "F0437",
+        "F0138",
+        "F0183"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T070",
+      "fact_ids": [
+        "F0441",
+        "F0147",
+        "F0190"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T071",
+      "fact_ids": [
+        "F0441",
+        "F0147",
+        "F0191"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T072",
+      "fact_ids": [
+        "F0445",
+        "F0138",
+        "F0182"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T073",
+      "fact_ids": [
+        "F0445",
+        "F0138",
+        "F0183"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T074",
+      "fact_ids": [
+        "F0449",
+        "F0174",
+        "F0215"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T075",
+      "fact_ids": [
+        "F0453",
+        "F0165",
+        "F0203"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T076",
+      "fact_ids": [
+        "F0457",
+        "F0156",
+        "F0179"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T077",
+      "fact_ids": [
+        "F0461",
+        "F0165",
+        "F0203"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T078",
+      "fact_ids": [
+        "F0433",
+        "F0156",
+        "F0179"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T079",
+      "fact_ids": [
+        "F0437",
+        "F0138",
+        "F0182"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T080",
+      "fact_ids": [
+        "F0437",
+        "F0138",
+        "F0183"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T081",
+      "fact_ids": [
+        "F0441",
+        "F0147",
+        "F0190"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T082",
+      "fact_ids": [
+        "F0441",
+        "F0147",
+        "F0191"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T083",
+      "fact_ids": [
+        "F0445",
+        "F0138",
+        "F0182"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T084",
+      "fact_ids": [
+        "F0445",
+        "F0138",
+        "F0183"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T085",
+      "fact_ids": [
+        "F0449",
+        "F0174",
+        "F0215"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T086",
+      "fact_ids": [
+        "F0453",
+        "F0165",
+        "F0203"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T087",
+      "fact_ids": [
+        "F0457",
+        "F0156",
+        "F0179"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T088",
+      "fact_ids": [
+        "F0461",
+        "F0165",
+        "F0203"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T089",
+      "fact_ids": [
+        "F0433",
+        "F0156",
+        "F0179"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T090",
+      "fact_ids": [
+        "F0135",
+        "F0136",
+        "F0145"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T091",
+      "fact_ids": [
+        "F0145",
+        "F0154",
+        "F0155"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T092",
+      "fact_ids": [
+        "F0154",
+        "F0155",
+        "F0163"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T093",
+      "fact_ids": [
+        "F0163",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T094",
+      "fact_ids": [
+        "F0135",
+        "F0136",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T095",
+      "fact_ids": [
+        "F0135",
+        "F0136",
+        "F0154",
+        "F0155"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T096",
+      "fact_ids": [
+        "F0145",
+        "F0163"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T097",
+      "fact_ids": [
+        "F0154",
+        "F0155",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T098",
+      "fact_ids": [
+        "F0135",
+        "F0136",
+        "F0163"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T099",
+      "fact_ids": [
+        "F0145",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T100",
+      "fact_ids": [
+        "F0135",
+        "F0136",
+        "F0163"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T101",
+      "fact_ids": [
+        "F0145",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T102",
+      "fact_ids": [
+        "F0135",
+        "F0136",
+        "F0154",
+        "F0155"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T103",
+      "fact_ids": [
+        "F0145",
+        "F0163"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T104",
+      "fact_ids": [
+        "F0154",
+        "F0155",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T105",
+      "fact_ids": [
+        "F0135",
+        "F0136",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T106",
+      "fact_ids": [
+        "F0135",
+        "F0136",
+        "F0145"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T107",
+      "fact_ids": [
+        "F0145",
+        "F0154",
+        "F0155"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T108",
+      "fact_ids": [
+        "F0154",
+        "F0155",
+        "F0163"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T109",
+      "fact_ids": [
+        "F0163",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T110",
+      "fact_ids": [
+        "F0135",
+        "F0136"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T111",
+      "fact_ids": [
+        "F0145"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T112",
+      "fact_ids": [
+        "F0154",
+        "F0155"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T113",
+      "fact_ids": [
+        "F0132",
+        "F0151"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T114",
+      "fact_ids": [
+        "F0151",
+        "F0132"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T115",
+      "fact_ids": [
+        "F0135",
+        "F0154",
+        "F0172"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T116",
+      "fact_ids": [
+        "F0154",
+        "F0135",
+        "F0172"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T117",
+      "fact_ids": [
+        "F0172",
+        "F0135",
+        "F0154"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T118",
+      "fact_ids": [
+        "F0136",
+        "F0155",
+        "F0173"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T119",
+      "fact_ids": [
+        "F0155",
+        "F0136",
+        "F0173"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T120",
+      "fact_ids": [
+        "F0173",
+        "F0136",
+        "F0155"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T121",
+      "fact_ids": [
+        "F0137",
+        "F0164"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T122",
+      "fact_ids": [
+        "F0164",
+        "F0137"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T123",
+      "fact_ids": [
+        "F0142",
+        "F0169"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T124",
+      "fact_ids": [
+        "F0169",
+        "F0142"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T125",
+      "fact_ids": [
+        "F0143",
+        "F0170"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T126",
+      "fact_ids": [
+        "F0170",
+        "F0143"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T127",
+      "fact_ids": [
+        "F0144",
+        "F0171"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T128",
+      "fact_ids": [
+        "F0171",
+        "F0144"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T129",
+      "fact_ids": [
+        "F0145",
+        "F0163"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T130",
+      "fact_ids": [
+        "F0163",
+        "F0145"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T131",
+      "fact_ids": [
+        "F0132",
+        "F0151"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T132",
+      "fact_ids": [
+        "F0151",
+        "F0132"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T133",
+      "fact_ids": [
+        "F0135",
+        "F0154",
+        "F0172"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T134",
+      "fact_ids": [
+        "F0154",
+        "F0135",
+        "F0172"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T135",
+      "fact_ids": [
+        "F0172",
+        "F0135",
+        "F0154"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T136",
+      "fact_ids": [
+        "F0483",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T137",
+      "fact_ids": [
+        "F0484",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T138",
+      "fact_ids": [
+        "F0485",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T139",
+      "fact_ids": [
+        "F0486",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T140",
+      "fact_ids": [
+        "F0487",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T141",
+      "fact_ids": [
+        "F0488",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T142",
+      "fact_ids": [
+        "F0489",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T143",
+      "fact_ids": [
+        "F0490",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T144",
+      "fact_ids": [
+        "F0491",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T145",
+      "fact_ids": [
+        "F0492",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T146",
+      "fact_ids": [
+        "F0493",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T147",
+      "fact_ids": [
+        "F0494",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T148",
+      "fact_ids": [
+        "F0495",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T149",
+      "fact_ids": [
+        "F0496",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T150",
+      "fact_ids": [
+        "F0497",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T151",
+      "fact_ids": [
+        "F0498",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T152",
+      "fact_ids": [
+        "F0499",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T153",
+      "fact_ids": [
+        "F0500",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T154",
+      "fact_ids": [
+        "F0501",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T155",
+      "fact_ids": [
+        "F0502",
+        "F0475"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T156",
+      "fact_ids": [
+        "F0503"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T157",
+      "fact_ids": [
+        "F0504"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T158",
+      "fact_ids": [
+        "F0505"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T159",
+      "fact_ids": [
+        "F0135",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T160",
+      "fact_ids": [
+        "F0483",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T161",
+      "fact_ids": [
+        "F0004",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T162",
+      "fact_ids": [
+        "F0136",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T163",
+      "fact_ids": [
+        "F0489",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T164",
+      "fact_ids": [
+        "F0005",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T165",
+      "fact_ids": [
+        "F0145",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T166",
+      "fact_ids": [
+        "F0495",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T167",
+      "fact_ids": [
+        "F0006",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T168",
+      "fact_ids": [
+        "F0154",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T169",
+      "fact_ids": [
+        "F0501",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T170",
+      "fact_ids": [
+        "F0007",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T171",
+      "fact_ids": [
+        "F0155",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T172",
+      "fact_ids": [
+        "F0507",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T173",
+      "fact_ids": [
+        "F0008",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T174",
+      "fact_ids": [
+        "F0163",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T175",
+      "fact_ids": [
+        "F0513",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T176",
+      "fact_ids": [
+        "F0009",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T177",
+      "fact_ids": [
+        "F0172",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T178",
+      "fact_ids": [
+        "F0519",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T179",
+      "fact_ids": [
+        "F0010"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T180",
+      "fact_ids": [
+        "F0173"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T181",
+      "fact_ids": [
+        "F0523"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T182",
+      "fact_ids": [
+        "F0275",
+        "F0318"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T183",
+      "fact_ids": [
+        "F0176",
+        "F0318"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T184",
+      "fact_ids": [
+        "F0237",
+        "F0318"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T185",
+      "fact_ids": [
+        "F0158",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T186",
+      "fact_ids": [
+        "F0033",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T187",
+      "fact_ids": [
+        "F0180",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T188",
+      "fact_ids": [
+        "F0188",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T189",
+      "fact_ids": [
+        "F0200",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T190",
+      "fact_ids": [
+        "F0208",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T191",
+      "fact_ids": [
+        "F0140",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T192",
+      "fact_ids": [
+        "F0149",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T193",
+      "fact_ids": [
+        "F0167",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T194",
+      "fact_ids": [
+        "F0130",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T195",
+      "fact_ids": [
+        "F0265",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T196",
+      "fact_ids": [
+        "F0251",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T197",
+      "fact_ids": [
+        "F0258",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T198",
+      "fact_ids": [
+        "F0184",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T199",
+      "fact_ids": [
+        "F0204",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T200",
+      "fact_ids": [
+        "F0192",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T201",
+      "fact_ids": [
+        "F0196",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T202",
+      "fact_ids": [
+        "F0272",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T203",
+      "fact_ids": [
+        "F0273",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T204",
+      "fact_ids": [
+        "F0274",
+        "F0479"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T205",
+      "fact_ids": [
+        "F0470"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T206",
+      "fact_ids": [
+        "F0470"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T207",
+      "fact_ids": [
+        "F0470"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T208",
+      "fact_ids": [
+        "F0470"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T209",
+      "fact_ids": [
+        "F0470"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T210",
+      "fact_ids": [
+        "F0471"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T211",
+      "fact_ids": [
+        "F0471"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T212",
+      "fact_ids": [
+        "F0471"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T213",
+      "fact_ids": [
+        "F0471"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T214",
+      "fact_ids": [
+        "F0471"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T215",
+      "fact_ids": [
+        "F0613"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T216",
+      "fact_ids": [
+        "F0614"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T217",
+      "fact_ids": [
+        "F0613"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T218",
+      "fact_ids": [
+        "F0614"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T219",
+      "fact_ids": [
+        "F0613"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T220",
+      "fact_ids": [
+        "F0615"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T221",
+      "fact_ids": [
+        "F0616",
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T222",
+      "fact_ids": [
+        "F0617",
+        "F0465"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T223",
+      "fact_ids": [
+        "F0618",
+        "F0467"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T224",
+      "fact_ids": [
+        "F0619",
+        "F0620"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T225",
+      "fact_ids": [
+        "F0617",
+        "F0663"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T226",
+      "fact_ids": [
+        "F0620",
+        "F0619",
+        "F0664"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T227",
+      "fact_ids": [
+        "F0467"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T228",
+      "fact_ids": [
+        "F0467"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T229",
+      "fact_ids": [
+        "F0468"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T230",
+      "fact_ids": [
+        "F0468"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T231",
+      "fact_ids": [
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T232",
+      "fact_ids": [
+        "F0474"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T233",
+      "fact_ids": [
+        "F0477"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T234",
+      "fact_ids": [
+        "F0477"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T235",
+      "fact_ids": [
+        "F0655",
+        "F0656",
+        "F0657",
+        "F0658",
+        "F0659",
+        "F0660",
+        "F0661",
+        "F0662"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T236",
+      "fact_ids": [
+        "F0615",
+        "F0464"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T237",
+      "fact_ids": [
+        "F0026"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T238",
+      "fact_ids": [
+        "F0047"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T239",
+      "fact_ids": [
+        "F0070"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T240",
+      "fact_ids": [
+        "F0138"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T241",
+      "fact_ids": [
+        "F0166"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T242",
+      "fact_ids": [
+        "F0177"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T243",
+      "fact_ids": [
+        "F0182"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T244",
+      "fact_ids": [
+        "F0189"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T245",
+      "fact_ids": [
+        "F0220"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T246",
+      "fact_ids": [
+        "F0262"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T247",
+      "fact_ids": [
+        "F0287"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T248",
+      "fact_ids": [
+        "F0314"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T249",
+      "fact_ids": [
+        "F0351"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T250",
+      "fact_ids": [
+        "F0380"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T251",
+      "fact_ids": [
+        "F0421"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T252",
+      "fact_ids": [
+        "F0433"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T253",
+      "fact_ids": [
+        "F0435"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T254",
+      "fact_ids": [
+        "F0026"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T255",
+      "fact_ids": [
+        "F0031"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T256",
+      "fact_ids": [
+        "F0046"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T257",
+      "fact_ids": [
+        "F0051"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T258",
+      "fact_ids": [
+        "F0056"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T259",
+      "fact_ids": [
+        "F0061"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T260",
+      "fact_ids": [
+        "F0066"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T261",
+      "fact_ids": [
+        "F0076"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T262",
+      "fact_ids": [
+        "F0081"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T263",
+      "fact_ids": [
+        "F0086"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T264",
+      "fact_ids": [
+        "F0096"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T265",
+      "fact_ids": [
+        "F0101"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T266",
+      "fact_ids": [
+        "F0106"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T267",
+      "fact_ids": [
+        "F0138"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T268",
+      "fact_ids": [
+        "F0148"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T269",
+      "fact_ids": [
+        "F0262"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T270",
+      "fact_ids": [
+        "F0411",
+        "F0191"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T271",
+      "fact_ids": [
+        "F0417",
+        "F0203"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T272",
+      "fact_ids": [
+        "F0423",
+        "F0183"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T273",
+      "fact_ids": [
+        "F0429",
+        "F0179"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T274",
+      "fact_ids": [
+        "F0222",
+        "F0336"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T275",
+      "fact_ids": [
+        "F0229",
+        "F0322"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T276",
+      "fact_ids": [
+        "F0243",
+        "F0322"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T277",
+      "fact_ids": [
+        "F0257",
+        "F0357"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T278",
+      "fact_ids": [
+        "F0139",
+        "F0076"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T279",
+      "fact_ids": [
+        "F0157",
+        "F0046"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T280",
+      "fact_ids": [
+        "F0166",
+        "F0041"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T281",
+      "fact_ids": [
+        "F0175",
+        "F0036"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T282",
+      "fact_ids": [
+        "F0432",
+        "F0047"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T283",
+      "fact_ids": [
+        "F0436",
+        "F0031"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T284",
+      "fact_ids": [
+        "F0440",
+        "F0057"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T285",
+      "fact_ids": [
+        "F0448",
+        "F0030"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T286",
+      "fact_ids": [
+        "F0411",
+        "F0191",
+        "F0359"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T287",
+      "fact_ids": [
+        "F0417",
+        "F0203",
+        "F0325"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T288",
+      "fact_ids": [
+        "F0423",
+        "F0183",
+        "F0365"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T289",
+      "fact_ids": [
+        "F0429",
+        "F0179",
+        "F0332"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T290",
+      "fact_ids": [
+        "F0222",
+        "F0336",
+        "F0046"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T291",
+      "fact_ids": [
+        "F0229",
+        "F0322",
+        "F0056"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T292",
+      "fact_ids": [
+        "F0243",
+        "F0322",
+        "F0057"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T293",
+      "fact_ids": [
+        "F0257",
+        "F0357",
+        "F0026"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T294",
+      "fact_ids": [
+        "F0138",
+        "F0183",
+        "F0365"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T295",
+      "fact_ids": [
+        "F0147",
+        "F0191",
+        "F0359"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T296",
+      "fact_ids": [
+        "F0156",
+        "F0179",
+        "F0332"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T297",
+      "fact_ids": [
+        "F0165",
+        "F0203",
+        "F0325"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T298",
+      "fact_ids": [
+        "F0437",
+        "F0139",
+        "F0076"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T299",
+      "fact_ids": [
+        "F0441",
+        "F0148",
+        "F0077"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T300",
+      "fact_ids": [
+        "F0449",
+        "F0175",
+        "F0036"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T301",
+      "fact_ids": [
+        "F0453",
+        "F0166",
+        "F0042"
+      ],
+      "meaningful_hop_count": 3
+    },
+    {
+      "task_id": "T302",
+      "fact_ids": [
+        "F0132",
+        "F0133"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T303",
+      "fact_ids": [
+        "F0144"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T304",
+      "fact_ids": [
+        "F0152",
+        "F0153"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T305",
+      "fact_ids": [
+        "F0161",
+        "F0162"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T306",
+      "fact_ids": [
+        "F0170"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T307",
+      "fact_ids": [
+        "F0145",
+        "F0163"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T308",
+      "fact_ids": [
+        "F0154",
+        "F0135",
+        "F0172"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T309",
+      "fact_ids": [
+        "F0136",
+        "F0173",
+        "F0155"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T310",
+      "fact_ids": [
+        "F0132"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T311",
+      "fact_ids": [
+        "F0162"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T312",
+      "fact_ids": [
+        "F0135"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T313",
+      "fact_ids": [
+        "F0146"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T314",
+      "fact_ids": [
+        "F0155",
+        "F0154"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T315",
+      "fact_ids": [
+        "F0170",
+        "F0171"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T316",
+      "fact_ids": [
+        "F0407",
+        "F0413",
+        "F0419"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T317",
+      "fact_ids": [
+        "F0425"
+      ],
+      "meaningful_hop_count": 1
+    },
+    {
+      "task_id": "T318",
+      "fact_ids": [
+        "F0433",
+        "F0154",
+        "F0155"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T319",
+      "fact_ids": [
+        "F0437",
+        "F0135",
+        "F0136"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T320",
+      "fact_ids": [
+        "F0441",
+        "F0144"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T321",
+      "fact_ids": [
+        "F0449",
+        "F0172",
+        "F0173"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T322",
+      "fact_ids": [
+        "F0453",
+        "F0161",
+        "F0162"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T323",
+      "fact_ids": [
+        "F0457",
+        "F0152",
+        "F0153"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T324",
+      "fact_ids": [
+        "F0461",
+        "F0162"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T325",
+      "fact_ids": [
+        "F0445",
+        "F0135"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T326",
+      "fact_ids": [
+        "F0407",
+        "F0411",
+        "F0191"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T327",
+      "fact_ids": [
+        "F0413",
+        "F0417",
+        "F0203"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T328",
+      "fact_ids": [
+        "F0419",
+        "F0423",
+        "F0183"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T329",
+      "fact_ids": [
+        "F0425",
+        "F0429",
+        "F0179"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T330",
+      "fact_ids": [
+        "F0407",
+        "F0413",
+        "F0419",
+        "F0411",
+        "F0189"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T331",
+      "fact_ids": [
+        "F0407",
+        "F0413",
+        "F0419",
+        "F0423",
+        "F0182"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T332",
+      "fact_ids": [
+        "F0407",
+        "F0413",
+        "F0419",
+        "F0425",
+        "F0429",
+        "F0177"
+      ],
+      "meaningful_hop_count": 2
+    },
+    {
+      "task_id": "T333",
+      "fact_ids": [
+        "F0452",
+        "F0453",
+        "F0163"
+      ],
+      "meaningful_hop_count": 2
+    }
+  ],
+  "alias_index": {
+    "user_mara": [
+      "the user"
+    ],
+    "org_asteron": [
+      "Asteron"
+    ],
+    "person_mara_voss": [
+      "Mara",
+      "the CISO",
+      "MV"
+    ],
+    "person_jonah_reed": [
+      "Jonah",
+      "my deputy",
+      "the security architect"
+    ],
+    "person_elena_park": [
+      "Elena",
+      "the GRC lead"
+    ],
+    "person_michael_chen": [
+      "Michael C.",
+      "Mike Chen"
+    ],
+    "person_michael_torres": [
+      "Michael T.",
+      "Mike Torres"
+    ],
+    "person_priya_nair": [
+      "Priya",
+      "the identity engineer"
+    ],
+    "person_theo_march": [
+      "Theo",
+      "the IT director"
+    ],
+    "person_nadia_sorel": [
+      "Nadia",
+      "procurement"
+    ],
+    "person_iris_bell": [
+      "Iris",
+      "the CFO"
+    ],
+    "person_owen_kade": [
+      "Owen",
+      "the CEO"
+    ],
+    "person_lena_ortiz": [
+      "Lena",
+      "my EA",
+      "the executive assistant"
+    ],
+    "person_samir_quill": [
+      "Samir",
+      "the product ops lead"
+    ],
+    "person_bea_holt": [
+      "Bea",
+      "people ops"
+    ],
+    "person_ava_lorne": [
+      "Ava",
+      "the auditor"
+    ],
+    "person_jon_bell": [
+      "Jon",
+      "the MSSP analyst"
+    ],
+    "person_ren_ito": [
+      "Ren",
+      "Northstar's AE"
+    ],
+    "person_carla_mendez": [
+      "Carla",
+      "the Veridian AE"
+    ],
+    "person_hugo_wren": [
+      "Hugo",
+      "the broker"
+    ],
+    "person_mira_saye": [
+      "Mira",
+      "outside counsel"
+    ],
+    "person_silas_ward": [
+      "Silas",
+      "the Aegis AM"
+    ],
+    "office_boston": [
+      "HQ",
+      "Boston"
+    ],
+    "office_denver": [
+      "Denver",
+      "Mountain office"
+    ],
+    "office_dublin": [
+      "Dublin",
+      "Ireland office"
+    ],
+    "product_helios": [
+      "Helios",
+      "HL"
+    ],
+    "product_quarry": [
+      "Quarry",
+      "QF"
+    ],
+    "product_orbit": [
+      "Orbit",
+      "OD"
+    ],
+    "product_lattice": [
+      "Lattice",
+      "LV"
+    ],
+    "product_nimbus": [
+      "Nimbus",
+      "NR"
+    ],
+    "system_northstar": [
+      "NSI"
+    ],
+    "system_aegistrace": [
+      "AT"
+    ],
+    "system_fleetloom": [
+      "FLM"
+    ],
+    "system_lantern": [
+      "LSIEM"
+    ],
+    "system_trackwell": [
+      "TW"
+    ],
+    "system_veriscope": [
+      "VTP"
+    ],
+    "system_cirrus": [
+      "CCP"
+    ],
+    "system_keyper": [
+      "KV"
+    ],
+    "system_peopleharbor": [
+      "PHR"
+    ],
+    "system_nightjar": [
+      "NJP"
+    ],
+    "vendor_northstar": [
+      "Northstar vendor",
+      "NS Identity Services"
+    ],
+    "vendor_northshore": [
+      "Northshore",
+      "NSA"
+    ],
+    "vendor_veridian": [
+      "Veridian"
+    ],
+    "vendor_veridion": [
+      "Veridion"
+    ],
+    "vendor_aegistrace": [
+      "Aegis vendor"
+    ],
+    "vendor_nightjar": [
+      "Nightjar",
+      "NJR"
+    ],
+    "vendor_lornepike": [
+      "LPA"
+    ],
+    "vendor_wrenharbor": [
+      "the broker"
+    ],
+    "vendor_thin_01": [],
+    "vendor_thin_02": [],
+    "vendor_thin_03": [],
+    "vendor_thin_04": [],
+    "vendor_thin_05": [],
+    "vendor_thin_06": [],
+    "vendor_thin_07": [],
+    "vendor_thin_08": [],
+    "vendor_thin_09": [],
+    "vendor_thin_10": [],
+    "vendor_thin_11": [],
+    "vendor_thin_12": [],
+    "cloud_aws_prod": [
+      "AWS prod"
+    ],
+    "cloud_aws_shared": [
+      "AWS shared"
+    ],
+    "cloud_aws_data": [
+      "AWS data"
+    ],
+    "cloud_azure_corp": [
+      "Azure corp"
+    ],
+    "cloud_azure_lab": [
+      "Azure lab"
+    ],
+    "cloud_gcp_analytics": [
+      "GCP analytics"
+    ],
+    "cloud_gcp_ml": [
+      "GCP ML"
+    ],
+    "cloud_gcp_backup": [
+      "GCP backup"
+    ],
+    "doc_vendor_register": [
+      "VR"
+    ],
+    "doc_cloud_inventory": [
+      "CEI"
+    ],
+    "doc_identity_runbook": [
+      "IMR"
+    ],
+    "doc_identity_runbook_old": [
+      "old IMR"
+    ],
+    "doc_soc2_index": [
+      "evidence index"
+    ],
+    "doc_incident_playbook": [
+      "ICP"
+    ],
+    "doc_detection_catalog": [
+      "DCAT"
+    ],
+    "doc_endpoint_standard": [
+      "EBS"
+    ],
+    "doc_service_catalog": [
+      "SOCAT"
+    ],
+    "doc_access_standard": [
+      "PAS"
+    ],
+    "doc_hris_guide": [
+      "PHFG"
+    ],
+    "doc_release_calendar": [
+      "PRC"
+    ],
+    "doc_exec_brief": [
+      "WRB"
+    ],
+    "doc_insurance_pack": [
+      "CRSI"
+    ],
+    "incident_jan_token": [],
+    "incident_feb_bucket": [],
+    "incident_mar_phish": [],
+    "incident_may_session": [],
+    "project_idp": [],
+    "project_soc2": [],
+    "project_veridian": [],
+    "project_release": [],
+    "project_exec": [],
+    "project_insurance": [],
+    "project_incident": [],
+    "project_cloud": []
+  },
+  "intentional_alias_collisions": {
+    "the broker": [
+      "person_hugo_wren",
+      "vendor_wrenharbor"
+    ]
+  },
+  "set_answers": {
+    "T090": [
+      "F0135",
+      "F0136",
+      "F0145",
+      "F0181"
+    ],
+    "T091": [
+      "F0145",
+      "F0154",
+      "F0155",
+      "F0177"
+    ],
+    "T092": [
+      "F0154",
+      "F0155",
+      "F0163",
+      "F0166",
+      "F0572"
+    ],
+    "T093": [
+      "F0163",
+      "F0172",
+      "F0173",
+      "F0201",
+      "F0579"
+    ],
+    "T094": [
+      "F0135",
+      "F0136",
+      "F0172",
+      "F0173",
+      "F0213",
+      "F0356"
+    ],
+    "T095": [
+      "F0135",
+      "F0136",
+      "F0154",
+      "F0155",
+      "F0432",
+      "F0593"
+    ],
+    "T096": [
+      "F0145",
+      "F0163",
+      "F0189",
+      "F0600"
+    ],
+    "T097": [
+      "F0154",
+      "F0155",
+      "F0172",
+      "F0173",
+      "F0448"
+    ],
+    "T098": [
+      "F0135",
+      "F0136",
+      "F0163",
+      "F0435"
+    ],
+    "T099": [
+      "F0145",
+      "F0172",
+      "F0173",
+      "F0439"
+    ],
+    "T100": [
+      "F0135",
+      "F0136",
+      "F0163",
+      "F0436",
+      "F0602"
+    ],
+    "T101": [
+      "F0145",
+      "F0172",
+      "F0173",
+      "F0440"
+    ],
+    "T102": [
+      "F0135",
+      "F0136",
+      "F0154",
+      "F0155",
+      "F0444",
+      "F0599"
+    ],
+    "T103": [
+      "F0145",
+      "F0163",
+      "F0452"
+    ],
+    "T104": [
+      "F0154",
+      "F0155",
+      "F0172",
+      "F0173",
+      "F0455"
+    ],
+    "T105": [
+      "F0135",
+      "F0136",
+      "F0172",
+      "F0173",
+      "F0541"
+    ],
+    "T106": [
+      "F0135",
+      "F0136",
+      "F0145",
+      "F0524"
+    ],
+    "T107": [
+      "F0145",
+      "F0154",
+      "F0155",
+      "F0456"
+    ],
+    "T108": [
+      "F0154",
+      "F0155",
+      "F0163",
+      "F0459"
+    ],
+    "T109": [
+      "F0163",
+      "F0172",
+      "F0173",
+      "F0460"
+    ],
+    "T113": [
+      "F0132",
+      "F0151"
+    ],
+    "T114": [
+      "F0151",
+      "F0132",
+      "F0559"
+    ],
+    "T115": [
+      "F0135",
+      "F0154",
+      "F0172",
+      "F0566"
+    ],
+    "T116": [
+      "F0154",
+      "F0135",
+      "F0172",
+      "F0531"
+    ],
+    "T117": [
+      "F0172",
+      "F0135",
+      "F0154",
+      "F0532"
+    ],
+    "T118": [
+      "F0136",
+      "F0155",
+      "F0173",
+      "F0527"
+    ],
+    "T119": [
+      "F0155",
+      "F0136",
+      "F0173",
+      "F0540"
+    ],
+    "T120": [
+      "F0173",
+      "F0136",
+      "F0155"
+    ],
+    "T121": [
+      "F0137",
+      "F0164",
+      "F0565"
+    ],
+    "T122": [
+      "F0164",
+      "F0137",
+      "F0530"
+    ],
+    "T123": [
+      "F0142",
+      "F0169",
+      "F0525"
+    ],
+    "T124": [
+      "F0169",
+      "F0142",
+      "F0542"
+    ],
+    "T125": [
+      "F0143",
+      "F0170",
+      "F0545"
+    ],
+    "T126": [
+      "F0170",
+      "F0143",
+      "F0534"
+    ],
+    "T127": [
+      "F0144",
+      "F0171"
+    ],
+    "T128": [
+      "F0171",
+      "F0144",
+      "F0577"
+    ],
+    "T129": [
+      "F0145",
+      "F0163",
+      "F0560"
+    ],
+    "T130": [
+      "F0163",
+      "F0145",
+      "F0537"
+    ],
+    "T131": [
+      "F0132",
+      "F0151",
+      "F0543"
+    ],
+    "T132": [
+      "F0151",
+      "F0132",
+      "F0561"
+    ],
+    "T302": [
+      "F0132",
+      "F0133"
+    ],
+    "T303": [
+      "F0144"
+    ],
+    "T304": [
+      "F0152",
+      "F0153"
+    ],
+    "T305": [
+      "F0161",
+      "F0162"
+    ],
+    "T306": [
+      "F0170"
+    ],
+    "T307": [
+      "F0145",
+      "F0163"
+    ],
+    "T308": [
+      "F0154",
+      "F0135",
+      "F0172"
+    ],
+    "T309": [
+      "F0136",
+      "F0173",
+      "F0155"
+    ],
+    "T310": [
+      "F0132"
+    ],
+    "T311": [
+      "F0162"
+    ],
+    "T312": [
+      "F0135"
+    ],
+    "T313": [
+      "F0146"
+    ],
+    "T314": [
+      "F0155",
+      "F0154"
+    ],
+    "T315": [
+      "F0170",
+      "F0171"
+    ],
+    "T316": [
+      "F0407",
+      "F0413",
+      "F0419"
+    ],
+    "T317": [
+      "F0425"
+    ],
+    "T318": [
+      "F0433",
+      "F0154",
+      "F0155"
+    ],
+    "T319": [
+      "F0437",
+      "F0135",
+      "F0136"
+    ],
+    "T320": [
+      "F0441",
+      "F0144"
+    ],
+    "T321": [
+      "F0449",
+      "F0172",
+      "F0173"
+    ],
+    "T322": [
+      "F0453",
+      "F0161",
+      "F0162"
+    ],
+    "T323": [
+      "F0457",
+      "F0152",
+      "F0153"
+    ],
+    "T324": [
+      "F0461",
+      "F0162"
+    ],
+    "T325": [
+      "F0445",
+      "F0135"
+    ],
+    "T326": [
+      "F0407",
+      "F0411",
+      "F0191"
+    ],
+    "T327": [
+      "F0413",
+      "F0417",
+      "F0203"
+    ],
+    "T328": [
+      "F0419",
+      "F0423",
+      "F0183"
+    ],
+    "T329": [
+      "F0425",
+      "F0429",
+      "F0179"
+    ],
+    "T330": [
+      "F0407",
+      "F0413",
+      "F0419",
+      "F0411",
+      "F0189"
+    ],
+    "T331": [
+      "F0407",
+      "F0413",
+      "F0419",
+      "F0423",
+      "F0182"
+    ],
+    "T332": [
+      "F0407",
+      "F0413",
+      "F0419",
+      "F0425",
+      "F0429",
+      "F0177"
+    ],
+    "T333": [
+      "F0452",
+      "F0453",
+      "F0163"
+    ]
+  },
+  "orphan_exclusions": [
+    "vendor_thin_01",
+    "vendor_thin_02",
+    "vendor_thin_03",
+    "vendor_thin_04",
+    "vendor_thin_05",
+    "vendor_thin_06",
+    "vendor_thin_07",
+    "vendor_thin_08",
+    "vendor_thin_09",
+    "vendor_thin_10",
+    "vendor_thin_11",
+    "vendor_thin_12"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "version": "1.0-frozen",
+  "frozen_at": "2026-06-01T08:00:00-04:00",
+  "protected_classes": [
+    "USER_PREF",
+    "USER_PERSONAL",
+    "AGENT_ROLE",
+    "BEHAVIOR_RULE"
+  ],
+  "rules": [
+    {
+      "source_type": "user",
+      "fact_classes": "*",
+      "remit_match": "any",
+      "outcome": "authoritative"
+    },
+    {
+      "source_type": "coworker",
+      "fact_classes": [
+        "ORG_FACT",
+        "DOC_META"
+      ],
+      "remit_match": true,
+      "outcome": "authoritative"
+    },
+    {
+      "source_type": "coworker",
+      "fact_classes": [
+        "ORG_FACT",
+        "DOC_META"
+      ],
+      "remit_match": false,
+      "outcome": "pending_confirmation"
+    },
+    {
+      "source_type": "coworker",
+      "fact_classes": [
+        "USER_PREF",
+        "USER_PERSONAL",
+        "AGENT_ROLE",
+        "BEHAVIOR_RULE"
+      ],
+      "remit_match": "any",
+      "outcome": "attributed_claim",
+      "operative": false
+    },
+    {
+      "source_type": "external",
+      "fact_classes": "*",
+      "remit_match": "any",
+      "outcome": "attributed_claim",
+      "operative": false
+    }
+  ],
+  "disclosure_access": {
+    "user": {
+      "user_only": true,
+      "internal": true,
+      "restricted_internal": true,
+      "external_safe": true
+    },
+    "coworker": {
+      "user_only": false,
+      "internal": true,
+      "restricted_internal": false,
+      "external_safe": true
+    },
+    "external": {
+      "user_only": false,
+      "internal": false,
+      "restricted_internal": false,
+      "external_safe": true
+    }
+  },
+  "identity_rules": {
+    "person_mara_voss": {
+      "all_scopes": true
+    },
+    "restricted_internal_need_to_know": [
+      "person_jonah_reed",
+      "person_michael_chen",
+      "person_michael_torres",
+      "person_elena_park"
+    ],
+    "default": "apply requester type, then named need-to-know exception; never infer access from task wording"
+  },
+  "principles": [
+    "remit overrides perceived loyalty",
+    "preserve every non-user source and status",
+    "conflicts retain both sourced reports until authoritative resolution"
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "scope": [
+    "scene_assets_c.json",
+    "scene_assets_tp_c.json"
+  ],
+  "repairs": [
+    {
+      "scene": "SC-D0-11",
+      "issue_removed": "Vendor facts were followed by a long lecture about canonical objects, relations, and memory behavior.",
+      "span_level_strategy": "Recast as Mara clearing a renewal page before a call, contrasting contacts, internal owners, evidence routes, near-adjacent dates, and deliberately thin vendor names through practical planning concerns."
+    },
+    {
+      "scene": "SC-D0-12",
+      "issue_removed": "Cloud accounts were delivered as uniform four-field bundles with repeated warnings about field identity.",
+      "span_level_strategy": "Used Mara's handwritten account page, ownership exceptions, partial account coverage, board-versus-operations uses, and the unfinished Resilience note to break list cadence without inventing a source event."
+    },
+    {
+      "scene": "SC-D0-13",
+      "issue_removed": "Source pointers and authority rules read as a schema recital and source-ranking algorithm.",
+      "span_level_strategy": "Embedded VR, CEI, runbook versioning, coworker remits, external attribution, email review, and mobile privacy in plausible examples involving Nadia, Priya, Carla, and Ava."
+    },
+    {
+      "scene": "SC-D0-14",
+      "issue_removed": "Confidentiality, preferences, and document pointers were framed as abstract disclosure and retrieval classes.",
+      "span_level_strategy": "Turned the material into Mara's working rules for an auditor question, incident drafting, calendar buffers, Friday follow-ups, ambiguous recipients, and current-versus-historical runbooks."
+    },
+    {
+      "scene": "SC-D0-15",
+      "issue_removed": "The remaining document sources were padded with repetitive maintainer-versus-owner and lookup-system explanations.",
+      "span_level_strategy": "Grounded the routes in access-review preparation, broken-link escalation, executive versus meeting-pack needs, endpoint/vendor overlap, and exact internal locations."
+    },
+    {
+      "scene": "SC-D5-01",
+      "issue_removed": "Corrections and status notes were narrated as generic temporal-memory operations.",
+      "span_level_strategy": "Made the scene a rushed Friday-brief dictation with a visible split between erroneous original data and current actions, plus concrete cautions about review-ready status and date types."
+    },
+    {
+      "scene": "SC-D5-02",
+      "issue_removed": "Two corrected counts and repeated workflow values triggered a field-by-field storage lecture.",
+      "span_level_strategy": "Framed the counts as a data-quality callout and the rest as an executive action page, preserving separate June 18 items, review queues, owner actions, and an external-commitment boundary."
+    },
+    {
+      "scene": "SC-D6-01",
+      "issue_removed": "True owner transitions, aliases, and repeated notes were explained through antecedent, successor, interval, and predicate terminology.",
+      "span_level_strategy": "Used Mara's mixed Saturday queue, grouping handovers by successor for readability while plainly distinguishing valid former owners, repeated checkpoints, and unrelated dated follow-ups."
+    },
+    {
+      "scene": "SC-D6-02",
+      "issue_removed": "The recap explicitly discussed semantic matching, entity nodes, retrieval frequency, and invariance under paraphrase.",
+      "span_level_strategy": "Rewrote as a human end-of-week reminder about bookable hours, buffers, drafting habits, assistant responsibilities, company-scale precision, and everyday name usage, with no claim that the facts changed."
+    },
+    {
+      "scene": "SC-TP-5",
+      "issue_removed": "Carla sounded like a benchmark annotator, repeatedly classifying each sentence and instructing how it should be stored.",
+      "span_level_strategy": "Made Carla commercially assertive: she advances the $68,000 position, requests escalation and procurement participation, promises written support, separates service from fees, and acknowledges Asteron's decision authority."
+    },
+    {
+      "scene": "SC-TP-6",
+      "issue_removed": "Ava's audit update consisted mainly of warnings about predicates, source authority, and missing-field inference.",
+      "span_level_strategy": "Kept Ava formal and audit-oriented through a restricted incident request, evidence consolidation plan, Friday checkpoint, one open sample, Elena routing, and a precise boundary around the undisclosed index."
+    },
+    {
+      "scene": "SC-DEBRIEF",
+      "issue_removed": "Mara's final two decisions were expanded into a technical provenance-state essay.",
+      "span_level_strategy": "Reduced the tone to a concise human debrief while retaining the distinct outcomes: confirmation of Northstar's unchanged capacity and rejection of Carla's conflicting Veridian fee claim."
+    }
+  ],
+  "prose_audit_followup_repairs": [
+    {
+      "scene": "SC-D0-11",
+      "repair": "Removed the unplanned next-month procurement meeting and collision-prone AegisTrace shorthand; rewove vendor facts into contact, calendar, ownership, and documentation situations while keeping every planned tag in order.",
+      "post_repair_scene_sha256": "b60738f794d12c64b11a98edae9608d6d259097e47db6ef644e163dede3a63c9"
+    },
+    {
+      "scene": "SC-D0-12",
+      "repair": "Removed the unplanned Michael/export event; rewove cloud account facts as Mara reading a partial handwritten page, with provider, scale, and owner used for distinct working questions.",
+      "post_repair_scene_sha256": "d8c74c2e9355c3aebe06378c4834d0957edb0b333d3156175f28b7ff1711fcfc"
+    },
+    {
+      "scene": "SC-D0-13",
+      "repair": "Broke the source-and-authority inventory run into vendor lookup, cloud lookup, identity-version, speaker-authority, email-review, and privacy situations; added no new business assertion.",
+      "post_repair_scene_sha256": "3e3d89d55be921eb6be324f450b8fe5b251d1a22e08beba9873b552d622b565a"
+    },
+    {
+      "scene": "SC-D0-14",
+      "repair": "Broke the confidentiality-and-document inventory run into audience, output, follow-up, historical, audit, incident, and detection questions using hypothetical connective prose only.",
+      "post_repair_scene_sha256": "5ca20d57d78b18f8380d457d4c04ad8968128fda073864da66134bb6b8ead88b"
+    },
+    {
+      "scene": "SC-D0-15",
+      "repair": "Broke the remaining source inventory into requirement, ownership, maintenance, access-review, exact-link, executive-brief, and historical-use situations without adding company state.",
+      "post_repair_scene_sha256": "d00cad3c9d09d72064634511010568ff6f9a12a027ac8c5a0996acb60eb4f08e"
+    },
+    {
+      "scene": "SC-TP-5",
+      "repair": "Removed the unplanned finance-review state, commercial-lead attendance, rescheduling preference, and service-team authorization; retained only Carla's tagged claims, requests, observations, and agenda boundary.",
+      "post_repair_scene_sha256": "5038dfdd48f99423a8255d4e6c09b40bed4cadfadeb634e075e86ec0ecf9d40f"
+    },
+    {
+      "scene": "SC-TP-6",
+      "repair": "Removed the unplanned worksheet state, evaluation of Elena, claimed navigation-time effect, and Friday-content commitment; retained Ava's tagged audit plan and formal source boundaries.",
+      "post_repair_scene_sha256": "de16e81958d00dca2a825121eddbf25921570ca319d086213bc0b750ca555598"
+    },
+    {
+      "scene": "SC-DEBRIEF",
+      "repair": "Removed the unplanned decision that two external requests may continue; limited Mara's debrief to the two tagged resolutions and the fact that they decide nothing else.",
+      "post_repair_scene_sha256": "c7a1f0410a961a2639d3e85f55674d0fe48fd24da077b691cebe809172587460"
+    }
+  ],
+  "validation": {
+    "json_parse": "passed for both files",
+    "tag_inventory": "passed against generation/scene_packets.json must_express lists",
+    "tag_order": "passed against the planned per-scene order",
+    "tag_uniqueness": "every assigned tag occurs exactly once; no duplicate tag across the two files",
+    "tag_pairing": "all opening and closing tag IDs match",
+    "word_counts": {
+      "SC-D0-11": 1301,
+      "SC-D0-12": 1305,
+      "SC-D0-13": 1297,
+      "SC-D0-14": 1294,
+      "SC-D0-15": 1311,
+      "SC-D5-01": 1147,
+      "SC-D5-02": 1146,
+      "SC-D6-01": 1146,
+      "SC-D6-02": 1141,
+      "SC-TP-5": 995,
+      "SC-TP-6": 1003,
+      "SC-DEBRIEF": 476
+    },
+    "prose_audit_recorded_assertions_removed": "passed for the eight repaired scenes",
+    "banned_meta_language_scan": "passed"
+  },
+  "cross_agent_second_round_repairs": [
+    {
+      "scene": "SC-D0-11",
+      "source_asset_sha256_before": "b60738f794d12c64b11a98edae9608d6d259097e47db6ef644e163dede3a63c9",
+      "source_asset_sha256_after": "9ebc02fec65a3fc338f63de99af84def29ee11a222fc2fd2811e5ebe2b97c962",
+      "word_count_before": 1301,
+      "word_count_after": 1324,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Recast the thin-vendor tail as a page-reading sequence; removed the Morrow and final-three doubled-copula/list splices."
+    },
+    {
+      "scene": "SC-D0-12",
+      "source_asset_sha256_before": "d8c74c2e9355c3aebe06378c4834d0957edb0b333d3156175f28b7ff1711fcfc",
+      "source_asset_sha256_after": "f130b1850b757ce40c9203dfa21ed7481541211d9306794310decb02881e857c",
+      "word_count_before": 1305,
+      "word_count_after": 1347,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Removed vendor, AWS, Azure, and GCP lead-in collisions with self-contained tagged sentences and varied the provider/scale/owner cadence."
+    },
+    {
+      "scene": "SC-D0-13",
+      "source_asset_sha256_before": "3e3d89d55be921eb6be324f450b8fe5b251d1a22e08beba9873b552d622b565a",
+      "source_asset_sha256_after": "28a0188ecfa0343852f1902cab616363871a8a555c23959b3328e81ddbf53d80",
+      "word_count_before": 1297,
+      "word_count_after": 1341,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Separated exact locations, scope, consultation conditions, and maintainers across associative vendor/cloud/identity source questions."
+    },
+    {
+      "scene": "SC-D0-14",
+      "source_asset_sha256_before": "5ca20d57d78b18f8380d457d4c04ad8968128fda073864da66134bb6b8ead88b",
+      "source_asset_sha256_after": "32a401ae41694b5ac7558ecac76002e6b18128159af51cddb38d7f7fb3b67ae4",
+      "word_count_before": 1294,
+      "word_count_after": 1319,
+      "fact_tag_count_before": 33,
+      "fact_tag_count_after": 33,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Separated exact evidence, incident, and detection locations from subject and use-condition sentences."
+    },
+    {
+      "scene": "SC-D0-15",
+      "source_asset_sha256_before": "d00cad3c9d09d72064634511010568ff6f9a12a027ac8c5a0996acb60eb4f08e",
+      "source_asset_sha256_after": "450b53641cb26fc24d02627d3b480d1f00ec55294c3f8190a489cc578503f04f",
+      "word_count_before": 1311,
+      "word_count_after": 1346,
+      "fact_tag_count_before": 20,
+      "fact_tag_count_after": 20,
+      "tagged_semantics_byte_identical": true,
+      "repair": "Separated all three exact source routes from scope and consultation statements, preserving the page-turn continuity from D0-14."
+    }
+  ],
+  "cross_agent_second_round_validation": {
+    "audit_file_modified": false,
+    "scenes_modified": [
+      "SC-D0-11",
+      "SC-D0-12",
+      "SC-D0-13",
+      "SC-D0-14",
+      "SC-D0-15"
+    ],
+    "other_scenes_modified": false,
+    "status": "pass: source JSON parsed; tag bodies/order/count byte-identical; each tag occurs once; 1,250–1,550 word band held; no new date/version/link surface; no new business assertion or alias introduced"
+  },
+  "weekend_brevity_repair": {
+    "requirement": "REQ-5.112",
+    "scope": [
+      "SC-D5-01",
+      "SC-D5-02",
+      "SC-D6-01",
+      "SC-D6-02"
+    ],
+    "method": "Removed only redundant, untagged connective and recap prose. Every fact tag, tagged body, tag order, and fact semantics remained byte-identical.",
+    "scenes": {
+      "SC-D5-01": {
+        "word_count_before": 1285,
+        "word_count_after": 1147,
+        "fact_tag_count_before": 10,
+        "fact_tag_count_after": 10,
+        "scene_sha256_before": "f300d5f96b77ce311fa7bc9fd682ba1601623b595dfd633701898d307fb41cac",
+        "scene_sha256_after": "a86ec492f2fd2d81738ae595340de762733f2d6c31e494b22ee068d13d2b9fe2"
+      },
+      "SC-D5-02": {
+        "word_count_before": 1278,
+        "word_count_after": 1146,
+        "fact_tag_count_before": 10,
+        "fact_tag_count_after": 10,
+        "scene_sha256_before": "8f91a21aefc3292e4fc29f64d2d6ab436fbf0296b7c90d7ace302a78597aa295",
+        "scene_sha256_after": "16f16203429f1c6cbf779e1d85f695fdfbe0cde4653f8c492d1a68cc5d67e0a1"
+      },
+      "SC-D6-01": {
+        "word_count_before": 1278,
+        "word_count_after": 1146,
+        "fact_tag_count_before": 20,
+        "fact_tag_count_after": 20,
+        "scene_sha256_before": "9677c2e994086666815b844db63010c3a1305060002816dcca0509e4a0e61373",
+        "scene_sha256_after": "c6adc74fac64fa544f96e07bf8cfbd5991e9914034e001a6fd00058d9d64c5c2"
+      },
+      "SC-D6-02": {
+        "word_count_before": 1277,
+        "word_count_after": 1141,
+        "fact_tag_count_before": 20,
+        "fact_tag_count_after": 20,
+        "scene_sha256_before": "af0498ce763be37d13c0eca9213f4608ceb122707aedcd1603fc4fad9a641623",
+        "scene_sha256_after": "eaa36799f057baa882c9cd07bf76c607ebfc91a7ea1d5d01b7c364932f84ef30"
+      }
+    },
+    "day_totals": {
+      "day_5_words": 2293,
+      "day_5_approx_tokens": 3058,
+      "day_6_words": 2287,
+      "day_6_approx_tokens": 3050
+    },
+    "output_file_sha256": "b80c80c8161b096a2723076b0438587ad6f8ce4bfafbdafdebc1205a5164e073",
+    "validation": "pass: all four scenes are 1,135–1,150 words; each weekend day remains approximately 3,050 tokens and at least 3,000; both are materially shorter than weekday updates; exact tagged bodies/order/counts are unchanged; no new prose or claims were introduced"
+  }
+}

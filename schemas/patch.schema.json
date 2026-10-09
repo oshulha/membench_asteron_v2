@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "patch_id",
+    "day",
+    "operation",
+    "fact_id",
+    "supplied_by",
+    "authority_outcome"
+  ],
+  "properties": {
+    "operation": {
+      "enum": [
+        "add",
+        "add_alias",
+        "clarify",
+        "correct",
+        "retract",
+        "supersede"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "stage": 9,
+  "status": "accepted",
+  "task_count": 333,
+  "invariance_ref": "generation/naturalization_invariance.json",
+  "all_invariance_checks_pass": true
+}

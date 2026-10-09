@@ -1,0 +1,1590 @@
+{
+  "schema_version": "membench.v2.partial_task_audit.v1",
+  "auditor": "codex-gpt5-category1-2-independent-auditor",
+  "scope": {
+    "task_ids": [
+      "T237",
+      "T238",
+      "T239",
+      "T240",
+      "T241",
+      "T242",
+      "T243",
+      "T244",
+      "T245",
+      "T246",
+      "T247",
+      "T248",
+      "T249",
+      "T250",
+      "T251",
+      "T252",
+      "T253",
+      "T254",
+      "T255",
+      "T256",
+      "T257",
+      "T258",
+      "T259",
+      "T260",
+      "T261",
+      "T262",
+      "T263",
+      "T264",
+      "T265",
+      "T266",
+      "T267",
+      "T268",
+      "T269"
+    ],
+    "categories": [
+      1,
+      2
+    ],
+    "snapshot_ref": "after_day_0",
+    "snapshot_position": 30
+  },
+  "methodology": {
+    "artifacts_read": [
+      "tasks/tasks.jsonl",
+      "tasks/golden_records.jsonl",
+      "world/facts.jsonl",
+      "conversations/sessions.jsonl",
+      "conversations/span_map.jsonl",
+      "source_assets/membench_requirements_list_v2.md",
+      "../membench/tasks/tasks.jsonl"
+    ],
+    "checks": "Independent task-by-task category/difficulty classification, wording review, canonical fact comparison, exact accepted-span slice validation, snapshot validation, resolver uniqueness, later-support exclusion, golden completeness, and cardinality review.",
+    "difficulty_standard": "Category 1 is intentionally easy canonical one-edge retrieval. Category 2 adds one unique role/alias resolution but no meaningful traversal, temporal reasoning, update reconciliation, or unintended ambiguity.",
+    "transcript_hash_serialization": "SHA-256 of UTF-8 canonical JSONL through stream position 30: sorted keys, compact separators, ensure_ascii=false, final newline."
+  },
+  "overall_status": "pass",
+  "summary": {
+    "tasks_audited": 33,
+    "tasks_passed": 33,
+    "tasks_failed": 0,
+    "category_1_passed": 17,
+    "category_2_passed": 16,
+    "day0_transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2"
+  },
+  "requirement_assessments": [
+    {
+      "requirement_id": "REQ-1.10",
+      "status": "pass",
+      "evidence": "Exactly 333 tasks exist; T001–T236 are JSON-object identical to v1, and every v2 task is bound to a concrete stream position."
+    },
+    {
+      "requirement_id": "REQ-6.01",
+      "status": "pass",
+      "evidence": "333 = unchanged 236-task v1 prefix + 97 new tasks T237–T333. Additions are 17/16/16/16/16/16 for Day-0 categories 1–6."
+    },
+    {
+      "requirement_id": "REQ-6.11",
+      "status": "pass",
+      "evidence": "Exactly 37 category-1 tasks overall and exactly 20 at after_day_0: 3 inherited plus T237–T253."
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "T237",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0026"
+        ],
+        "span_ids": [
+          "M0003:F0026:2409-2449"
+        ],
+        "golden_concepts": [
+          "Jonah Reed — email: jonah.reed@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T238",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0047"
+        ],
+        "span_ids": [
+          "M0007:F0047:112-170"
+        ],
+        "golden_concepts": [
+          "Priya Nair — remit: identity migration and access operations"
+        ]
+      }
+    },
+    {
+      "task_id": "T239",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0070"
+        ],
+        "span_ids": [
+          "M0009:F0070:1340-1376"
+        ],
+        "golden_concepts": [
+          "Lena Ortiz — role: CISO Executive Assistant"
+        ]
+      }
+    },
+    {
+      "task_id": "T240",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0138"
+        ],
+        "span_ids": [
+          "M0013:F0138:2405-2458"
+        ],
+        "golden_concepts": [
+          "Helios Ledger — uses security system: AegisTrace"
+        ]
+      }
+    },
+    {
+      "task_id": "T241",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0166"
+        ],
+        "span_ids": [
+          "M0015:F0166:1909-1945"
+        ],
+        "golden_concepts": [
+          "Lattice Vault — release owner: Michael Torres"
+        ]
+      }
+    },
+    {
+      "task_id": "T242",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0177"
+        ],
+        "span_ids": [
+          "M0015:F0177:3160-3193"
+        ],
+        "golden_concepts": [
+          "Northstar Identity — purpose: identity provider"
+        ]
+      }
+    },
+    {
+      "task_id": "T243",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0182"
+        ],
+        "span_ids": [
+          "M0017:F0182:96-123"
+        ],
+        "golden_concepts": [
+          "AegisTrace — owner: Theo March"
+        ]
+      }
+    },
+    {
+      "task_id": "T244",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0189"
+        ],
+        "span_ids": [
+          "M0017:F0189:835-881"
+        ],
+        "golden_concepts": [
+          "Lantern SIEM — purpose: security logging and detection"
+        ]
+      }
+    },
+    {
+      "task_id": "T245",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0220"
+        ],
+        "span_ids": [
+          "M0019:F0220:635-644"
+        ],
+        "golden_concepts": [
+          "Northstar Identity Services — risk tier: critical"
+        ]
+      }
+    },
+    {
+      "task_id": "T246",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0262"
+        ],
+        "span_ids": [
+          "M0021:F0262:1515-1549"
+        ],
+        "golden_concepts": [
+          "Lorne Pike Assurance — risk tier: high"
+        ]
+      }
+    },
+    {
+      "task_id": "T247",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0287"
+        ],
+        "span_ids": [
+          "M0023:F0287:685-720"
+        ],
+        "golden_concepts": [
+          "AWS Production — owner: Michael Torres"
+        ]
+      }
+    },
+    {
+      "task_id": "T248",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0314"
+        ],
+        "span_ids": [
+          "M0025:F0314:46-91"
+        ],
+        "golden_concepts": [
+          "GCP Resilience — aggregate resource count: 40"
+        ]
+      }
+    },
+    {
+      "task_id": "T249",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0351"
+        ],
+        "span_ids": [
+          "M0027:F0351:2398-2440"
+        ],
+        "golden_concepts": [
+          "SOC 2 Evidence Index — maintainer: Elena Park"
+        ]
+      }
+    },
+    {
+      "task_id": "T250",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0380"
+        ],
+        "span_ids": [
+          "M0029:F0380:1648-1689"
+        ],
+        "golden_concepts": [
+          "Privileged Access Standard — consult when: prepare access reviews"
+        ]
+      }
+    },
+    {
+      "task_id": "T251",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0421"
+        ],
+        "span_ids": [
+          "M0005:F0421:512-535"
+        ],
+        "golden_concepts": [
+          "March Finance Phish — severity: medium"
+        ]
+      }
+    },
+    {
+      "task_id": "T252",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0433"
+        ],
+        "span_ids": [
+          "M0005:F0433:2539-2561"
+        ],
+        "golden_concepts": [
+          "Northstar Identity Migration — affects product: Orbit Desk"
+        ]
+      }
+    },
+    {
+      "task_id": "T253",
+      "category": 1,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The exact canonical entity is named and only one directly attached fact is requested. The intentionally easy retrieval-sanity level is correct: no resolution, traversal, temporal filter, update, or provenance reasoning is needed."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0435"
+        ],
+        "span_ids": [
+          "M0007:F0435:407-439"
+        ],
+        "golden_concepts": [
+          "2026 SOC 2 Type II Readiness — thread: audit preparation"
+        ]
+      }
+    },
+    {
+      "task_id": "T254",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0025",
+          "F0026"
+        ],
+        "span_ids": [
+          "M0003:F0025:2367-2408",
+          "M0003:F0026:2409-2449"
+        ],
+        "golden_concepts": [
+          "Jonah Reed — role: Deputy CISO and Security Architect",
+          "Jonah Reed — email: jonah.reed@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T255",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0030",
+          "F0031"
+        ],
+        "span_ids": [
+          "M0005:F0030:70-97",
+          "M0005:F0031:98-138"
+        ],
+        "golden_concepts": [
+          "Elena Park — role: GRC Lead",
+          "Elena Park — email: elena.park@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T256",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0045",
+          "F0046"
+        ],
+        "span_ids": [
+          "M0007:F0045:28-70",
+          "M0007:F0046:71-111"
+        ],
+        "golden_concepts": [
+          "Priya Nair — role: Security Engineer, Identity",
+          "Priya Nair — email: priya.nair@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T257",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0050",
+          "F0051"
+        ],
+        "span_ids": [
+          "M0007:F0050:847-877",
+          "M0007:F0051:878-918"
+        ],
+        "golden_concepts": [
+          "Theo March — role: IT Director",
+          "Theo March — email: theo.march@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T258",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0055",
+          "F0056"
+        ],
+        "span_ids": [
+          "M0007:F0055:1724-1752",
+          "M0007:F0056:1753-1794"
+        ],
+        "golden_concepts": [
+          "Nadia Sorel — role: Procurement Lead",
+          "Nadia Sorel — email: nadia.sorel@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T259",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0060",
+          "F0061"
+        ],
+        "span_ids": [
+          "M0007:F0060:2638-2679",
+          "M0007:F0061:2680-2719"
+        ],
+        "golden_concepts": [
+          "Iris Bell — role: Chief Financial Officer",
+          "Iris Bell — email: iris.bell@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T260",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0065",
+          "F0066"
+        ],
+        "span_ids": [
+          "M0009:F0065:332-366",
+          "M0009:F0066:367-406"
+        ],
+        "golden_concepts": [
+          "Owen Kade — role: Chief Executive Officer",
+          "Owen Kade — email: owen.kade@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T261",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0075",
+          "F0076"
+        ],
+        "span_ids": [
+          "M0009:F0075:2152-2186",
+          "M0009:F0076:2187-2228"
+        ],
+        "golden_concepts": [
+          "Samir Quill — role: Product Operations Lead",
+          "Samir Quill — email: samir.quill@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T262",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0080",
+          "F0081"
+        ],
+        "span_ids": [
+          "M0009:F0080:3070-3108",
+          "M0009:F0081:3109-3147"
+        ],
+        "golden_concepts": [
+          "Bea Holt — role: People Operations Director",
+          "Bea Holt — email: bea.holt@asteron.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T263",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0085",
+          "F0086"
+        ],
+        "span_ids": [
+          "M0011:F0085:429-476",
+          "M0011:F0086:522-565"
+        ],
+        "golden_concepts": [
+          "Ava Lorne — role: Lead auditor at Lorne Pike Assurance",
+          "Ava Lorne — email: ava.lorne@lornepike.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T264",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0095",
+          "F0096"
+        ],
+        "span_ids": [
+          "M0011:F0095:1639-1689",
+          "M0011:F0096:1690-1739"
+        ],
+        "golden_concepts": [
+          "Ren Ito — role: Account Executive at Northstar Identity",
+          "Ren Ito — email: ren.ito@northstarid.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T265",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0100",
+          "F0101"
+        ],
+        "span_ids": [
+          "M0011:F0100:2202-2249",
+          "M0011:F0101:2250-2295"
+        ],
+        "golden_concepts": [
+          "Carla Mendez — role: Account Manager at Veridian Metrics",
+          "Carla Mendez — email: carla.mendez@veridian.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T266",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The role phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0105",
+          "F0106"
+        ],
+        "span_ids": [
+          "M0011:F0105:2808-2856",
+          "M0011:F0106:2857-2899"
+        ],
+        "golden_concepts": [
+          "Hugo Wren — role: Cyber-insurance broker at Wren Harbor",
+          "Hugo Wren — email: hugo.wren@wrenharbor.example"
+        ]
+      }
+    },
+    {
+      "task_id": "T267",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The alias phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0131",
+          "F0138"
+        ],
+        "span_ids": [
+          "M0013:F0131:1741-1779",
+          "M0013:F0138:2405-2458"
+        ],
+        "golden_concepts": [
+          "Helios Ledger — alias: Helios",
+          "Helios Ledger — uses security system: AegisTrace"
+        ]
+      }
+    },
+    {
+      "task_id": "T268",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The alias phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0141",
+          "F0148"
+        ],
+        "span_ids": [
+          "M0013:F0141:2907-2950",
+          "M0013:F0148:3514-3562"
+        ],
+        "golden_concepts": [
+          "Quarry Flow — alias: Quarry",
+          "Quarry Flow — release owner: Samir Quill"
+        ]
+      }
+    },
+    {
+      "task_id": "T269",
+      "category": 2,
+      "status": "pass",
+      "checks": {
+        "category_appropriateness": {
+          "status": "pass",
+          "notes": "The alias phrase uniquely resolves one Day-0 entity, then one directly attached target fact is retrieved. It is harder than canonical lookup but has no ambiguity or extra meaningful edge, so it is correctly calibrated resolved single-hop."
+        },
+        "natural_wording": {
+          "status": "pass",
+          "notes": "Natural, concise workplace wording; it identifies the requested field without embedding its answer."
+        },
+        "day0_answerability": {
+          "status": "pass",
+          "notes": "Every required concept has an accepted explicit span in the Day-0 transcript prefix through position 30."
+        },
+        "golden_correctness_completeness": {
+          "status": "pass",
+          "notes": "Golden concepts exactly match the canonical facts; category 2 includes both its resolver and requested target."
+        },
+        "no_hidden_later_support": {
+          "status": "pass",
+          "notes": "All cited facts were authoritatively communicated on June 1 and occur before the snapshot; no later disclosure is required."
+        },
+        "cardinality": {
+          "status": "pass",
+          "notes": "One requested target value, matching answer_cardinality=1 and expected_cardinality=1."
+        }
+      },
+      "evidence": {
+        "snapshot_position": 30,
+        "transcript_sha256": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+        "supporting_fact_ids": [
+          "F0259",
+          "F0262"
+        ],
+        "span_ids": [
+          "M0021:F0259:1296-1337",
+          "M0021:F0262:1515-1549"
+        ],
+        "golden_concepts": [
+          "Lorne Pike Assurance — alias: LPA",
+          "Lorne Pike Assurance — risk tier: high"
+        ]
+      }
+    }
+  ]
+}
+

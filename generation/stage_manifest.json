@@ -1,0 +1,45 @@
+{
+  "artifact_version": "2.0.0",
+  "seed": 260601,
+  "stage_order": [
+    "stage0 schemas/infrastructure",
+    "stage1 minimal kernel",
+    "stage2 category-driven co-growth",
+    "stage3 task-bearing core freeze",
+    "stage4 distractor periphery and full rerun",
+    "stage5 long-tail pointers",
+    "stage6 pre-render disclosure plan freeze",
+    "stage7 LLM scene rendering/verify-repair",
+    "stage8 third parties/debrief",
+    "stage9 late task naturalization/invariance",
+    "v2 Day-0 task expansion and independent difficulty audit",
+    "oracle/judge calibration",
+    "ten-gate validation"
+  ],
+  "checkpoint_directory": "generation/checkpoints",
+  "program_owned": [
+    "IDs",
+    "dates",
+    "authority",
+    "graphs",
+    "bindings",
+    "quotas"
+  ],
+  "llm_owned": [
+    "entity-sheet surface expansion",
+    "scene prose",
+    "semantic extraction",
+    "task naturalization",
+    "oracle answers",
+    "judge audit",
+    "v2 category-difficulty review"
+  ],
+  "restartable": true,
+  "external_api_key_required": false,
+  "core_frozen_before_render": true,
+  "disclosure_plan_frozen_before_render": true,
+  "structured_bindings_persisted_before_naturalization": true,
+  "v1_task_prefix_preserved": 236,
+  "v2_day0_additions": 97,
+  "post_distractor_full_rerun": true
+}

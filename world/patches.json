@@ -1,0 +1,1302 @@
+[
+  {
+    "patch_id": "P0001",
+    "day": 1,
+    "operation": "correct",
+    "fact_id": "F0483",
+    "antecedent_fact_id": "F0178",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0002",
+    "day": 2,
+    "operation": "supersede",
+    "fact_id": "F0484",
+    "antecedent_fact_id": "F0182",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0003",
+    "day": 3,
+    "operation": "correct",
+    "fact_id": "F0485",
+    "antecedent_fact_id": "F0186",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0004",
+    "day": 4,
+    "operation": "supersede",
+    "fact_id": "F0486",
+    "antecedent_fact_id": "F0190",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0005",
+    "day": 5,
+    "operation": "correct",
+    "fact_id": "F0487",
+    "antecedent_fact_id": "F0194",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0006",
+    "day": 6,
+    "operation": "supersede",
+    "fact_id": "F0488",
+    "antecedent_fact_id": "F0198",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0007",
+    "day": 1,
+    "operation": "correct",
+    "fact_id": "F0489",
+    "antecedent_fact_id": "F0202",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0008",
+    "day": 2,
+    "operation": "supersede",
+    "fact_id": "F0490",
+    "antecedent_fact_id": "F0206",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0009",
+    "day": 3,
+    "operation": "correct",
+    "fact_id": "F0491",
+    "antecedent_fact_id": "F0210",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0010",
+    "day": 4,
+    "operation": "supersede",
+    "fact_id": "F0492",
+    "antecedent_fact_id": "F0214",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0011",
+    "day": 5,
+    "operation": "correct",
+    "fact_id": "F0493",
+    "antecedent_fact_id": "F0219",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0012",
+    "day": 6,
+    "operation": "supersede",
+    "fact_id": "F0494",
+    "antecedent_fact_id": "F0221",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0013",
+    "day": 1,
+    "operation": "correct",
+    "fact_id": "F0495",
+    "antecedent_fact_id": "F0226",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0014",
+    "day": 2,
+    "operation": "supersede",
+    "fact_id": "F0496",
+    "antecedent_fact_id": "F0228",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0015",
+    "day": 3,
+    "operation": "correct",
+    "fact_id": "F0497",
+    "antecedent_fact_id": "F0233",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0016",
+    "day": 4,
+    "operation": "supersede",
+    "fact_id": "F0498",
+    "antecedent_fact_id": "F0235",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0017",
+    "day": 5,
+    "operation": "correct",
+    "fact_id": "F0499",
+    "antecedent_fact_id": "F0240",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0018",
+    "day": 6,
+    "operation": "supersede",
+    "fact_id": "F0500",
+    "antecedent_fact_id": "F0242",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0019",
+    "day": 1,
+    "operation": "correct",
+    "fact_id": "F0501",
+    "antecedent_fact_id": "F0247",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0020",
+    "day": 2,
+    "operation": "supersede",
+    "fact_id": "F0502",
+    "antecedent_fact_id": "F0249",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0021",
+    "day": 3,
+    "operation": "correct",
+    "fact_id": "F0503",
+    "antecedent_fact_id": "F0254",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0022",
+    "day": 4,
+    "operation": "supersede",
+    "fact_id": "F0504",
+    "antecedent_fact_id": "F0256",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0023",
+    "day": 5,
+    "operation": "correct",
+    "fact_id": "F0505",
+    "antecedent_fact_id": "F0261",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0024",
+    "day": 6,
+    "operation": "supersede",
+    "fact_id": "F0506",
+    "antecedent_fact_id": "F0263",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0025",
+    "day": 1,
+    "operation": "correct",
+    "fact_id": "F0507",
+    "antecedent_fact_id": "F0268",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0026",
+    "day": 2,
+    "operation": "supersede",
+    "fact_id": "F0508",
+    "antecedent_fact_id": "F0270",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0027",
+    "day": 3,
+    "operation": "correct",
+    "fact_id": "F0509",
+    "antecedent_fact_id": "F0286",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0028",
+    "day": 4,
+    "operation": "supersede",
+    "fact_id": "F0510",
+    "antecedent_fact_id": "F0287",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0029",
+    "day": 5,
+    "operation": "correct",
+    "fact_id": "F0511",
+    "antecedent_fact_id": "F0290",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0030",
+    "day": 6,
+    "operation": "supersede",
+    "fact_id": "F0512",
+    "antecedent_fact_id": "F0291",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0031",
+    "day": 1,
+    "operation": "correct",
+    "fact_id": "F0513",
+    "antecedent_fact_id": "F0294",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0032",
+    "day": 2,
+    "operation": "supersede",
+    "fact_id": "F0514",
+    "antecedent_fact_id": "F0295",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0033",
+    "day": 3,
+    "operation": "correct",
+    "fact_id": "F0515",
+    "antecedent_fact_id": "F0298",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0034",
+    "day": 4,
+    "operation": "supersede",
+    "fact_id": "F0516",
+    "antecedent_fact_id": "F0299",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0035",
+    "day": 5,
+    "operation": "correct",
+    "fact_id": "F0517",
+    "antecedent_fact_id": "F0302",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0036",
+    "day": 6,
+    "operation": "supersede",
+    "fact_id": "F0518",
+    "antecedent_fact_id": "F0303",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0037",
+    "day": 1,
+    "operation": "correct",
+    "fact_id": "F0519",
+    "antecedent_fact_id": "F0306",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0038",
+    "day": 2,
+    "operation": "supersede",
+    "fact_id": "F0520",
+    "antecedent_fact_id": "F0307",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0039",
+    "day": 3,
+    "operation": "correct",
+    "fact_id": "F0521",
+    "antecedent_fact_id": "F0310",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was false when communicated"
+  },
+  {
+    "patch_id": "P0040",
+    "day": 4,
+    "operation": "supersede",
+    "fact_id": "F0522",
+    "antecedent_fact_id": "F0311",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "earlier statement was true and later ceased to be current"
+  },
+  {
+    "patch_id": "P0041",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0523",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0042",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0524",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0043",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0525",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0044",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0526",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0045",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0527",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0046",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0528",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0047",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0529",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0048",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0530",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0049",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0531",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0050",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0532",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0051",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0533",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0052",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0534",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0053",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0535",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0054",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0536",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0055",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0537",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0056",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0538",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0057",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0539",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0058",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0540",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0059",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0541",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0060",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0542",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0061",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0543",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0062",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0544",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0063",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0545",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0064",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0546",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0065",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0547",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0066",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0548",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0067",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0549",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0068",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0550",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0069",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0551",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0070",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0552",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0071",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0553",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0072",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0554",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0073",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0555",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0074",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0556",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0075",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0557",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0076",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0558",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0077",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0559",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0078",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0560",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0079",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0561",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0080",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0562",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0081",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0563",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0082",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0564",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0083",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0565",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0084",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0566",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0085",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0567",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0086",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0568",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0087",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0569",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0088",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0570",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0089",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0571",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0090",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0572",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0091",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0573",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0092",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0574",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0093",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0575",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0094",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0576",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0095",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0577",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0096",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0578",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0097",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0579",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0098",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0580",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0099",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0581",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0100",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0582",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0101",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0583",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0102",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0584",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0103",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0585",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0104",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0586",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0105",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0587",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0106",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0588",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0107",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0589",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0108",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0590",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0109",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0591",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0110",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0592",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0111",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0593",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0112",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0594",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0113",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0595",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0114",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0596",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0115",
+    "day": 3,
+    "operation": "add",
+    "fact_id": "F0597",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0116",
+    "day": 4,
+    "operation": "add",
+    "fact_id": "F0598",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0117",
+    "day": 5,
+    "operation": "add",
+    "fact_id": "F0599",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0118",
+    "day": 6,
+    "operation": "add",
+    "fact_id": "F0600",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0119",
+    "day": 1,
+    "operation": "add",
+    "fact_id": "F0601",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0120",
+    "day": 2,
+    "operation": "add",
+    "fact_id": "F0602",
+    "antecedent_fact_id": null,
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "newly disclosed organizational fact"
+  },
+  {
+    "patch_id": "P0121",
+    "day": 1,
+    "operation": "clarify",
+    "fact_id": "F0603",
+    "antecedent_fact_id": "F0272",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0122",
+    "day": 2,
+    "operation": "clarify",
+    "fact_id": "F0604",
+    "antecedent_fact_id": "F0273",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0123",
+    "day": 3,
+    "operation": "clarify",
+    "fact_id": "F0605",
+    "antecedent_fact_id": "F0274",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0124",
+    "day": 4,
+    "operation": "clarify",
+    "fact_id": "F0606",
+    "antecedent_fact_id": "F0275",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0125",
+    "day": 5,
+    "operation": "add_alias",
+    "fact_id": "F0607",
+    "antecedent_fact_id": "F0276",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0126",
+    "day": 6,
+    "operation": "add_alias",
+    "fact_id": "F0608",
+    "antecedent_fact_id": "F0277",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0127",
+    "day": 1,
+    "operation": "add_alias",
+    "fact_id": "F0609",
+    "antecedent_fact_id": "F0278",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0128",
+    "day": 2,
+    "operation": "retract",
+    "fact_id": "F0610",
+    "antecedent_fact_id": "F0480",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0129",
+    "day": 3,
+    "operation": "retract",
+    "fact_id": "F0611",
+    "antecedent_fact_id": "F0481",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  },
+  {
+    "patch_id": "P0130",
+    "day": 4,
+    "operation": "retract",
+    "fact_id": "F0612",
+    "antecedent_fact_id": "F0482",
+    "supplied_by": "person_mara_voss",
+    "authority_outcome": "authoritative",
+    "semantic_note": "typed lineage event"
+  }
+]

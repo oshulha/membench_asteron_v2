@@ -1,0 +1,68 @@
+{
+  "oracle_agent": "codex-gpt5-final-category4-strong-oracle",
+  "methodology": {
+    "source_refresh": "Re-read exact current tasks, goldens, weekend-shortened sessions, span map, and facts from serialized disk. Existing answers were retained only after every required/selected-alternative/provenance concept was found in the current snapshot and the fixed answer passed golden adjudication.",
+    "gate4": "Revalidated exact final task text plus golden concepts only; every concept remains present and no transcript is used.",
+    "gate5": "Rebuilt every transcript prefix through its exact snapshot, recomputed the canonical prefix hash, remapped each concept to current accepted span offsets, checked three distinct substantive answers against current snapshot support, then adjudicated against the golden.",
+    "gate6": "Revalidated the task-only abstention with transcript and world artifacts excluded.",
+    "gate9": "Exhaustive per-task necessity rerun. All selected-concept and semantic-equivalent spans use current weekend-shortened offsets and newly computed altered hashes.",
+    "hash_serialization": "SHA-256 of UTF-8 canonical JSONL: current final session objects through snapshot in sessions.jsonl order, sorted keys, compact separators, ensure_ascii=false, final newline."
+  },
+  "counts": {
+    "category_tasks": 23,
+    "gate4_completed": 23,
+    "gate4_correct": 23,
+    "gate5_completed": 23,
+    "gate5_substantive_outputs": 69,
+    "gate5_correct_outputs": 69,
+    "gate5_accept_dispositions": 23,
+    "gate5_current_evidence_spans": 144,
+    "gate6_closed_book_failures": 23,
+    "gate9_runs": 23,
+    "gate9_necessary_effect_observed": 23,
+    "gate9_graph_bypasses": 0
+  },
+  "gate9_task_ids": [
+    "T067",
+    "T068",
+    "T069",
+    "T070",
+    "T071",
+    "T072",
+    "T073",
+    "T074",
+    "T075",
+    "T076",
+    "T077",
+    "T078",
+    "T079",
+    "T080",
+    "T081",
+    "T082",
+    "T083",
+    "T084",
+    "T085",
+    "T086",
+    "T087",
+    "T088",
+    "T089"
+  ],
+  "current_prefix_hashes": {
+    "30": "4fbcd0f705371b4293f8253faa27872bfc36e664b56f50d6492a4e9fb84cd7a2",
+    "34": "74eb120e3ed5e782d92e74676c75d85da24ba651b7ddf7a4f2a0b85cd3548e38",
+    "38": "51d5737249e4261dc9daecd2fc5242d1ee2943fc4d17d48f6667847bc2aa44b5",
+    "42": "5245bd702b3f401f2f9b20140ac643191f023081fa53d53eee803ca31e5e9131",
+    "46": "9eba5330642f8288eaf4d7ae47f5645669c193476e25222e68af54c675741023",
+    "50": "4394f56f6ca0489190e0b79a28c315bea0cb90b55175b26c7fa672119926a518",
+    "54": "cccc39ee36a9430a7f2ed7ffacbaff88f7f37045d35ec8d0b3a26b0f6f12b2e5"
+  },
+  "validation": {
+    "jsonl_and_coverage": "pass: 23 current rows, all and only final category-4 tasks",
+    "task_text_and_concepts": "pass: exact task_text; every required, selected-alternative, and provenance concept present in Gate 4 and all three Gate 5 outputs",
+    "current_snapshot_support": "pass: every concept has at least one accepted current span at or before its task snapshot; every cited slice matches current session text exactly",
+    "gate5_acceptance": "pass: three distinct correct outputs per task; every disposition accept",
+    "category2_ambiguity": "not applicable",
+    "exact_sets": "not applicable",
+    "gate9": "pass: current removed spans and altered hashes recomputed; necessary effects observed; zero bypasses"
+  }
+}

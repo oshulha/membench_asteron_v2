@@ -1,0 +1,1030 @@
+{
+  "schema_version": "membench.v2_cat56_audit.v1",
+  "audit_id": "v2-day0-cat56-independent-strong-audit",
+  "auditor": "independent Codex GPT-5 subagent",
+  "scope": {
+    "task_ids": [
+      "T302",
+      "T333"
+    ],
+    "categories": [
+      5,
+      6
+    ],
+    "snapshot_ref": "after_day_0"
+  },
+  "methodology": {
+    "answerability": "Resolved every required fact to an accepted user-authored span at or before stream position 30; later spans were excluded.",
+    "temporal": "Recomputed interval membership, quarter/month completeness, global and per-product extrema, predecessor/successor adjacency, and incident extrema from all Day-0 disclosed date records.",
+    "category": "Category 5 was required to use temporal reasoning without a meaningful entity traversal; category 6 was required to combine an explicit graph traversal with a temporal filter, comparison, or join.",
+    "quality": "Reviewed wording, answer cardinality, bounded operation count, path necessity, lexical cues, and exact golden support independently for all 32 tasks."
+  },
+  "summary": {
+    "total": 32,
+    "passed": 32,
+    "failed": 0,
+    "by_category": {
+      "5": 16,
+      "6": 16
+    }
+  },
+  "requirements_assessment": {
+    "REQ-10.42": {
+      "status": "pass",
+      "requirement": "Deliver exactly 333 accepted naturalized tasks, including 97 validated Day-0 additions.",
+      "evidence": {
+        "accepted_task_total": 333,
+        "v2_addition_ids": [
+          "T237",
+          "T333"
+        ],
+        "v2_addition_count": 97,
+        "v2_additions_at_after_day_0": 97,
+        "cat56_additions_independently_validated_here": 32
+      },
+      "audit_notes": "tasks.jsonl and golden_records.jsonl have one aligned record for each T001–T333; T237–T333 comprise exactly 97 additions and every one is bound to after_day_0. This partial audit independently passes the 32 category-5/6 members of that addition set."
+    },
+    "REQ-10.44": {
+      "status": "pass",
+      "requirement": "Verify every primary-category quota, including exactly 20 Day-0 tasks in each category 1–6, 37 category-1 tasks overall, 39 tasks overall in each category 2–6, and category 10's unchanged range.",
+      "evidence": {
+        "overall_category_counts": {
+          "1": 37,
+          "2": 39,
+          "3": 39,
+          "4": 39,
+          "5": 39,
+          "6": 39,
+          "7": 23,
+          "8": 23,
+          "9": 23,
+          "10": 32
+        },
+        "after_day_0_category_counts": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        },
+        "category_10_required_range": [
+          30,
+          35
+        ]
+      },
+      "audit_notes": "Recomputed counts are C1=37; C2–C6=39 each; C7–C9=23 each; C10=32. Each of C1–C6 has exactly 20 tasks at after_day_0. Thus the revised exact counts, all original minimum quotas, and category 10's 30–35 range pass."
+    }
+  },
+  "overall_status": "pass",
+  "tasks": [
+    {
+      "task_id": "T302",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0132",
+        "F0133"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "absolute interval filter over one product",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T303",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0144"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "absolute interval filter over one product",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T304",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0152",
+        "F0153"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "inclusive interval filter over one product",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T305",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0161",
+        "F0162"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "absolute interval filter over one product",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T306",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0170"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "quarter filter over one product",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T307",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0145",
+        "F0163"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "month filter over two products",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T308",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0154",
+        "F0135",
+        "F0172"
+      ],
+      "answer_cardinality": 3,
+      "temporal_and_path_classification": "complete month filter over all products",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T309",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0136",
+        "F0173",
+        "F0155"
+      ],
+      "answer_cardinality": 3,
+      "temporal_and_path_classification": "complete month filter over all products, including tie",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T310",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0132"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "global minimum within calendar year",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T311",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0162"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "global maximum within calendar year",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T312",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0135"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "per-product minimum within calendar year",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T313",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0146"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "per-product latest-before cutoff",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T314",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0155",
+        "F0154"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "anchor plus immediate predecessor",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T315",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0170",
+        "F0171"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "anchor plus immediate successor",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T316",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0407",
+        "F0413",
+        "F0419"
+      ],
+      "answer_cardinality": 3,
+      "temporal_and_path_classification": "complete incident quarter filter",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T317",
+      "category": 5,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0425"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "incident interval filter after Q1 and before June",
+      "difficulty": "easy-medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task is a temporal-only filter/comparison with no required entity traversal. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T318",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0433",
+        "F0154",
+        "F0155"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "project-to-product traversal plus quarter filter",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T319",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0437",
+        "F0135",
+        "F0136"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "project-to-product traversal plus quarter filter",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T320",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0441",
+        "F0144"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "project-to-product traversal plus half-year filter",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T321",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0449",
+        "F0172",
+        "F0173"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "project-to-product traversal plus quarter filter",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T322",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0453",
+        "F0161",
+        "F0162"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "project-to-product traversal plus half-year filter",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T323",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0457",
+        "F0152",
+        "F0153"
+      ],
+      "answer_cardinality": 2,
+      "temporal_and_path_classification": "project-to-product traversal plus inclusive interval",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T324",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0461",
+        "F0162"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "project-to-product traversal plus latest-before comparison",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T325",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0445",
+        "F0135"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "project-to-product traversal plus first-in-year comparison",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T326",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0407",
+        "F0411",
+        "F0191"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "dated-incident resolution plus incident-system-document traversal",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The incident's month-bearing canonical name is only a corroborating cue; its year-qualified selection still depends on the dated fact, and the requested result remains two graph edges away. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T327",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0413",
+        "F0417",
+        "F0203"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "dated-incident resolution plus incident-system-document traversal",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The incident's month-bearing canonical name is only a corroborating cue; its year-qualified selection still depends on the dated fact, and the requested result remains two graph edges away. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T328",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0419",
+        "F0423",
+        "F0183"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "dated-incident resolution plus incident-system-document traversal",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The incident's month-bearing canonical name is only a corroborating cue; its year-qualified selection still depends on the dated fact, and the requested result remains two graph edges away. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T329",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0425",
+        "F0429",
+        "F0179"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "dated-incident resolution plus incident-system-document traversal",
+      "difficulty": "medium",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The incident's month-bearing canonical name is only a corroborating cue; its year-qualified selection still depends on the dated fact, and the requested result remains two graph edges away. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T330",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0407",
+        "F0413",
+        "F0419",
+        "F0411",
+        "F0189"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "Q1 minimum comparison plus incident-system-purpose traversal",
+      "difficulty": "medium-high",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T331",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0407",
+        "F0413",
+        "F0419",
+        "F0423",
+        "F0182"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "Q1 maximum comparison plus incident-system-owner traversal",
+      "difficulty": "medium-high",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T332",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0407",
+        "F0413",
+        "F0419",
+        "F0425",
+        "F0429",
+        "F0177"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "latest-before comparison plus incident-system-purpose traversal",
+      "difficulty": "medium-high",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    },
+    {
+      "task_id": "T333",
+      "category": 6,
+      "status": "pass",
+      "checks": {
+        "day0_transcript_answerability": true,
+        "golden_correctness_and_completeness": true,
+        "temporal_set_extremum_or_adjacency_recomputed": true,
+        "category_semantics": true,
+        "answer_cardinality": true,
+        "bounded_reasonable_difficulty": true,
+        "natural_wording": true,
+        "no_later_support": true
+      },
+      "snapshot": {
+        "snapshot_ref": "after_day_0",
+        "snapshot_position": 30,
+        "snapshot_message_id": "M0030"
+      },
+      "recomputed_supporting_fact_ids": [
+        "F0452",
+        "F0453",
+        "F0163"
+      ],
+      "answer_cardinality": 1,
+      "temporal_and_path_classification": "owner-to-project-to-product resolution plus month filter",
+      "difficulty": "medium-high",
+      "audit_notes": "All required concepts have accepted user-authored spans at or before M0030. The task requires a meaningful entity traversal and a separate temporal filter/comparison. The prompt is bounded and its golden contains exactly the path/anchor facts needed to adjudicate the requested output.",
+      "defects": []
+    }
+  ]
+}

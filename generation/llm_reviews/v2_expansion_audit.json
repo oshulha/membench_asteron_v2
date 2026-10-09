@@ -1,0 +1,1840 @@
+{
+  "schema_version": "membench.v2.expansion_audit.v1",
+  "audit_id": "v2-day0-expansion-independent-integration-97",
+  "generated_at": "2026-07-12T16:58:44.445604+00:00",
+  "overall_status": "pass",
+  "scope": {
+    "task_id_range": [
+      "T237",
+      "T333"
+    ],
+    "tasks": 97,
+    "categories": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "snapshot_ref": "after_day_0"
+  },
+  "methodology": {
+    "independent_subagents": "Three disjoint independent Codex subagents audited categories 1–2, 3–4, and 5–6. Integration passes only when each partial, task row, and underlying check passes and no defects remain.",
+    "source_partial_audits": [
+      {
+        "file": "v2_audit_cat12.json",
+        "auditor": "codex-gpt5-category1-2-independent-auditor",
+        "overall_status": "pass",
+        "task_rows": 33
+      },
+      {
+        "file": "v2_audit_cat34.json",
+        "auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+        "overall_status": "pass",
+        "task_rows": 32
+      },
+      {
+        "file": "v2_audit_cat56.json",
+        "auditor": "independent Codex GPT-5 subagent",
+        "overall_status": "pass",
+        "task_rows": 32
+      }
+    ],
+    "integration_checks": [
+      "exact disjoint T237–T333 coverage",
+      "task/category agreement",
+      "all source checks pass",
+      "Day-0 answerability",
+      "difficulty calibration",
+      "natural wording",
+      "golden completeness",
+      "no later-only support",
+      "cardinality",
+      "v1 prefix identity",
+      "revised requirement recount"
+    ]
+  },
+  "summary": {
+    "total": 97,
+    "passed": 97,
+    "failed": 0,
+    "failed_task_ids": [],
+    "by_category": {
+      "1": {
+        "total": 17,
+        "passed": 17,
+        "failed": 0
+      },
+      "2": {
+        "total": 16,
+        "passed": 16,
+        "failed": 0
+      },
+      "3": {
+        "total": 16,
+        "passed": 16,
+        "failed": 0
+      },
+      "4": {
+        "total": 16,
+        "passed": 16,
+        "failed": 0
+      },
+      "5": {
+        "total": 16,
+        "passed": 16,
+        "failed": 0
+      },
+      "6": {
+        "total": 16,
+        "passed": 16,
+        "failed": 0
+      }
+    }
+  },
+  "revised_requirement_assessments": [
+    {
+      "requirement_id": "REQ-1.10",
+      "status": "pass",
+      "evidence": {
+        "task_count": 333,
+        "v1_prefix_count": 236,
+        "v1_prefix_preserved_exactly": true,
+        "all_tasks_have_specific_snapshot_position": true
+      },
+      "notes": "Exactly 333 tasks are present; T001–T236 are unchanged from v1 and every task is bound to a concrete stream position."
+    },
+    {
+      "requirement_id": "REQ-6.01",
+      "status": "pass",
+      "evidence": {
+        "total_tasks": 333,
+        "v1_tasks": 236,
+        "day0_additions": 97,
+        "addition_id_range": [
+          "T237",
+          "T333"
+        ],
+        "addition_category_counts": {
+          "1": 17,
+          "2": 16,
+          "3": 16,
+          "4": 16,
+          "5": 16,
+          "6": 16
+        }
+      },
+      "notes": "The suite is exactly the 236-task v1 prefix plus 97 Day-0 additions."
+    },
+    {
+      "requirement_id": "REQ-6.11",
+      "status": "pass",
+      "evidence": {
+        "category_1_total": 37,
+        "category_1_after_day_0": 20,
+        "inherited_day0_category_1": 3,
+        "new_day0_category_1": 17
+      },
+      "notes": "Category 1 has exactly 37 tasks overall and 20 at Day 0."
+    },
+    {
+      "requirement_id": "REQ-10.42",
+      "status": "pass",
+      "evidence": {
+        "accepted_naturalized_tasks": 333,
+        "validated_day0_additions": 97,
+        "partial_audits_all_pass": true,
+        "expansion_rows_passed": 97
+      },
+      "notes": "All 333 pairs are accepted; all 97 additions passed three disjoint independent audits."
+    },
+    {
+      "requirement_id": "REQ-10.44",
+      "status": "pass",
+      "evidence": {
+        "overall_category_counts": {
+          "1": 37,
+          "2": 39,
+          "3": 39,
+          "4": 39,
+          "5": 39,
+          "6": 39,
+          "7": 23,
+          "8": 23,
+          "9": 23,
+          "10": 32
+        },
+        "after_day_0_category_counts": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        },
+        "category_10_required_range": [
+          30,
+          35
+        ]
+      },
+      "notes": "C1=37; C2–C6=39; C7–C9=23; C10=32; C1–C6 each have exactly 20 Day-0 tasks."
+    }
+  ],
+  "task_results": [
+    {
+      "task_id": "T237",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T238",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T239",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T240",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T241",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T242",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T243",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T244",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T245",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T246",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T247",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T248",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T249",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T250",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T251",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T252",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T253",
+      "primary_category": 1,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T254",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T255",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T256",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T257",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T258",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T259",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T260",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T261",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T262",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T263",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T264",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T265",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T266",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T267",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T268",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T269",
+      "primary_category": 2,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat12.json",
+      "source_auditor": "codex-gpt5-category1-2-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 6,
+      "errors": []
+    },
+    {
+      "task_id": "T270",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T271",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T272",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T273",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T274",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T275",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T276",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T277",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T278",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T279",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T280",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T281",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T282",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T283",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T284",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T285",
+      "primary_category": 3,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T286",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T287",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T288",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T289",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T290",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T291",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T292",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T293",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T294",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T295",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T296",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T297",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T298",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T299",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T300",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T301",
+      "primary_category": 4,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat34.json",
+      "source_auditor": "codex-gpt5-v2-category3-4-independent-auditor",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 10,
+      "errors": []
+    },
+    {
+      "task_id": "T302",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T303",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T304",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T305",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T306",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T307",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T308",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T309",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T310",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T311",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T312",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T313",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T314",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T315",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T316",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T317",
+      "primary_category": 5,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T318",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T319",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T320",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T321",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T322",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T323",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T324",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T325",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T326",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T327",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T328",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T329",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T330",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T331",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T332",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    },
+    {
+      "task_id": "T333",
+      "primary_category": 6,
+      "status": "pass",
+      "source_partial_audit": "v2_audit_cat56.json",
+      "source_auditor": "independent Codex GPT-5 subagent",
+      "checks": {
+        "category_and_difficulty": "pass",
+        "natural_wording": "pass",
+        "day0_snapshot_answerability": "pass",
+        "golden_correctness_and_completeness": "pass",
+        "no_hidden_later_support": "pass",
+        "cardinality": "pass"
+      },
+      "source_check_count": 8,
+      "errors": []
+    }
+  ]
+}
+

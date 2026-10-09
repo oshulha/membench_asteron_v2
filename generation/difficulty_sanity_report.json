@@ -1,0 +1,783 @@
+{
+  "schema_version": "membench.v2_difficulty_sanity.v1",
+  "task_scope": "T237-T333",
+  "status": "pass",
+  "tasks": [
+    {
+      "task_id": "T237",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T238",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T239",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T240",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T241",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T242",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T243",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T244",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T245",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T246",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T247",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T248",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T249",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T250",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T251",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T252",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T253",
+      "category": 1,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T254",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T255",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T256",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T257",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T258",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T259",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T260",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T261",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T262",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T263",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T264",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T265",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T266",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T267",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T268",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T269",
+      "category": 2,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T270",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T271",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T272",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T273",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T274",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T275",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T276",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T277",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T278",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T279",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T280",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T281",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T282",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T283",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T284",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T285",
+      "category": 3,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T286",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T287",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T288",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T289",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T290",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T291",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T292",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T293",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T294",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T295",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T296",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T297",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T298",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T299",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T300",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T301",
+      "category": 4,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 3,
+      "temporal_kind": null
+    },
+    {
+      "task_id": "T302",
+      "category": 5,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "interval_filter"
+    },
+    {
+      "task_id": "T303",
+      "category": 5,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "interval_filter"
+    },
+    {
+      "task_id": "T304",
+      "category": 5,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "interval_filter"
+    },
+    {
+      "task_id": "T305",
+      "category": 5,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "interval_filter"
+    },
+    {
+      "task_id": "T306",
+      "category": 5,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "interval_filter"
+    },
+    {
+      "task_id": "T307",
+      "category": 5,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "interval_filter"
+    },
+    {
+      "task_id": "T308",
+      "category": 5,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "interval_filter"
+    },
+    {
+      "task_id": "T309",
+      "category": 5,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "interval_filter"
+    },
+    {
+      "task_id": "T310",
+      "category": 5,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "extremum"
+    },
+    {
+      "task_id": "T311",
+      "category": 5,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "extremum"
+    },
+    {
+      "task_id": "T312",
+      "category": 5,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "extremum"
+    },
+    {
+      "task_id": "T313",
+      "category": 5,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "extremum"
+    },
+    {
+      "task_id": "T314",
+      "category": 5,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "adjacent_release"
+    },
+    {
+      "task_id": "T315",
+      "category": 5,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "adjacent_release"
+    },
+    {
+      "task_id": "T316",
+      "category": 5,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "incident_interval_filter"
+    },
+    {
+      "task_id": "T317",
+      "category": 5,
+      "status": "pass",
+      "support_count": 1,
+      "meaningful_hop_count": 1,
+      "temporal_kind": "incident_interval_filter"
+    },
+    {
+      "task_id": "T318",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "relation_then_interval"
+    },
+    {
+      "task_id": "T319",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "relation_then_interval"
+    },
+    {
+      "task_id": "T320",
+      "category": 6,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "relation_then_interval"
+    },
+    {
+      "task_id": "T321",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "relation_then_interval"
+    },
+    {
+      "task_id": "T322",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "relation_then_interval"
+    },
+    {
+      "task_id": "T323",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "relation_then_interval"
+    },
+    {
+      "task_id": "T324",
+      "category": 6,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "relation_then_extremum"
+    },
+    {
+      "task_id": "T325",
+      "category": 6,
+      "status": "pass",
+      "support_count": 2,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "relation_then_extremum"
+    },
+    {
+      "task_id": "T326",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "temporal_entity_then_traversal"
+    },
+    {
+      "task_id": "T327",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "temporal_entity_then_traversal"
+    },
+    {
+      "task_id": "T328",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "temporal_entity_then_traversal"
+    },
+    {
+      "task_id": "T329",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "temporal_entity_then_traversal"
+    },
+    {
+      "task_id": "T330",
+      "category": 6,
+      "status": "pass",
+      "support_count": 5,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "temporal_extremum_then_traversal"
+    },
+    {
+      "task_id": "T331",
+      "category": 6,
+      "status": "pass",
+      "support_count": 5,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "temporal_extremum_then_traversal"
+    },
+    {
+      "task_id": "T332",
+      "category": 6,
+      "status": "pass",
+      "support_count": 6,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "temporal_extremum_then_traversal"
+    },
+    {
+      "task_id": "T333",
+      "category": 6,
+      "status": "pass",
+      "support_count": 3,
+      "meaningful_hop_count": 2,
+      "temporal_kind": "temporal_role_resolution_then_traversal"
+    }
+  ]
+}

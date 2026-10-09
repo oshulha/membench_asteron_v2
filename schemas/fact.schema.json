@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "fact_id",
+    "subject",
+    "predicate",
+    "object",
+    "fact_class",
+    "communicated_at",
+    "valid_from",
+    "valid_until",
+    "source_actor",
+    "source_type",
+    "source_remit",
+    "authority_status",
+    "disclosure_scope",
+    "change_type",
+    "antecedent_fact_id"
+  ],
+  "properties": {
+    "fact_class": {
+      "enum": [
+        "AGENT_ROLE",
+        "BEHAVIOR_RULE",
+        "DOC_META",
+        "ORG_FACT",
+        "USER_PERSONAL",
+        "USER_PREF"
+      ]
+    },
+    "source_type": {
+      "enum": [
+        "coworker",
+        "external",
+        "user"
+      ]
+    },
+    "authority_status": {
+      "enum": [
+        "attributed_claim",
+        "authoritative",
+        "pending_confirmation",
+        "retracted"
+      ]
+    },
+    "disclosure_scope": {
+      "enum": [
+        "external_safe",
+        "internal",
+        "restricted_internal",
+        "user_only"
+      ]
+    },
+    "change_type": {
+      "enum": [
+        "add",
+        "add_alias",
+        "clarify",
+        "correct",
+        "retract",
+        "supersede"
+      ]
+    }
+  }
+}
